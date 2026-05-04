@@ -1,0 +1,3069 @@
+[
+  
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " AZT ENERGIA ",
+    " TICKER ": " AZTE3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " BRAVA ",
+    " TICKER ": " BRAV3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " COSAN ",
+    " TICKER ": " CSAN3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PET MANGUINH ",
+    " TICKER ": " RPMG3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PET MANGUINH ",
+    " TICKER ": " RPMG4 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PETROBRAS ",
+    " TICKER ": " PETR3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PETROBRAS ",
+    " TICKER ": " PETR4 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PETRORECSA ",
+    " TICKER ": " RECV3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " PRIO ",
+    " TICKER ": " PRIO3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " RAIZEN ",
+    " TICKER ": " RAIZ4 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Exploração, Refino e Distribuição ",
+    " EMISSOR ": " ULTRAPAR ",
+    " TICKER ": " UGPA3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " LUPATECH ",
+    " TICKER ": " LUPA3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " LUPATECH ",
+    " TICKER ": " LUPA4 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " OCEANPACT ",
+    " TICKER ": " OPCT3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " OSX BRASIL ",
+    " TICKER ": " OSXB3 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " OSX BRASIL ",
+    " TICKER ": " OSXB5 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Equipamentos e Serviços ",
+    " EMISSOR ": " OSX BRASIL ",
+    " TICKER ": " OSXB6 "
+  },
+  {
+    " SETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SUBSETOR ": " Petróleo, Gás e Biocombustíveis ",
+    " SEGMENTO ": " Distribuição de Combustíveis ",
+    " EMISSOR ": " VIBRA ",
+    " TICKER ": " VBBR3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " AURA 360 ",
+    " TICKER ": " AURA33 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " BRADESPAR ",
+    " TICKER ": " BRAP3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " BRADESPAR ",
+    " TICKER ": " BRAP4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " CBA ",
+    " TICKER ": " CBAV3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " CSNMINERACAO ",
+    " TICKER ": " CMIN3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " LITEL ",
+    " TICKER ": " LTEL3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " LITELA ",
+    " TICKER ": " LTLA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Mineração ",
+    " SEGMENTO ": " Minerais Metálicos ",
+    " EMISSOR ": " VALE ",
+    " TICKER ": " VALE3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " FERBASA ",
+    " TICKER ": " FESA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " FERBASA ",
+    " TICKER ": " FESA4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " GERDAU ",
+    " TICKER ": " GGBR3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " GERDAU ",
+    " TICKER ": " GGBR4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " GERDAU MET ",
+    " TICKER ": " GOAU3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " GERDAU MET ",
+    " TICKER ": " GOAU4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " SID NACIONAL ",
+    " TICKER ": " CSNA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " SID NACIONAL ",
+    " TICKER ": " CSNA5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " USIMINAS ",
+    " TICKER ": " USIM3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " USIMINAS ",
+    " TICKER ": " USIM5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Siderurgia ",
+    " EMISSOR ": " USIMINAS ",
+    " TICKER ": " USIM6 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " HAGA S/A ",
+    " TICKER ": " HAGA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " HAGA S/A ",
+    " TICKER ": " HAGA4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " MANGELS INDL ",
+    " TICKER ": " MGEL3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " MANGELS INDL ",
+    " TICKER ": " MGEL4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " PANATLANTICA ",
+    " TICKER ": " PATI3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " PANATLANTICA ",
+    " TICKER ": " PATI4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Ferro e Aço ",
+    " EMISSOR ": " TEKNO ",
+    " TICKER ": " TKNO4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Siderurgia e Metalurgia ",
+    " SEGMENTO ": " Artefatos de Cobre ",
+    " EMISSOR ": " PARANAPANEMA ",
+    " TICKER ": " PMAM3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Petroquímicos ",
+    " EMISSOR ": " BRASKEM ",
+    " TICKER ": " BRKM3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Petroquímicos ",
+    " EMISSOR ": " BRASKEM ",
+    " TICKER ": " BRKM5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Petroquímicos ",
+    " EMISSOR ": " BRASKEM ",
+    " TICKER ": " BRKM6 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Petroquímicos ",
+    " EMISSOR ": " DEXXOS PAR ",
+    " TICKER ": " DEXP3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Fertilizantes e Defensivos ",
+    " EMISSOR ": " FER HERINGER ",
+    " TICKER ": " FHER3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Fertilizantes e Defensivos ",
+    " EMISSOR ": " NUTRIPLANT ",
+    " TICKER ": " NUTR3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Fertilizantes e Defensivos ",
+    " EMISSOR ": " VITTIA ",
+    " TICKER ": " VITT3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " CRISTAL ",
+    " TICKER ": " CRPG3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " CRISTAL ",
+    " TICKER ": " CRPG5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " CRISTAL ",
+    " TICKER ": " CRPG6 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " UNIPAR ",
+    " TICKER ": " UNIP3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " UNIPAR ",
+    " TICKER ": " UNIP5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Químicos ",
+    " SEGMENTO ": " Químicos Diversos ",
+    " EMISSOR ": " UNIPAR ",
+    " TICKER ": " UNIP6 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Madeira ",
+    " EMISSOR ": " DEXCO ",
+    " TICKER ": " DXCO3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Madeira ",
+    " EMISSOR ": " EUCATEX ",
+    " TICKER ": " EUCA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Madeira ",
+    " EMISSOR ": " EUCATEX ",
+    " TICKER ": " EUCA4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " KLABIN S/A ",
+    " TICKER ": " KLBN3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " KLABIN S/A ",
+    " TICKER ": " KLBN4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " KLABIN S/A ",
+    " TICKER ": " KLBN11 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " MELHOR SP ",
+    " TICKER ": " MSPA3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " MELHOR SP ",
+    " TICKER ": " MSPA4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " SUZANO HOLD ",
+    " TICKER ": " NEMO3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " SUZANO HOLD ",
+    " TICKER ": " NEMO5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " SUZANO HOLD ",
+    " TICKER ": " NEMO6 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Madeira e Papel ",
+    " SEGMENTO ": " Papel e Celulose ",
+    " EMISSOR ": " SUZANO S.A. ",
+    " TICKER ": " SUZB3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Embalagens ",
+    " SEGMENTO ": " Embalagens ",
+    " EMISSOR ": " IRANI ",
+    " TICKER ": " RANI3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Embalagens ",
+    " SEGMENTO ": " Embalagens ",
+    " EMISSOR ": " IRANI ",
+    " TICKER ": " RANI4 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Materiais Diversos ",
+    " SEGMENTO ": " Materiais Diversos ",
+    " EMISSOR ": " SANSUY ",
+    " TICKER ": " SNSY3 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Materiais Diversos ",
+    " SEGMENTO ": " Materiais Diversos ",
+    " EMISSOR ": " SANSUY ",
+    " TICKER ": " SNSY5 "
+  },
+  {
+    " SETOR ": " Materiais Básicos ",
+    " SUBSETOR ": " Materiais Diversos ",
+    " SEGMENTO ": " Materiais Diversos ",
+    " EMISSOR ": " SANSUY ",
+    " TICKER ": " SNSY6 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Produtos para Construção ",
+    " EMISSOR ": " ETERNIT ",
+    " TICKER ": " ETER3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Produtos para Construção ",
+    " EMISSOR ": " PORTOBELLO ",
+    " TICKER ": " PTBL3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Construção Pesada ",
+    " EMISSOR ": " AZEVEDO ",
+    " TICKER ": " AZEV3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Engenharia Consultiva ",
+    " EMISSOR ": " SONDOTECNICA ",
+    " TICKER ": " SOND3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " ARMAC ",
+    " TICKER ": " ARML3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " MILLS ",
+    " TICKER ": " MILS3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Construção e Engenharia ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " PRINER ",
+    " TICKER ": " PRNR3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Aeronáutico e de Defesa ",
+    " EMISSOR ": " EMBRAER ",
+    " TICKER ": " EMBJ3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " FRAS-LE ",
+    " TICKER ": " FRAS3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " MARCOPOLO ",
+    " TICKER ": " POMO3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " MARCOPOLO ",
+    " TICKER ": " POMO4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " RANDON PART ",
+    " TICKER ": " RAPT3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " RANDON PART ",
+    " TICKER ": " RAPT4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " RECRUSUL ",
+    " TICKER ": " RCSL3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " RECRUSUL ",
+    " TICKER ": " RCSL4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " RIOSULENSE ",
+    " TICKER ": " RSUL4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " TUPY ",
+    " TICKER ": " TUPY3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Material de Transporte ",
+    " SEGMENTO ": " Material Rodoviário ",
+    " EMISSOR ": " WETZEL S/A ",
+    " TICKER ": " MWET3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Motores , Compressores e Outros ",
+    " EMISSOR ": " SCHULZ ",
+    " TICKER ": " SHUL4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Motores , Compressores e Outros ",
+    " EMISSOR ": " WEG ",
+    " TICKER ": " WEGE3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " ACO ALTONA ",
+    " TICKER ": " EALT4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " AERIS ",
+    " TICKER ": " AERI3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " BARDELLA ",
+    " TICKER ": " BDLL4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " INEPAR ",
+    " TICKER ": " INEP3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " KEPLER WEBER ",
+    " TICKER ": " KEPL3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " METALFRIO ",
+    " TICKER ": " FRIO3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " PRATICA ",
+    " TICKER ": " PTCA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Industriais ",
+    " EMISSOR ": " ROMI ",
+    " TICKER ": " ROMI3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Máq. e Equip. Construção e Agrícolas ",
+    " EMISSOR ": " METISA ",
+    " TICKER ": " MTSA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Armas e Munições ",
+    " EMISSOR ": " TAURUS ARMAS ",
+    " TICKER ": " TASA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Máquinas e Equipamentos ",
+    " SEGMENTO ": " Armas e Munições ",
+    " EMISSOR ": " TAURUS ARMAS ",
+    " TICKER ": " TASA4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Linhas Aéreas de Passageiros ",
+    " EMISSOR ": " AZUL ",
+    " TICKER ": " AZUL4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Ferroviário ",
+    " EMISSOR ": " FER C ATLANT ",
+    " TICKER ": " VSPT3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Ferroviário ",
+    " EMISSOR ": " MRS LOGIST ",
+    " TICKER ": " MRSA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Ferroviário ",
+    " EMISSOR ": " RUMO S.A. ",
+    " TICKER ": " RAIL3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Hidroviário ",
+    " EMISSOR ": " HIDROVIAS ",
+    " TICKER ": " HBSA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Hidroviário ",
+    " EMISSOR ": " LOG-IN ",
+    " TICKER ": " LOGN3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Hidroviário ",
+    " EMISSOR ": " TREVISA ",
+    " TICKER ": " LUXM4 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Rodoviário ",
+    " EMISSOR ": " JSL ",
+    " TICKER ": " JSLG3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Rodoviário ",
+    " EMISSOR ": " SEQUOIA LOG ",
+    " TICKER ": " SEQL3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Transporte Rodoviário ",
+    " EMISSOR ": " TEGMA ",
+    " TICKER ": " TGMA3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Exploração de Rodovias ",
+    " EMISSOR ": " CONC RIO TER ",
+    " TICKER ": " CRTE3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Exploração de Rodovias ",
+    " EMISSOR ": " ECORODOVIAS ",
+    " TICKER ": " ECOR3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Exploração de Rodovias ",
+    " EMISSOR ": " MOTIVA SA ",
+    " TICKER ": " MOTV3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Exploração de Rodovias ",
+    " EMISSOR ": " TRIUNFO PART ",
+    " TICKER ": " TPIS3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Serviços de Apoio e Armazenagem ",
+    " EMISSOR ": " GRUAIRPORT ",
+    " TICKER ": " AGRU3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Serviços de Apoio e Armazenagem ",
+    " EMISSOR ": " HMOBI S.A ",
+    " TICKER ": " HMOB3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Serviços de Apoio e Armazenagem ",
+    " EMISSOR ": " INVEPAR ",
+    " TICKER ": " IVPR3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Transporte ",
+    " SEGMENTO ": " Serviços de Apoio e Armazenagem ",
+    " EMISSOR ": " PORTO VM ",
+    " TICKER ": " PSVM3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " BBMLOGISTICA ",
+    " TICKER ": " BBML3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " CONTAX ",
+    " TICKER ": " CTAX3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " DTCOM-DIRECT ",
+    " TICKER ": " DTCY3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " ESTAPAR ",
+    " TICKER ": " ALPK3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " GPS ",
+    " TICKER ": " GGPS3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Serviços ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " VALID ",
+    " TICKER ": " VLID3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Material de Transporte ",
+    " EMISSOR ": " MINASMAQUINA ",
+    " TICKER ": " MMAQ3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Material de Transporte ",
+    " EMISSOR ": " RODOBENS ",
+    " TICKER ": " RBNS3 "
+  },
+  {
+    " SETOR ": " Bens Industriais ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Material de Transporte ",
+    " EMISSOR ": " WLM IND COM ",
+    " TICKER ": " WLMM3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " 3TENTOS ",
+    " TICKER ": " TTEN3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " AGROGALAXY ",
+    " TICKER ": " AGXY3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " ALIPERTI ",
+    " TICKER ": " APTI3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " BOA SAFRA ",
+    " TICKER ": " SOJA3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " BRASILAGRO ",
+    " TICKER ": " AGRO3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " CTC S.A. ",
+    " TICKER ": " CTCA3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " GRANJA FARIA ",
+    " TICKER ": " EGGY3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " SLC AGRICOLA ",
+    " TICKER ": " SLCE3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Agropecuária ",
+    " SEGMENTO ": " Agricultura ",
+    " EMISSOR ": " TERRASANTAPA ",
+    " TICKER ": " LAND3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Açucar e Alcool ",
+    " EMISSOR ": " JALLESMACHAD ",
+    " TICKER ": " JALL3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Açucar e Alcool ",
+    " EMISSOR ": " SAO MARTINHO ",
+    " TICKER ": " SMTO3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " EXCELSIOR ",
+    " TICKER ": " BAUH4 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " FICTORALIMEN ",
+    " TICKER ": " FICT3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " JBS N.V. ",
+    " TICKER ": " JBSS3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " MARFRIG ",
+    " TICKER ": " MBRF3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " MINERVA ",
+    " TICKER ": " BEEF3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Carnes e Derivados ",
+    " EMISSOR ": " MINUPAR ",
+    " TICKER ": " MNPR3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Alimentos Diversos ",
+    " EMISSOR ": " CAMIL ",
+    " TICKER ": " CAML3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Alimentos Diversos ",
+    " EMISSOR ": " JOSAPAR ",
+    " TICKER ": " JOPA3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Alimentos Diversos ",
+    " EMISSOR ": " M.DIASBRANCO ",
+    " TICKER ": " MDIA3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Alimentos Processados ",
+    " SEGMENTO ": " Alimentos Diversos ",
+    " EMISSOR ": " ODERICH ",
+    " TICKER ": " ODER3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Bebidas ",
+    " SEGMENTO ": " Cervejas e Refrigerantes ",
+    " EMISSOR ": " AMBEV S/A ",
+    " TICKER ": " ABEV3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Produtos de Cuidado Pessoal e de Limpeza ",
+    " SEGMENTO ": " Produtos de Cuidado Pessoal ",
+    " EMISSOR ": " ESPACOLASER ",
+    " TICKER ": " ESPA3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Produtos de Cuidado Pessoal e de Limpeza ",
+    " SEGMENTO ": " Produtos de Cuidado Pessoal ",
+    " EMISSOR ": " NATURA ",
+    " TICKER ": " NATU3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Produtos de Cuidado Pessoal e de Limpeza ",
+    " SEGMENTO ": " Produtos de Limpeza ",
+    " EMISSOR ": " BOMBRIL ",
+    " TICKER ": " BOBR4 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Alimentos ",
+    " EMISSOR ": " ASSAI ",
+    " TICKER ": " ASAI3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Alimentos ",
+    " EMISSOR ": " GRUPO MATEUS ",
+    " TICKER ": " GMAT3 "
+  },
+  {
+    " SETOR ": " Consumo não Cíclico ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Alimentos ",
+    " EMISSOR ": " P.ACUCAR-CBD ",
+    " TICKER ": " PCAR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " AZZAS 2154 ",
+    " TICKER ": " AZZA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " CEA MODAS ",
+    " TICKER ": " CEAB3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " GRAZZIOTIN ",
+    " TICKER ": " CGRA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " GRAZZIOTIN ",
+    " TICKER ": " CGRA4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " LOJAS MARISA ",
+    " TICKER ": " AMAR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " LOJAS RENNER ",
+    " TICKER ": " LREN3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " RIACHUELO ",
+    " TICKER ": " RIAA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Tecidos, Vestuário e Calçados ",
+    " EMISSOR ": " VESTE ",
+    " TICKER ": " VSTE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Eletrodomésticos ",
+    " EMISSOR ": " ALLIED ",
+    " TICKER ": " ALLD3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Eletrodomésticos ",
+    " EMISSOR ": " CASAS BAHIA ",
+    " TICKER ": " BHIA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Eletrodomésticos ",
+    " EMISSOR ": " MAGAZ LUIZA ",
+    " TICKER ": " MGLU3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Produtos Diversos ",
+    " EMISSOR ": " AMERICANAS ",
+    " TICKER ": " AMER3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Produtos Diversos ",
+    " EMISSOR ": " GRUPO SBF ",
+    " TICKER ": " SBFG3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Produtos Diversos ",
+    " EMISSOR ": " LE BISCUIT ",
+    " TICKER ": " LLBI3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Produtos Diversos ",
+    " EMISSOR ": " PETZCOBASI ",
+    " TICKER ": " AUAU3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Comércio Varejista ",
+    " SEGMENTO ": " Produtos Diversos ",
+    " EMISSOR ": " QUERO-QUERO ",
+    " TICKER ": " LJQQ3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " ALPHAVILLE ",
+    " TICKER ": " AVLL3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " CONST A LIND ",
+    " TICKER ": " CALI3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " CURY S/A ",
+    " TICKER ": " CURY3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " CYRELA REALT ",
+    " TICKER ": " CYRE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " DIRECIONAL ",
+    " TICKER ": " DIRR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " EVEN ",
+    " TICKER ": " EVEN3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " EZTEC ",
+    " TICKER ": " EZTC3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " FICA ",
+    " TICKER ": " FIEI3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " GAFISA ",
+    " TICKER ": " GFSA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " HELBOR ",
+    " TICKER ": " HBOR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " INC SA ",
+    " TICKER ": " INNC3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " JHSF PART ",
+    " TICKER ": " JHSF3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " JOAO FORTES ",
+    " TICKER ": " JFEN3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " KALLAS ",
+    " TICKER ": " KLAS3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " LAVVI ",
+    " TICKER ": " LAVV3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " MELNICK ",
+    " TICKER ": " MELK3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " MITRE REALTY ",
+    " TICKER ": " MTRE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " MOURA DUBEUX ",
+    " TICKER ": " MDNE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " MRV ",
+    " TICKER ": " MRVE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " PDG REALT ",
+    " TICKER ": " PDGR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " PLANOEPLANO ",
+    " TICKER ": " PLPL3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " RDVC CITY ",
+    " TICKER ": " CCTY3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " ROSSI RESID ",
+    " TICKER ": " RSID3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " TECNISA ",
+    " TICKER ": " TCSA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " TENDA ",
+    " TICKER ": " TEND3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " TRISUL ",
+    " TICKER ": " TRIS3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Construção Civil ",
+    " SEGMENTO ": " Incorporações ",
+    " EMISSOR ": " VIVER ",
+    " TICKER ": " VIVR3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " CEDRO ",
+    " TICKER ": " CEDO4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " DOHLER ",
+    " TICKER ": " DOHL4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " IND CATAGUAS ",
+    " TICKER ": " CATA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " KARSTEN ",
+    " TICKER ": " CTKA4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " PETTENATI ",
+    " TICKER ": " PTNT4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " SANTANENSE ",
+    " TICKER ": " CTSA4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Fios e Tecidos ",
+    " EMISSOR ": " TEX RENAUX ",
+    " TICKER ": " TXRX4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Vestuário ",
+    " EMISSOR ": " TRACK FIELD ",
+    " TICKER ": " TFCO4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Calçados ",
+    " EMISSOR ": " ALPARGATAS ",
+    " TICKER ": " ALPA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Calçados ",
+    " EMISSOR ": " ALPARGATAS ",
+    " TICKER ": " ALPA4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Calçados ",
+    " EMISSOR ": " CAMBUCI ",
+    " TICKER ": " CAMB4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Calçados ",
+    " EMISSOR ": " GRENDENE ",
+    " TICKER ": " GRND3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Calçados ",
+    " EMISSOR ": " VULCABRAS ",
+    " TICKER ": " VULC3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Acessórios ",
+    " EMISSOR ": " MUNDIAL ",
+    " TICKER ": " MNDL3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Acessórios ",
+    " EMISSOR ": " TECHNOS ",
+    " TICKER ": " TECN3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Tecidos, Vestuário e Calçados ",
+    " SEGMENTO ": " Acessórios ",
+    " EMISSOR ": " VIVARA S.A. ",
+    " TICKER ": " VIVA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Eletrodomésticos ",
+    " EMISSOR ": " WHIRLPOOL ",
+    " TICKER ": " WHRL3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Eletrodomésticos ",
+    " EMISSOR ": " WHIRLPOOL ",
+    " TICKER ": " WHRL4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Móveis ",
+    " EMISSOR ": " GRUPO TOKY ",
+    " TICKER ": " TOKY3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Móveis ",
+    " EMISSOR ": " UNICASA ",
+    " TICKER ": " UCAS3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Móveis ",
+    " EMISSOR ": " WESTWING ",
+    " TICKER ": " WEST3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Utilidades Domésticas ",
+    " SEGMENTO ": " Utensílios Domésticos ",
+    " EMISSOR ": " HERCULES ",
+    " TICKER ": " HETA3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Automóveis e Motocicletas ",
+    " SEGMENTO ": " Automóveis e Motocicletas ",
+    " EMISSOR ": " AUTOMOB ",
+    " TICKER ": " AMOB3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Automóveis e Motocicletas ",
+    " SEGMENTO ": " Automóveis e Motocicletas ",
+    " EMISSOR ": " IOCHP-MAXION ",
+    " TICKER ": " MYPK3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Automóveis e Motocicletas ",
+    " SEGMENTO ": " Automóveis e Motocicletas ",
+    " EMISSOR ": " METAL LEVE ",
+    " TICKER ": " LEVE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Automóveis e Motocicletas ",
+    " SEGMENTO ": " Automóveis e Motocicletas ",
+    " EMISSOR ": " PLASCAR PART ",
+    " TICKER ": " PLAS3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Hoteis e Restaurantes ",
+    " SEGMENTO ": " Hotelaria ",
+    " EMISSOR ": " HOTEIS OTHON ",
+    " TICKER ": " HOOT4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Hoteis e Restaurantes ",
+    " SEGMENTO ": " Restaurante e Similares ",
+    " EMISSOR ": " IMC S/A ",
+    " TICKER ": " MEAL3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Bicicletas ",
+    " EMISSOR ": " BIC MONARK ",
+    " TICKER ": " BMKS3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Brinquedos e Jogos ",
+    " EMISSOR ": " ESTRELA ",
+    " TICKER ": " ESTR4 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Produção de Eventos e Shows ",
+    " EMISSOR ": " REVEE ",
+    " TICKER ": " RVEE3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Produção de Eventos e Shows ",
+    " EMISSOR ": " SPTURIS ",
+    " TICKER ": " AHEB3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Produção de Eventos e Shows ",
+    " EMISSOR ": " TIME FOR FUN ",
+    " TICKER ": " SHOW3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Viagens e Turismo ",
+    " EMISSOR ": " CVC BRASIL ",
+    " TICKER ": " CVCB3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Viagens e Lazer ",
+    " SEGMENTO ": " Atividades Esportivas ",
+    " EMISSOR ": " SMART FIT ",
+    " TICKER ": " SMFT3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " ANIMA ",
+    " TICKER ": " ANIM3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " ATOM EDUC ",
+    " TICKER ": " ATED3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " BIOMA EDUC ",
+    " TICKER ": " BIED3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " COGNA ON ",
+    " TICKER ": " COGN3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " CRUZEIRO EDU ",
+    " TICKER ": " CSED3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " GRUPO SALTA ",
+    " TICKER ": " SALT3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " ORANJEBTC ",
+    " TICKER ": " OBTC3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " SER EDUCA ",
+    " TICKER ": " SEER3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " VITRUEDUCA ",
+    " TICKER ": " VTRU3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Serviços Educacionais ",
+    " EMISSOR ": " YDUQS PART ",
+    " TICKER ": " YDUQ3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Aluguel de carros ",
+    " EMISSOR ": " LOCALIZA ",
+    " TICKER ": " RENT3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Aluguel de carros ",
+    " EMISSOR ": " MOVIDA ",
+    " TICKER ": " MOVI3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Aluguel de carros ",
+    " EMISSOR ": " VAMOS ",
+    " TICKER ": " VAMO3 "
+  },
+  {
+    " SETOR ": " Consumo Cíclico ",
+    " SUBSETOR ": " Diversos ",
+    " SEGMENTO ": " Programas de Fidelização ",
+    " EMISSOR ": " DOTZ SA ",
+    " TICKER ": " DOTZ3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Medicamentos e Outros Produtos ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " BIOMM ",
+    " TICKER ": " BIOM3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Medicamentos e Outros Produtos ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " OUROFINO S/A ",
+    " TICKER ": " OFSA3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " ALLIAR ",
+    " TICKER ": " AALR3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " DASA ",
+    " TICKER ": " DASA3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " FLEURY ",
+    " TICKER ": " FLRY3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " HAPVIDA ",
+    " TICKER ": " HAPV3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " MATER DEI ",
+    " TICKER ": " MATD3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " ODONTOPREV ",
+    " TICKER ": " ODPV3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " ONCOCLINICAS ",
+    " TICKER ": " ONCO3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " QUALICORP ",
+    " TICKER ": " QUAL3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " SEGMENTO ": " Serv.Méd.Hospit.,Análises e Diagnósticos ",
+    " EMISSOR ": " REDE D OR ",
+    " TICKER ": " RDOR3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Equipamentos ",
+    " SEGMENTO ": " Equipamentos ",
+    " EMISSOR ": " BAUMER ",
+    " TICKER ": " BALM3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Equipamentos ",
+    " SEGMENTO ": " Equipamentos ",
+    " EMISSOR ": " LIFEMED ",
+    " TICKER ": " LMED3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " BLAU ",
+    " TICKER ": " BLAU3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " D1000VFARMA ",
+    " TICKER ": " DMVF3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " DIMED ",
+    " TICKER ": " PNVL3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " EUROFARMA SA ",
+    " TICKER ": " EUFA3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " HYPERA ",
+    " TICKER ": " HYPE3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " PAGUE MENOS ",
+    " TICKER ": " PGMN3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " PROFARMA ",
+    " TICKER ": " PFRM3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " RAIADROGASIL ",
+    " TICKER ": " RADL3 "
+  },
+  {
+    " SETOR ": " Saúde ",
+    " SUBSETOR ": " Comércio e Distribuição ",
+    " SEGMENTO ": " Medicamentos e Outros Produtos ",
+    " EMISSOR ": " VIVEO ",
+    " TICKER ": " VVEO3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Computadores e Equipamentos ",
+    " SEGMENTO ": " Computadores e Equipamentos ",
+    " EMISSOR ": " INTELBRAS ",
+    " TICKER ": " INTB3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Computadores e Equipamentos ",
+    " SEGMENTO ": " Computadores e Equipamentos ",
+    " EMISSOR ": " MULTILASER ",
+    " TICKER ": " MLAS3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Computadores e Equipamentos ",
+    " SEGMENTO ": " Computadores e Equipamentos ",
+    " EMISSOR ": " POSITIVO TEC ",
+    " TICKER ": " POSI3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " BEMOBI TECH ",
+    " TICKER ": " BMOB3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " BRQ ",
+    " TICKER ": " BRQB3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " ENJOEI ",
+    " TICKER ": " ENJU3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " INFRACOMM ",
+    " TICKER ": " IFCM3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " LWSA ",
+    " TICKER ": " LWSA3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " MELIUZ ",
+    " TICKER ": " CASH3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " NEOGRID ",
+    " TICKER ": " NGRD3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " PADTEC ",
+    " TICKER ": " PDTC3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " QUALITY SOFT ",
+    " TICKER ": " QUSW3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " TC ",
+    " TICKER ": " TRAD3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " TOTVS ",
+    " TICKER ": " TOTS3 "
+  },
+  {
+    " SETOR ": " Tecnologia da Informação ",
+    " SUBSETOR ": " Programas e Serviços ",
+    " SEGMENTO ": " Programas e Serviços ",
+    " EMISSOR ": " WDC NETWORKS ",
+    " TICKER ": " WDCN3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " BRISANET ",
+    " TICKER ": " BRST3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " DESKTOP ",
+    " TICKER ": " DESK3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " OI ",
+    " TICKER ": " OIBR3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " TELEBRAS ",
+    " TICKER ": " TELB3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " TELEBRAS ",
+    " TICKER ": " TELB4 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " TELEF BRASIL ",
+    " TICKER ": " VIVT3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " TIM ",
+    " TICKER ": " TIMS3 "
+  },
+  {
+    " SETOR ": " Comunicações ",
+    " SUBSETOR ": " Telecomunicações ",
+    " SEGMENTO ": " Telecomunicações ",
+    " EMISSOR ": " UNIFIQUE ",
+    " TICKER ": " FIQE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " AESOPERACOES ",
+    " TICKER ": " AESO3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " AFLUENTE T ",
+    " TICKER ": " AFLT3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ALUPAR ",
+    " TICKER ": " ALUP3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ALUPAR ",
+    " TICKER ": " ALUP4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ALUPAR ",
+    " TICKER ": " ALUP11 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " AMPLA ENERG ",
+    " TICKER ": " CBEE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " AUREN ",
+    " TICKER ": " AURE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " AXIA ENERGIA ",
+    " TICKER ": " AXIA3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEB ",
+    " TICKER ": " CEBR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEB ",
+    " TICKER ": " CEBR5 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEB ",
+    " TICKER ": " CEBR6 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEEE-D ",
+    " TICKER ": " CEED3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CELESC ",
+    " TICKER ": " CLSC3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CELESC ",
+    " TICKER ": " CLSC4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CELGPAR ",
+    " TICKER ": " GPAR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEMIG ",
+    " TICKER ": " CMIG3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CEMIG ",
+    " TICKER ": " CMIG4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COELBA ",
+    " TICKER ": " CEEB3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COELBA ",
+    " TICKER ": " CEEB5 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COELCE ",
+    " TICKER ": " COCE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COELCE ",
+    " TICKER ": " COCE5 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COMERC PAR ",
+    " TICKER ": " COMR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COPEL ",
+    " TICKER ": " CPLE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COPEL ",
+    " TICKER ": " CPLE5 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " COPEL ",
+    " TICKER ": " CPLE6 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " CPFL ENERGIA ",
+    " TICKER ": " CPFE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ELEKTRO ",
+    " TICKER ": " EKTR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ELEKTRO ",
+    " TICKER ": " EKTR4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " EMAE ",
+    " TICKER ": " EMAE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " EMAE ",
+    " TICKER ": " EMAE4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENERGISA ",
+    " TICKER ": " ENGI3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENERGISA ",
+    " TICKER ": " ENGI4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENERGISA ",
+    " TICKER ": " ENGI11 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENERGISA MT ",
+    " TICKER ": " ENMT3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENERGISA MT ",
+    " TICKER ": " ENMT4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENEVA ",
+    " TICKER ": " ENEV3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ENGIE BRASIL ",
+    " TICKER ": " EGIE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " EQTL PARA ",
+    " TICKER ": " EQPA3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " EQTLMARANHAO ",
+    " TICKER ": " EQMA3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " EQUATORIAL ",
+    " TICKER ": " EQTL3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " GER PARANAP ",
+    " TICKER ": " GEPA3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " ISA ENERGIA ",
+    " TICKER ": " ISAE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " LIGHT ",
+    " TICKER ": " LIGH3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " LIGHT S/A ",
+    " TICKER ": " LIGT3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " NEOENERGIA ",
+    " TICKER ": " NEOE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " PROMAN ",
+    " TICKER ": " PRMN3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " REDE ENERGIA ",
+    " TICKER ": " REDE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " RENOVA ",
+    " TICKER ": " RNEW3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " RENOVA ",
+    " TICKER ": " RNEW4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " RIO ALTO ",
+    " TICKER ": " RIOS3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " TAESA ",
+    " TICKER ": " TAEE3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " TAESA ",
+    " TICKER ": " TAEE4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Energia Elétrica ",
+    " SEGMENTO ": " Energia Elétrica ",
+    " EMISSOR ": " TAESA ",
+    " TICKER ": " TAEE11 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " AMBIPAR ",
+    " TICKER ": " AMBP3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " CASAN ",
+    " TICKER ": " CASN3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " COPASA ",
+    " TICKER ": " CSMG3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " IGUA SA ",
+    " TICKER ": " IGSN3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " ORIZON ",
+    " TICKER ": " ORVR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " SABESP ",
+    " TICKER ": " SBSP3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " SANEPAR ",
+    " TICKER ": " SAPR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " SANEPAR ",
+    " TICKER ": " SAPR4 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Água e Saneamento ",
+    " SEGMENTO ": " Água e Saneamento ",
+    " EMISSOR ": " SANEPAR ",
+    " TICKER ": " SAPR11 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Gás ",
+    " SEGMENTO ": " Gás ",
+    " EMISSOR ": " CEG ",
+    " TICKER ": " CEGR3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Gás ",
+    " SEGMENTO ": " Gás ",
+    " EMISSOR ": " COMGAS ",
+    " TICKER ": " CGAS3 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Gás ",
+    " SEGMENTO ": " Gás ",
+    " EMISSOR ": " COMGAS ",
+    " TICKER ": " CGAS5 "
+  },
+  {
+    " SETOR ": " Utilidade Pública ",
+    " SUBSETOR ": " Gás ",
+    " SEGMENTO ": " Gás ",
+    " EMISSOR ": " COMPASS ",
+    " TICKER ": " PASS3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ABC BRASIL ",
+    " TICKER ": " ABCB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ABC BRASIL ",
+    " TICKER ": " ABCB4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ALFA HOLDING ",
+    " TICKER ": " RPAD3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ALFA HOLDING ",
+    " TICKER ": " RPAD5 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " AMAZONIA ",
+    " TICKER ": " BAZA3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANCO BMG ",
+    " TICKER ": " BMGB4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANESE ",
+    " TICKER ": " BGIP3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANESE ",
+    " TICKER ": " BGIP4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANESTES ",
+    " TICKER ": " BEES3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANESTES ",
+    " TICKER ": " BEES4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANPARA ",
+    " TICKER ": " BPAR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANRISUL ",
+    " TICKER ": " BRSR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BANRISUL ",
+    " TICKER ": " BRSR5 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BR PARTNERS ",
+    " TICKER ": " BRBI11 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BRADESCO ",
+    " TICKER ": " BBDC3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BRADESCO ",
+    " TICKER ": " BBDC4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BRASIL ",
+    " TICKER ": " BBAS3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BRB BANCO ",
+    " TICKER ": " BSLI3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BRB BANCO ",
+    " TICKER ": " BSLI4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " BTGP BANCO ",
+    " TICKER ": " BPAC11 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " INTER CO ",
+    " TICKER ": " INBR32 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ITAUUNIBANCO ",
+    " TICKER ": " ITUB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " ITAUUNIBANCO ",
+    " TICKER ": " ITUB4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " MERC INVEST ",
+    " TICKER ": " BMIN3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " MERCANTIL ",
+    " TICKER ": " BMEB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " MERCANTIL ",
+    " TICKER ": " BMEB4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " NORD BRASIL ",
+    " TICKER ": " BNBR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " PINE ",
+    " TICKER ": " PINE4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " SANTANDER BR ",
+    " TICKER ": " SANB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " SANTANDER BR ",
+    " TICKER ": " SANB4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Bancos ",
+    " EMISSOR ": " SANTANDER BR ",
+    " TICKER ": " SANB11 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Intermediários Financeiros ",
+    " SEGMENTO ": " Outros Intermediarios Financeiros ",
+    " EMISSOR ": " INVEST BEMGE ",
+    " TICKER ": " FIGE3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Securitizadoras de Recebíveis ",
+    " SEGMENTO ": " Securitizadoras de Recebíveis ",
+    " EMISSOR ": " BRAZILIAN SC ",
+    " TICKER ": " BSCS3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Securitizadoras de Recebíveis ",
+    " SEGMENTO ": " Securitizadoras de Recebíveis ",
+    " EMISSOR ": " OPEA ",
+    " TICKER ": " RBRA3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Securitizadoras de Recebíveis ",
+    " SEGMENTO ": " Securitizadoras de Recebíveis ",
+    " EMISSOR ": " POLO CAP SEC ",
+    " TICKER ": " PLSC3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Serviços Financeiros Diversos ",
+    " SEGMENTO ": " Gestão de Recursos e Investimentos ",
+    " EMISSOR ": " G2D INVEST ",
+    " TICKER ": " G2DI33 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Serviços Financeiros Diversos ",
+    " SEGMENTO ": " Gestão de Recursos e Investimentos ",
+    " EMISSOR ": " PPLA ",
+    " TICKER ": " PPLA11 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Serviços Financeiros Diversos ",
+    " SEGMENTO ": " Serviços Financeiros Diversos ",
+    " EMISSOR ": " B3 ",
+    " TICKER ": " B3SA3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Serviços Financeiros Diversos ",
+    " SEGMENTO ": " Serviços Financeiros Diversos ",
+    " EMISSOR ": " CSU DIGITAL ",
+    " TICKER ": " CSUD3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Previdência e Seguros ",
+    " SEGMENTO ": " Seguradoras ",
+    " EMISSOR ": " BBSEGURIDADE ",
+    " TICKER ": " BBSE3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Previdência e Seguros ",
+    " SEGMENTO ": " Seguradoras ",
+    " EMISSOR ": " CAIXA SEGURI ",
+    " TICKER ": " CXSE3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Previdência e Seguros ",
+    " SEGMENTO ": " Seguradoras ",
+    " EMISSOR ": " PORTO SEGURO ",
+    " TICKER ": " PSSA3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Previdência e Seguros ",
+    " SEGMENTO ": " Resseguradoras ",
+    " EMISSOR ": " IRBBRASIL RE ",
+    " TICKER ": " IRBR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Previdência e Seguros ",
+    " SEGMENTO ": " Corretoras de Seguros e Resseguros ",
+    " EMISSOR ": " WIZ CO ",
+    " TICKER ": " WIZC3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " ALLOS ",
+    " TICKER ": " ALOS3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " GENERALSHOPP ",
+    " TICKER ": " GSHP3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " HABITASUL ",
+    " TICKER ": " HBTS5 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " HBR REALTY ",
+    " TICKER ": " HBRE3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " IGUATEMI S.A ",
+    " TICKER ": " IGTI3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " LOG COM PROP ",
+    " TICKER ": " LOGG3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " MULTIPLAN ",
+    " TICKER ": " MULT3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " NORDON MET ",
+    " TICKER ": " NORD3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " PAR AL BAHIA ",
+    " TICKER ": " PEAB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " SAO CARLOS ",
+    " TICKER ": " SCAR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Exploração de Imóveis ",
+    " EMISSOR ": " SYN PROP TEC ",
+    " TICKER ": " SYNE3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Intermediação Imobiliária ",
+    " EMISSOR ": " LOPES BRASIL ",
+    " TICKER ": " LPSB3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Exploração de Imóveis ",
+    " SEGMENTO ": " Intermediação Imobiliária ",
+    " EMISSOR ": " NEXPE ",
+    " TICKER ": " NEXP3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Holdings Diversificadas ",
+    " SEGMENTO ": " Holdings Diversificadas ",
+    " EMISSOR ": " ARANDU ",
+    " TICKER ": " ARND3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Holdings Diversificadas ",
+    " SEGMENTO ": " Holdings Diversificadas ",
+    " EMISSOR ": " EMBPAR S/A ",
+    " TICKER ": " EPAR3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Holdings Diversificadas ",
+    " SEGMENTO ": " Holdings Diversificadas ",
+    " EMISSOR ": " ITAUSA ",
+    " TICKER ": " ITSA3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Holdings Diversificadas ",
+    " SEGMENTO ": " Holdings Diversificadas ",
+    " EMISSOR ": " ITAUSA ",
+    " TICKER ": " ITSA4 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Holdings Diversificadas ",
+    " SEGMENTO ": " Holdings Diversificadas ",
+    " EMISSOR ": " SIMPAR ",
+    " TICKER ": " SIMH3 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Serviços Diversos ",
+    " SEGMENTO ": " Serviços Diversos ",
+    " EMISSOR ": " B100 S.A. ",
+    " TICKER ": " B1003 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Outros Títulos ",
+    " SEGMENTO ": " Outros Títulos ",
+    " EMISSOR ": " CEPAC - CTBA ",
+    " TICKER ": " CTBA15 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Outros Títulos ",
+    " SEGMENTO ": " Outros Títulos ",
+    " EMISSOR ": " CEPAC - MCRJ ",
+    " TICKER ": " MCRJ15 "
+  },
+  {
+    " SETOR ": " Financeiro ",
+    " SUBSETOR ": " Outros Títulos ",
+    " SEGMENTO ": " Outros Títulos ",
+    " EMISSOR ": " CEPAC - PMSP ",
+    " TICKER ": " PMSP15 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " 524 PARTICIP ",
+    " TICKER ": " QVQP3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " BETAPART ",
+    " TICKER ": " BETP3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " CEMEPE ",
+    " TICKER ": " MAPT3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " GAMA PART ",
+    " TICKER ": " OPGM3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " POLPAR ",
+    " TICKER ": " PPAR3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " PROMPT PART ",
+    " TICKER ": " PRPT3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " SUDESTE S/A ",
+    " TICKER ": " OPSE3 "
+  },
+  {
+    " SETOR ": " Outros ",
+    " SUBSETOR ": " Outros ",
+    " SEGMENTO ": " Outros ",
+    " EMISSOR ": " SUL 116 PART ",
+    " TICKER ": " OPTS3 "
+  }
+]
