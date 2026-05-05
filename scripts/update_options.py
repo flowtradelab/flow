@@ -496,7 +496,6 @@ def main():
 
     # Tenta data do arquivo de séries primeiro, depois datas recentes
     file_dt  = datetime.strptime(data_date, "%Y%m%d")
-    bdi_path = None
     bdi_url  = None
 
     # Tenta direto primeiro (mais rápido)
