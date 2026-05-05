@@ -113,6 +113,17 @@ def playwright_download(page_url, link_text, fallback_url, out_path, accept="*/*
                 raise RuntimeError(f"HTTP {r.status_code}")
             raw = b"".join(r.iter_content(65536))
             print(f"    {len(raw):,} bytes  CT: {r.headers.get('Content-Type','?')}")
+            # Captura headers relevantes para o log
+            _dl_headers = {
+                "content_type":        r.headers.get("Content-Type", ""),
+                "last_modified":       r.headers.get("Last-Modified", ""),
+                "content_disposition": r.headers.get("Content-Disposition", ""),
+                "content_length":      r.headers.get("Content-Length", ""),
+                "etag":                r.headers.get("ETag", ""),
+            }
+            # Armazena nos globals para o save_report acessar
+            import builtins
+            builtins._last_dl_headers = _dl_headers
 
             # Descompacta ZIP se necessário
             if raw[:2] == b"PK":
@@ -155,6 +166,18 @@ def direct_download(url, out_path, cookies_str=""):
 
 
 # ── Parser SI_D_SEDE.txt ──────────────────────────────────────────────────────
+def parse_series_header(filepath) -> dict:
+    """Extrai metadados da linha 01 do SI_D_SEDE."""
+    with open(filepath, encoding="latin-1") as f:
+        first = f.readline().strip()
+    parts = first.split("|")
+    return {
+        "data_pregao":    parts[1] if len(parts) > 1 else "",  # data do pregão
+        "data_geracao":   parts[2] if len(parts) > 2 else "",  # quando foi gerado
+        "hora_geracao":   parts[3] if len(parts) > 3 else "",  # hora de geração
+    }
+
+
 def parse_series(filepath) -> tuple[str, dict]:
     """Retorna (data_date, {ticker_opcao: {tipo,estilo,strike,vencimento,premio}})"""
     result    = {}
@@ -345,6 +368,95 @@ def is_fresh(date_str: str) -> tuple[bool, object]:
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
+# ── Relatório de execução ─────────────────────────────────────────────────────
+def save_report(data_date, series_count, bdi_count, matched, tickers_count,
+                changed, series_path, bdi_path, errors=None):
+    """Salva logs/last_run.json com detalhes da última execução."""
+    import builtins
+    now      = datetime.now(BRT)
+    bdi_size = Path(bdi_path).stat().st_size    if Path(bdi_path).exists()    else 0
+    ser_size = Path(series_path).stat().st_size if Path(series_path).exists() else 0
+
+    # Metadados internos do arquivo (linha 01 do SI_D_SEDE)
+    header_meta = {}
+    if Path(series_path).exists():
+        header_meta = parse_series_header(series_path)
+
+    # Headers HTTP capturados durante o download
+    dl_headers = getattr(builtins, "_last_dl_headers", {})
+
+    def fmt_date(d):
+        """YYYYMMDD → YYYY-MM-DD"""
+        return f"{d[:4]}-{d[4:6]}-{d[6:8]}" if d and len(d)==8 and d.isdigit() else d
+
+    report = {
+        "status":          "ok" if not errors else "error",
+        "executado_em":    now.strftime("%Y-%m-%d %H:%M:%S BRT"),
+        "executado_em_ts": int(now.timestamp()),
+        "arquivos": {
+            "series_autorizadas": {
+                "nome":             "SI_D_SEDE.txt",
+                "tamanho_bytes":    ser_size,
+                "tamanho_mb":       round(ser_size/1024/1024, 2),
+                "data_pregao":      fmt_date(header_meta.get("data_pregao","")),
+                "data_geracao":     fmt_date(header_meta.get("data_geracao","")),
+                "hora_geracao":     header_meta.get("hora_geracao",""),
+                "last_modified_http": dl_headers.get("last_modified",""),
+                "opcoes_total":     series_count,
+            },
+            "bdi": {
+                "nome":             f"BDI_03-4_{data_date}.pdf",
+                "tamanho_bytes":    bdi_size,
+                "tamanho_mb":       round(bdi_size/1024/1024, 2),
+                "data_referencia":  fmt_date(data_date),
+                "opcoes_com_oi":    bdi_count,
+            },
+        },
+        "processamento": {
+            "opcoes_com_join":   matched,
+            "opcoes_sem_oi":     series_count - matched,
+            "tickers_gerados":   tickers_count,
+            "arquivos_alterados": changed,
+        },
+        "erros": errors or [],
+    }
+
+    logs_dir = Path("logs")
+    logs_dir.mkdir(exist_ok=True)
+
+    # last_run.json — sempre atualizado
+    last_run = logs_dir / "last_run.json"
+    last_run.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # history.jsonl — append de cada execução (máximo 30 linhas)
+    history_file = logs_dir / "history.jsonl"
+    lines = []
+    if history_file.exists():
+        lines = history_file.read_text(encoding="utf-8").strip().split("\n")
+        lines = [l for l in lines if l.strip()]
+    lines.append(json.dumps({
+        "ts":      report["executado_em"],
+        "data":    data_date,
+        "status":  report["status"],
+        "tickers": tickers_count,
+        "changed": changed,
+        "matched": matched,
+    }, ensure_ascii=False))
+    # Mantém últimas 30 execuções
+    history_file.write_text("\n".join(lines[-30:]) + "\n", encoding="utf-8")
+
+    print(f"\n  Relatório salvo em logs/last_run.json")
+    print(f"  Status:   {report['status'].upper()}")
+    print(f"  Séries:   {series_count:,} opções ({ser_size/1024:.0f} KB)")
+    print(f"  BDI:      {bdi_count:,} com OI ({bdi_size/1024/1024:.1f} MB)")
+    print(f"  Join:     {matched:,} cruzados")
+    print(f"  Tickers:  {tickers_count}")
+    print(f"  Changed:  {changed} arquivos")
+    return report
+
+
 def main():
     now = datetime.now(BRT)
     print("=" * 60)
@@ -353,9 +465,11 @@ def main():
     print("=" * 60)
     print()
 
+    series_path = TEMP_DIR / "SI_D_SEDE.txt"
+    bdi_path    = TEMP_DIR / "bdi.pdf"
+
     # ── 1. Download SI_D_SEDE ─────────────────────────────────────────────────
     print("[1/5] Download SI_D_SEDE (Séries Autorizadas)...")
-    series_path = TEMP_DIR / "SI_D_SEDE.txt"
     playwright_download(
         page_url     = B3_SERIES_URL,
         link_text    = B3_SERIES_TEXT,
@@ -400,8 +514,6 @@ def main():
         except Exception:
             pass
 
-    bdi_path = TEMP_DIR / "bdi.pdf"
-
     if bdi_url:
         # Download direto sem Playwright
         import requests as req
@@ -445,6 +557,18 @@ def main():
     sample  = by_ticker[example][0]
     print(f"\n  Exemplo ({example}/latest.json):")
     print(f"  {json.dumps(sample, ensure_ascii=False)}")
+
+    # Salva relatório
+    save_report(
+        data_date     = data_date,
+        series_count  = len(series),
+        bdi_count     = len(bdi_data),
+        matched       = sum(1 for o in [opt for opts in by_ticker.values() for opt in opts] if o.get("ativo_objeto")),
+        tickers_count = len(by_ticker),
+        changed       = changed,
+        series_path   = series_path,
+        bdi_path      = bdi_path,
+    )
 
     github_output("updated",   "true" if changed > 0 else "false")
     github_output("data_date", data_date)
