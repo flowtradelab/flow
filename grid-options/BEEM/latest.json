@@ -1,0 +1,1 @@
+{"ticker":"BEEM","data":"20260430","total":2,"opcoes":[{"ticker":"BEEMF510","tipo":"C","estilo":"Americano","strike":51.0,"vencimento":"2026-06-19","premio":0.0},{"ticker":"BEEMR510","tipo":"P","estilo":"Europeu","strike":51.0,"vencimento":"2026-06-19","premio":0.0}]}

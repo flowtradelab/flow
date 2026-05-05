@@ -1,0 +1,1 @@
+{"ticker":"BSLV","data":"20260430","total":2,"opcoes":[{"ticker":"BSLVF114","tipo":"C","estilo":"Americano","strike":114.0,"vencimento":"2026-06-19","premio":0.0},{"ticker":"BSLVR114","tipo":"P","estilo":"Europeu","strike":114.0,"vencimento":"2026-06-19","premio":0.0}]}
