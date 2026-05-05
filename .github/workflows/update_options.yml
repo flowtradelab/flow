@@ -1,0 +1,57 @@
+# .github/workflows/update_options.yml
+# Atualiza opções B3 de segunda a sexta às 7h e 8h45 BRT (10h e 11h45 UTC)
+
+name: Atualizar Opções B3
+
+on:
+  schedule:
+    - cron: '0 10 * * 1-5'    # 7h00 BRT (UTC-3) — tentativa principal
+    - cron: '45 11 * * 1-5'   # 8h45 BRT          — tentativa de fallback
+  workflow_dispatch:            # permite rodar manualmente a qualquer hora
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # necessário para fazer commit no repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: |
+          pip install playwright requests
+          playwright install chromium --with-deps
+
+      - name: Baixar e processar opções B3
+        id: update
+        run: python scripts/update_options.py
+        env:
+          GITHUB_ACTIONS: "true"
+
+      - name: Commit e push (se houver mudanças)
+        if: steps.update.outputs.updated == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add grid-options/
+          git commit -m "options: atualização automática ${{ steps.update.outputs.data_date }}"
+          git push
+
+      - name: Sem mudanças
+        if: steps.update.outputs.updated == 'false'
+        run: echo "Arquivo sem alterações — nenhum commit necessário."
+
+      - name: Falha — arquivo com data antiga
+        if: steps.update.outputs.updated == 'stale'
+        run: |
+          echo "::warning::Arquivo da B3 retornou data antiga. Aguardando próxima tentativa (8h45)."
+          exit 0
