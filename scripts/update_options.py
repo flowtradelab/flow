@@ -181,8 +181,9 @@ def is_fresh(date_str):
     try:
         file_date = datetime.strptime(date_str, "%Y%m%d").date()
         today     = datetime.now(BRT).date()
-        yesterday = today - timedelta(days=1)
-        return file_date in (today, yesterday), file_date
+        # Aceita até 5 dias atrás (cobre feriados e fins de semana)
+        delta = (today - file_date).days
+        return delta <= 5, file_date
     except Exception:
         return False, None
 
@@ -280,12 +281,17 @@ def main():
     print(f"  Data arquivo: {data_date}")
     print(f"  Hoje (BRT):   {datetime.now(BRT).date()}")
 
-    valid, _ = is_fresh(data_date)
+    valid, file_date = is_fresh(data_date)
     if not valid:
-        print("  AVISO: data antiga — aguardando próxima tentativa.")
+        print(f"  AVISO: data muito antiga ({data_date}) — mais de 5 dias. Verifique a B3.")
         github_output("updated", "stale")
         github_output("data_date", data_date)
         return
+    if file_date:
+        today = datetime.now(BRT).date()
+        delta = (today - file_date).days
+        if delta > 0:
+            print(f"  AVISO: arquivo com {delta} dia(s) de atraso — processando mesmo assim.")
 
     print("\n[3/4] Convertendo...")
     data_date, by_ticker = parse_options(filepath)
