@@ -414,66 +414,57 @@ def main():
         github_output("data_date", data_date)
         return
 
-    # ── 2. Download BDI — busca por data independente do SI_D_SEDE ───────────
-    # O BDI é publicado com a data do pregão. Busca D-0 até D-6 (últimos dias úteis),
-    # independente da data do SI_D_SEDE que pode estar desatualizada.
+    # ── 2. Download BDI direto por data ──────────────────────────────────────
     print("\n[2/5] Download BDI...")
     bdi_url       = None
     bdi_date_used = None
     import requests as req
 
     dias = dias_uteis_recentes(n=7)
-    print(f"  Buscando BDI nos últimos {len(dias)} dias úteis: {[str(d) for d in dias[:3]]}...")
+    print(f"  Buscando BDI (últimos {len(dias)} dias úteis)...")
 
     for d in dias:
         url = get_bdi_url(datetime.combine(d, datetime.min.time()))
-        print(f"  Tentando: {url.split('/')[-1]} ... ", end="", flush=True)
+        fname = url.split("/")[-1]
+        print(f"  {fname} ... ", end="", flush=True)
         try:
-            r = req.head(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
-            if r.status_code == 200:
-                bdi_url       = url
-                bdi_date_used = d.strftime("%Y%m%d")
-                print("OK")
-                break
-            else:
-                print(f"{r.status_code}")
+            r = req.get(url, timeout=60, stream=True,
+                        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+            if r.status_code != 200:
+                print(f"HTTP {r.status_code}")
+                continue
+            raw = b"".join(r.iter_content(65536))
+            # Valida que é PDF real
+            if not raw[:4] == b"%PDF":
+                print(f"não é PDF ({raw[:8]})")
+                continue
+            bdi_path.write_bytes(raw)
+            bdi_url       = url
+            bdi_date_used = d.strftime("%Y%m%d")
+            print(f"OK ({len(raw)/1024/1024:.1f} MB)")
+            break
         except Exception as e:
             print(f"erro ({e})")
 
-    if bdi_url:
-        print(f"  BDI encontrado: {bdi_date_used}")
-        print(f"  Baixando diretamente...")
-        r = req.get(bdi_url, timeout=180, stream=True, headers={"User-Agent": "Mozilla/5.0"})
-        r.raise_for_status()
-        raw = b"".join(r.iter_content(65536))
-        bdi_path.write_bytes(raw)
-        print(f"  {len(raw)/1024/1024:.1f} MB")
-    else:
-        # Playwright fallback — tenta as últimas datas úteis com o browser
-        print("  Nenhum BDI encontrado via HEAD — usando Playwright com retry por data...")
+    if not bdi_url:
+        print("  Download direto falhou em todas as datas — tentando Playwright...")
         dias_fb = dias_uteis_recentes(n=3)
-        bdi_date_used = None
         for d_fb in dias_fb:
             bdi_fb = get_bdi_url(datetime.combine(d_fb, datetime.min.time()))
-            print(f"  Tentando via Playwright: {d_fb}")
             try:
                 playwright_download(
                     page_url=B3_BDI_PAGE, link_text=B3_BDI_TEXT,
                     fallback_url=bdi_fb, out_path=bdi_path, accept="application/pdf,*/*",
                 )
-                # Valida que é um PDF real (começa com %PDF)
-                raw_check = bdi_path.read_bytes()[:5]
-                if raw_check.startswith(b"%PDF"):
+                raw_check = bdi_path.read_bytes()[:4]
+                if raw_check == b"%PDF":
                     bdi_date_used = d_fb.strftime("%Y%m%d")
-                    print(f"  BDI válido: {bdi_date_used}")
+                    print(f"  Playwright OK: {bdi_date_used}")
                     break
-                else:
-                    print(f"  Arquivo inválido ({raw_check}) — tentando data anterior...")
             except Exception as e:
-                print(f"  Falhou: {e} — tentando data anterior...")
+                print(f"  Playwright falhou: {e}")
         if not bdi_date_used:
-            bdi_date_used = dias_fb[0].strftime("%Y%m%d")
-            print(f"  Usando última tentativa: {bdi_date_used}")
+            bdi_date_used = dias_uteis_recentes(1)[0].strftime("%Y%m%d")
 
     # ── 3. Parse séries ───────────────────────────────────────────────────────
     print("\n[3/5] Processando séries...")
