@@ -248,7 +248,9 @@ def parse_bdi(filepath) -> dict:
                     result[ticker] = {
                         "ativo_objeto":   m.group(1) if m else "",
                         "qtd_descoberta": parse_int(parts[9])  if len(parts) > 9  else 0,
-                        "open_interest":  parse_int(parts[11]) if len(parts) > 11 else 0,
+                        # [10] = qtd coberta (ignorada)
+                        # [11] = qtd bloqueada/distribuição (ignorada)
+                        "open_interest":  parse_int(parts[12]) if len(parts) > 12 else 0,
                         "qtd_tomadores":  parse_int(parts[13]) if len(parts) > 13 else 0,
                         "qtd_doadores":   parse_int(parts[14]) if len(parts) > 14 else 0,
                     }
