@@ -449,15 +449,31 @@ def main():
         bdi_path.write_bytes(raw)
         print(f"  {len(raw)/1024/1024:.1f} MB")
     else:
-        # Playwright fallback — tenta a página do BDI
-        print("  Nenhum BDI encontrado via HEAD — tentando Playwright...")
-        dias = dias_uteis_recentes(n=3)
-        bdi_date_used = dias[0].strftime("%Y%m%d")  # D-0 ou D-1
-        bdi_fb = get_bdi_url(datetime.combine(dias[0], datetime.min.time()))
-        playwright_download(
-            page_url=B3_BDI_PAGE, link_text=B3_BDI_TEXT,
-            fallback_url=bdi_fb, out_path=bdi_path, accept="application/pdf,*/*",
-        )
+        # Playwright fallback — tenta as últimas datas úteis com o browser
+        print("  Nenhum BDI encontrado via HEAD — usando Playwright com retry por data...")
+        dias_fb = dias_uteis_recentes(n=3)
+        bdi_date_used = None
+        for d_fb in dias_fb:
+            bdi_fb = get_bdi_url(datetime.combine(d_fb, datetime.min.time()))
+            print(f"  Tentando via Playwright: {d_fb}")
+            try:
+                playwright_download(
+                    page_url=B3_BDI_PAGE, link_text=B3_BDI_TEXT,
+                    fallback_url=bdi_fb, out_path=bdi_path, accept="application/pdf,*/*",
+                )
+                # Valida que é um PDF real (começa com %PDF)
+                raw_check = bdi_path.read_bytes()[:5]
+                if raw_check.startswith(b"%PDF"):
+                    bdi_date_used = d_fb.strftime("%Y%m%d")
+                    print(f"  BDI válido: {bdi_date_used}")
+                    break
+                else:
+                    print(f"  Arquivo inválido ({raw_check}) — tentando data anterior...")
+            except Exception as e:
+                print(f"  Falhou: {e} — tentando data anterior...")
+        if not bdi_date_used:
+            bdi_date_used = dias_fb[0].strftime("%Y%m%d")
+            print(f"  Usando última tentativa: {bdi_date_used}")
 
     # ── 3. Parse séries ───────────────────────────────────────────────────────
     print("\n[3/5] Processando séries...")
