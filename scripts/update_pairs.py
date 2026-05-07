@@ -26,8 +26,17 @@ from statsmodels.tsa.stattools import coint
 
 # ── Configurações ─────────────────────────────────────────────────────────────
 
-OUTPUT_FILE   = "pair-trading/pairs.json"
-LOOKBACK_DAYS = 730          # 2 anos
+OUTPUT_FILE   = "pair-trading/pairs_{period}.json"  # {period} substituído no loop
+# Períodos disponíveis — cada um gera um arquivo separado no GitHub
+PERIODS = {
+    "3y":  1095,   # 3 anos
+    "2y":  730,    # 2 anos (padrão)
+    "1y":  365,    # 1 ano
+    "6m":  182,    # 6 meses
+    "3m":  91,     # 3 meses
+    "2m":  60,     # 2 meses
+}
+LOOKBACK_DAYS = 730          # fallback — sobrescrito pelo loop
 MIN_CORR      = 0.60         # Correlação mínima para incluir o par
 MIN_OBS       = 200          # Mínimo de observações válidas
 MAX_HALF_LIFE = 60           # Half-life máximo em dias úteis (~3 meses)
@@ -353,7 +362,7 @@ def main():
     print()
 
     # 1. Download
-    prices = download_prices(TICKERS_B3, days=LOOKBACK_DAYS)
+    prices = download_prices(TICKERS_B3, days=LOOKBACK_DAYS)  # usa global LOOKBACK_DAYS
     if prices.empty:
         print("ERRO: Nenhum dado baixado. Verifique a conexão.")
         return
@@ -422,4 +431,22 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--period", "-p",
+        choices=list(PERIODS.keys()),
+        default=None,
+        help="Período a calcular. Se omitido, calcula todos."
+    )
+    args = parser.parse_args()
+
+    periods_to_run = [args.period] if args.period else list(PERIODS.keys())
+
+    for period in periods_to_run:
+        print(f"\n{'='*60}")
+        print(f"  Calculando período: {period} ({PERIODS[period]} dias)")
+        print(f"{'='*60}\n")
+        LOOKBACK_DAYS = PERIODS[period]
+        OUTPUT_FILE   = f"pair-trading/pairs_{period}.json"
+        main()
