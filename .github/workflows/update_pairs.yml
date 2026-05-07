@@ -1,4 +1,4 @@
-name: Update Pair Trading Data
+name: Pair Trading Data
 
 on:
   # Todo dia útil às 07:00 BRT (10:00 UTC)
@@ -60,6 +60,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pair-trading/
+          git add pair-trading/ logs/
           git diff --cached --quiet || git commit -m "chore: update pairs $(date +'%Y-%m-%d')"
           git push
