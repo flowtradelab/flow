@@ -498,7 +498,7 @@ if __name__ == "__main__":
         for period, stats in all_stats.items():
             entry["periods"][period] = {
                 "pairs":       stats["pairs"],
-                "tickers":     scipy_stats.get("tickers", len(TICKERS_B3)),
+                "tickers":     stats.get("tickers", len(TICKERS_B3)),
                 "size_kb":     stats["size_kb"],
             }
         history_log.append(entry)
