@@ -38,7 +38,7 @@ PERIODS = {
 }
 LOOKBACK_DAYS = 730          # fallback — sobrescrito pelo loop
 MIN_CORR      = 0.60         # Correlação mínima para incluir o par
-MIN_OBS       = 200          # Mínimo de observações válidas
+MIN_OBS       = 200          # Mínimo de observações — sobrescrito dinamicamente no loop
 MAX_HALF_LIFE = 60           # Half-life máximo em dias úteis (~3 meses)
 MAX_PAIRS     = 300          # Limite de pares no JSON final
 
@@ -443,10 +443,17 @@ if __name__ == "__main__":
 
     periods_to_run = [args.period] if args.period else list(PERIODS.keys())
 
+    # Mínimo de observações por período (dias úteis ≈ dias corridos * 0.71)
+    MIN_OBS_BY_PERIOD = {
+        "3y": 200, "2y": 200, "1y": 180,
+        "6m": 100, "3m": 50,  "2m": 35,
+    }
+
     for period in periods_to_run:
         print(f"\n{'='*60}")
         print(f"  Calculando período: {period} ({PERIODS[period]} dias)")
         print(f"{'='*60}\n")
         LOOKBACK_DAYS = PERIODS[period]
+        MIN_OBS       = MIN_OBS_BY_PERIOD.get(period, 200)
         OUTPUT_FILE   = f"pair-trading/pairs_{period}.json"
         main()
