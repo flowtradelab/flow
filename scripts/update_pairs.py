@@ -104,7 +104,7 @@ def calc_half_life(spread: pd.Series) -> float:
         return 9999.0
     lag = spread.shift(1).dropna()
     delta = spread.iloc[1:] - lag
-    slope, _, _, _, _ = stats.linregress(lag, delta)
+    slope, _, _, _, _ = scipy_stats.linregress(lag, delta)
     if slope >= 0:
         return 9999.0
     return round(-np.log(2) / slope, 1)
@@ -116,7 +116,7 @@ def calc_beta(s1: pd.Series, s2: pd.Series) -> float:
     idx = s1.index.intersection(s2.index)
     if len(idx) < 20:
         return 1.0
-    slope, _, _, _, _ = stats.linregress(s2.loc[idx], s1.loc[idx])
+    slope, _, _, _, _ = scipy_stats.linregress(s2.loc[idx], s1.loc[idx])
     return round(slope, 4)
 
 
@@ -493,10 +493,10 @@ if __name__ == "__main__":
             "time":    run_time,
             "periods": {}
         }
-        for period, stats in all_stats.items():
+        for period, stats in all_scipy_stats.items():
             entry["periods"][period] = {
                 "pairs":       stats["pairs"],
-                "tickers":     stats.get("tickers", len(TICKERS_B3)),
+                "tickers":     scipy_stats.get("tickers", len(TICKERS_B3)),
                 "size_kb":     stats["size_kb"],
             }
         history_log.append(entry)
@@ -514,7 +514,7 @@ if __name__ == "__main__":
             f"{'Período':<8} {'Pares':>6} {'Arquivo'}",
             f"{'─'*40}",
         ]
-        for period, stats in all_stats.items():
+        for period, stats in all_scipy_stats.items():
             label = {
                 "3y": "3 anos", "2y": "2 anos", "1y": "1 ano",
                 "6m": "6 meses", "3m": "3 meses", "2m": "2 meses"
