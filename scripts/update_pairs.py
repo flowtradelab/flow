@@ -28,7 +28,7 @@ from statsmodels.tsa.stattools import coint
 
 OUTPUT_FILE   = "pair-trading/pairs.json"
 LOOKBACK_DAYS = 730          # 2 anos
-MIN_CORR      = 0.75         # Correlação mínima para incluir o par
+MIN_CORR      = 0.60         # Correlação mínima para incluir o par
 MIN_OBS       = 200          # Mínimo de observações válidas
 MAX_HALF_LIFE = 60           # Half-life máximo em dias úteis (~3 meses)
 MAX_PAIRS     = 300          # Limite de pares no JSON final
@@ -36,35 +36,54 @@ MAX_PAIRS     = 300          # Limite de pares no JSON final
 # ── Tickers da B3 ─────────────────────────────────────────────────────────────
 # ~100 principais ações — adicione mais conforme necessário
 
+# ── Composição do Ibovespa (carteira vigente) ────────────────────────────────
+# Fonte: B3 — ~90 ações mais líquidas do mercado brasileiro
+# Atualizar quando a B3 revisar a carteira (jan/mai/set)
 TICKERS_B3 = [
-    # Financeiro
+    # Financeiro & Seguros
     "ITUB4", "BBDC4", "BBAS3", "SANB11", "BPAC11", "BRSR6",
-    "IRBR3", "BBSE3", "PSSA3", "CXSE3",
-    # Petróleo & Gás
-    "PETR3", "PETR4", "PRIO3", "RECV3", "CSAN3", "UGPA3",
+    "BBSE3", "PSSA3", "CXSE3", "IRBR3",
+
+    # Petróleo, Gás & Petroquímica
+    "PETR3", "PETR4", "PRIO3", "RECV3", "CSAN3", "UGPA3", "RRRP3",
+
     # Mineração & Siderurgia
-    "VALE3", "CSNA3", "USIM5", "GOAU4", "GGBR4", "GGBR3", "FESA4",
-    # Utilities
-    "CMIG4", "CMIG3", "CPFE3", "ENGI11", "EGIE3",
-    "TAEE11", "SAPR11", "SBSP3", "AURE3", "ENEV3",
-    # Varejo
-    "MGLU3", "AMER3", "LREN3", "AMAR3", "CEAB3",
+    "VALE3", "CSNA3", "USIM5", "GOAU4", "GGBR4",
+
+    # Energia Elétrica
+    "CMIG4", "CPFE3", "ENGI11", "EGIE3", "TAEE11",
+    "SBSP3", "AURE3", "ENEV3", "ISAE4", "ELET3",
+
+    # Varejo & Consumo
+    "MGLU3", "LREN3", "AMER3", "CEAB3", "SOMA3",
+    "NTCO3", "PETZ3", "VIVA3",
+
     # Alimentos & Bebidas
-    "ABEV3", "BEEF3", "MDIA3", "SLCE3", "SMTO3",
-    # Saúde
-    "HAPV3", "RDOR3", "FLRY3", "DASA3", "RADL3", "PNVL3", "ODPV3",
+    "ABEV3", "JBSS3", "BRFS3", "BEEF3", "SMTO3", "MDIA3",
+
+    # Saúde & Farma
+    "HAPV3", "RDOR3", "FLRY3", "RADL3", "DASA3", "ODPV3",
+
     # Construção & Imóveis
-    "CYRE3", "MRVE3", "EVEN3", "EZTC3", "DIRR3", "TEND3", "TRIS3",
+    "CYRE3", "MRVE3", "EVEN3", "EZTC3", "DIRR3",
+    "CVCB3", "LAVV3",
+
     # Logística & Transporte
-    "RAIL3", "ECOR3", "TGMA3",
+    "RAIL3", "CCRO3", "AZUL4", "GOLL4",
+
     # Papel & Celulose
     "SUZB3", "KLBN11", "DXCO3",
+
     # Telecomunicações & Tech
-    "VIVT3", "TIMS3", "LWSA3",
-    # Agro
-    "AGRO3", "CAML3",
-    # Outros
-    "WEGE3", "RENT3", "MOVI3", "VAMO3", "RAIZ4", "HYPE3",
+    "VIVT3", "TIMS3", "TOTVS3",
+
+    # Agro & Insumos
+    "AGRO3", "SLCE3", "SMAG3",
+
+    # Indústria & Outros
+    "WEGE3", "RENT3", "MOVI3", "VAMO3",
+    "RAIZ4", "HYPE3", "BRAP4", "EMBR3",
+    "MULT3", "IGTI11", "PRIO3",
 ]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -108,16 +127,17 @@ def get_sector(ticker: str) -> str:
     groups = {
         "Financeiro":   ["ITUB4","BBDC4","BBAS3","SANB11","BPAC11","BBSE3","PSSA3","CXSE3","IRBR3","BRSR6"],
         "Petróleo":     ["PETR3","PETR4","PRIO3","RECV3","RRRP3","CSAN3","UGPA3"],
-        "Mineração":    ["VALE3","CSNA3","USIM5","GOAU4","GGBR4","GGBR3","FESA4"],
-        "Utilities":    ["ELET3","ELET6","CMIG4","CMIG3","CPFE3","ENGI11","EGIE3","TAEE11","SAPR11","SBSP3","CSMG3","TRPL4","AURE3","ENEV3","ENBR3"],
-        "Varejo":       ["MGLU3","VIIA3","AMER3","LREN3","SOMA3","AMAR3","CEAB3","NTCO3","ARZZ3"],
-        "Alimentos":    ["ABEV3","BRFS3","JBSS3","MRFG3","BEEF3","MDIA3","SLCE3","SMTO3"],
-        "Saúde":        ["HAPV3","GNDI3","RDOR3","FLRY3","DASA3","RADL3","PNVL3","ODPV3"],
-        "Construção":   ["CYRE3","MRVE3","EVEN3","EZTC3","DIRR3","TEND3","TRIS3","MELK3"],
-        "Logística":    ["RAIL3","CCRO3","ECOR3","GOL4","AZUL4","EMBR3","TGMA3"],
+        "Mineração":    ["VALE3","CSNA3","USIM5","GOAU4","GGBR4","GGBR3","BRAP4"],
+        "Energia":      ["ELET3","CMIG4","CMIG3","CPFE3","ENGI11","EGIE3","TAEE11","SBSP3","AURE3","ENEV3","ISAE4"],
+        "Varejo":       ["MGLU3","AMER3","LREN3","SOMA3","CEAB3","NTCO3","PETZ3","VIVA3","AMAR3"],
+        "Alimentos":    ["ABEV3","BRFS3","JBSS3","BEEF3","MDIA3","SLCE3","SMTO3"],
+        "Saúde":        ["HAPV3","RDOR3","FLRY3","DASA3","RADL3","ODPV3"],
+        "Construção":   ["CYRE3","MRVE3","EVEN3","EZTC3","DIRR3","CVCB3","LAVV3"],
+        "Logística":    ["RAIL3","CCRO3","AZUL4","GOLL4","EMBR3"],
         "Papel":        ["SUZB3","KLBN11","DXCO3"],
-        "Telecom":      ["VIVT3","TIMS3","OIBR3","TOTVS3","LWSA3"],
-        "Agro":         ["AGRO3","CAML3","TTEN3"],
+        "Telecom":      ["VIVT3","TIMS3","TOTVS3"],
+        "Agro":         ["AGRO3","SLCE3","SMAG3"],
+        "Indústria":    ["WEGE3","RENT3","MOVI3","VAMO3","RAIZ4","HYPE3","MULT3"],
     }
     for sector, tickers in groups.items():
         if ticker in tickers:
@@ -201,20 +221,17 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
 
         pa = prices[a].loc[idx]
         pb = prices[b].loc[idx]
-        # Garante alinhamento correto entre returns e idx de prices
-        ra = returns[a].reindex(idx).dropna()
-        rb = returns[b].reindex(idx).dropna()
-        # Re-alinha idx para interseção dos returns válidos
-        idx = ra.index.intersection(rb.index)
-        ra = ra.loc[idx]
-        rb = rb.loc[idx]
-        pa = pa.reindex(idx).dropna()
-        pb = pb.reindex(idx).dropna()
-        idx = pa.index.intersection(pb.index)
-        ra = ra.reindex(idx).dropna()
-        rb = rb.reindex(idx).dropna()
-        pa = pa.reindex(idx)
-        pb = pb.reindex(idx)
+        # Alinha preços e calcula retornos sobre a interseção
+        pa = pa.loc[idx]
+        pb = pb.loc[idx]
+        ra = pa.pct_change().dropna()
+        rb = pb.pct_change().dropna()
+        # Interseção final dos retornos
+        ret_idx = ra.index.intersection(rb.index)
+        ra = ra.loc[ret_idx]
+        rb = rb.loc[ret_idx]
+        pa = pa.reindex(ret_idx).ffill()
+        pb = pb.reindex(ret_idx).ffill()
 
         # Correlação de Pearson
         if len(ra) < MIN_OBS or len(rb) < MIN_OBS:
@@ -386,9 +403,17 @@ def main():
     }
 
     # 6. Salva arquivo
+    # Converte tipos numpy para tipos Python nativos (JSON serializável)
+    def convert(obj):
+        if isinstance(obj, (np.integer,)):   return int(obj)
+        if isinstance(obj, (np.floating,)):  return float(obj)
+        if isinstance(obj, (np.bool_,)):     return bool(obj)
+        if isinstance(obj, (np.ndarray,)):   return obj.tolist()
+        raise TypeError(f"Não serializável: {type(obj)}")
+
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(output, f, ensure_ascii=False, separators=(",", ":"), default=convert)
 
     size_kb = os.path.getsize(OUTPUT_FILE) / 1024
     print(f"\n✅ Salvo em {OUTPUT_FILE} ({size_kb:.0f} KB)")
