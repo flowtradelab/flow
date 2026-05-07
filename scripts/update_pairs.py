@@ -371,7 +371,7 @@ def main():
     pairs = calculate_pairs(prices)
     if not pairs:
         print("ERRO: Nenhum par encontrado com os critérios definidos.")
-        return
+        return None
 
     # 3. Histórico de spread
     print("\nGerando histórico de spread para gráficos...")
@@ -429,6 +429,15 @@ def main():
     print(f"   {len(pairs)} pares | {len(history)} com histórico | {len(snapshot)} preços")
     print(f"\nPróximo passo: git add {OUTPUT_FILE} && git commit -m 'chore: update pairs' && git push")
 
+    # Retorna estatísticas para o log consolidado
+    return {
+        "pairs":   len(pairs),
+        "history": len(history),
+        "prices":  len(snapshot),
+        "size_kb": round(size_kb, 1),
+        "tickers": len(prices.columns) if "prices" in dir() else 0,
+    }
+
 
 if __name__ == "__main__":
     import argparse
@@ -449,6 +458,10 @@ if __name__ == "__main__":
         "6m": 100, "3m": 50,  "2m": 35,
     }
 
+    run_date = datetime.now().strftime("%Y-%m-%d")
+    run_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+    all_stats = {}
+
     for period in periods_to_run:
         print(f"\n{'='*60}")
         print(f"  Calculando período: {period} ({PERIODS[period]} dias)")
@@ -456,4 +469,71 @@ if __name__ == "__main__":
         LOOKBACK_DAYS = PERIODS[period]
         MIN_OBS       = MIN_OBS_BY_PERIOD.get(period, 200)
         OUTPUT_FILE   = f"pair-trading/pairs_{period}.json"
-        main()
+        stats = main()
+        if stats:
+            all_stats[period] = stats
+
+    # ── Gera log consolidado ──────────────────────────────────────────────
+    if all_stats:
+        os.makedirs("logs", exist_ok=True)
+
+        # 1. Log do dia em JSON (histórico completo)
+        log_file = f"logs/pairs_log.json"
+        history_log = []
+        if os.path.exists(log_file):
+            try:
+                with open(log_file, "r") as f:
+                    history_log = json.load(f)
+            except Exception:
+                history_log = []
+
+        # Adiciona entrada do dia
+        entry = {
+            "date":    run_date,
+            "time":    run_time,
+            "periods": {}
+        }
+        for period, stats in all_stats.items():
+            entry["periods"][period] = {
+                "pairs":       stats["pairs"],
+                "tickers":     stats.get("tickers", len(TICKERS_B3)),
+                "size_kb":     stats["size_kb"],
+            }
+        history_log.append(entry)
+
+        with open(log_file, "w") as f:
+            json.dump(history_log, f, indent=2, ensure_ascii=False)
+
+        # 2. Log legível em texto
+        txt_file = f"logs/pairs_{run_date}.txt"
+        lines = [
+            f"PNT Trade Lab — Pair Trading Log",
+            f"Data: {run_time}",
+            f"Tickers: {len(TICKERS_B3)} (Ibovespa)",
+            f"{'─'*40}",
+            f"{'Período':<8} {'Pares':>6} {'Arquivo'}",
+            f"{'─'*40}",
+        ]
+        for period, stats in all_stats.items():
+            label = {
+                "3y": "3 anos", "2y": "2 anos", "1y": "1 ano",
+                "6m": "6 meses", "3m": "3 meses", "2m": "2 meses"
+            }.get(period, period)
+            lines.append(f"{label:<8} {stats['pairs']:>6}   pair-trading/pairs_{period}.json ({stats['size_kb']} KB)")
+
+        lines += [
+            f"{'─'*40}",
+            f"Total de períodos calculados: {len(all_stats)}",
+        ]
+
+        with open(txt_file, "w") as f:
+            f.write("\n".join(lines))
+
+        # 3. Imprime resumo no console
+        print(f"\n{'='*60}")
+        print(f"  RESUMO — {run_date}")
+        print(f"{'='*60}")
+        for line in lines[5:]:
+            print(f"  {line}")
+        print(f"\n  Logs salvos em: {log_file}")
+        print(f"             e: {txt_file}")
