@@ -21,7 +21,7 @@ from datetime import datetime, timedelta
 import numpy as np
 import pandas as pd
 import yfinance as yf
-from scipy import stats
+from scipy import stats as scipy_stats
 from statsmodels.tsa.stattools import coint
 
 # ── Configurações ─────────────────────────────────────────────────────────────
@@ -46,29 +46,29 @@ MAX_PAIRS     = 300          # Limite de pares no JSON final
 # ~100 principais ações — adicione mais conforme necessário
 
 # ── Composição do Ibovespa (carteira vigente) ────────────────────────────────
-# Fonte: B3 — ~90 ações mais líquidas do mercado brasileiro
+# Fonte: B3 — ações mais líquidas do mercado brasileiro
 # Atualizar quando a B3 revisar a carteira (jan/mai/set)
+# Removidos tickers deslistados/sem dados no Yahoo Finance
 TICKERS_B3 = [
     # Financeiro & Seguros
     "ITUB4", "BBDC4", "BBAS3", "SANB11", "BPAC11", "BRSR6",
     "BBSE3", "PSSA3", "CXSE3", "IRBR3",
 
     # Petróleo, Gás & Petroquímica
-    "PETR3", "PETR4", "PRIO3", "RECV3", "CSAN3", "UGPA3", "RRRP3",
+    "PETR3", "PETR4", "PRIO3", "RECV3", "CSAN3", "UGPA3",
 
     # Mineração & Siderurgia
     "VALE3", "CSNA3", "USIM5", "GOAU4", "GGBR4",
 
     # Energia Elétrica
     "CMIG4", "CPFE3", "ENGI11", "EGIE3", "TAEE11",
-    "SBSP3", "AURE3", "ENEV3", "ISAE4", "ELET3",
+    "SBSP3", "AURE3", "ENEV3", "ISAE4",
 
     # Varejo & Consumo
-    "MGLU3", "LREN3", "AMER3", "CEAB3", "SOMA3",
-    "NTCO3", "PETZ3", "VIVA3",
+    "MGLU3", "LREN3", "AMER3", "CEAB3", "VIVA3",
 
     # Alimentos & Bebidas
-    "ABEV3", "JBSS3", "BRFS3", "BEEF3", "SMTO3", "MDIA3",
+    "ABEV3", "BEEF3", "SMTO3", "MDIA3",
 
     # Saúde & Farma
     "HAPV3", "RDOR3", "FLRY3", "RADL3", "DASA3", "ODPV3",
@@ -78,21 +78,21 @@ TICKERS_B3 = [
     "CVCB3", "LAVV3",
 
     # Logística & Transporte
-    "RAIL3", "CCRO3", "AZUL4", "GOLL4",
+    "RAIL3",
 
     # Papel & Celulose
     "SUZB3", "KLBN11", "DXCO3",
 
     # Telecomunicações & Tech
-    "VIVT3", "TIMS3", "TOTVS3",
+    "VIVT3", "TIMS3",
 
     # Agro & Insumos
-    "AGRO3", "SLCE3", "SMAG3",
+    "AGRO3", "SLCE3",
 
     # Indústria & Outros
     "WEGE3", "RENT3", "MOVI3", "VAMO3",
-    "RAIZ4", "HYPE3", "BRAP4", "EMBR3",
-    "MULT3", "IGTI11", "PRIO3",
+    "RAIZ4", "HYPE3", "BRAP4",
+    "MULT3", "IGTI11",
 ]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -138,14 +138,14 @@ def get_sector(ticker: str) -> str:
         "Petróleo":     ["PETR3","PETR4","PRIO3","RECV3","RRRP3","CSAN3","UGPA3"],
         "Mineração":    ["VALE3","CSNA3","USIM5","GOAU4","GGBR4","GGBR3","BRAP4"],
         "Energia":      ["ELET3","CMIG4","CMIG3","CPFE3","ENGI11","EGIE3","TAEE11","SBSP3","AURE3","ENEV3","ISAE4"],
-        "Varejo":       ["MGLU3","AMER3","LREN3","SOMA3","CEAB3","NTCO3","PETZ3","VIVA3","AMAR3"],
-        "Alimentos":    ["ABEV3","BRFS3","JBSS3","BEEF3","MDIA3","SLCE3","SMTO3"],
+        "Varejo":       ["MGLU3","AMER3","LREN3","CEAB3","VIVA3"],
+        "Alimentos":    ["ABEV3","BEEF3","MDIA3","SMTO3"],
         "Saúde":        ["HAPV3","RDOR3","FLRY3","DASA3","RADL3","ODPV3"],
         "Construção":   ["CYRE3","MRVE3","EVEN3","EZTC3","DIRR3","CVCB3","LAVV3"],
-        "Logística":    ["RAIL3","CCRO3","AZUL4","GOLL4","EMBR3"],
+        "Logística":    ["RAIL3"],
         "Papel":        ["SUZB3","KLBN11","DXCO3"],
-        "Telecom":      ["VIVT3","TIMS3","TOTVS3"],
-        "Agro":         ["AGRO3","SLCE3","SMAG3"],
+        "Telecom":      ["VIVT3","TIMS3"],
+        "Agro":         ["AGRO3","SLCE3"],
         "Indústria":    ["WEGE3","RENT3","MOVI3","VAMO3","RAIZ4","HYPE3","MULT3"],
     }
     for sector, tickers in groups.items():
@@ -245,7 +245,7 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
         # Correlação de Pearson
         if len(ra) < MIN_OBS or len(rb) < MIN_OBS:
             continue
-        corr, _ = stats.pearsonr(ra, rb)
+        corr, _ = scipy_stats.pearsonr(ra, rb)
         if abs(corr) < MIN_CORR:
             continue
 
