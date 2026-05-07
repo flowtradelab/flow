@@ -1,12 +1,26 @@
 name: Update Pair Trading Data
 
 on:
-  # Todo dia útil às 07:00 BRT (10:00 UTC) — antes da abertura da B3
+  # Todo dia útil às 07:00 BRT (10:00 UTC)
   schedule:
     - cron: '0 10 * * 1-5'
 
-  # Permite rodar manualmente pelo GitHub
+  # Permite rodar manualmente escolhendo o período
   workflow_dispatch:
+    inputs:
+      period:
+        description: 'Período a calcular (deixe vazio para todos)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - 3y
+          - 2y
+          - 1y
+          - 6m
+          - 3m
+          - 2m
 
 jobs:
   update-pairs:
@@ -28,17 +42,24 @@ jobs:
           key: ${{ runner.os }}-pip-pairs
 
       - name: Instalar dependências
-        run: |
-          pip install yfinance pandas numpy scipy statsmodels
+        run: pip install yfinance pandas numpy scipy statsmodels
 
-      - name: Rodar script de atualização
-        run: |
-          python scripts/update_pairs.py
+      - name: Rodar script — todos os períodos (agendado)
+        if: github.event_name == 'schedule'
+        run: python scripts/update_pairs.py
+
+      - name: Rodar script — período específico (manual)
+        if: github.event_name == 'workflow_dispatch' && inputs.period != ''
+        run: python scripts/update_pairs.py --period ${{ inputs.period }}
+
+      - name: Rodar script — todos os períodos (manual sem período)
+        if: github.event_name == 'workflow_dispatch' && inputs.period == ''
+        run: python scripts/update_pairs.py
 
       - name: Commit e push se houver mudanças
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pair-trading/pairs.json
+          git add pair-trading/
           git diff --cached --quiet || git commit -m "chore: update pairs $(date +'%Y-%m-%d')"
           git push
