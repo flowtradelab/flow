@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-05-07",
+    "time": "2026-05-07T01:52:14",
+    "periods": {
+      "3y": {
+        "pairs": 13,
+        "tickers": 69,
+        "size_kb": 114.8
+      },
+      "2y": {
+        "pairs": 32,
+        "tickers": 69,
+        "size_kb": 277.6
+      },
+      "1y": {
+        "pairs": 56,
+        "tickers": 69,
+        "size_kb": 430.9
+      },
+      "6m": {
+        "pairs": 196,
+        "tickers": 69,
+        "size_kb": 463.2
+      },
+      "3m": {
+        "pairs": 300,
+        "tickers": 69,
+        "size_kb": 280.4
+      },
+      "2m": {
+        "pairs": 300,
+        "tickers": 69,
+        "size_kb": 210.6
+      }
+    }
+  }
+]
