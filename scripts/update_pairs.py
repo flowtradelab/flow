@@ -38,39 +38,33 @@ MAX_PAIRS     = 300          # Limite de pares no JSON final
 
 TICKERS_B3 = [
     # Financeiro
-    "ITUB4", "BBDC4", "BBAS3", "SANB11", "BPAC11", "GGBR4", "BRSR6",
+    "ITUB4", "BBDC4", "BBAS3", "SANB11", "BPAC11", "BRSR6",
     "IRBR3", "BBSE3", "PSSA3", "CXSE3",
     # Petróleo & Gás
-    "PETR3", "PETR4", "PRIO3", "RECV3", "RRRP3", "CSAN3", "UGPA3",
+    "PETR3", "PETR4", "PRIO3", "RECV3", "CSAN3", "UGPA3",
     # Mineração & Siderurgia
-    "VALE3", "CSNA3", "USIM5", "GOAU4", "GGBR3", "FESA4",
+    "VALE3", "CSNA3", "USIM5", "GOAU4", "GGBR4", "GGBR3", "FESA4",
     # Utilities
-    "ELET3", "ELET6", "CMIG4", "CMIG3", "CPFE3", "ENGI11", "EGIE3",
-    "TAEE11", "SAPR11", "SBSP3", "CSMG3", "TRPL4", "AURE3", "VVEO3",
-    "ENEV3", "ENBR3",
+    "CMIG4", "CMIG3", "CPFE3", "ENGI11", "EGIE3",
+    "TAEE11", "SAPR11", "SBSP3", "AURE3", "ENEV3",
     # Varejo
-    "MGLU3", "VIIA3", "AMER3", "LREN3", "SOMA3", "AMAR3", "CEAB3",
-    "NTCO3", "ARZZ3",
+    "MGLU3", "AMER3", "LREN3", "AMAR3", "CEAB3",
     # Alimentos & Bebidas
-    "ABEV3", "BRFS3", "JBSS3", "MRFG3", "BEEF3", "MDIA3", "SLCE3",
-    "SMTO3",
+    "ABEV3", "BEEF3", "MDIA3", "SLCE3", "SMTO3",
     # Saúde
-    "HAPV3", "GNDI3", "RDOR3", "FLRY3", "DASA3", "RADL3", "PNVL3",
-    "ODPV3",
+    "HAPV3", "RDOR3", "FLRY3", "DASA3", "RADL3", "PNVL3", "ODPV3",
     # Construção & Imóveis
     "CYRE3", "MRVE3", "EVEN3", "EZTC3", "DIRR3", "TEND3", "TRIS3",
-    "MELK3",
     # Logística & Transporte
-    "RAIL3", "CCRO3", "ECOR3", "GOL4", "AZUL4", "EMBR3", "TGMA3",
+    "RAIL3", "ECOR3", "TGMA3",
     # Papel & Celulose
     "SUZB3", "KLBN11", "DXCO3",
     # Telecomunicações & Tech
-    "VIVT3", "TIMS3", "OIBR3", "TOTVS3", "INTB3", "LWSA3",
+    "VIVT3", "TIMS3", "LWSA3",
     # Agro
-    "AGRO3", "CAML3", "TTEN3",
+    "AGRO3", "CAML3",
     # Outros
-    "WEGE3", "RENT3", "MOVI3", "VAMO3", "RAIZ4", "CVCB3", "HYPE3",
-    "TOTS3",
+    "WEGE3", "RENT3", "MOVI3", "VAMO3", "RAIZ4", "HYPE3",
 ]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -167,7 +161,10 @@ def download_prices(tickers: list, days: int = 730) -> pd.DataFrame:
                 print(f"  ✗ {t}: {ex}")
 
     # Renomeia colunas removendo sufixo .SA
-    prices.columns = [c.replace(".SA", "") for c in prices.columns]
+    prices.columns = [c.replace(".SA", "") if hasattr(c, "replace") else c for c in prices.columns]
+    # Normaliza índice — remove timezone para evitar problemas de alinhamento
+    if hasattr(prices.index, "tz") and prices.index.tz is not None:
+        prices.index = prices.index.tz_localize(None)
 
     # Remove tickers com dados insuficientes
     valid = [c for c in prices.columns if prices[c].count() >= MIN_OBS]
@@ -204,8 +201,20 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
 
         pa = prices[a].loc[idx]
         pb = prices[b].loc[idx]
-        ra = returns[a].loc[idx].dropna()
-        rb = returns[b].loc[idx].dropna()
+        # Garante alinhamento correto entre returns e idx de prices
+        ra = returns[a].reindex(idx).dropna()
+        rb = returns[b].reindex(idx).dropna()
+        # Re-alinha idx para interseção dos returns válidos
+        idx = ra.index.intersection(rb.index)
+        ra = ra.loc[idx]
+        rb = rb.loc[idx]
+        pa = pa.reindex(idx).dropna()
+        pb = pb.reindex(idx).dropna()
+        idx = pa.index.intersection(pb.index)
+        ra = ra.reindex(idx).dropna()
+        rb = rb.reindex(idx).dropna()
+        pa = pa.reindex(idx)
+        pb = pb.reindex(idx)
 
         # Correlação de Pearson
         if len(ra) < MIN_OBS or len(rb) < MIN_OBS:
