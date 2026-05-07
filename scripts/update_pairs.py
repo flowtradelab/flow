@@ -330,7 +330,7 @@ def build_spread_history(prices: pd.DataFrame, pairs: list, n_points: int = 120)
         if a not in prices.columns or b not in prices.columns:
             continue
         idx = prices[a].dropna().index.intersection(prices[b].dropna().index)
-        if len(idx) < n_points:
+        if len(idx) < min(n_points, 20):
             continue
         pa = prices[a].loc[idx].iloc[-n_points:]
         pb = prices[b].loc[idx].iloc[-n_points:]
@@ -374,8 +374,10 @@ def main():
         return None
 
     # 3. Histórico de spread
+    # Pontos de histórico proporcional ao período
+    n_pts = min(LOOKBACK_DAYS, 120)
     print("\nGerando histórico de spread para gráficos...")
-    history = build_spread_history(prices, pairs[:50])  # top 50 com histórico
+    history = build_spread_history(prices, pairs[:50], n_points=n_pts)
     print(f"✓ Histórico gerado para {len(history)} pares")
 
     # 4. Snapshot dos preços atuais (para WATCHLIST_BASE do app)
@@ -493,7 +495,7 @@ if __name__ == "__main__":
             "time":    run_time,
             "periods": {}
         }
-        for period, stats in all_scipy_stats.items():
+        for period, stats in all_stats.items():
             entry["periods"][period] = {
                 "pairs":       stats["pairs"],
                 "tickers":     scipy_stats.get("tickers", len(TICKERS_B3)),
@@ -514,7 +516,7 @@ if __name__ == "__main__":
             f"{'Período':<8} {'Pares':>6} {'Arquivo'}",
             f"{'─'*40}",
         ]
-        for period, stats in all_scipy_stats.items():
+        for period, stats in all_stats.items():
             label = {
                 "3y": "3 anos", "2y": "2 anos", "1y": "1 ano",
                 "6m": "6 meses", "3m": "3 meses", "2m": "2 meses"
