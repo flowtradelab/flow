@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore")
 
 # ── Configurações ──────────────────────────────────────────────────────────────
 OUTPUT_DIR       = Path("quant")
-HOURLY_DAYS      = 730        # 2 anos (limite do Yahoo Finance para 1h)
+HOURLY_DAYS      = 728        # 2 anos (Yahoo exige < 730 dias, não <=)
 DAILY_DAYS       = 1095       # 3 anos para dados diários
 MIN_HOURLY_OBS   = 500        # mínimo de barras horárias válidas
 MIN_DAILY_OBS    = 400        # mínimo de barras diárias válidas
