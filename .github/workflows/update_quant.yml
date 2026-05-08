@@ -1,0 +1,59 @@
+name: Update Quant Data
+
+on:
+  schedule:
+    - cron: '0 10 * * 1-5'  # Seg-Sex 07:00 BRT (10:00 UTC)
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: 'Ticker específico (opcional)'
+        required: false
+        default: ''
+      min_volume:
+        description: 'Volume mínimo em milhões R$ (default: 2)'
+        required: false
+        default: '2'
+
+jobs:
+  update-quant:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-quant
+
+      - name: Instalar dependências
+        run: pip install yfinance pandas numpy scipy
+
+      - name: Rodar — ticker específico
+        if: github.event_name == 'workflow_dispatch' && inputs.ticker != ''
+        run: |
+          python scripts/update_quant.py \
+            --ticker ${{ inputs.ticker }} \
+            --min-volume ${{ inputs.min_volume }}
+
+      - name: Rodar — todos os ativos
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.ticker == '')
+        run: |
+          python scripts/update_quant.py \
+            --min-volume ${{ inputs.min_volume || '2' }}
+
+      - name: Commit e push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add quant/
+          git diff --cached --quiet || \
+            git commit -m "chore: update quant $(date +'%Y-%m-%d')" && git push
