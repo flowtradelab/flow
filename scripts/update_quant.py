@@ -84,18 +84,32 @@ def ts():
     return datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 
 def to_json(obj):
-    """Converte tipos numpy para Python nativo."""
+    """Converte tipos numpy para Python nativo. Trata Infinity e NaN como null."""
     if isinstance(obj, (np.integer,)):  return int(obj)
-    if isinstance(obj, (np.floating,)): return float(obj)
+    if isinstance(obj, (np.floating,)):
+        v = float(obj)
+        return None if (np.isnan(v) or np.isinf(v)) else v
     if isinstance(obj, (np.bool_,)):    return bool(obj)
     if isinstance(obj, (np.ndarray,)):  return obj.tolist()
     if isinstance(obj, pd.Timestamp):   return str(obj.date())
+    if isinstance(obj, float):
+        return None if (np.isnan(obj) or np.isinf(obj)) else obj
     raise TypeError(f"Não serializável: {type(obj)}")
+
+def sanitize(obj):
+    """Percorre recursivamente e substitui Infinity/NaN por None."""
+    if isinstance(obj, dict):
+        return {k: sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [sanitize(v) for v in obj]
+    if isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
+        return None
+    return obj
 
 def save_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",",":"), default=to_json)
+        json.dump(sanitize(data), f, ensure_ascii=False, separators=(",",":"), default=to_json)
 
 # ── Download ───────────────────────────────────────────────────────────────────
 def download_ohlc(ticker: str, interval: str, days: int) -> pd.DataFrame:
