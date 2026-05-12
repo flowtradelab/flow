@@ -1,5 +1,4 @@
 name: Update Quant Data
-
 on:
   schedule:
     - cron: '0 10 * * 1-5'  # Seg-Sex 07:00 BRT (10:00 UTC)
@@ -13,15 +12,15 @@ on:
         description: 'Volume mínimo em milhões R$ (default: 2)'
         required: false
         default: '2'
-
 jobs:
   update-quant:
     runs-on: ubuntu-latest
     timeout-minutes: 120
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # necessário para rebase funcionar corretamente
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -55,5 +54,10 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add quant/
-          git diff --cached --quiet || \
-            git commit -m "chore: update quant $(date +'%Y-%m-%d')" && git push
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança para commitar."
+          else
+            git commit -m "chore: update quant $(date +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push
+          fi
