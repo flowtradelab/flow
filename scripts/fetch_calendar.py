@@ -74,9 +74,14 @@ def fetch_calendar():
     current_iso = ""
     current_lbl = ""
 
+    # Debug: mostra primeiros 3000 chars do HTML para inspecionar estrutura
+    print(f"🔍 HTML snippet (primeiros 2000 chars):\n{html[:2000]}")
+
     # Debug: mostra todos os IDs de separador encontrados
-    day_rows = [r.get("id","") for r in soup.select("tr") if r.get("id","").startswith("theDay")]
-    print(f"🔍 Separadores de dia encontrados: {day_rows[:5]}")
+    all_tr_ids = [r.get("id","") for r in soup.select("tr") if r.get("id","")]
+    print(f"🔍 IDs de tr encontrados: {all_tr_ids[:10]}")
+    day_rows = [i for i in all_tr_ids if "day" in i.lower() or "Day" in i]
+    print(f"🔍 Separadores de dia: {day_rows[:5]}")
 
     for row in soup.select("tr"):
         row_id = row.get("id", "")
