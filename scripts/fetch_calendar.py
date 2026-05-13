@@ -74,20 +74,58 @@ def fetch_calendar():
     current_iso = ""
     current_lbl = ""
 
+    # Debug: mostra todos os IDs de separador encontrados
+    day_rows = [r.get("id","") for r in soup.select("tr") if r.get("id","").startswith("theDay")]
+    print(f"🔍 Separadores de dia encontrados: {day_rows[:5]}")
+
     for row in soup.select("tr"):
         row_id = row.get("id", "")
 
-        # ── Separador de dia ──────────────────────────────────────────────
+        # ── Separador de dia — múltiplos formatos ─────────────────────────
         if row_id.startswith("theDay"):
             raw = row_id.replace("theDay_", "").replace("theDay", "").strip()
-            current_iso = ""
+            parsed = ""
+
+            # Formato 1: YYYYMMDD (8 dígitos)
             m8 = re.fullmatch(r"(\d{4})(\d{2})(\d{2})", raw)
             if m8:
-                current_iso = f"{m8.group(1)}-{m8.group(2)}-{m8.group(3)}"
+                parsed = f"{m8.group(1)}-{m8.group(2)}-{m8.group(3)}"
+
+            # Formato 2: timestamp Unix (9-11 dígitos)
             elif re.fullmatch(r"\d{9,11}", raw):
                 dt = datetime.fromtimestamp(int(raw), tz=timezone.utc)
-                current_iso = dt.strftime("%Y-%m-%d")
-            current_lbl = iso_to_label(current_iso) if current_iso else raw
+                parsed = dt.strftime("%Y-%m-%d")
+
+            # Formato 3: timestamp Unix de 12-13 dígitos (ms)
+            elif re.fullmatch(r"\d{12,13}", raw):
+                dt = datetime.fromtimestamp(int(raw) / 1000, tz=timezone.utc)
+                parsed = dt.strftime("%Y-%m-%d")
+
+            # Formato 4: qualquer sequência YYYY-MM-DD dentro do id
+            if not parsed:
+                m = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
+                if m:
+                    parsed = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+            # Formato 5: texto da linha (ex: "quarta-feira, 14 mai. 2026")
+            if not parsed:
+                txt = row.get_text(strip=True)
+                m = re.search(r"(\d{4})", txt)
+                if m:
+                    # Tenta extrair do atributo data-* do row
+                    for attr in row.attrs:
+                        val = str(row.get(attr, ""))
+                        dm = re.search(r"(\d{4})[/-](\d{2})[/-](\d{2})", val)
+                        if dm:
+                            parsed = f"{dm.group(1)}-{dm.group(2)}-{dm.group(3)}"
+                            break
+
+            if parsed:
+                current_iso = parsed
+                current_lbl = iso_to_label(current_iso)
+                print(f"📅 Dia: {current_iso} (raw={raw!r})")
+            else:
+                print(f"⚠️  Dia não reconhecido: id={row_id!r} raw={raw!r}")
             continue
 
         if not row.select_one("td.time"):
@@ -101,6 +139,19 @@ def fetch_calendar():
             actual_el   = row.select_one("td.bold.act") or row.select_one("td[class*='act']")
             forecast_el = row.select_one("td.fore") or row.select_one("td[class*='fore']")
             previous_el = row.select_one("td.prev")
+
+            # Fallback de data: tenta extrair do atributo data-event-datetime da própria linha
+            event_date_iso = current_iso
+            if not event_date_iso:
+                dt_attr = row.get("data-event-datetime", "") or row.get("event_timestamp", "")
+                if dt_attr:
+                    dm = re.search(r"(\d{4})[/-](\d{2})[/-](\d{2})", str(dt_attr))
+                    if dm:
+                        event_date_iso = f"{dm.group(1)}-{dm.group(2)}-{dm.group(3)}"
+                    elif re.fullmatch(r"\d{9,13}", str(dt_attr).strip()):
+                        ts = int(dt_attr)
+                        if ts > 1e11: ts //= 1000
+                        event_date_iso = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
 
             # Impacto
             img_key    = impact_el.get("data-img_key", "") if impact_el else ""
@@ -128,13 +179,16 @@ def fetch_calendar():
 
             name = name_el.get_text(strip=True) if name_el else ""
             if not name: continue
+            if not event_date_iso:
+                print(f"⚠️  Evento sem data: {name}")
+                continue
 
             events.append({
                 "id":           row.get("event_attr_id") or row_id,
-                "date_iso":     current_iso,
-                "date_label":   current_lbl,
+                "date_iso":     event_date_iso,
+                "date_label":   iso_to_label(event_date_iso),
                 "time":         time_str,
-                "sort_key":     f"{current_iso} {time_str.zfill(5)}",
+                "sort_key":     f"{event_date_iso} {time_str.zfill(5)}",
                 "country":      country_info["name"],
                 "country_code": country_code,
                 "flag":         country_info["flag"],
