@@ -1,0 +1,10 @@
+[
+  { "name": "InfoMoney",        "url": "https://www.infomoney.com.br/feed/",                   "category": "Brasil",   "color": "#00C896", "active": true },
+  { "name": "Money Times",      "url": "https://www.moneytimes.com.br/feed/",                  "category": "Brasil",   "color": "#0088FF", "active": true },
+  { "name": "Exame Invest",     "url": "https://exame.com/invest/feed/",                        "category": "Brasil",   "color": "#AA00FF", "active": true },
+  { "name": "Brazil Journal",   "url": "https://braziljournal.com/feed",                        "category": "Brasil",   "color": "#FF3366", "active": true },
+  { "name": "CNN Brasil Econ",  "url": "https://www.cnnbrasil.com.br/economia/feed/",           "category": "Brasil",   "color": "#CC0000", "active": true },
+  { "name": "NeoFeed",          "url": "https://neofeed.com.br/feed/",                          "category": "Brasil",   "color": "#0055AA", "active": true },
+  { "name": "Investing BR",     "url": "https://br.investing.com/rss/news.rss",                 "category": "Mercados", "color": "#FFD700", "active": true },
+  { "name": "Valor Econômico",  "url": "https://valor.globo.com/rss/home",                      "category": "Brasil",   "color": "#E8A200", "active": true }
+]
