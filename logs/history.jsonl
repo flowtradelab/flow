@@ -7,3 +7,4 @@
 {"ts": "2026-05-11 15:32:01 BRT", "data_series": "20260508", "data_bdi": "20260508", "status": "ok", "tickers": 224, "changed": 224, "matched": 39435}
 {"ts": "2026-05-12 15:34:44 BRT", "data_series": "20260511", "data_bdi": "20260511", "status": "ok", "tickers": 224, "changed": 224, "matched": 40571}
 {"ts": "2026-05-13 15:34:03 BRT", "data_series": "20260512", "data_bdi": "20260512", "status": "ok", "tickers": 224, "changed": 224, "matched": 41453}
+{"ts": "2026-05-14 15:25:41 BRT", "data_series": "20260513", "data_bdi": "20260513", "status": "ok", "tickers": 224, "changed": 224, "matched": 42410}
