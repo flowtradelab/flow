@@ -1361,7 +1361,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Estoque de Gás Natural",
-      "actual": "",
+      "actual": "85B",
       "forecast": "86B",
       "previous": "63B"
     },
@@ -1786,7 +1786,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-14T14:08:07Z",
+  "updated_at": "2026-05-14T15:25:21Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
