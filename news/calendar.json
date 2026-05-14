@@ -1136,9 +1136,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Pedidos Contínuos por Seguro-Desemprego",
-      "actual": "",
+      "actual": "1.782K",
       "forecast": "1.790K",
-      "previous": "1.766K"
+      "previous": "1.758K"
     },
     {
       "id": "63",
@@ -1151,7 +1151,7 @@
       "flag": "🇺🇸",
       "impact": "high",
       "name": "Núcleo de Vendas no Varejo (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,7%",
       "forecast": "0,7%",
       "previous": "1,9%"
     },
@@ -1166,9 +1166,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Preços de Bens Exportados (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "3,3%",
       "forecast": "1,1%",
-      "previous": "1,6%"
+      "previous": "1,5%"
     },
     {
       "id": "1748",
@@ -1181,7 +1181,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Índice de Preços de Exportação (Anual)  (Abr)",
-      "actual": "",
+      "actual": "8,8%",
       "forecast": "",
       "previous": "5,6%"
     },
@@ -1196,9 +1196,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Preços de Bens Importados (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "1,9%",
       "forecast": "1,0%",
-      "previous": "0,8%"
+      "previous": "0,9%"
     },
     {
       "id": "1747",
@@ -1211,9 +1211,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Índice de Preços de Importação (Anual)  (Abr)",
-      "actual": "",
+      "actual": "4,2%",
       "forecast": "",
-      "previous": "2,1%"
+      "previous": "2,3%"
     },
     {
       "id": "294",
@@ -1226,9 +1226,9 @@
       "flag": "🇺🇸",
       "impact": "high",
       "name": "Pedidos Iniciais por Seguro-Desemprego",
-      "actual": "",
+      "actual": "211K",
       "forecast": "205K",
-      "previous": "200K"
+      "previous": "199K"
     },
     {
       "id": "1041",
@@ -1241,9 +1241,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Média de Pedidos de Seguro-Desemprego (4 Semanas)",
-      "actual": "",
+      "actual": "203,75K",
       "forecast": "",
-      "previous": "203,25K"
+      "previous": "203,00K"
     },
     {
       "id": "1506",
@@ -1256,9 +1256,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Projeções de Vendas no Varejo (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,5%",
       "forecast": "0,4%",
-      "previous": "0,7%"
+      "previous": "0,8%"
     },
     {
       "id": "256",
@@ -1271,9 +1271,9 @@
       "flag": "🇺🇸",
       "impact": "high",
       "name": "Vendas no Varejo (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,5%",
       "forecast": "0,5%",
-      "previous": "1,7%"
+      "previous": "1,6%"
     },
     {
       "id": "1878",
@@ -1286,9 +1286,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Vendas no Varejo (Anual)  (Abr)",
-      "actual": "",
+      "actual": "4,87%",
       "forecast": "",
-      "previous": "3,97%"
+      "previous": "4,15%"
     },
     {
       "id": "1507",
@@ -1301,9 +1301,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Vendas no Varejo, excl. gasolina/automóveis (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,5%",
       "forecast": "",
-      "previous": "0,6%"
+      "previous": "0,7%"
     },
     {
       "id": "29",
@@ -1316,7 +1316,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Estoques das Empresas (Mensal)  (Mar)",
-      "actual": "",
+      "actual": "0,9%",
       "forecast": "0,8%",
       "previous": "0,4%"
     },
@@ -1331,9 +1331,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Nível de Estoques do Varejo excluindo Automóveis  (Mar)",
-      "actual": "",
+      "actual": "0,4%",
       "forecast": "0,5%",
-      "previous": "0,3%"
+      "previous": "0,5%"
     },
     {
       "id": "2262",
@@ -1542,7 +1542,7 @@
       "impact": "medium",
       "name": "Produção Industrial (Mensal)  (Abr)",
       "actual": "",
-      "forecast": "0,2%",
+      "forecast": "0,3%",
       "previous": "-0,5%"
     },
     {
@@ -1572,7 +1572,7 @@
       "impact": "low",
       "name": "Vendas da Indústria (Mensal)  (Abr)",
       "actual": "",
-      "forecast": "",
+      "forecast": "0,2%",
       "previous": "-0,1%"
     },
     {
@@ -1786,7 +1786,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-14T09:40:00Z",
+  "updated_at": "2026-05-14T14:08:07Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
