@@ -1376,7 +1376,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Leilão Americano Bill a 4 semanas",
-      "actual": "",
+      "actual": "3,605%",
       "forecast": "",
       "previous": "3,610%"
     },
@@ -1391,7 +1391,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Leilão Americano Bill a 8 semanas",
-      "actual": "",
+      "actual": "3,610%",
       "forecast": "",
       "previous": "3,595%"
     },
@@ -1406,7 +1406,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "GDPNow do Fed de Atlanta  (Q2)",
-      "actual": "",
+      "actual": "4,0%",
       "forecast": "3,7%",
       "previous": "3,7%"
     },
@@ -1786,7 +1786,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-14T15:25:21Z",
+  "updated_at": "2026-05-14T17:15:10Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
