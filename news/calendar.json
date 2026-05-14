@@ -1111,6 +1111,21 @@
       "previous": "3,307B"
     },
     {
+      "id": "2119",
+      "date_iso": "2026-05-13",
+      "date_label": "Quarta, 13 Mai 2026",
+      "time": "20:00",
+      "sort_key": "2026-05-13 20:00",
+      "country": "EUA",
+      "country_code": "US",
+      "flag": "🇺🇸",
+      "impact": "low",
+      "name": "Discurso de Logan, do Fed",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "id": "522",
       "date_iso": "2026-05-14",
       "date_label": "Quinta, 14 Mai 2026",
@@ -1318,7 +1333,7 @@
       "name": "Nível de Estoques do Varejo excluindo Automóveis  (Mar)",
       "actual": "",
       "forecast": "0,5%",
-      "previous": "0,5%"
+      "previous": "0,3%"
     },
     {
       "id": "2262",
@@ -1392,8 +1407,8 @@
       "impact": "medium",
       "name": "GDPNow do Fed de Atlanta  (Q2)",
       "actual": "",
-      "forecast": "",
-      "previous": ""
+      "forecast": "3,7%",
+      "previous": "3,7%"
     },
     {
       "id": "2145",
@@ -1771,7 +1786,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-13T23:43:43Z",
+  "updated_at": "2026-05-14T09:40:00Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
