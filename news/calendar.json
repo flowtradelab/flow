@@ -1421,7 +1421,7 @@
       "flag": "🇺🇸",
       "impact": "high",
       "name": "Balanço Patrimonial do Federal Reserve",
-      "actual": "",
+      "actual": "6.729B",
       "forecast": "",
       "previous": "6.710B"
     },
@@ -1436,7 +1436,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Saldos de reservas com bancos do Federal Reserve",
-      "actual": "",
+      "actual": "3,117T",
       "forecast": "",
       "previous": "3,051T"
     },
@@ -1786,7 +1786,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-14T17:15:10Z",
+  "updated_at": "2026-05-14T21:47:30Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
