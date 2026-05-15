@@ -1,0 +1,789 @@
+{
+  "updated": "2026-05-15",
+  "source": "U.S. Treasury Tentative Auction Schedule 2026",
+  "auctions": [
+    {
+      "id": "bill-4w-0115",
+      "type": "Bill",
+      "term": "4-Week",
+      "auction_date": "2026-01-08",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 75
+    },
+    {
+      "id": "bill-8w-0115",
+      "type": "Bill",
+      "term": "8-Week",
+      "auction_date": "2026-01-08",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 70
+    },
+    {
+      "id": "bill-4w-0122",
+      "type": "Bill",
+      "term": "4-Week",
+      "auction_date": "2026-01-15",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 75
+    },
+    {
+      "id": "bill-8w-0122",
+      "type": "Bill",
+      "term": "8-Week",
+      "auction_date": "2026-01-15",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 70
+    },
+    {
+      "id": "bill-4w-0129",
+      "type": "Bill",
+      "term": "4-Week",
+      "auction_date": "2026-01-22",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 75
+    },
+    {
+      "id": "bill-8w-0129",
+      "type": "Bill",
+      "term": "8-Week",
+      "auction_date": "2026-01-22",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 70
+    },
+    {
+      "id": "bill-4w-0205",
+      "type": "Bill",
+      "term": "4-Week",
+      "auction_date": "2026-01-29",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 75
+    },
+    {
+      "id": "bill-8w-0205",
+      "type": "Bill",
+      "term": "8-Week",
+      "auction_date": "2026-01-29",
+      "time_et": "11:30",
+      "fred": "DTB4WK",
+      "offering_bn": 70
+    },
+    {
+      "id": "bill-13w-0112",
+      "type": "Bill",
+      "term": "13-Week",
+      "auction_date": "2026-01-12",
+      "time_et": "11:30",
+      "fred": "DTB3",
+      "offering_bn": 80
+    },
+    {
+      "id": "bill-26w-0112",
+      "type": "Bill",
+      "term": "26-Week",
+      "auction_date": "2026-01-12",
+      "time_et": "11:30",
+      "fred": "DTB6",
+      "offering_bn": 76
+    },
+    {
+      "id": "bill-13w-0119",
+      "type": "Bill",
+      "term": "13-Week",
+      "auction_date": "2026-01-20",
+      "time_et": "11:30",
+      "fred": "DTB3",
+      "offering_bn": 80
+    },
+    {
+      "id": "bill-26w-0119",
+      "type": "Bill",
+      "term": "26-Week",
+      "auction_date": "2026-01-20",
+      "time_et": "11:30",
+      "fred": "DTB6",
+      "offering_bn": 76
+    },
+    {
+      "id": "bill-13w-0126",
+      "type": "Bill",
+      "term": "13-Week",
+      "auction_date": "2026-01-26",
+      "time_et": "11:30",
+      "fred": "DTB3",
+      "offering_bn": 80
+    },
+    {
+      "id": "bill-26w-0126",
+      "type": "Bill",
+      "term": "26-Week",
+      "auction_date": "2026-01-26",
+      "time_et": "11:30",
+      "fred": "DTB6",
+      "offering_bn": 76
+    },
+    {
+      "id": "bill-13w-0202",
+      "type": "Bill",
+      "term": "13-Week",
+      "auction_date": "2026-02-02",
+      "time_et": "11:30",
+      "fred": "DTB3",
+      "offering_bn": 80
+    },
+    {
+      "id": "bill-26w-0202",
+      "type": "Bill",
+      "term": "26-Week",
+      "auction_date": "2026-02-02",
+      "time_et": "11:30",
+      "fred": "DTB6",
+      "offering_bn": 76
+    },
+    {
+      "id": "note-3y-0113",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-01-13",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0114",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-01-14",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0115",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-01-15",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0127",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-01-27",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0128",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-01-28",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0129",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-01-29",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0210",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-02-10",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0211",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-02-11",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 42
+    },
+    {
+      "id": "bond-30y-0212",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-02-12",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 25
+    },
+    {
+      "id": "note-2y-0224",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-02-24",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0225",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-02-25",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0226",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-02-26",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0310",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-03-10",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0311",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-03-11",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0312",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-03-12",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0324",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-03-24",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0325",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-03-25",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0326",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-03-26",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0407",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-04-07",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0408",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-04-08",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0409",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-04-09",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0428",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-04-28",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0429",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-04-29",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0430",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-04-30",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0511",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-05-11",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0512",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-05-12",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 42
+    },
+    {
+      "id": "bond-30y-0513",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-05-13",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 25
+    },
+    {
+      "id": "note-2y-0526",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-05-26",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0527",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-05-27",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0528",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-05-28",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0609",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-06-09",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0610",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-06-10",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0611",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-06-11",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0623",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-06-23",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0624",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-06-24",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0625",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-06-25",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0707",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-07-07",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0708",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-07-08",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0709",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-07-09",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0728",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-07-28",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0729",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-07-29",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0730",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-07-30",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0811",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-08-11",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0812",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-08-12",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 42
+    },
+    {
+      "id": "bond-30y-0813",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-08-13",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 25
+    },
+    {
+      "id": "note-2y-0825",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-08-25",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0826",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-08-26",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0827",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-08-27",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-0908",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-09-08",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-0909",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-09-09",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-0910",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-09-10",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-0922",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-09-22",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-0923",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-09-23",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-0924",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-09-24",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-1006",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-10-06",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-1007",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-10-07",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-1008",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-10-08",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-1027",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-10-27",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-1028",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-10-28",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-1029",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-10-29",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-1110",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-11-10",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-1111",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-11-11",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 42
+    },
+    {
+      "id": "bond-30y-1112",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-11-12",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 25
+    },
+    {
+      "id": "note-2y-1124",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-11-24",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-1125",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-11-25",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    },
+    {
+      "id": "note-7y-1130",
+      "type": "Note",
+      "term": "7-Year",
+      "auction_date": "2026-11-30",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 44
+    },
+    {
+      "id": "note-3y-1208",
+      "type": "Note",
+      "term": "3-Year",
+      "auction_date": "2026-12-08",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 58
+    },
+    {
+      "id": "note-10y-1209",
+      "type": "Note",
+      "term": "10-Year",
+      "auction_date": "2026-12-09",
+      "time_et": "13:00",
+      "fred": "DGS10",
+      "offering_bn": 39
+    },
+    {
+      "id": "bond-30y-1210",
+      "type": "Bond",
+      "term": "30-Year",
+      "auction_date": "2026-12-10",
+      "time_et": "13:00",
+      "fred": "DGS30",
+      "offering_bn": 22
+    },
+    {
+      "id": "note-2y-1222",
+      "type": "Note",
+      "term": "2-Year",
+      "auction_date": "2026-12-22",
+      "time_et": "13:00",
+      "fred": "DGS2",
+      "offering_bn": 69
+    },
+    {
+      "id": "note-5y-1223",
+      "type": "Note",
+      "term": "5-Year",
+      "auction_date": "2026-12-23",
+      "time_et": "13:00",
+      "fred": "DGS5",
+      "offering_bn": 70
+    }
+  ]
+}
