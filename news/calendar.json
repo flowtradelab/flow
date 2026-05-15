@@ -1601,7 +1601,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Contagem de Sondas Baker Hughes",
-      "actual": "",
+      "actual": "415",
       "forecast": "",
       "previous": "410"
     },
@@ -1616,7 +1616,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Contagem Total de Sondas dos EUA por Baker Hughes",
-      "actual": "",
+      "actual": "551",
       "forecast": "",
       "previous": "548"
     },
@@ -1631,7 +1631,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Alumínio: Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "0,3K",
       "forecast": "",
       "previous": "0,4K"
     },
@@ -1646,7 +1646,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Cobre - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "76,3K",
       "forecast": "",
       "previous": "62,8K"
     },
@@ -1661,7 +1661,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Milho: Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "383,5K",
       "forecast": "",
       "previous": "433,4K"
     },
@@ -1676,7 +1676,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Petróleo - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "169,9K",
       "forecast": "",
       "previous": "178,8K"
     },
@@ -1691,7 +1691,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Ouro - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "171,6K",
       "forecast": "",
       "previous": "163,3K"
     },
@@ -1706,7 +1706,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Nasdaq 100 - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "-16,0K",
       "forecast": "",
       "previous": "1,2K"
     },
@@ -1721,7 +1721,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Gás Natural: Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "-176,3K",
       "forecast": "",
       "previous": "-166,6K"
     },
@@ -1736,7 +1736,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "S&P 500 - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "-143,8K",
       "forecast": "",
       "previous": "-103,9K"
     },
@@ -1751,7 +1751,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Prata - Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "26,1K",
       "forecast": "",
       "previous": "23,9K"
     },
@@ -1766,7 +1766,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Soja: Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "224,0K",
       "forecast": "",
       "previous": "232,2K"
     },
@@ -1781,7 +1781,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Trigo: Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "-14,4K",
       "forecast": "",
       "previous": "-16,7K"
     },
@@ -1796,12 +1796,12 @@
       "flag": "🇧🇷",
       "impact": "medium",
       "name": "BRL – Posições líquidas de especuladores no relatório da CFTC",
-      "actual": "",
+      "actual": "68,6K",
       "forecast": "",
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-15T16:23:15Z",
+  "updated_at": "2026-05-15T20:41:38Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
