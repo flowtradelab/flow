@@ -227,18 +227,19 @@ def update_brasil():
     # ── Snapshot atual (último valor de cada série) ───────────────────────────
     snapshot = {"_updated": datetime.utcnow().isoformat() + "Z"}
 
+    # Códigos SGS corretos — verificados no Portal de Dados Abertos BCB
     series_snapshot = {
-        "11":   "selic_meta",
-        "433":  "ipca",
-        "13522":"ipca_acum_12m",
-        "1":    "cdi",
-        "3":    "igpm",
-        "10813":"dolar_ptax",
-        "13":   "reservas_internacionais",
-        "4192": "balanca_comercial",
-        "7326": "resultado_primario",
-        "24369":"divida_bruta_pib",
-        "28":   "cambio_eur",
+        "432":  "selic_meta",           # Meta Selic % a.a. (definida pelo Copom)
+        "433":  "ipca",                 # IPCA % mês
+        "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses % a.a.
+        "4391": "cdi",                  # CDI acumulado no mês anualizado base 252
+        "189":  "igpm",                 # IGP-M % mês (FGV)
+        "10813":"dolar_ptax",           # Dólar PTAX venda (R$)
+        "13621":"reservas_internacionais", # Reservas internacionais conceito caixa (US$ mi)
+        "22704":"balanca_comercial",    # Balança comercial saldo mensal (US$ mi)
+        "5793": "resultado_primario",   # Resultado primário governo central (R$ mi)
+        "4537": "divida_bruta_pib",     # Dívida bruta governo geral % PIB
+        "21619":"cambio_eur",           # Euro PTAX venda (R$)
     }
 
     for serie_id, nome in series_snapshot.items():
@@ -287,12 +288,12 @@ def update_brasil():
     historico = load_json(path_hist)
 
     series_hist = {
-        "11":   "selic_meta",
-        "433":  "ipca",
-        "13522":"ipca_acum_12m",
-        "10813":"dolar_ptax",
-        "3":    "igpm",
-        "1":    "cdi",
+        "432":  "selic_meta",           # Meta Selic % a.a.
+        "433":  "ipca",                 # IPCA % mês
+        "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses
+        "10813":"dolar_ptax",           # Dólar PTAX venda
+        "189":  "igpm",                 # IGP-M % mês
+        "4391": "cdi",                  # CDI acumulado mês anualizado
     }
 
     for serie_id, nome in series_hist.items():
