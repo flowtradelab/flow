@@ -1411,6 +1411,21 @@
       "previous": "3,7%"
     },
     {
+      "id": "1835",
+      "date_iso": "2026-05-14",
+      "date_label": "Quinta, 14 Mai 2026",
+      "time": "14:00",
+      "sort_key": "2026-05-14 14:00",
+      "country": "EUA",
+      "country_code": "US",
+      "flag": "🇺🇸",
+      "impact": "medium",
+      "name": "Discurso de Bowman, Membro do FOMC",
+      "actual": "",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "id": "2145",
       "date_iso": "2026-05-14",
       "date_label": "Quinta, 14 Mai 2026",
@@ -1786,7 +1801,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-14T21:47:30Z",
+  "updated_at": "2026-05-15T08:31:07Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
