@@ -1,1 +1,24 @@
 
+{
+  "_updated": "2026-05-15T09:00:00Z",
+  "_note": "Atualizado diariamente via GitHub Actions. Fonte: Banco Central do Brasil.",
+  "selic_meta":              { "value": 14.50, "date": "29/04/2026" },
+  "ipca":                    { "value": 0.43,  "date": "01/04/2026" },
+  "ipca_acum_12m":           { "value": 4.39,  "date": "01/04/2026" },
+  "cdi":                     { "value": 14.40, "date": "15/05/2026" },
+  "igpm":                    { "value": 0.28,  "date": "01/04/2026" },
+  "dolar_ptax":              { "value": 5.82,  "date": "14/05/2026" },
+  "cambio_eur":              { "value": 6.51,  "date": "14/05/2026" },
+  "reservas_internacionais": { "value": 362450, "date": "01/04/2026" },
+  "balanca_comercial":       { "value": 1230,  "date": "10/05/2026" },
+  "resultado_primario":      { "value": -8420,  "date": "01/03/2026" },
+  "divida_bruta_pib":        { "value": 88.1,  "date": "01/03/2026" },
+  "focus": [
+    { "indicador": "IPCA",           "ano": "2026", "mediana": 4.86, "data": "12/05/2026" },
+    { "indicador": "IPCA",           "ano": "2027", "mediana": 4.00, "data": "12/05/2026" },
+    { "indicador": "Selic",          "ano": "2026", "mediana": 14.50,"data": "12/05/2026" },
+    { "indicador": "Selic",          "ano": "2027", "mediana": 12.50,"data": "12/05/2026" },
+    { "indicador": "PIB Total",      "ano": "2026", "mediana": 1.85, "data": "12/05/2026" },
+    { "indicador": "Taxa de câmbio", "ano": "2026", "mediana": 5.20, "data": "12/05/2026" }
+  ]
+}
