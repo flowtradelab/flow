@@ -1496,9 +1496,9 @@
       "flag": "🇧🇷",
       "impact": "high",
       "name": "Crescimento do Setor de Serviços (Mensal)  (Mar)",
-      "actual": "",
+      "actual": "-1,2%",
       "forecast": "",
-      "previous": "0,1%"
+      "previous": "0,0%"
     },
     {
       "id": "1881",
@@ -1511,9 +1511,9 @@
       "flag": "🇧🇷",
       "impact": "high",
       "name": "Crescimento do Setor de Serviços (Anual)  (Mar)",
-      "actual": "",
+      "actual": "3,0%",
       "forecast": "",
-      "previous": "0,5%"
+      "previous": "0,4%"
     },
     {
       "id": "323",
@@ -1526,7 +1526,7 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Índice Empire State de Atividade Industrial  (Mai)",
-      "actual": "",
+      "actual": "19,60",
       "forecast": "7,30",
       "previous": "11,00"
     },
@@ -1541,7 +1541,7 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Utilização da Capacidade Instalada  (Abr)",
-      "actual": "",
+      "actual": "76,1%",
       "forecast": "75,8%",
       "previous": "75,7%"
     },
@@ -1556,9 +1556,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Produção Industrial (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,7%",
       "forecast": "0,3%",
-      "previous": "-0,5%"
+      "previous": "-0,3%"
     },
     {
       "id": "1755",
@@ -1571,9 +1571,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Produção Industrial (Anual)  (Abr)",
-      "actual": "",
+      "actual": "1,35%",
       "forecast": "",
-      "previous": "0,74%"
+      "previous": "0,76%"
     },
     {
       "id": "1307",
@@ -1586,9 +1586,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Vendas da Indústria (Mensal)  (Abr)",
-      "actual": "",
+      "actual": "0,6%",
       "forecast": "0,2%",
-      "previous": "-0,1%"
+      "previous": "0,1%"
     },
     {
       "id": "1652",
@@ -1801,7 +1801,7 @@
       "previous": "66,8K"
     }
   ],
-  "updated_at": "2026-05-15T10:01:05Z",
+  "updated_at": "2026-05-15T16:23:15Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
