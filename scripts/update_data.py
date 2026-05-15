@@ -21,7 +21,7 @@ BCB_BASE      = "https://api.bcb.gov.br/dados/serie/bcdata.sgs"
 BIS_BASE      = "https://stats.bis.org/api/v2/data"
 
 CURRENT_YEAR  = date.today().year
-FROM_YEAR     = CURRENT_YEAR - 31  # 30 anos + margem
+FROM_YEAR     = 1995  # Dados a partir de 1995 (evita distorções do Plano Real)
 
 # Agregados regionais do World Bank — excluir do dataset de países
 WB_AGGREGATES = {
@@ -96,18 +96,45 @@ def wb_get(url: str, retries=3) -> dict:
                 print(f"  ✗ Erro: {url} — {e}")
                 return {}
 
-def bcb_get(serie: str, inicio: str = "01/01/1994") -> list:
-    hoje = date.today().strftime("%d/%m/%Y")
-    url  = f"{BCB_BASE}.{serie}/dados"
+def bcb_get(serie: str, inicio: str = "01/01/1995") -> list:
+    """Busca série do BCB em chunks de 10 anos (limite imposto desde mar/2025)."""
+    from datetime import datetime, timedelta
+
     headers = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
-    params  = {"formato": "json", "dataInicial": inicio, "dataFinal": hoje}
-    try:
-        r = requests.get(url, params=params, headers=headers, timeout=30)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"  ✗ BCB série {serie}: {e}")
-        return []
+    url     = f"{BCB_BASE}.{serie}/dados"
+    todos   = []
+
+    # Converte strings de data
+    fmt = "%d/%m/%Y"
+    dt_inicio = datetime.strptime(inicio, fmt)
+    dt_fim    = date.today()
+
+    # Divide em janelas de 9 anos (margem de segurança abaixo de 10)
+    chunk_anos = 9
+    dt_atual = dt_inicio
+    while dt_atual.date() <= dt_fim:
+        dt_chunk_fim = date(dt_atual.year + chunk_anos, dt_atual.month, dt_atual.day)
+        if dt_chunk_fim > dt_fim:
+            dt_chunk_fim = dt_fim
+
+        params = {
+            "formato":      "json",
+            "dataInicial":  dt_atual.strftime(fmt),
+            "dataFinal":    dt_chunk_fim.strftime(fmt),
+        }
+        try:
+            r = requests.get(url, params=params, headers=headers, timeout=30)
+            r.raise_for_status()
+            dados = r.json()
+            if isinstance(dados, list):
+                todos.extend(dados)
+        except Exception as e:
+            print(f"  ✗ BCB série {serie} ({params['dataInicial']}–{params['dataFinal']}): {e}")
+
+        dt_atual = datetime(dt_chunk_fim.year, dt_chunk_fim.month, dt_chunk_fim.day) + timedelta(days=1)
+        time.sleep(0.5)
+
+    return todos
 
 # ── 1. World Bank — Histórico por indicador ───────────────────────────────────
 def update_wb_history():
@@ -246,14 +273,14 @@ def update_brasil():
     # ── Snapshot atual (último valor de cada série) ───────────────────────────
     snapshot = {"_updated": datetime.utcnow().isoformat() + "Z"}
 
-    # Códigos SGS corretos — verificados no Portal de Dados Abertos BCB
+    # Códigos SGS verificados no Portal de Dados Abertos BCB
     series_snapshot = {
         "432":  "selic_meta",           # Meta Selic % a.a. (definida pelo Copom)
         "433":  "ipca",                 # IPCA % mês
         "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses % a.a.
-        "4391": "cdi",                  # CDI acumulado no mês anualizado base 252
+        "4389": "cdi",                  # CDI acumulado no mês anualizado base 252 % a.a.
         "189":  "igpm",                 # IGP-M % mês (FGV)
-        "10813":"dolar_ptax",           # Dólar PTAX venda (R$)
+        "10813":"dolar_ptax",           # Dólar PTAX venda diária (R$) — snapshot
         "13621":"reservas_internacionais", # Reservas internacionais conceito caixa (US$ mi)
         "22704":"balanca_comercial",    # Balança comercial saldo mensal (US$ mi)
         "5793": "resultado_primario",   # Resultado primário governo central (R$ mi)
@@ -314,16 +341,16 @@ def update_brasil():
     historico = load_json(path_hist)
 
     series_hist = {
-        "432":  "selic_meta",           # Meta Selic % a.a.
+        "4189": "selic_meta",           # Selic acumulada mês anualizada base 252 % a.a.
         "433":  "ipca",                 # IPCA % mês
         "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses
-        "10813":"dolar_ptax",           # Dólar PTAX venda
+        "3698": "dolar_ptax",           # Dólar PTAX venda média mensal (R$)
         "189":  "igpm",                 # IGP-M % mês
-        "4391": "cdi",                  # CDI acumulado mês anualizado
+        "4389": "cdi",                  # CDI acumulado mês anualizado base 252 % a.a.
     }
 
     for serie_id, nome in series_hist.items():
-        dados = bcb_get(serie_id, inicio="01/01/1994")
+        dados = bcb_get(serie_id, inicio="01/01/1995")
         serie = historico.setdefault(nome, {})
         novos = 0
         for d in dados:
