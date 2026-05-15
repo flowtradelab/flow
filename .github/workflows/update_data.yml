@@ -1,0 +1,40 @@
+name: 📊 Update Macro Data
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # Todo dia às 09:00 UTC (06:00 BRT)
+  workflow_dispatch:        # Permite rodar manualmente pelo GitHub
+
+jobs:
+  update:
+    name: Fetch & commit macro data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Permite fazer commit
+
+    steps:
+      - name: 📥 Checkout repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalar dependências
+        run: pip install requests
+
+      - name: 🔄 Rodar script de atualização
+        run: python scripts/update_data.py
+
+      - name: 📤 Commit e push dos dados atualizados
+        run: |
+          git config user.name  "macro-radar-bot"
+          git config user.email "bot@macro-radar"
+          git add data/
+          # Só faz commit se houver mudanças
+          git diff --cached --quiet || git commit -m "📊 Data update $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
