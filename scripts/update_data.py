@@ -275,7 +275,7 @@ def update_brasil():
 
     # Códigos SGS verificados no Portal de Dados Abertos BCB
     series_snapshot = {
-        "432":  "selic_meta",           # Meta Selic % a.a. (definida pelo Copom)
+        "1178": "selic_meta",           # Selic anualizada base 252 % a.a. (proxy da meta)
         "433":  "ipca",                 # IPCA % mês
         "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses % a.a.
         "4389": "cdi",                  # CDI acumulado no mês anualizado base 252 % a.a.
@@ -341,7 +341,7 @@ def update_brasil():
     historico = load_json(path_hist)
 
     series_hist = {
-        "4189": "selic_meta",           # Selic acumulada mês anualizada base 252 % a.a.
+        "432":  "selic_meta",           # Meta Selic definida pelo Copom % a.a.
         "433":  "ipca",                 # IPCA % mês
         "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses
         "3698": "dolar_ptax",           # Dólar PTAX venda média mensal (R$)
