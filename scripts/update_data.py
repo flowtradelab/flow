@@ -98,9 +98,11 @@ def wb_get(url: str, retries=3) -> dict:
 
 def bcb_get(serie: str, inicio: str = "01/01/1994") -> list:
     hoje = date.today().strftime("%d/%m/%Y")
-    url  = f"{BCB_BASE}.{serie}/dados?formato=json&dataInicial={inicio}&dataFinal={hoje}"
+    url  = f"{BCB_BASE}.{serie}/dados"
+    headers = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
+    params  = {"formato": "json", "dataInicial": inicio, "dataFinal": hoje}
     try:
-        r = requests.get(url, timeout=30)
+        r = requests.get(url, params=params, headers=headers, timeout=30)
         r.raise_for_status()
         return r.json()
     except Exception as e:
@@ -114,10 +116,22 @@ def update_wb_history():
         path = os.path.join(HISTORIA_DIR, f"{wb_id}.json")
         historico = load_json(path)  # { iso3: { "2020": 1234.5, ... } }
 
-        url  = (f"{WB_BASE}/country/all/indicator/{wb_id}"
-                f"?format=json&date={FROM_YEAR}:{CURRENT_YEAR}&per_page=5000")
-        data = wb_get(url)
-        rows = data[1] if isinstance(data, list) and len(data) > 1 else []
+        # Busca com paginação — WB limita 1000 por página
+        rows = []
+        page = 1
+        while True:
+            url = (f"{WB_BASE}/country/all/indicator/{wb_id}"
+                   f"?format=json&date={FROM_YEAR}:{CURRENT_YEAR}&per_page=1000&page={page}")
+            data = wb_get(url)
+            if not isinstance(data, list) or len(data) < 2:
+                break
+            batch = data[1] or []
+            rows.extend(batch)
+            meta = data[0]
+            if page >= int(meta.get("pages", 1)):
+                break
+            page += 1
+            time.sleep(0.3)
 
         novos = 0
         for row in rows:
@@ -205,11 +219,16 @@ def update_bis_rates():
     # Snapshot atual (último valor de cada país)
     snapshot = {}
     for iso2, periodos in historico.items():
-        if not periodos:
+        if not periodos or not isinstance(periodos, dict):
             continue
-        ultimo_periodo = sorted(periodos.keys())[-1]
+        if iso2.startswith("_"):
+            continue
+        periodos_validos = {k: v for k, v in periodos.items() if not k.startswith("_")}
+        if not periodos_validos:
+            continue
+        ultimo_periodo = sorted(periodos_validos.keys())[-1]
         snapshot[iso2] = {
-            "value":  periodos[ultimo_periodo],
+            "value":  periodos_validos[ultimo_periodo],
             "period": ultimo_periodo,
         }
 
@@ -263,8 +282,15 @@ def update_brasil():
 
     # ── Focus — expectativas de mercado ──────────────────────────────────────
     try:
-        focus_url = "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativaMercadoTop5Anuais?$top=20&$filter=Indicador%20eq%20'IPCA'%20or%20Indicador%20eq%20'Selic'%20or%20Indicador%20eq%20'PIB%20Total'%20or%20Indicador%20eq%20'Taxa%20de%20c%C3%A2mbio'&$format=json&$select=Indicador,Ano,Mediana,Data"
-        r = requests.get(focus_url, timeout=20)
+        focus_url = "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativaMercadoAnuais"
+        focus_params = {
+            "$top": "50",
+            "$filter": "Indicador eq 'IPCA' or Indicador eq 'Selic' or Indicador eq 'PIB Total' or Indicador eq 'Taxa de câmbio'",
+            "$format": "json",
+            "$select": "Indicador,Ano,Mediana,Data",
+            "$orderby": "Data desc",
+        }
+        r = requests.get(focus_url, params=focus_params, timeout=20)
         r.raise_for_status()
         focus_raw = r.json().get("value", [])
         focus = {}
