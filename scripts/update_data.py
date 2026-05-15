@@ -275,7 +275,7 @@ def update_brasil():
 
     # Códigos SGS verificados no Portal de Dados Abertos BCB
     series_snapshot = {
-        "1178": "selic_meta",           # Selic anualizada base 252 % a.a. (proxy da meta)
+        "432":  "selic_meta",           # Meta Selic % a.a. — mesma série do histórico
         "433":  "ipca",                 # IPCA % mês
         "13522":"ipca_acum_12m",        # IPCA acumulado 12 meses % a.a.
         "4389": "cdi",                  # CDI acumulado no mês anualizado base 252 % a.a.
