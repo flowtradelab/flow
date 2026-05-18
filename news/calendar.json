@@ -101,9 +101,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Compras Líquidas Estrangeiras de T-bonds  (Mar)",
-      "actual": "",
+      "actual": "13,50B",
       "forecast": "",
-      "previous": "2,00B"
+      "previous": "2,60B"
     },
     {
       "id": "663",
@@ -116,9 +116,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Fluxo Líquido de Capital  (Mar)",
-      "actual": "",
+      "actual": "150,70B",
       "forecast": "",
-      "previous": "184,50B"
+      "previous": "182,70B"
     },
     {
       "id": "283",
@@ -131,9 +131,9 @@
       "flag": "🇺🇸",
       "impact": "medium",
       "name": "Transações Líquidas de Longo Prazo  (Mar)",
-      "actual": "",
-      "forecast": "",
-      "previous": "58,6B"
+      "actual": "81,3B",
+      "forecast": "87,2B",
+      "previous": "57,0B"
     },
     {
       "id": "903",
@@ -146,9 +146,9 @@
       "flag": "🇺🇸",
       "impact": "low",
       "name": "Transações Líquidas de Longo Prazo incl. Swaps  (Mar)",
-      "actual": "",
+      "actual": "81,30B",
       "forecast": "82,40B",
-      "previous": "58,60B"
+      "previous": "57,00B"
     },
     {
       "id": "1997",
@@ -1231,7 +1231,7 @@
       "previous": "68,6K"
     }
   ],
-  "updated_at": "2026-05-18T17:48:18Z",
+  "updated_at": "2026-05-18T21:53:47Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
