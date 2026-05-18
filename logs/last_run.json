@@ -1,27 +1,27 @@
 {
   "status": "ok",
-  "executado_em": "2026-05-14 15:25:41 BRT",
-  "executado_em_ts": 1778783141,
+  "executado_em": "2026-05-18 15:27:37 BRT",
+  "executado_em_ts": 1779128857,
   "arquivos": {
     "series_autorizadas": {
       "nome": "SI_D_SEDE.txt",
-      "tamanho_mb": 18.67,
-      "data_pregao": "2026-05-13",
-      "data_geracao": "2026-05-14",
-      "hora_geracao": "00:01:35",
-      "last_modified_http": "Thu, 14 May 2026 18:20:29 GMT",
-      "opcoes_total": 113880
+      "tamanho_mb": 15.87,
+      "data_pregao": "2026-05-15",
+      "data_geracao": "2026-05-16",
+      "hora_geracao": "00:19:42",
+      "last_modified_http": "Mon, 18 May 2026 18:23:52 GMT",
+      "opcoes_total": 96352
     },
     "bdi": {
-      "nome": "BDI_03-4_20260513.pdf",
-      "tamanho_mb": 8.15,
-      "data_referencia": "2026-05-13",
-      "opcoes_com_oi": 45109
+      "nome": "BDI_03-4_20260515.pdf",
+      "tamanho_mb": 6.84,
+      "data_referencia": "2026-05-15",
+      "opcoes_com_oi": 36718
     }
   },
   "processamento": {
-    "opcoes_com_join": 42410,
-    "opcoes_sem_oi": 71470,
+    "opcoes_com_join": 34039,
+    "opcoes_sem_oi": 62313,
     "tickers_gerados": 224,
     "arquivos_alterados": 224
   },
