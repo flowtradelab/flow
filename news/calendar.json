@@ -207,7 +207,7 @@
       "impact": "medium",
       "name": "Vendas Pendentes de Moradias (Mensal)  (Abr)",
       "actual": "",
-      "forecast": "1,2%",
+      "forecast": "1,0%",
       "previous": "1,5%"
     },
     {
@@ -237,7 +237,7 @@
       "impact": "medium",
       "name": "Estoques de Petróleo Bruto Semanal API",
       "actual": "",
-      "forecast": "",
+      "forecast": "-3,400M",
       "previous": "-2,188M"
     },
     {
@@ -1231,7 +1231,7 @@
       "previous": "68,6K"
     }
   ],
-  "updated_at": "2026-05-18T21:53:47Z",
+  "updated_at": "2026-05-19T10:47:16Z",
   "source": "Investing.com via GitHub Actions",
   "next_update": "~30 minutos"
 }
