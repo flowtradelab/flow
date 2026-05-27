@@ -1,5 +1,5 @@
 PNT Trade Lab — Pair Trading Log
-Data: 2026-05-27T18:01:06
+Data: 2026-05-27T18:36:58
 Tickers: 69 (Ibovespa)
 ────────────────────────────────────────
 Período   Pares Arquivo
