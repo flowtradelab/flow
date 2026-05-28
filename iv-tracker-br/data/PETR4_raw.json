@@ -1,0 +1,1238 @@
+{
+  "success": true,
+  "data": {
+    "ativo": "PETR4",
+    "dataInicial": "2025-10-13T00:00:00",
+    "dataFinal": "2026-05-27T00:00:00",
+    "dateTimeGroupOption": "Date",
+    "html": "\r\n            <div class=\"row top-buffer-20\">\r\n                <div class=\"col-md-4\">\r\n                    <table class=\"table table-bordered table-condensed table-percentil\" data-idacao=\"PETR4\" data-percentilatm=\"62\">\r\n                        <thead>\r\n                            <tr>\r\n                                <th rowspan=\"2\">\r\n                                    <span class=\"lead\">PETR4</span><br />\r\n                                    <a target=\"_blank\" title=\"Lista de opções de PETR4\" href=\"/opcoes/bovespa/PETR4\">Opções</a>\r\n                                    &nbsp;&nbsp;&nbsp;\r\n                                    <a target=\"_blank\" title=\"Panorama completo de PETR4\" href=\"/PETR4\">Panorama</a>\r\n                                </th>\r\n                                <th colspan=\"2\">GERAL</th>\r\n                                <th colspan=\"2\">CALL</th>\r\n                                <th colspan=\"2\">PUT</th>\r\n                            </tr>\r\n                            <tr>\r\n                                <th>Vol.</th>\r\n                                <th>Perc.</th>\r\n                                <th>Vol.</th>\r\n                                <th>Perc.</th>\r\n                                <th>Vol.</th>\r\n                                <th>Perc.</th>\r\n                            </tr>\r\n                        </thead>\r\n                        <tbody>\r\n                                <tr data-distancia=\"ATM entre -5% e &#x2B;5%\">\r\n                                    <td>ATM entre -5% e &#x2B;5%</td>\r\n                                    <td data-tipo=\"\">33,1%</td>\r\n                                        <td data-tipo=\"\" >62º</td>\r\n                                        <td data-tipo=\"CALL\">32,0%</td>\r\n                                            <td data-tipo=\"CALL\" >61º</td>\r\n                                        <td data-tipo=\"PUT\">34,2%</td>\r\n                                            <td data-tipo=\"PUT\" >62º</td>\r\n                                </tr>\r\n                                <tr data-distancia=\"ITM acima de 15%\">\r\n                                    <td>ITM acima de 15%</td>\r\n                                    <td data-tipo=\"\">39,7%</td>\r\n                                        <td data-tipo=\"\" >41º</td>\r\n                                        <td data-tipo=\"CALL\">31,8%</td>\r\n                                            <td data-tipo=\"CALL\" >25º</td>\r\n                                        <td data-tipo=\"PUT\">44,0%</td>\r\n                                            <td data-tipo=\"PUT\" >49º</td>\r\n                                </tr>\r\n                                <tr data-distancia=\"ITM entre 5% e 15%\">\r\n                                    <td>ITM entre 5% e 15%</td>\r\n                                    <td data-tipo=\"\">33,6%</td>\r\n                                        <td data-tipo=\"\" >62º</td>\r\n                                        <td data-tipo=\"CALL\">30,2%</td>\r\n                                            <td data-tipo=\"CALL\" >52º</td>\r\n                                        <td data-tipo=\"PUT\">36,8%</td>\r\n                                            <td data-tipo=\"PUT\" >68º</td>\r\n                                </tr>\r\n                                <tr data-distancia=\"OTM acima de 15%\">\r\n                                    <td>OTM acima de 15%</td>\r\n                                    <td data-tipo=\"\">38,8%</td>\r\n                                        <td data-tipo=\"\" >51º</td>\r\n                                        <td data-tipo=\"CALL\">36,8%</td>\r\n                                            <td data-tipo=\"CALL\" >55º</td>\r\n                                        <td data-tipo=\"PUT\">41,4%</td>\r\n                                            <td data-tipo=\"PUT\" >41º</td>\r\n                                </tr>\r\n                                <tr data-distancia=\"OTM entre 5% e 15%\">\r\n                                    <td>OTM entre 5% e 15%</td>\r\n                                    <td data-tipo=\"\">34,0%</td>\r\n                                        <td data-tipo=\"\" >57º</td>\r\n                                        <td data-tipo=\"CALL\">32,8%</td>\r\n                                            <td data-tipo=\"CALL\" >57º</td>\r\n                                        <td data-tipo=\"PUT\">35,3%</td>\r\n                                            <td data-tipo=\"PUT\" >60º</td>\r\n                                </tr>\r\n                        </tbody>\r\n                    </table>\r\n                </div>\r\n                <div class=\"col-md-8\">\r\n                    <div style=\"border: 1px solid groove\" id=\"histVolImplPETR4\" class=\"mg-main-area-solid\"></div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row\">\r\n                <div class=\"col-md-12\"><hr /></div>\r\n            </div>\r\n",
+    "chartData": [
+      {
+        "datetime": "2025-10-13",
+        "numTotalNegocios": 6655,
+        "vol_DIAS_EM_252": 0.24658,
+        "vol_DIAS_EM_365": 0.24658,
+        "vol_SEGS_EM_252": 0.24658,
+        "vol_SEGS_EM_365": 0.24658
+      },
+      {
+        "datetime": "2025-10-14",
+        "numTotalNegocios": 10593,
+        "vol_DIAS_EM_252": 0.24575,
+        "vol_DIAS_EM_365": 0.24575,
+        "vol_SEGS_EM_252": 0.24575,
+        "vol_SEGS_EM_365": 0.24575
+      },
+      {
+        "datetime": "2025-10-15",
+        "numTotalNegocios": 14870,
+        "vol_DIAS_EM_252": 0.23889,
+        "vol_DIAS_EM_365": 0.23889,
+        "vol_SEGS_EM_252": 0.23889,
+        "vol_SEGS_EM_365": 0.23889
+      },
+      {
+        "datetime": "2025-10-16",
+        "numTotalNegocios": 11572,
+        "vol_DIAS_EM_252": 0.23456,
+        "vol_DIAS_EM_365": 0.23456,
+        "vol_SEGS_EM_252": 0.23456,
+        "vol_SEGS_EM_365": 0.23456
+      },
+      {
+        "datetime": "2025-10-17",
+        "numTotalNegocios": 16072,
+        "vol_DIAS_EM_252": 0.24637,
+        "vol_DIAS_EM_365": 0.24637,
+        "vol_SEGS_EM_252": 0.24637,
+        "vol_SEGS_EM_365": 0.24637
+      },
+      {
+        "datetime": "2025-10-20",
+        "numTotalNegocios": 23687,
+        "vol_DIAS_EM_252": 0.24798,
+        "vol_DIAS_EM_365": 0.24798,
+        "vol_SEGS_EM_252": 0.24798,
+        "vol_SEGS_EM_365": 0.24798
+      },
+      {
+        "datetime": "2025-10-21",
+        "numTotalNegocios": 17134,
+        "vol_DIAS_EM_252": 0.25199,
+        "vol_DIAS_EM_365": 0.25199,
+        "vol_SEGS_EM_252": 0.25199,
+        "vol_SEGS_EM_365": 0.25199
+      },
+      {
+        "datetime": "2025-10-22",
+        "numTotalNegocios": 18843,
+        "vol_DIAS_EM_252": 0.24544,
+        "vol_DIAS_EM_365": 0.24544,
+        "vol_SEGS_EM_252": 0.24544,
+        "vol_SEGS_EM_365": 0.24544
+      },
+      {
+        "datetime": "2025-10-23",
+        "numTotalNegocios": 22509,
+        "vol_DIAS_EM_252": 0.24985,
+        "vol_DIAS_EM_365": 0.24985,
+        "vol_SEGS_EM_252": 0.24985,
+        "vol_SEGS_EM_365": 0.24985
+      },
+      {
+        "datetime": "2025-10-24",
+        "numTotalNegocios": 15581,
+        "vol_DIAS_EM_252": 0.24307,
+        "vol_DIAS_EM_365": 0.24307,
+        "vol_SEGS_EM_252": 0.24307,
+        "vol_SEGS_EM_365": 0.24307
+      },
+      {
+        "datetime": "2025-10-27",
+        "numTotalNegocios": 13876,
+        "vol_DIAS_EM_252": 0.23935,
+        "vol_DIAS_EM_365": 0.23935,
+        "vol_SEGS_EM_252": 0.23935,
+        "vol_SEGS_EM_365": 0.23935
+      },
+      {
+        "datetime": "2025-10-28",
+        "numTotalNegocios": 19564,
+        "vol_DIAS_EM_252": 0.24117,
+        "vol_DIAS_EM_365": 0.24117,
+        "vol_SEGS_EM_252": 0.24117,
+        "vol_SEGS_EM_365": 0.24117
+      },
+      {
+        "datetime": "2025-10-29",
+        "numTotalNegocios": 20006,
+        "vol_DIAS_EM_252": 0.24759,
+        "vol_DIAS_EM_365": 0.24759,
+        "vol_SEGS_EM_252": 0.24759,
+        "vol_SEGS_EM_365": 0.24759
+      },
+      {
+        "datetime": "2025-10-30",
+        "numTotalNegocios": 13905,
+        "vol_DIAS_EM_252": 0.24586,
+        "vol_DIAS_EM_365": 0.24586,
+        "vol_SEGS_EM_252": 0.24586,
+        "vol_SEGS_EM_365": 0.24586
+      },
+      {
+        "datetime": "2025-10-31",
+        "numTotalNegocios": 17192,
+        "vol_DIAS_EM_252": 0.24712,
+        "vol_DIAS_EM_365": 0.24712,
+        "vol_SEGS_EM_252": 0.24712,
+        "vol_SEGS_EM_365": 0.24712
+      },
+      {
+        "datetime": "2025-11-03",
+        "numTotalNegocios": 18342,
+        "vol_DIAS_EM_252": 0.24241,
+        "vol_DIAS_EM_365": 0.24241,
+        "vol_SEGS_EM_252": 0.24241,
+        "vol_SEGS_EM_365": 0.24241
+      },
+      {
+        "datetime": "2025-11-04",
+        "numTotalNegocios": 11690,
+        "vol_DIAS_EM_252": 0.24476,
+        "vol_DIAS_EM_365": 0.24476,
+        "vol_SEGS_EM_252": 0.24476,
+        "vol_SEGS_EM_365": 0.24476
+      },
+      {
+        "datetime": "2025-11-05",
+        "numTotalNegocios": 40358,
+        "vol_DIAS_EM_252": 0.25135,
+        "vol_DIAS_EM_365": 0.25135,
+        "vol_SEGS_EM_252": 0.25135,
+        "vol_SEGS_EM_365": 0.25135
+      },
+      {
+        "datetime": "2025-11-06",
+        "numTotalNegocios": 32092,
+        "vol_DIAS_EM_252": 0.2719,
+        "vol_DIAS_EM_365": 0.2719,
+        "vol_SEGS_EM_252": 0.2719,
+        "vol_SEGS_EM_365": 0.2719
+      },
+      {
+        "datetime": "2025-11-07",
+        "numTotalNegocios": 15903,
+        "vol_DIAS_EM_252": 0.22985,
+        "vol_DIAS_EM_365": 0.22985,
+        "vol_SEGS_EM_252": 0.22985,
+        "vol_SEGS_EM_365": 0.22985
+      },
+      {
+        "datetime": "2025-11-10",
+        "numTotalNegocios": 11391,
+        "vol_DIAS_EM_252": 0.21875,
+        "vol_DIAS_EM_365": 0.21875,
+        "vol_SEGS_EM_252": 0.21875,
+        "vol_SEGS_EM_365": 0.21875
+      },
+      {
+        "datetime": "2025-11-11",
+        "numTotalNegocios": 16308,
+        "vol_DIAS_EM_252": 0.22026,
+        "vol_DIAS_EM_365": 0.22026,
+        "vol_SEGS_EM_252": 0.22026,
+        "vol_SEGS_EM_365": 0.22026
+      },
+      {
+        "datetime": "2025-11-12",
+        "numTotalNegocios": 11226,
+        "vol_DIAS_EM_252": 0.23534,
+        "vol_DIAS_EM_365": 0.23534,
+        "vol_SEGS_EM_252": 0.23534,
+        "vol_SEGS_EM_365": 0.23534
+      },
+      {
+        "datetime": "2025-11-13",
+        "numTotalNegocios": 8556,
+        "vol_DIAS_EM_252": 0.23889,
+        "vol_DIAS_EM_365": 0.23889,
+        "vol_SEGS_EM_252": 0.23889,
+        "vol_SEGS_EM_365": 0.23889
+      },
+      {
+        "datetime": "2025-11-14",
+        "numTotalNegocios": 6551,
+        "vol_DIAS_EM_252": 0.23645,
+        "vol_DIAS_EM_365": 0.23645,
+        "vol_SEGS_EM_252": 0.23645,
+        "vol_SEGS_EM_365": 0.23645
+      },
+      {
+        "datetime": "2025-11-17",
+        "numTotalNegocios": 7181,
+        "vol_DIAS_EM_252": 0.23302,
+        "vol_DIAS_EM_365": 0.23302,
+        "vol_SEGS_EM_252": 0.23302,
+        "vol_SEGS_EM_365": 0.23302
+      },
+      {
+        "datetime": "2025-11-18",
+        "numTotalNegocios": 22478,
+        "vol_DIAS_EM_252": 0.23063,
+        "vol_DIAS_EM_365": 0.23063,
+        "vol_SEGS_EM_252": 0.23063,
+        "vol_SEGS_EM_365": 0.23063
+      },
+      {
+        "datetime": "2025-11-19",
+        "numTotalNegocios": 14165,
+        "vol_DIAS_EM_252": 0.23891,
+        "vol_DIAS_EM_365": 0.23891,
+        "vol_SEGS_EM_252": 0.23891,
+        "vol_SEGS_EM_365": 0.23891
+      },
+      {
+        "datetime": "2025-11-21",
+        "numTotalNegocios": 11904,
+        "vol_DIAS_EM_252": 0.23713,
+        "vol_DIAS_EM_365": 0.23713,
+        "vol_SEGS_EM_252": 0.23713,
+        "vol_SEGS_EM_365": 0.23713
+      },
+      {
+        "datetime": "2025-11-24",
+        "numTotalNegocios": 20922,
+        "vol_DIAS_EM_252": 0.22932,
+        "vol_DIAS_EM_365": 0.22932,
+        "vol_SEGS_EM_252": 0.22932,
+        "vol_SEGS_EM_365": 0.22932
+      },
+      {
+        "datetime": "2025-11-25",
+        "numTotalNegocios": 15208,
+        "vol_DIAS_EM_252": 0.23321,
+        "vol_DIAS_EM_365": 0.23321,
+        "vol_SEGS_EM_252": 0.23321,
+        "vol_SEGS_EM_365": 0.23321
+      },
+      {
+        "datetime": "2025-11-26",
+        "numTotalNegocios": 13014,
+        "vol_DIAS_EM_252": 0.23069,
+        "vol_DIAS_EM_365": 0.23069,
+        "vol_SEGS_EM_252": 0.23069,
+        "vol_SEGS_EM_365": 0.23069
+      },
+      {
+        "datetime": "2025-11-27",
+        "numTotalNegocios": 17443,
+        "vol_DIAS_EM_252": 0.23701,
+        "vol_DIAS_EM_365": 0.23701,
+        "vol_SEGS_EM_252": 0.23701,
+        "vol_SEGS_EM_365": 0.23701
+      },
+      {
+        "datetime": "2025-11-28",
+        "numTotalNegocios": 22247,
+        "vol_DIAS_EM_252": 0.23853,
+        "vol_DIAS_EM_365": 0.23853,
+        "vol_SEGS_EM_252": 0.23853,
+        "vol_SEGS_EM_365": 0.23853
+      },
+      {
+        "datetime": "2025-12-01",
+        "numTotalNegocios": 13304,
+        "vol_DIAS_EM_252": 0.22521,
+        "vol_DIAS_EM_365": 0.22521,
+        "vol_SEGS_EM_252": 0.22521,
+        "vol_SEGS_EM_365": 0.22521
+      },
+      {
+        "datetime": "2025-12-02",
+        "numTotalNegocios": 14146,
+        "vol_DIAS_EM_252": 0.21955,
+        "vol_DIAS_EM_365": 0.21955,
+        "vol_SEGS_EM_252": 0.21955,
+        "vol_SEGS_EM_365": 0.21955
+      },
+      {
+        "datetime": "2025-12-03",
+        "numTotalNegocios": 17622,
+        "vol_DIAS_EM_252": 0.21554,
+        "vol_DIAS_EM_365": 0.21554,
+        "vol_SEGS_EM_252": 0.21554,
+        "vol_SEGS_EM_365": 0.21554
+      },
+      {
+        "datetime": "2025-12-04",
+        "numTotalNegocios": 20921,
+        "vol_DIAS_EM_252": 0.20953,
+        "vol_DIAS_EM_365": 0.20953,
+        "vol_SEGS_EM_252": 0.20953,
+        "vol_SEGS_EM_365": 0.20953
+      },
+      {
+        "datetime": "2025-12-05",
+        "numTotalNegocios": 10346,
+        "vol_DIAS_EM_252": 0.23549,
+        "vol_DIAS_EM_365": 0.23549,
+        "vol_SEGS_EM_252": 0.23549,
+        "vol_SEGS_EM_365": 0.23549
+      },
+      {
+        "datetime": "2025-12-08",
+        "numTotalNegocios": 4466,
+        "vol_DIAS_EM_252": 0.22939,
+        "vol_DIAS_EM_365": 0.22939,
+        "vol_SEGS_EM_252": 0.22939,
+        "vol_SEGS_EM_365": 0.22939
+      },
+      {
+        "datetime": "2025-12-09",
+        "numTotalNegocios": 4979,
+        "vol_DIAS_EM_252": 0.23822,
+        "vol_DIAS_EM_365": 0.23822,
+        "vol_SEGS_EM_252": 0.23822,
+        "vol_SEGS_EM_365": 0.23822
+      },
+      {
+        "datetime": "2025-12-10",
+        "numTotalNegocios": 3573,
+        "vol_DIAS_EM_252": 0.23379,
+        "vol_DIAS_EM_365": 0.23379,
+        "vol_SEGS_EM_252": 0.23379,
+        "vol_SEGS_EM_365": 0.23379
+      },
+      {
+        "datetime": "2025-12-11",
+        "numTotalNegocios": 8275,
+        "vol_DIAS_EM_252": 0.23165,
+        "vol_DIAS_EM_365": 0.23165,
+        "vol_SEGS_EM_252": 0.23165,
+        "vol_SEGS_EM_365": 0.23165
+      },
+      {
+        "datetime": "2025-12-12",
+        "numTotalNegocios": 6865,
+        "vol_DIAS_EM_252": 0.22176,
+        "vol_DIAS_EM_365": 0.22176,
+        "vol_SEGS_EM_252": 0.22176,
+        "vol_SEGS_EM_365": 0.22176
+      },
+      {
+        "datetime": "2025-12-15",
+        "numTotalNegocios": 17743,
+        "vol_DIAS_EM_252": 0.21035,
+        "vol_DIAS_EM_365": 0.21035,
+        "vol_SEGS_EM_252": 0.21035,
+        "vol_SEGS_EM_365": 0.21035
+      },
+      {
+        "datetime": "2025-12-16",
+        "numTotalNegocios": 17815,
+        "vol_DIAS_EM_252": 0.21925,
+        "vol_DIAS_EM_365": 0.21925,
+        "vol_SEGS_EM_252": 0.21925,
+        "vol_SEGS_EM_365": 0.21925
+      },
+      {
+        "datetime": "2025-12-17",
+        "numTotalNegocios": 14173,
+        "vol_DIAS_EM_252": 0.22076,
+        "vol_DIAS_EM_365": 0.22076,
+        "vol_SEGS_EM_252": 0.22076,
+        "vol_SEGS_EM_365": 0.22076
+      },
+      {
+        "datetime": "2025-12-18",
+        "numTotalNegocios": 16232,
+        "vol_DIAS_EM_252": 0.21013,
+        "vol_DIAS_EM_365": 0.21013,
+        "vol_SEGS_EM_252": 0.21013,
+        "vol_SEGS_EM_365": 0.21013
+      },
+      {
+        "datetime": "2025-12-19",
+        "numTotalNegocios": 15968,
+        "vol_DIAS_EM_252": 0.20379,
+        "vol_DIAS_EM_365": 0.20379,
+        "vol_SEGS_EM_252": 0.20379,
+        "vol_SEGS_EM_365": 0.20379
+      },
+      {
+        "datetime": "2025-12-22",
+        "numTotalNegocios": 18866,
+        "vol_DIAS_EM_252": 0.20707,
+        "vol_DIAS_EM_365": 0.20707,
+        "vol_SEGS_EM_252": 0.20707,
+        "vol_SEGS_EM_365": 0.20707
+      },
+      {
+        "datetime": "2025-12-23",
+        "numTotalNegocios": 11083,
+        "vol_DIAS_EM_252": 0.21366,
+        "vol_DIAS_EM_365": 0.21366,
+        "vol_SEGS_EM_252": 0.21366,
+        "vol_SEGS_EM_365": 0.21366
+      },
+      {
+        "datetime": "2025-12-26",
+        "numTotalNegocios": 9632,
+        "vol_DIAS_EM_252": 0.21218,
+        "vol_DIAS_EM_365": 0.21218,
+        "vol_SEGS_EM_252": 0.21218,
+        "vol_SEGS_EM_365": 0.21218
+      },
+      {
+        "datetime": "2025-12-29",
+        "numTotalNegocios": 12206,
+        "vol_DIAS_EM_252": 0.20094,
+        "vol_DIAS_EM_365": 0.20094,
+        "vol_SEGS_EM_252": 0.20094,
+        "vol_SEGS_EM_365": 0.20094
+      },
+      {
+        "datetime": "2025-12-30",
+        "numTotalNegocios": 10794,
+        "vol_DIAS_EM_252": 0.19872,
+        "vol_DIAS_EM_365": 0.19872,
+        "vol_SEGS_EM_252": 0.19872,
+        "vol_SEGS_EM_365": 0.19872
+      },
+      {
+        "datetime": "2026-01-02",
+        "numTotalNegocios": 3156,
+        "vol_DIAS_EM_252": 0.21268,
+        "vol_DIAS_EM_365": 0.21268,
+        "vol_SEGS_EM_252": 0.21268,
+        "vol_SEGS_EM_365": 0.21268
+      },
+      {
+        "datetime": "2026-01-05",
+        "numTotalNegocios": 8747,
+        "vol_DIAS_EM_252": 0.21975,
+        "vol_DIAS_EM_365": 0.21975,
+        "vol_SEGS_EM_252": 0.21975,
+        "vol_SEGS_EM_365": 0.21975
+      },
+      {
+        "datetime": "2026-01-06",
+        "numTotalNegocios": 6795,
+        "vol_DIAS_EM_252": 0.21934,
+        "vol_DIAS_EM_365": 0.21934,
+        "vol_SEGS_EM_252": 0.21934,
+        "vol_SEGS_EM_365": 0.21934
+      },
+      {
+        "datetime": "2026-01-07",
+        "numTotalNegocios": 5509,
+        "vol_DIAS_EM_252": 0.23189,
+        "vol_DIAS_EM_365": 0.23189,
+        "vol_SEGS_EM_252": 0.23189,
+        "vol_SEGS_EM_365": 0.23189
+      },
+      {
+        "datetime": "2026-01-08",
+        "numTotalNegocios": 8973,
+        "vol_DIAS_EM_252": 0.21295,
+        "vol_DIAS_EM_365": 0.21295,
+        "vol_SEGS_EM_252": 0.21295,
+        "vol_SEGS_EM_365": 0.21295
+      },
+      {
+        "datetime": "2026-01-09",
+        "numTotalNegocios": 7329,
+        "vol_DIAS_EM_252": 0.21521,
+        "vol_DIAS_EM_365": 0.21521,
+        "vol_SEGS_EM_252": 0.21521,
+        "vol_SEGS_EM_365": 0.21521
+      },
+      {
+        "datetime": "2026-01-12",
+        "numTotalNegocios": 8580,
+        "vol_DIAS_EM_252": 0.20999,
+        "vol_DIAS_EM_365": 0.20999,
+        "vol_SEGS_EM_252": 0.20999,
+        "vol_SEGS_EM_365": 0.20999
+      },
+      {
+        "datetime": "2026-01-13",
+        "numTotalNegocios": 22267,
+        "vol_DIAS_EM_252": 0.20332,
+        "vol_DIAS_EM_365": 0.20332,
+        "vol_SEGS_EM_252": 0.20332,
+        "vol_SEGS_EM_365": 0.20332
+      },
+      {
+        "datetime": "2026-01-14",
+        "numTotalNegocios": 32909,
+        "vol_DIAS_EM_252": 0.21268,
+        "vol_DIAS_EM_365": 0.21268,
+        "vol_SEGS_EM_252": 0.21268,
+        "vol_SEGS_EM_365": 0.21268
+      },
+      {
+        "datetime": "2026-01-15",
+        "numTotalNegocios": 15751,
+        "vol_DIAS_EM_252": 0.20833,
+        "vol_DIAS_EM_365": 0.20833,
+        "vol_SEGS_EM_252": 0.20833,
+        "vol_SEGS_EM_365": 0.20833
+      },
+      {
+        "datetime": "2026-01-16",
+        "numTotalNegocios": 13230,
+        "vol_DIAS_EM_252": 0.20671,
+        "vol_DIAS_EM_365": 0.20671,
+        "vol_SEGS_EM_252": 0.20671,
+        "vol_SEGS_EM_365": 0.20671
+      },
+      {
+        "datetime": "2026-01-19",
+        "numTotalNegocios": 11785,
+        "vol_DIAS_EM_252": 0.2076,
+        "vol_DIAS_EM_365": 0.2076,
+        "vol_SEGS_EM_252": 0.2076,
+        "vol_SEGS_EM_365": 0.2076
+      },
+      {
+        "datetime": "2026-01-20",
+        "numTotalNegocios": 24002,
+        "vol_DIAS_EM_252": 0.20833,
+        "vol_DIAS_EM_365": 0.20833,
+        "vol_SEGS_EM_252": 0.20833,
+        "vol_SEGS_EM_365": 0.20833
+      },
+      {
+        "datetime": "2026-01-21",
+        "numTotalNegocios": 69830,
+        "vol_DIAS_EM_252": 0.21792,
+        "vol_DIAS_EM_365": 0.21792,
+        "vol_SEGS_EM_252": 0.21792,
+        "vol_SEGS_EM_365": 0.21792
+      },
+      {
+        "datetime": "2026-01-22",
+        "numTotalNegocios": 51436,
+        "vol_DIAS_EM_252": 0.23614,
+        "vol_DIAS_EM_365": 0.23614,
+        "vol_SEGS_EM_252": 0.23614,
+        "vol_SEGS_EM_365": 0.23614
+      },
+      {
+        "datetime": "2026-01-23",
+        "numTotalNegocios": 55830,
+        "vol_DIAS_EM_252": 0.25099,
+        "vol_DIAS_EM_365": 0.25099,
+        "vol_SEGS_EM_252": 0.25099,
+        "vol_SEGS_EM_365": 0.25099
+      },
+      {
+        "datetime": "2026-01-26",
+        "numTotalNegocios": 35441,
+        "vol_DIAS_EM_252": 0.2815,
+        "vol_DIAS_EM_365": 0.2815,
+        "vol_SEGS_EM_252": 0.2815,
+        "vol_SEGS_EM_365": 0.2815
+      },
+      {
+        "datetime": "2026-01-27",
+        "numTotalNegocios": 39526,
+        "vol_DIAS_EM_252": 0.28032,
+        "vol_DIAS_EM_365": 0.28032,
+        "vol_SEGS_EM_252": 0.28032,
+        "vol_SEGS_EM_365": 0.28032
+      },
+      {
+        "datetime": "2026-01-28",
+        "numTotalNegocios": 38965,
+        "vol_DIAS_EM_252": 0.30164,
+        "vol_DIAS_EM_365": 0.30164,
+        "vol_SEGS_EM_252": 0.30164,
+        "vol_SEGS_EM_365": 0.30164
+      },
+      {
+        "datetime": "2026-01-29",
+        "numTotalNegocios": 58930,
+        "vol_DIAS_EM_252": 0.3287,
+        "vol_DIAS_EM_365": 0.3287,
+        "vol_SEGS_EM_252": 0.3287,
+        "vol_SEGS_EM_365": 0.3287
+      },
+      {
+        "datetime": "2026-01-30",
+        "numTotalNegocios": 42506,
+        "vol_DIAS_EM_252": 0.3072,
+        "vol_DIAS_EM_365": 0.3072,
+        "vol_SEGS_EM_252": 0.3072,
+        "vol_SEGS_EM_365": 0.3072
+      },
+      {
+        "datetime": "2026-02-02",
+        "numTotalNegocios": 36687,
+        "vol_DIAS_EM_252": 0.31191,
+        "vol_DIAS_EM_365": 0.31191,
+        "vol_SEGS_EM_252": 0.31191,
+        "vol_SEGS_EM_365": 0.31191
+      },
+      {
+        "datetime": "2026-02-03",
+        "numTotalNegocios": 41646,
+        "vol_DIAS_EM_252": 0.31645,
+        "vol_DIAS_EM_365": 0.31645,
+        "vol_SEGS_EM_252": 0.31645,
+        "vol_SEGS_EM_365": 0.31645
+      },
+      {
+        "datetime": "2026-02-04",
+        "numTotalNegocios": 28216,
+        "vol_DIAS_EM_252": 0.31944,
+        "vol_DIAS_EM_365": 0.31944,
+        "vol_SEGS_EM_252": 0.31944,
+        "vol_SEGS_EM_365": 0.31944
+      },
+      {
+        "datetime": "2026-02-05",
+        "numTotalNegocios": 21052,
+        "vol_DIAS_EM_252": 0.31059,
+        "vol_DIAS_EM_365": 0.31059,
+        "vol_SEGS_EM_252": 0.31059,
+        "vol_SEGS_EM_365": 0.31059
+      },
+      {
+        "datetime": "2026-02-06",
+        "numTotalNegocios": 6798,
+        "vol_DIAS_EM_252": 0.27944,
+        "vol_DIAS_EM_365": 0.27944,
+        "vol_SEGS_EM_252": 0.27944,
+        "vol_SEGS_EM_365": 0.27944
+      },
+      {
+        "datetime": "2026-02-09",
+        "numTotalNegocios": 9357,
+        "vol_DIAS_EM_252": 0.27927,
+        "vol_DIAS_EM_365": 0.27927,
+        "vol_SEGS_EM_252": 0.27927,
+        "vol_SEGS_EM_365": 0.27927
+      },
+      {
+        "datetime": "2026-02-10",
+        "numTotalNegocios": 4669,
+        "vol_DIAS_EM_252": 0.27176,
+        "vol_DIAS_EM_365": 0.27176,
+        "vol_SEGS_EM_252": 0.27176,
+        "vol_SEGS_EM_365": 0.27176
+      },
+      {
+        "datetime": "2026-02-11",
+        "numTotalNegocios": 65137,
+        "vol_DIAS_EM_252": 0.27699,
+        "vol_DIAS_EM_365": 0.27699,
+        "vol_SEGS_EM_252": 0.27699,
+        "vol_SEGS_EM_365": 0.27699
+      },
+      {
+        "datetime": "2026-02-12",
+        "numTotalNegocios": 11391,
+        "vol_DIAS_EM_252": 0.27527,
+        "vol_DIAS_EM_365": 0.27527,
+        "vol_SEGS_EM_252": 0.27527,
+        "vol_SEGS_EM_365": 0.27527
+      },
+      {
+        "datetime": "2026-02-13",
+        "numTotalNegocios": 10862,
+        "vol_DIAS_EM_252": 0.28901,
+        "vol_DIAS_EM_365": 0.28901,
+        "vol_SEGS_EM_252": 0.28901,
+        "vol_SEGS_EM_365": 0.28901
+      },
+      {
+        "datetime": "2026-02-18",
+        "numTotalNegocios": 13457,
+        "vol_DIAS_EM_252": 0.28649,
+        "vol_DIAS_EM_365": 0.28649,
+        "vol_SEGS_EM_252": 0.28649,
+        "vol_SEGS_EM_365": 0.28649
+      },
+      {
+        "datetime": "2026-02-19",
+        "numTotalNegocios": 35340,
+        "vol_DIAS_EM_252": 0.30173,
+        "vol_DIAS_EM_365": 0.30173,
+        "vol_SEGS_EM_252": 0.30173,
+        "vol_SEGS_EM_365": 0.30173
+      },
+      {
+        "datetime": "2026-02-20",
+        "numTotalNegocios": 15885,
+        "vol_DIAS_EM_252": 0.3096,
+        "vol_DIAS_EM_365": 0.3096,
+        "vol_SEGS_EM_252": 0.3096,
+        "vol_SEGS_EM_365": 0.3096
+      },
+      {
+        "datetime": "2026-02-23",
+        "numTotalNegocios": 23384,
+        "vol_DIAS_EM_252": 0.30691,
+        "vol_DIAS_EM_365": 0.30691,
+        "vol_SEGS_EM_252": 0.30691,
+        "vol_SEGS_EM_365": 0.30691
+      },
+      {
+        "datetime": "2026-02-24",
+        "numTotalNegocios": 39333,
+        "vol_DIAS_EM_252": 0.30606,
+        "vol_DIAS_EM_365": 0.30606,
+        "vol_SEGS_EM_252": 0.30606,
+        "vol_SEGS_EM_365": 0.30606
+      },
+      {
+        "datetime": "2026-02-25",
+        "numTotalNegocios": 14092,
+        "vol_DIAS_EM_252": 0.3226,
+        "vol_DIAS_EM_365": 0.3226,
+        "vol_SEGS_EM_252": 0.3226,
+        "vol_SEGS_EM_365": 0.3226
+      },
+      {
+        "datetime": "2026-02-26",
+        "numTotalNegocios": 27534,
+        "vol_DIAS_EM_252": 0.31695,
+        "vol_DIAS_EM_365": 0.31695,
+        "vol_SEGS_EM_252": 0.31695,
+        "vol_SEGS_EM_365": 0.31695
+      },
+      {
+        "datetime": "2026-02-27",
+        "numTotalNegocios": 15316,
+        "vol_DIAS_EM_252": 0.33571,
+        "vol_DIAS_EM_365": 0.33571,
+        "vol_SEGS_EM_252": 0.33571,
+        "vol_SEGS_EM_365": 0.33571
+      },
+      {
+        "datetime": "2026-03-02",
+        "numTotalNegocios": 43601,
+        "vol_DIAS_EM_252": 0.36459,
+        "vol_DIAS_EM_365": 0.36459,
+        "vol_SEGS_EM_252": 0.36459,
+        "vol_SEGS_EM_365": 0.36459
+      },
+      {
+        "datetime": "2026-03-03",
+        "numTotalNegocios": 35953,
+        "vol_DIAS_EM_252": 0.37967,
+        "vol_DIAS_EM_365": 0.37967,
+        "vol_SEGS_EM_252": 0.37967,
+        "vol_SEGS_EM_365": 0.37967
+      },
+      {
+        "datetime": "2026-03-04",
+        "numTotalNegocios": 29502,
+        "vol_DIAS_EM_252": 0.34628,
+        "vol_DIAS_EM_365": 0.34628,
+        "vol_SEGS_EM_252": 0.34628,
+        "vol_SEGS_EM_365": 0.34628
+      },
+      {
+        "datetime": "2026-03-05",
+        "numTotalNegocios": 16604,
+        "vol_DIAS_EM_252": 0.37509,
+        "vol_DIAS_EM_365": 0.37509,
+        "vol_SEGS_EM_252": 0.37509,
+        "vol_SEGS_EM_365": 0.37509
+      },
+      {
+        "datetime": "2026-03-06",
+        "numTotalNegocios": 11504,
+        "vol_DIAS_EM_252": 0.32268,
+        "vol_DIAS_EM_365": 0.32268,
+        "vol_SEGS_EM_252": 0.32268,
+        "vol_SEGS_EM_365": 0.32268
+      },
+      {
+        "datetime": "2026-03-09",
+        "numTotalNegocios": 13816,
+        "vol_DIAS_EM_252": 0.3446,
+        "vol_DIAS_EM_365": 0.3446,
+        "vol_SEGS_EM_252": 0.3446,
+        "vol_SEGS_EM_365": 0.3446
+      },
+      {
+        "datetime": "2026-03-10",
+        "numTotalNegocios": 8150,
+        "vol_DIAS_EM_252": 0.32677,
+        "vol_DIAS_EM_365": 0.32677,
+        "vol_SEGS_EM_252": 0.32677,
+        "vol_SEGS_EM_365": 0.32677
+      },
+      {
+        "datetime": "2026-03-11",
+        "numTotalNegocios": 9234,
+        "vol_DIAS_EM_252": 0.35726,
+        "vol_DIAS_EM_365": 0.35726,
+        "vol_SEGS_EM_252": 0.35726,
+        "vol_SEGS_EM_365": 0.35726
+      },
+      {
+        "datetime": "2026-03-12",
+        "numTotalNegocios": 10410,
+        "vol_DIAS_EM_252": 0.38258,
+        "vol_DIAS_EM_365": 0.38258,
+        "vol_SEGS_EM_252": 0.38258,
+        "vol_SEGS_EM_365": 0.38258
+      },
+      {
+        "datetime": "2026-03-13",
+        "numTotalNegocios": 6430,
+        "vol_DIAS_EM_252": 0.3799,
+        "vol_DIAS_EM_365": 0.3799,
+        "vol_SEGS_EM_252": 0.3799,
+        "vol_SEGS_EM_365": 0.3799
+      },
+      {
+        "datetime": "2026-03-16",
+        "numTotalNegocios": 13630,
+        "vol_DIAS_EM_252": 0.37172,
+        "vol_DIAS_EM_365": 0.37172,
+        "vol_SEGS_EM_252": 0.37172,
+        "vol_SEGS_EM_365": 0.37172
+      },
+      {
+        "datetime": "2026-03-17",
+        "numTotalNegocios": 20694,
+        "vol_DIAS_EM_252": 0.37598,
+        "vol_DIAS_EM_365": 0.37598,
+        "vol_SEGS_EM_252": 0.37598,
+        "vol_SEGS_EM_365": 0.37598
+      },
+      {
+        "datetime": "2026-03-18",
+        "numTotalNegocios": 32530,
+        "vol_DIAS_EM_252": 0.38925,
+        "vol_DIAS_EM_365": 0.38925,
+        "vol_SEGS_EM_252": 0.38925,
+        "vol_SEGS_EM_365": 0.38925
+      },
+      {
+        "datetime": "2026-03-19",
+        "numTotalNegocios": 37616,
+        "vol_DIAS_EM_252": 0.38475,
+        "vol_DIAS_EM_365": 0.38475,
+        "vol_SEGS_EM_252": 0.38475,
+        "vol_SEGS_EM_365": 0.38475
+      },
+      {
+        "datetime": "2026-03-20",
+        "numTotalNegocios": 43175,
+        "vol_DIAS_EM_252": 0.39919,
+        "vol_DIAS_EM_365": 0.39919,
+        "vol_SEGS_EM_252": 0.39919,
+        "vol_SEGS_EM_365": 0.39919
+      },
+      {
+        "datetime": "2026-03-23",
+        "numTotalNegocios": 46740,
+        "vol_DIAS_EM_252": 0.37619,
+        "vol_DIAS_EM_365": 0.37619,
+        "vol_SEGS_EM_252": 0.37619,
+        "vol_SEGS_EM_365": 0.37619
+      },
+      {
+        "datetime": "2026-03-24",
+        "numTotalNegocios": 51856,
+        "vol_DIAS_EM_252": 0.37426,
+        "vol_DIAS_EM_365": 0.37426,
+        "vol_SEGS_EM_252": 0.37426,
+        "vol_SEGS_EM_365": 0.37426
+      },
+      {
+        "datetime": "2026-03-25",
+        "numTotalNegocios": 25081,
+        "vol_DIAS_EM_252": 0.36676,
+        "vol_DIAS_EM_365": 0.36676,
+        "vol_SEGS_EM_252": 0.36676,
+        "vol_SEGS_EM_365": 0.36676
+      },
+      {
+        "datetime": "2026-03-26",
+        "numTotalNegocios": 33831,
+        "vol_DIAS_EM_252": 0.38395,
+        "vol_DIAS_EM_365": 0.38395,
+        "vol_SEGS_EM_252": 0.38395,
+        "vol_SEGS_EM_365": 0.38395
+      },
+      {
+        "datetime": "2026-03-27",
+        "numTotalNegocios": 22937,
+        "vol_DIAS_EM_252": 0.40931,
+        "vol_DIAS_EM_365": 0.40931,
+        "vol_SEGS_EM_252": 0.40931,
+        "vol_SEGS_EM_365": 0.40931
+      },
+      {
+        "datetime": "2026-03-30",
+        "numTotalNegocios": 33900,
+        "vol_DIAS_EM_252": 0.43581,
+        "vol_DIAS_EM_365": 0.43581,
+        "vol_SEGS_EM_252": 0.43581,
+        "vol_SEGS_EM_365": 0.43581
+      },
+      {
+        "datetime": "2026-03-31",
+        "numTotalNegocios": 24588,
+        "vol_DIAS_EM_252": 0.43553,
+        "vol_DIAS_EM_365": 0.43553,
+        "vol_SEGS_EM_252": 0.43553,
+        "vol_SEGS_EM_365": 0.43553
+      },
+      {
+        "datetime": "2026-04-01",
+        "numTotalNegocios": 22919,
+        "vol_DIAS_EM_252": 0.4242,
+        "vol_DIAS_EM_365": 0.4242,
+        "vol_SEGS_EM_252": 0.4242,
+        "vol_SEGS_EM_365": 0.4242
+      },
+      {
+        "datetime": "2026-04-02",
+        "numTotalNegocios": 16159,
+        "vol_DIAS_EM_252": 0.44323,
+        "vol_DIAS_EM_365": 0.44323,
+        "vol_SEGS_EM_252": 0.44323,
+        "vol_SEGS_EM_365": 0.44323
+      },
+      {
+        "datetime": "2026-04-06",
+        "numTotalNegocios": 4892,
+        "vol_DIAS_EM_252": 0.40892,
+        "vol_DIAS_EM_365": 0.40892,
+        "vol_SEGS_EM_252": 0.40892,
+        "vol_SEGS_EM_365": 0.40892
+      },
+      {
+        "datetime": "2026-04-07",
+        "numTotalNegocios": 4988,
+        "vol_DIAS_EM_252": 0.40305,
+        "vol_DIAS_EM_365": 0.40305,
+        "vol_SEGS_EM_252": 0.40305,
+        "vol_SEGS_EM_365": 0.40305
+      },
+      {
+        "datetime": "2026-04-08",
+        "numTotalNegocios": 8582,
+        "vol_DIAS_EM_252": 0.37843,
+        "vol_DIAS_EM_365": 0.37843,
+        "vol_SEGS_EM_252": 0.37843,
+        "vol_SEGS_EM_365": 0.37843
+      },
+      {
+        "datetime": "2026-04-09",
+        "numTotalNegocios": 11034,
+        "vol_DIAS_EM_252": 0.37519,
+        "vol_DIAS_EM_365": 0.37519,
+        "vol_SEGS_EM_252": 0.37519,
+        "vol_SEGS_EM_365": 0.37519
+      },
+      {
+        "datetime": "2026-04-10",
+        "numTotalNegocios": 18109,
+        "vol_DIAS_EM_252": 0.37821,
+        "vol_DIAS_EM_365": 0.37821,
+        "vol_SEGS_EM_252": 0.37821,
+        "vol_SEGS_EM_365": 0.37821
+      },
+      {
+        "datetime": "2026-04-13",
+        "numTotalNegocios": 17580,
+        "vol_DIAS_EM_252": 0.38397,
+        "vol_DIAS_EM_365": 0.38397,
+        "vol_SEGS_EM_252": 0.38397,
+        "vol_SEGS_EM_365": 0.38397
+      },
+      {
+        "datetime": "2026-04-14",
+        "numTotalNegocios": 27003,
+        "vol_DIAS_EM_252": 0.37058,
+        "vol_DIAS_EM_365": 0.37058,
+        "vol_SEGS_EM_252": 0.37058,
+        "vol_SEGS_EM_365": 0.37058
+      },
+      {
+        "datetime": "2026-04-15",
+        "numTotalNegocios": 12494,
+        "vol_DIAS_EM_252": 0.36773,
+        "vol_DIAS_EM_365": 0.36773,
+        "vol_SEGS_EM_252": 0.36773,
+        "vol_SEGS_EM_365": 0.36773
+      },
+      {
+        "datetime": "2026-04-16",
+        "numTotalNegocios": 26672,
+        "vol_DIAS_EM_252": 0.37726,
+        "vol_DIAS_EM_365": 0.37726,
+        "vol_SEGS_EM_252": 0.37726,
+        "vol_SEGS_EM_365": 0.37726
+      },
+      {
+        "datetime": "2026-04-17",
+        "numTotalNegocios": 28539,
+        "vol_DIAS_EM_252": 0.38415,
+        "vol_DIAS_EM_365": 0.38415,
+        "vol_SEGS_EM_252": 0.38415,
+        "vol_SEGS_EM_365": 0.38415
+      },
+      {
+        "datetime": "2026-04-20",
+        "numTotalNegocios": 20070,
+        "vol_DIAS_EM_252": 0.40359,
+        "vol_DIAS_EM_365": 0.40359,
+        "vol_SEGS_EM_252": 0.40359,
+        "vol_SEGS_EM_365": 0.40359
+      },
+      {
+        "datetime": "2026-04-22",
+        "numTotalNegocios": 12199,
+        "vol_DIAS_EM_252": 0.38937,
+        "vol_DIAS_EM_365": 0.38937,
+        "vol_SEGS_EM_252": 0.38937,
+        "vol_SEGS_EM_365": 0.38937
+      },
+      {
+        "datetime": "2026-04-23",
+        "numTotalNegocios": 16491,
+        "vol_DIAS_EM_252": 0.39068,
+        "vol_DIAS_EM_365": 0.39068,
+        "vol_SEGS_EM_252": 0.39068,
+        "vol_SEGS_EM_365": 0.39068
+      },
+      {
+        "datetime": "2026-04-24",
+        "numTotalNegocios": 12153,
+        "vol_DIAS_EM_252": 0.38681,
+        "vol_DIAS_EM_365": 0.38681,
+        "vol_SEGS_EM_252": 0.38681,
+        "vol_SEGS_EM_365": 0.38681
+      },
+      {
+        "datetime": "2026-04-27",
+        "numTotalNegocios": 21849,
+        "vol_DIAS_EM_252": 0.38293,
+        "vol_DIAS_EM_365": 0.38293,
+        "vol_SEGS_EM_252": 0.38293,
+        "vol_SEGS_EM_365": 0.38293
+      },
+      {
+        "datetime": "2026-04-28",
+        "numTotalNegocios": 22060,
+        "vol_DIAS_EM_252": 0.39068,
+        "vol_DIAS_EM_365": 0.39068,
+        "vol_SEGS_EM_252": 0.39068,
+        "vol_SEGS_EM_365": 0.39068
+      },
+      {
+        "datetime": "2026-04-29",
+        "numTotalNegocios": 24221,
+        "vol_DIAS_EM_252": 0.39335,
+        "vol_DIAS_EM_365": 0.39335,
+        "vol_SEGS_EM_252": 0.39335,
+        "vol_SEGS_EM_365": 0.39335
+      },
+      {
+        "datetime": "2026-04-30",
+        "numTotalNegocios": 22893,
+        "vol_DIAS_EM_252": 0.40662,
+        "vol_DIAS_EM_365": 0.40662,
+        "vol_SEGS_EM_252": 0.40662,
+        "vol_SEGS_EM_365": 0.40662
+      },
+      {
+        "datetime": "2026-05-04",
+        "numTotalNegocios": 4212,
+        "vol_DIAS_EM_252": 0.3577,
+        "vol_DIAS_EM_365": 0.3577,
+        "vol_SEGS_EM_252": 0.3577,
+        "vol_SEGS_EM_365": 0.3577
+      },
+      {
+        "datetime": "2026-05-05",
+        "numTotalNegocios": 3348,
+        "vol_DIAS_EM_252": 0.35203,
+        "vol_DIAS_EM_365": 0.35203,
+        "vol_SEGS_EM_252": 0.35203,
+        "vol_SEGS_EM_365": 0.35203
+      },
+      {
+        "datetime": "2026-05-06",
+        "numTotalNegocios": 10132,
+        "vol_DIAS_EM_252": 0.34423,
+        "vol_DIAS_EM_365": 0.34423,
+        "vol_SEGS_EM_252": 0.34423,
+        "vol_SEGS_EM_365": 0.34423
+      },
+      {
+        "datetime": "2026-05-07",
+        "numTotalNegocios": 8839,
+        "vol_DIAS_EM_252": 0.34469,
+        "vol_DIAS_EM_365": 0.34469,
+        "vol_SEGS_EM_252": 0.34469,
+        "vol_SEGS_EM_365": 0.34469
+      },
+      {
+        "datetime": "2026-05-08",
+        "numTotalNegocios": 12688,
+        "vol_DIAS_EM_252": 0.34591,
+        "vol_DIAS_EM_365": 0.34591,
+        "vol_SEGS_EM_252": 0.34591,
+        "vol_SEGS_EM_365": 0.34591
+      },
+      {
+        "datetime": "2026-05-11",
+        "numTotalNegocios": 6663,
+        "vol_DIAS_EM_252": 0.34792,
+        "vol_DIAS_EM_365": 0.34792,
+        "vol_SEGS_EM_252": 0.34792,
+        "vol_SEGS_EM_365": 0.34792
+      },
+      {
+        "datetime": "2026-05-12",
+        "numTotalNegocios": 11357,
+        "vol_DIAS_EM_252": 0.33288,
+        "vol_DIAS_EM_365": 0.33288,
+        "vol_SEGS_EM_252": 0.33288,
+        "vol_SEGS_EM_365": 0.33288
+      },
+      {
+        "datetime": "2026-05-13",
+        "numTotalNegocios": 21144,
+        "vol_DIAS_EM_252": 0.33499,
+        "vol_DIAS_EM_365": 0.33499,
+        "vol_SEGS_EM_252": 0.33499,
+        "vol_SEGS_EM_365": 0.33499
+      },
+      {
+        "datetime": "2026-05-14",
+        "numTotalNegocios": 20423,
+        "vol_DIAS_EM_252": 0.33306,
+        "vol_DIAS_EM_365": 0.33306,
+        "vol_SEGS_EM_252": 0.33306,
+        "vol_SEGS_EM_365": 0.33306
+      },
+      {
+        "datetime": "2026-05-15",
+        "numTotalNegocios": 11107,
+        "vol_DIAS_EM_252": 0.3309,
+        "vol_DIAS_EM_365": 0.3309,
+        "vol_SEGS_EM_252": 0.3309,
+        "vol_SEGS_EM_365": 0.3309
+      },
+      {
+        "datetime": "2026-05-18",
+        "numTotalNegocios": 27447,
+        "vol_DIAS_EM_252": 0.33576,
+        "vol_DIAS_EM_365": 0.33576,
+        "vol_SEGS_EM_252": 0.33576,
+        "vol_SEGS_EM_365": 0.33576
+      },
+      {
+        "datetime": "2026-05-19",
+        "numTotalNegocios": 11327,
+        "vol_DIAS_EM_252": 0.34602,
+        "vol_DIAS_EM_365": 0.34602,
+        "vol_SEGS_EM_252": 0.34602,
+        "vol_SEGS_EM_365": 0.34602
+      },
+      {
+        "datetime": "2026-05-20",
+        "numTotalNegocios": 17973,
+        "vol_DIAS_EM_252": 0.34739,
+        "vol_DIAS_EM_365": 0.34739,
+        "vol_SEGS_EM_252": 0.34739,
+        "vol_SEGS_EM_365": 0.34739
+      },
+      {
+        "datetime": "2026-05-21",
+        "numTotalNegocios": 27519,
+        "vol_DIAS_EM_252": 0.35131,
+        "vol_DIAS_EM_365": 0.35131,
+        "vol_SEGS_EM_252": 0.35131,
+        "vol_SEGS_EM_365": 0.35131
+      },
+      {
+        "datetime": "2026-05-22",
+        "numTotalNegocios": 20690,
+        "vol_DIAS_EM_252": 0.35966,
+        "vol_DIAS_EM_365": 0.35966,
+        "vol_SEGS_EM_252": 0.35966,
+        "vol_SEGS_EM_365": 0.35966
+      },
+      {
+        "datetime": "2026-05-25",
+        "numTotalNegocios": 13920,
+        "vol_DIAS_EM_252": 0.34892,
+        "vol_DIAS_EM_365": 0.34892,
+        "vol_SEGS_EM_252": 0.34892,
+        "vol_SEGS_EM_365": 0.34892
+      },
+      {
+        "datetime": "2026-05-26",
+        "numTotalNegocios": 10481,
+        "vol_DIAS_EM_252": 0.34157,
+        "vol_DIAS_EM_365": 0.34157,
+        "vol_SEGS_EM_252": 0.34157,
+        "vol_SEGS_EM_365": 0.34157
+      },
+      {
+        "datetime": "2026-05-27",
+        "numTotalNegocios": 14734,
+        "vol_DIAS_EM_252": 0.33067,
+        "vol_DIAS_EM_365": 0.33067,
+        "vol_SEGS_EM_252": 0.33067,
+        "vol_SEGS_EM_365": 0.33067
+      }
+    ]
+  },
+  "timeSpentOnDB": "00:00:00.005",
+  "timeSpentAfterDB": "00:00:00.004"
+}
