@@ -26,7 +26,7 @@ from statsmodels.tsa.stattools import coint
 
 # ── Configurações ─────────────────────────────────────────────────────────────
 
-OUTPUT_FILE   = "pair-trading/pairs_{period}.json"  # {period} substituído no loop
+OUTPUT_FILE   = "pair-trading/pairs.json"  # reatribuído por período no loop
 # Períodos disponíveis — cada um gera um arquivo separado no GitHub
 PERIODS = {
     "3y":  1095,   # 3 anos
@@ -110,14 +110,22 @@ def calc_half_life(spread: pd.Series) -> float:
     return round(-np.log(2) / slope, 1)
 
 
-def calc_beta(s1: pd.Series, s2: pd.Series) -> float:
-    """Hedge ratio via OLS."""
+def calc_hedge(s1: pd.Series, s2: pd.Series):
+    """
+    Hedge ratio via OLS com intercepto: s1 = alpha + beta * s2.
+
+    Antes retornávamos só o slope, descartando o intercepto. Sem alpha
+    o "spread = pa - beta*pb" carrega um viés constante que distorce a
+    média e o z-score. Agora devolvemos (alpha, beta) e o spread fica
+    spread = pa - alpha - beta*pb, centrado próximo de zero por
+    construção (resíduo de regressão).
+    """
     s1, s2 = s1.dropna(), s2.dropna()
     idx = s1.index.intersection(s2.index)
     if len(idx) < 20:
-        return 1.0
-    slope, _, _, _, _ = scipy_stats.linregress(s2.loc[idx], s1.loc[idx])
-    return round(slope, 4)
+        return 0.0, 1.0
+    slope, intercept, *_ = scipy_stats.linregress(s2.loc[idx], s1.loc[idx])
+    return round(float(intercept), 4), round(float(slope), 4)
 
 
 def calc_zscore(spread: pd.Series, window: int = 60) -> float:
@@ -155,7 +163,7 @@ def get_sector(ticker: str) -> str:
 
 # ── Download de dados ──────────────────────────────────────────────────────────
 
-def download_prices(tickers: list, days: int = 730) -> pd.DataFrame:
+def download_prices(tickers: list, days: int = 730, min_obs: int = MIN_OBS) -> pd.DataFrame:
     """Baixa preços de fechamento ajustados para todos os tickers."""
     end   = datetime.today()
     start = end - timedelta(days=days)
@@ -196,15 +204,15 @@ def download_prices(tickers: list, days: int = 730) -> pd.DataFrame:
         prices.index = prices.index.tz_localize(None)
 
     # Remove tickers com dados insuficientes
-    valid = [c for c in prices.columns if prices[c].count() >= MIN_OBS]
-    print(f"\n✓ {len(valid)}/{len(tickers)} tickers com dados suficientes (≥{MIN_OBS} obs)")
+    valid = [c for c in prices.columns if prices[c].count() >= min_obs]
+    print(f"\n✓ {len(valid)}/{len(tickers)} tickers com dados suficientes (≥{min_obs} obs)")
 
     return prices[valid].ffill().dropna(how="all")
 
 
 # ── Cálculo de pares ──────────────────────────────────────────────────────────
 
-def calculate_pairs(prices: pd.DataFrame) -> list:
+def calculate_pairs(prices: pd.DataFrame, min_obs: int = MIN_OBS) -> list:
     """Calcula todos os pares válidos com correlação, beta, half-life e cointegração."""
     tickers = list(prices.columns)
     returns = prices.pct_change().dropna()
@@ -225,7 +233,7 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
 
         # Alinha séries
         idx = prices[a].dropna().index.intersection(prices[b].dropna().index)
-        if len(idx) < MIN_OBS:
+        if len(idx) < min_obs:
             continue
 
         pa = prices[a].loc[idx]
@@ -243,7 +251,7 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
         pb = pb.reindex(ret_idx).ffill()
 
         # Correlação de Pearson
-        if len(ra) < MIN_OBS or len(rb) < MIN_OBS:
+        if len(ra) < min_obs or len(rb) < min_obs:
             continue
         corr, _ = scipy_stats.pearsonr(ra, rb)
         if abs(corr) < MIN_CORR:
@@ -251,11 +259,11 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
 
         valid += 1
 
-        # Beta (hedge ratio)
-        beta = calc_beta(pa, pb)
+        # Hedge ratio (alpha + beta·pb) — regressão com intercepto
+        alpha, beta = calc_hedge(pa, pb)
 
-        # Spread
-        spread = pa - beta * pb
+        # Spread = resíduo da regressão (centrado próximo de zero)
+        spread = pa - alpha - beta * pb
 
         # Half-life
         hl = calc_half_life(spread)
@@ -266,11 +274,16 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
         zscore = calc_zscore(spread)
 
         # Teste de cointegração (Engle-Granger)
+        # Nota: coint() estima seu próprio beta internamente. Aceitamos a
+        # pequena divergência entre o beta usado no spread (OLS com α) e o
+        # beta interno do coint — ambos são consistentes para pares
+        # cointegrados; o teste é só para validar o pvalor.
         try:
             _, pvalue, _ = coint(pa, pb)
             is_coint = pvalue < 0.05
         except Exception:
             is_coint = False
+            pvalue = 1.0
 
         if is_coint:
             cointegrated += 1
@@ -284,22 +297,28 @@ def calculate_pairs(prices: pd.DataFrame) -> list:
         price_a = round(float(pa.iloc[-1]), 2)
         price_b = round(float(pb.iloc[-1]), 2)
 
+        # Razão simples atual (P_A / P_B) — usada no toggle "Razão" do front
+        ratio_now = round(price_a / price_b, 4) if price_b else 0.0
+
         pairs.append({
-            "a":          a,
-            "b":          b,
-            "corr":       round(corr, 4),
-            "beta":       beta,
-            "halfLife":   hl,
-            "zscore":     zscore,
-            "coint":      is_coint,
-            "pricA":      price_a,
-            "pricB":      price_b,
-            "spreadMean": spread_mean,
-            "spreadStd":  spread_std,
-            "sectorA":    get_sector(a),
-            "sectorB":    get_sector(b),
-            "sameSector": get_sector(a) == get_sector(b),
-            "obs":        len(idx),
+            "a":           a,
+            "b":           b,
+            "corr":        round(corr, 4),
+            "alpha":       alpha,      # NOVO: intercepto da regressão
+            "beta":        beta,
+            "halfLife":    hl,
+            "zscore":      zscore,
+            "coint":       is_coint,
+            "cointPvalue": round(float(pvalue), 4),
+            "pricA":       price_a,
+            "pricB":       price_b,
+            "ratio":       ratio_now,  # NOVO: razão simples atual
+            "spreadMean":  spread_mean,
+            "spreadStd":   spread_std,
+            "sectorA":     get_sector(a),
+            "sectorB":     get_sector(b),
+            "sameSector":  get_sector(a) == get_sector(b),
+            "obs":         len(idx),
         })
 
     print(f"\n✓ Total processado: {total} combinações")
@@ -323,10 +342,13 @@ def build_spread_history(prices: pd.DataFrame, pairs: list, n_points: int = 120)
     """
     Gera histórico do spread (últimos n_points dias úteis) para cada par.
     Usado pelo gráfico SpreadChart no LongShort.jsx
+
+    Inclui também a razão simples P_A/P_B em cada candle, para o toggle
+    "Resíduo / Razão" da UI sem precisar baixar séries adicionais.
     """
     history = {}
     for p in pairs:
-        a, b, beta = p["a"], p["b"], p["beta"]
+        a, b, alpha, beta = p["a"], p["b"], p.get("alpha", 0.0), p["beta"]
         if a not in prices.columns or b not in prices.columns:
             continue
         idx = prices[a].dropna().index.intersection(prices[b].dropna().index)
@@ -334,7 +356,7 @@ def build_spread_history(prices: pd.DataFrame, pairs: list, n_points: int = 120)
             continue
         pa = prices[a].loc[idx].iloc[-n_points:]
         pb = prices[b].loc[idx].iloc[-n_points:]
-        spread = pa - beta * pb
+        spread = pa - alpha - beta * pb
         mean   = spread.mean()
         std    = spread.std() or 1
 
@@ -345,6 +367,7 @@ def build_spread_history(prices: pd.DataFrame, pairs: list, n_points: int = 120)
                 "z":      round(float((s - mean) / std), 3),
                 "r1":     round(float(pa.loc[d]), 2),
                 "r2":     round(float(pb.loc[d]), 2),
+                "ratio":  round(float(pa.loc[d] / pb.loc[d]), 4) if pb.loc[d] else 0.0,
             }
             for d, s in zip(pa.index, spread)
         ]
@@ -354,28 +377,29 @@ def build_spread_history(prices: pd.DataFrame, pairs: list, n_points: int = 120)
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
-def main():
+def run_period(period: str, lookback_days: int, min_obs: int, output_file: str):
+    """Executa o pipeline para um período específico. Retorna estatísticas."""
     print("=" * 60)
     print("  PNT Trade Lab — Pair Trading Data Updater")
-    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} · {period}")
     print("=" * 60)
     print()
 
     # 1. Download
-    prices = download_prices(TICKERS_B3, days=LOOKBACK_DAYS)  # usa global LOOKBACK_DAYS
+    prices = download_prices(TICKERS_B3, days=lookback_days, min_obs=min_obs)
     if prices.empty:
         print("ERRO: Nenhum dado baixado. Verifique a conexão.")
-        return
+        return None
 
     # 2. Calcula pares
-    pairs = calculate_pairs(prices)
+    pairs = calculate_pairs(prices, min_obs=min_obs)
     if not pairs:
         print("ERRO: Nenhum par encontrado com os critérios definidos.")
         return None
 
     # 3. Histórico de spread
     # Pontos de histórico proporcional ao período
-    n_pts = min(LOOKBACK_DAYS, 120)
+    n_pts = min(lookback_days, 120)
     print("\nGerando histórico de spread para gráficos...")
     history = build_spread_history(prices, pairs[:50], n_points=n_pts)
     print(f"✓ Histórico gerado para {len(history)} pares")
@@ -401,7 +425,7 @@ def main():
     # 5. Monta JSON final
     output = {
         "updated":    datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
-        "period":     f"{LOOKBACK_DAYS}d",
+        "period":     f"{lookback_days}d",
         "tickers":    len(prices.columns),
         "pairs":      pairs,
         "history":    history,
@@ -409,7 +433,8 @@ def main():
         "meta": {
             "minCorr":     MIN_CORR,
             "maxHalfLife": MAX_HALF_LIFE,
-            "minObs":      MIN_OBS,
+            "minObs":      min_obs,
+            "spreadModel": "pa - alpha - beta*pb (OLS com intercepto)",
         }
     }
 
@@ -422,14 +447,14 @@ def main():
         if isinstance(obj, (np.ndarray,)):   return obj.tolist()
         raise TypeError(f"Não serializável: {type(obj)}")
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, separators=(",", ":"), default=convert)
 
-    size_kb = os.path.getsize(OUTPUT_FILE) / 1024
-    print(f"\n✅ Salvo em {OUTPUT_FILE} ({size_kb:.0f} KB)")
+    size_kb = os.path.getsize(output_file) / 1024
+    print(f"\n✅ Salvo em {output_file} ({size_kb:.0f} KB)")
     print(f"   {len(pairs)} pares | {len(history)} com histórico | {len(snapshot)} preços")
-    print(f"\nPróximo passo: git add {OUTPUT_FILE} && git commit -m 'chore: update pairs' && git push")
+    print(f"\nPróximo passo: git add {output_file} && git commit -m 'chore: update pairs' && git push")
 
     # Retorna estatísticas para o log consolidado
     return {
@@ -437,7 +462,7 @@ def main():
         "history": len(history),
         "prices":  len(snapshot),
         "size_kb": round(size_kb, 1),
-        "tickers": len(prices.columns) if "prices" in dir() else 0,
+        "tickers": len(prices.columns),
     }
 
 
@@ -468,10 +493,10 @@ if __name__ == "__main__":
         print(f"\n{'='*60}")
         print(f"  Calculando período: {period} ({PERIODS[period]} dias)")
         print(f"{'='*60}\n")
-        LOOKBACK_DAYS = PERIODS[period]
-        MIN_OBS       = MIN_OBS_BY_PERIOD.get(period, 200)
-        OUTPUT_FILE   = f"pair-trading/pairs_{period}.json"
-        stats = main()
+        lookback_days = PERIODS[period]
+        min_obs       = MIN_OBS_BY_PERIOD.get(period, 200)
+        output_file   = f"pair-trading/pairs_{period}.json"
+        stats = run_period(period, lookback_days, min_obs, output_file)
         if stats:
             all_stats[period] = stats
 
