@@ -46,6 +46,13 @@ MIN_AVG_VOLUME   = 2_000_000  # volume médio diário mínimo (R$)
 GAP_THRESHOLDS   = [1.0, 2.0, 3.0, 5.0]  # thresholds de gap para análise
 OHLC_CHART_DAYS  = 60         # dias de OHLC horário para gráficos
 
+# ── Configurações dos sinais do Cockpit ──────────────────────────────────────────
+SIG_Z_THRESHOLD  = 2.0     # |z-score| mínimo para sinal de reversão
+SIG_GAP_MIN      = 1.0     # gap % mínimo para sinal de gap
+SIG_MIN_COUNT    = 20      # amostra mínima para confiar num edge histórico
+SIG_EDGE_LB      = 0.55    # piso do IC de Wilson p/ considerar edge "real" (>55%)
+SIG_WILSON_Z     = 1.96    # 95% de confiança
+
 # ── Lista completa de tickers B3 ───────────────────────────────────────────────
 B3_TICKERS = [
     # Ibovespa core
@@ -412,6 +419,150 @@ def build_ohlc_chart(hourly: pd.DataFrame, days: int = 60) -> list:
             continue
     return result
 
+# ── Estado atual (live) — alimenta os sinais de momentum e gap ──────────────────
+def build_live_state(daily: pd.DataFrame) -> dict:
+    """Estado atual do ativo: streak de dias consecutivos + gap da última sessão.
+    Num batch das 07:00 BRT a barra de hoje ainda não existe, então gap_today
+    reflete a ÚLTIMA SESSÃO FECHADA (gap já realizado). Para gap como sinal de
+    pré-abertura de verdade, rode o job perto da abertura (10:00 BRT)."""
+    if len(daily) < 6:
+        return {}
+    d = daily.copy()
+    d["ret"] = d["close"].pct_change() * 100
+    rets = d["ret"].dropna()
+
+    streak = {"count": 0, "dir": None}
+    if len(rets):
+        last = 1 if rets.iloc[-1] > 0 else -1 if rets.iloc[-1] < 0 else 0
+        if last != 0:
+            c = 0
+            for r in reversed(rets.tolist()):
+                s = 1 if r > 0 else -1 if r < 0 else 0
+                if s == last:
+                    c += 1
+                else:
+                    break
+            streak = {"count": c, "dir": "up" if last > 0 else "down"}
+
+    gap_today = None
+    if len(d) >= 2 and "open" in d.columns:
+        prev_close = float(d["close"].iloc[-2])
+        today_open = float(d["open"].iloc[-1])
+        if prev_close > 0:
+            gap_today = round((today_open - prev_close) / prev_close * 100, 2)
+
+    return {"streak": streak, "gap_today": gap_today}
+
+# ── Sinais do Cockpit — IC de Wilson + geradores ────────────────────────────────
+def wilson(successes: float, n: int, z: float = SIG_WILSON_Z):
+    """Retorna (p, lo, hi) em 0..1. Mais honesto que p±erro normal p/ n pequeno."""
+    if n <= 0:
+        return 0.0, 0.0, 0.0
+    p      = successes / n
+    denom  = 1 + z * z / n
+    center = (p + z * z / (2 * n)) / denom
+    margin = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / denom
+    return p, max(0.0, center - margin), min(1.0, center + margin)
+
+def _edge_lb(rate_pct, n):
+    """Piso do IC de Wilson a partir de taxa(%) + n."""
+    if rate_pct is None or n is None or n <= 0:
+        return None
+    succ = round(rate_pct / 100.0 * n)
+    _, lo, _ = wilson(succ, n)
+    return lo
+
+def _sig_reversion(a):
+    mr = a.get("mean_reversion") or {}
+    z  = mr.get("zscore_current")
+    if z is None or abs(z) < SIG_Z_THRESHOLD:
+        return None
+    side = "long" if z < 0 else "short"
+    rev  = mr.get("reversion_after_move") or {}
+    key  = "after_down_1pct" if side == "long" else "after_up_1pct"
+    n_hist = rev.get(key, {}).get("count")
+    lo     = _edge_lb(rev.get(key, {}).get("reversal_pct"), n_hist)
+    confirmed = bool(lo is not None and n_hist and n_hist >= SIG_MIN_COUNT and lo > SIG_EDGE_LB)
+    if confirmed:
+        head = f"z-score {z:+.2f} (esticado). Reversão histórica na direção: piso IC {lo*100:.0f}%, n={n_hist}."
+    else:
+        head = f"z-score {z:+.2f} (esticado). Sem edge de reversão confirmado — só estiramento estatístico."
+    return dict(type="reversao", side=side, value=round(float(z), 2),
+                score=round(min(abs(z) / 3.0, 1.0) * 100, 1),
+                confirmed=confirmed, headline=head)
+
+def _sig_momentum(a):
+    streak = (a.get("live") or {}).get("streak") or {}
+    n_run  = streak.get("count", 0)
+    d      = streak.get("dir")
+    if n_run < 3 or d not in ("up", "down"):
+        return None
+    cons   = (a.get("momentum") or {}).get("consecutive_days") or {}
+    bucket = min(n_run, 5)
+    hist   = cons.get(f"{bucket}_{d}_days")
+    if not hist:
+        return None
+    n_hist = hist.get("count")
+    lo     = _edge_lb(hist.get("continues_pct"), n_hist)
+    if lo is None or n_hist is None or n_hist < SIG_MIN_COUNT:
+        return None
+    side = "long" if d == "up" else "short"
+    head = (f"{n_run} dias {'de alta' if d == 'up' else 'de baixa'} consecutivos. "
+            f"Sequências de {bucket}d continuam {hist['continues_pct']:.0f}% (piso IC {lo*100:.0f}%, n={n_hist}).")
+    return dict(type="momentum", side=side, value=int(n_run),
+                score=round((max(lo, 0.5) - 0.5) * 200, 1),
+                confirmed=bool(lo > SIG_EDGE_LB), headline=head)
+
+def _sig_gap(a):
+    gap = (a.get("live") or {}).get("gap_today")
+    if gap is None or abs(gap) < SIG_GAP_MIN:
+        return None
+    direction = "up" if gap > 0 else "down"
+    bt = (a.get("gap") or {}).get("by_threshold") or {}
+    chosen = None
+    for thr in (5.0, 3.0, 2.0, 1.0):
+        if abs(gap) >= thr:
+            cand = bt.get(f"{thr:.0f}pct_{direction}")
+            if cand and cand.get("count", 0) >= SIG_MIN_COUNT:
+                chosen = cand
+                break
+    if not chosen:
+        return None
+    n    = chosen.get("count")
+    fade = chosen.get("reversal_rate", 0) > 55
+    if fade:
+        side = "short" if direction == "up" else "long"
+        lo   = _edge_lb(chosen.get("reversal_rate"), n)
+        head = (f"Gap {'de alta' if direction == 'up' else 'de baixa'} {gap:+.2f}% (últ. sessão). "
+                f"Fade: reverte {chosen['reversal_rate']:.0f}% (piso IC {(lo or 0)*100:.0f}%, n={n}).")
+    else:
+        side = "long" if direction == "up" else "short"
+        lo   = _edge_lb(chosen.get("win_rate"), n)
+        head = (f"Gap {'de alta' if direction == 'up' else 'de baixa'} {gap:+.2f}% (últ. sessão). "
+                f"Sustenta: win rate {chosen['win_rate']:.0f}% (piso IC {(lo or 0)*100:.0f}%, n={n}).")
+    return dict(type="gap", side=side, value=round(float(gap), 2),
+                score=round((max(lo or 0.5, 0.5) - 0.5) * 200, 1),
+                confirmed=bool(lo is not None and lo > SIG_EDGE_LB), headline=head)
+
+def build_signals(analyses: list) -> dict:
+    """A partir da lista de analyses já calculadas, monta os sinais ativos."""
+    signals = []
+    for a in analyses:
+        base = dict(ticker=a.get("ticker"), price=a.get("price"), change_pct=a.get("change_pct"))
+        for fn in (_sig_reversion, _sig_momentum, _sig_gap):
+            s = fn(a)
+            if s:
+                signals.append({**base, **s})
+    # confirmados primeiro, depois por score
+    signals.sort(key=lambda s: (s["confirmed"], s["score"]), reverse=True)
+    return {
+        "updated": ts(),
+        "count":   len(signals),
+        "params":  dict(z_threshold=SIG_Z_THRESHOLD, gap_min=SIG_GAP_MIN,
+                        min_count=SIG_MIN_COUNT, edge_lb=SIG_EDGE_LB),
+        "signals": signals,
+    }
+
 # ── Processa um ativo ─────────────────────────────────────────────────────────
 def process_ticker(ticker: str, min_volume: float) -> dict | None:
     """Baixa dados e calcula todas as análises para um ativo."""
@@ -450,6 +601,7 @@ def process_ticker(ticker: str, min_volume: float) -> dict | None:
         "mean_reversion": analyze_mean_reversion(hourly, daily),
         "momentum":       analyze_momentum(daily),
         "volume":         analyze_volume_profile(daily, hourly),
+        "live":           build_live_state(daily),
     }
 
     return {
@@ -475,7 +627,8 @@ def main():
     print("=" * 60)
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    index  = []
+    index    = []
+    analyses = []
     ok, skipped, failed = 0, 0, 0
 
     for i, ticker in enumerate(tickers, 1):
@@ -501,6 +654,7 @@ def main():
                 "hourly_bars": result["analysis"]["hourly_bars"],
                 "updated":     result["analysis"]["updated"],
             })
+            analyses.append(result["analysis"])
             ok += 1
             print(f"  [{ticker}] ✅ Salvo")
 
@@ -517,11 +671,16 @@ def main():
         "tickers": sorted(index, key=lambda x: x["ticker"]),
     })
 
+    # Sinais do Cockpit — ativos que estão dando sinal agora
+    signals = build_signals(analyses)
+    save_json(OUTPUT_DIR / "signals.json", signals)
+
     print(f"\n{'='*60}")
     print(f"  RESUMO")
     print(f"  ✅ Processados: {ok}")
     print(f"  ⚠  Ignorados:   {skipped} (volume/dados insuficientes)")
     print(f"  ❌ Erros:        {failed}")
+    print(f"  🎯 Sinais:       {signals['count']} ({sum(s['confirmed'] for s in signals['signals'])} confirmados)")
     print(f"  📁 Salvos em:    {OUTPUT_DIR}/")
     print(f"{'='*60}")
 
