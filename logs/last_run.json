@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "executado_em": "2026-08-06 09:13:37 BRT",
-  "executado_em_ts": 1786018417,
+  "executado_em": "2026-08-06 10:24:27 BRT",
+  "executado_em_ts": 1786022667,
   "arquivos": {
     "series_autorizadas": {
       "nome": "SI_D_SEDE.txt",
@@ -9,7 +9,7 @@
       "data_pregao": "2026-08-05",
       "data_geracao": "2026-08-06",
       "hora_geracao": "00:01:42",
-      "last_modified_http": "Thu, 06 Aug 2026 12:10:04 GMT",
+      "last_modified_http": "Thu, 06 Aug 2026 13:21:48 GMT",
       "opcoes_total": 138792
     },
     "bdi": {
@@ -23,7 +23,7 @@
     "opcoes_com_join": 46223,
     "opcoes_sem_oi": 92569,
     "tickers_gerados": 226,
-    "arquivos_alterados": 226
+    "arquivos_alterados": 1
   },
   "erros": []
 }
