@@ -1,4 +1,3 @@
-{"ts": "2026-07-14 09:56:40 BRT", "data_series": "20260713", "data_bdi": "20260713", "status": "ok", "tickers": 226, "changed": 0, "matched": 45042}
 {"ts": "2026-07-15 08:42:03 BRT", "data_series": "20260714", "data_bdi": "20260714", "status": "ok", "tickers": 226, "changed": 226, "matched": 45872}
 {"ts": "2026-07-15 10:04:13 BRT", "data_series": "20260714", "data_bdi": "20260714", "status": "ok", "tickers": 226, "changed": 0, "matched": 45872}
 {"ts": "2026-07-16 08:46:05 BRT", "data_series": "20260715", "data_bdi": "20260715", "status": "ok", "tickers": 226, "changed": 226, "matched": 46934}
@@ -28,3 +27,4 @@
 {"ts": "2026-08-10 09:42:48 BRT", "data_series": "20260807", "data_bdi": "20260807", "status": "ok", "tickers": 226, "changed": 0, "matched": 45949}
 {"ts": "2026-08-11 07:57:47 BRT", "data_series": "20260810", "data_bdi": "20260810", "status": "ok", "tickers": 226, "changed": 226, "matched": 46778}
 {"ts": "2026-08-11 09:36:26 BRT", "data_series": "20260810", "data_bdi": "20260810", "status": "ok", "tickers": 226, "changed": 1, "matched": 46778}
+{"ts": "2026-08-12 08:06:56 BRT", "data_series": "20260811", "data_bdi": "20260811", "status": "ok", "tickers": 227, "changed": 227, "matched": 47702}
