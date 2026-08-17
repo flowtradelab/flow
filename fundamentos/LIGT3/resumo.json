@@ -1,0 +1,101 @@
+{
+  "ticker": "LIGT3",
+  "cnpj": "03378521000175",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:31.263790+00:00",
+  "fundamentos": {
+    "ativo_total": 30402965.0,
+    "patrimonio_liquido": 9309904.0,
+    "receita_liquida": 7842058.0,
+    "lucro_liquido": -252176.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 3.25,
+    "valor_de_mercado": 1998065119.185545,
+    "numero_acoes": 611029092
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 214.62,
+    "margem_liquida": -0.0322,
+    "roe": -0.0271,
+    "dividend_yield_12m": 0.1579
+  },
+  "proventos_recentes": [
+    {
+      "data": "2009-03-19",
+      "valor_por_acao": 1.4368
+    },
+    {
+      "data": "2009-11-10",
+      "valor_por_acao": 0.3337
+    },
+    {
+      "data": "2010-03-25",
+      "valor_por_acao": 1.523
+    },
+    {
+      "data": "2010-09-24",
+      "valor_por_acao": 1.2788
+    },
+    {
+      "data": "2011-04-29",
+      "valor_por_acao": 1.2364
+    },
+    {
+      "data": "2011-12-19",
+      "valor_por_acao": 0.7223
+    },
+    {
+      "data": "2012-04-12",
+      "valor_por_acao": 0.6394
+    },
+    {
+      "data": "2012-09-24",
+      "valor_por_acao": 0.2137
+    },
+    {
+      "data": "2012-12-17",
+      "valor_por_acao": 0.6442
+    },
+    {
+      "data": "2013-04-29",
+      "valor_por_acao": 0.3233
+    },
+    {
+      "data": "2013-12-16",
+      "valor_por_acao": 0.3786
+    },
+    {
+      "data": "2014-04-25",
+      "valor_por_acao": 1.2852
+    },
+    {
+      "data": "2015-04-13",
+      "valor_por_acao": 0.5546
+    },
+    {
+      "data": "2016-04-29",
+      "valor_por_acao": 0.0355
+    },
+    {
+      "data": "2018-04-30",
+      "valor_por_acao": 0.1039
+    },
+    {
+      "data": "2019-04-30",
+      "valor_por_acao": 0.1387
+    },
+    {
+      "data": "2021-04-30",
+      "valor_por_acao": 0.3258
+    },
+    {
+      "data": "2022-04-28",
+      "valor_por_acao": 0.1874
+    }
+  ],
+  "dados_incompletos": false
+}

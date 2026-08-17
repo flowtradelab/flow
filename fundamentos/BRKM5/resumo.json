@@ -1,0 +1,93 @@
+{
+  "ticker": "BRKM5",
+  "cnpj": "42150391000170",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:00.664010+00:00",
+  "fundamentos": {
+    "ativo_total": 79240000.0,
+    "patrimonio_liquido": -13087000.0,
+    "receita_liquida": 21715000.0,
+    "lucro_liquido": 3323000.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 4.93,
+    "valor_de_mercado": 4176114296.4684067,
+    "numero_acoes": 796968412
+  },
+  "multiplos": {
+    "p_l": 1256.73,
+    "p_vp": null,
+    "margem_liquida": 0.153,
+    "roe": -0.2539,
+    "dividend_yield_12m": 1.8733
+  },
+  "proventos_recentes": [
+    {
+      "data": "2005-01-03",
+      "valor_por_acao": 0.564
+    },
+    {
+      "data": "2006-01-02",
+      "valor_por_acao": 0.7461
+    },
+    {
+      "data": "2006-04-10",
+      "valor_por_acao": 0.1543
+    },
+    {
+      "data": "2007-03-29",
+      "valor_por_acao": 0.159
+    },
+    {
+      "data": "2008-03-27",
+      "valor_por_acao": 0.6446
+    },
+    {
+      "data": "2011-05-02",
+      "valor_por_acao": 0.8332
+    },
+    {
+      "data": "2012-04-30",
+      "valor_por_acao": 0.6051
+    },
+    {
+      "data": "2014-04-10",
+      "valor_por_acao": 0.6062
+    },
+    {
+      "data": "2015-04-10",
+      "valor_por_acao": 0.6062
+    },
+    {
+      "data": "2016-04-07",
+      "valor_por_acao": 1.2567
+    },
+    {
+      "data": "2016-10-04",
+      "valor_por_acao": 1.2572
+    },
+    {
+      "data": "2017-12-04",
+      "valor_por_acao": 1.2567
+    },
+    {
+      "data": "2018-05-02",
+      "valor_por_acao": 3.7715
+    },
+    {
+      "data": "2019-10-04",
+      "valor_por_acao": 0.8386
+    },
+    {
+      "data": "2021-12-09",
+      "valor_por_acao": 7.539
+    },
+    {
+      "data": "2022-04-20",
+      "valor_por_acao": 1.6963
+    }
+  ],
+  "dados_incompletos": false
+}

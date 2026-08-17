@@ -1,0 +1,65 @@
+{
+  "ticker": "VIVA3",
+  "cnpj": "33839910000111",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:50:13.857767+00:00",
+  "fundamentos": {
+    "ativo_total": 4880312783.0,
+    "patrimonio_liquido": 3184286048.0,
+    "receita_liquida": 833131045.0,
+    "lucro_liquido": 151665407.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 20.87,
+    "valor_de_mercado": 4864944351.455666,
+    "numero_acoes": 235135052
+  },
+  "multiplos": {
+    "p_l": 32.08,
+    "p_vp": 1.53,
+    "margem_liquida": 0.182,
+    "roe": 0.0476,
+    "dividend_yield_12m": 0.0651
+  },
+  "proventos_recentes": [
+    {
+      "data": "2019-12-30",
+      "valor_por_acao": 0.1693
+    },
+    {
+      "data": "2020-12-30",
+      "valor_por_acao": 0.1058
+    },
+    {
+      "data": "2021-05-03",
+      "valor_por_acao": 0.0528
+    },
+    {
+      "data": "2021-12-28",
+      "valor_por_acao": 0.2752
+    },
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 0.0539
+    },
+    {
+      "data": "2023-04-28",
+      "valor_por_acao": 0.3642
+    },
+    {
+      "data": "2024-04-30",
+      "valor_por_acao": 0.3729
+    },
+    {
+      "data": "2025-04-23",
+      "valor_por_acao": 0.6602
+    },
+    {
+      "data": "2025-12-22",
+      "valor_por_acao": 0.6977
+    }
+  ],
+  "dados_incompletos": false
+}

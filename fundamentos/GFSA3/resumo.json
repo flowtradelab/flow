@@ -1,0 +1,57 @@
+{
+  "ticker": "GFSA3",
+  "cnpj": "01545826000107",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:17.999958+00:00",
+  "fundamentos": {
+    "ativo_total": 4728597.0,
+    "patrimonio_liquido": 1533237.0,
+    "receita_liquida": 99931.0,
+    "lucro_liquido": -45639.0,
+    "data_referencia_balanco": "2026-03-31",
+    "data_referencia_resultado": "2026-03-31"
+  },
+  "mercado": {
+    "preco": 0.21,
+    "valor_de_mercado": 31473461.468991116,
+    "numero_acoes": 157367305
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 20.53,
+    "margem_liquida": -0.4567,
+    "roe": -0.0298,
+    "dividend_yield_12m": 331.7989
+  },
+  "proventos_recentes": [
+    {
+      "data": "2008-04-07",
+      "valor_por_acao": 150.8942
+    },
+    {
+      "data": "2009-05-04",
+      "valor_por_acao": 145.4637
+    },
+    {
+      "data": "2010-04-28",
+      "valor_por_acao": 175.3964
+    },
+    {
+      "data": "2011-05-02",
+      "valor_por_acao": 331.7036
+    },
+    {
+      "data": "2013-12-30",
+      "valor_por_acao": 450.5422
+    },
+    {
+      "data": "2014-04-28",
+      "valor_por_acao": 118.2651
+    },
+    {
+      "data": "2016-04-26",
+      "valor_por_acao": 69.6778
+    }
+  ],
+  "dados_incompletos": false
+}

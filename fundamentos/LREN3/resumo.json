@@ -1,0 +1,109 @@
+{
+  "ticker": "LREN3",
+  "cnpj": "92754738000162",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:33.486603+00:00",
+  "fundamentos": {
+    "ativo_total": 19107201.0,
+    "patrimonio_liquido": 10367784.0,
+    "receita_liquida": 7567191.0,
+    "lucro_liquido": 404645.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 11.21,
+    "valor_de_mercado": 10579691424.426344,
+    "numero_acoes": 960916549
+  },
+  "multiplos": {
+    "p_l": 26145.61,
+    "p_vp": 1020.44,
+    "margem_liquida": 0.0535,
+    "roe": 0.039,
+    "dividend_yield_12m": 0.0984
+  },
+  "proventos_recentes": [
+    {
+      "data": "2021-09-22",
+      "valor_por_acao": 0.1056
+    },
+    {
+      "data": "2021-12-22",
+      "valor_por_acao": 0.1172
+    },
+    {
+      "data": "2022-03-23",
+      "valor_por_acao": 0.1308
+    },
+    {
+      "data": "2022-06-29",
+      "valor_por_acao": 0.1493
+    },
+    {
+      "data": "2022-09-28",
+      "valor_por_acao": 0.1588
+    },
+    {
+      "data": "2022-12-23",
+      "valor_por_acao": 0.1673
+    },
+    {
+      "data": "2023-03-22",
+      "valor_por_acao": 0.1658
+    },
+    {
+      "data": "2023-06-28",
+      "valor_por_acao": 0.1638
+    },
+    {
+      "data": "2023-09-27",
+      "valor_por_acao": 0.1634
+    },
+    {
+      "data": "2023-12-21",
+      "valor_por_acao": 0.1559
+    },
+    {
+      "data": "2024-03-20",
+      "valor_por_acao": 0.1366
+    },
+    {
+      "data": "2024-06-26",
+      "valor_por_acao": 0.1417
+    },
+    {
+      "data": "2024-09-25",
+      "valor_por_acao": 0.1534
+    },
+    {
+      "data": "2024-12-27",
+      "valor_por_acao": 0.1706
+    },
+    {
+      "data": "2025-03-26",
+      "valor_por_acao": 0.1878
+    },
+    {
+      "data": "2025-07-03",
+      "valor_por_acao": 0.203
+    },
+    {
+      "data": "2025-09-24",
+      "valor_por_acao": 0.2197
+    },
+    {
+      "data": "2025-12-12",
+      "valor_por_acao": 0.2278
+    },
+    {
+      "data": "2026-03-25",
+      "valor_por_acao": 0.2227
+    },
+    {
+      "data": "2026-06-24",
+      "valor_por_acao": 0.2293
+    }
+  ],
+  "dados_incompletos": false
+}

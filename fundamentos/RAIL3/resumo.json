@@ -1,0 +1,49 @@
+{
+  "ticker": "RAIL3",
+  "cnpj": "02387241000160",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:50.760425+00:00",
+  "fundamentos": {
+    "ativo_total": 55135865.0,
+    "patrimonio_liquido": 14686691.0,
+    "receita_liquida": 7222578.0,
+    "lucro_liquido": 519760.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 13.67,
+    "valor_de_mercado": 25406755915.329132,
+    "numero_acoes": 1855862432
+  },
+  "multiplos": {
+    "p_l": 48881.71,
+    "p_vp": 1729.92,
+    "margem_liquida": 0.072,
+    "roe": 0.0354,
+    "dividend_yield_12m": 0.0672
+  },
+  "proventos_recentes": [
+    {
+      "data": "2022-04-28",
+      "valor_por_acao": 0.0193
+    },
+    {
+      "data": "2023-04-20",
+      "valor_por_acao": 0.066
+    },
+    {
+      "data": "2024-05-02",
+      "valor_por_acao": 0.0924
+    },
+    {
+      "data": "2025-06-17",
+      "valor_por_acao": 0.8104
+    },
+    {
+      "data": "2026-04-29",
+      "valor_por_acao": 0.1084
+    }
+  ],
+  "dados_incompletos": false
+}

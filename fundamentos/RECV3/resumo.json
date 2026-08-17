@@ -1,0 +1,69 @@
+{
+  "ticker": "RECV3",
+  "cnpj": "03342704000130",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:53.492151+00:00",
+  "fundamentos": {
+    "ativo_total": 9031752.0,
+    "patrimonio_liquido": 4433506.0,
+    "receita_liquida": 807943.0,
+    "lucro_liquido": 202683.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 10.51,
+    "valor_de_mercado": 3143193580.6554546,
+    "numero_acoes": 293482126
+  },
+  "multiplos": {
+    "p_l": 15507.93,
+    "p_vp": 708.96,
+    "margem_liquida": 0.2509,
+    "roe": 0.0457,
+    "dividend_yield_12m": 0.1298
+  },
+  "proventos_recentes": [
+    {
+      "data": "2022-04-28",
+      "valor_por_acao": 0.1598
+    },
+    {
+      "data": "2022-12-02",
+      "valor_por_acao": 0.615
+    },
+    {
+      "data": "2023-04-27",
+      "valor_por_acao": 0.4441
+    },
+    {
+      "data": "2023-12-06",
+      "valor_por_acao": 0.546
+    },
+    {
+      "data": "2024-04-25",
+      "valor_por_acao": 0.0593
+    },
+    {
+      "data": "2024-06-06",
+      "valor_por_acao": 1.3988
+    },
+    {
+      "data": "2024-11-13",
+      "valor_por_acao": 1.2931
+    },
+    {
+      "data": "2025-05-16",
+      "valor_por_acao": 0.9001
+    },
+    {
+      "data": "2026-01-09",
+      "valor_por_acao": 1.024
+    },
+    {
+      "data": "2026-05-19",
+      "valor_por_acao": 0.3407
+    }
+  ],
+  "dados_incompletos": false
+}

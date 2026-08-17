@@ -1,0 +1,93 @@
+{
+  "ticker": "DASA3",
+  "cnpj": "61486650000183",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:07.661299+00:00",
+  "fundamentos": {
+    "ativo_total": 17123380.0,
+    "patrimonio_liquido": 6865844.0,
+    "receita_liquida": 2223502.0,
+    "lucro_liquido": -30858.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 2.11,
+    "valor_de_mercado": 2762111934.1070166,
+    "numero_acoes": 1249824383
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 402.3,
+    "margem_liquida": -0.0139,
+    "roe": -0.0045,
+    "dividend_yield_12m": 0.278
+  },
+  "proventos_recentes": [
+    {
+      "data": "2008-03-26",
+      "valor_por_acao": 0.0586
+    },
+    {
+      "data": "2009-12-11",
+      "valor_por_acao": 0.1025
+    },
+    {
+      "data": "2010-12-29",
+      "valor_por_acao": 0.1309
+    },
+    {
+      "data": "2011-10-04",
+      "valor_por_acao": 0.0966
+    },
+    {
+      "data": "2012-04-30",
+      "valor_por_acao": 0.0322
+    },
+    {
+      "data": "2013-04-23",
+      "valor_por_acao": 0.066
+    },
+    {
+      "data": "2014-04-29",
+      "valor_por_acao": 0.101
+    },
+    {
+      "data": "2015-04-24",
+      "valor_por_acao": 0.0629
+    },
+    {
+      "data": "2016-04-26",
+      "valor_por_acao": 0.02
+    },
+    {
+      "data": "2017-01-02",
+      "valor_por_acao": 0.0804
+    },
+    {
+      "data": "2017-04-24",
+      "valor_por_acao": 0.0046
+    },
+    {
+      "data": "2018-01-02",
+      "valor_por_acao": 0.1353
+    },
+    {
+      "data": "2019-01-02",
+      "valor_por_acao": 0.5612
+    },
+    {
+      "data": "2020-01-02",
+      "valor_por_acao": 0.5634
+    },
+    {
+      "data": "2021-01-13",
+      "valor_por_acao": 0.2854
+    },
+    {
+      "data": "2021-12-28",
+      "valor_por_acao": 0.3012
+    }
+  ],
+  "dados_incompletos": false
+}

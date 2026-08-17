@@ -1,0 +1,61 @@
+{
+  "ticker": "SOJA3",
+  "cnpj": "10807374000177",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:50:02.318597+00:00",
+  "fundamentos": {
+    "ativo_total": 4009574.0,
+    "patrimonio_liquido": 1352502.0,
+    "receita_liquida": 124681.0,
+    "lucro_liquido": 2671.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 5.03,
+    "valor_de_mercado": 836497030.9251204,
+    "numero_acoes": 141061898
+  },
+  "multiplos": {
+    "p_l": 313177.47,
+    "p_vp": 618.48,
+    "margem_liquida": 0.0214,
+    "roe": 0.002,
+    "dividend_yield_12m": 0.0873
+  },
+  "proventos_recentes": [
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 0.0381
+    },
+    {
+      "data": "2022-11-22",
+      "valor_por_acao": 0.0656
+    },
+    {
+      "data": "2023-04-28",
+      "valor_por_acao": 0.0129
+    },
+    {
+      "data": "2023-10-31",
+      "valor_por_acao": 0.1256
+    },
+    {
+      "data": "2023-12-21",
+      "valor_por_acao": 0.7731
+    },
+    {
+      "data": "2024-10-04",
+      "valor_por_acao": 0.1409
+    },
+    {
+      "data": "2025-01-02",
+      "valor_por_acao": 0.1418
+    },
+    {
+      "data": "2025-12-19",
+      "valor_por_acao": 0.2974
+    }
+  ],
+  "dados_incompletos": false
+}

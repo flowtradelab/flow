@@ -1,0 +1,57 @@
+{
+  "ticker": "OIBR3",
+  "cnpj": "76535764000143",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:41.397903+00:00",
+  "fundamentos": {
+    "ativo_total": 18729654.0,
+    "patrimonio_liquido": -15469158.0,
+    "receita_liquida": 1390551.0,
+    "lucro_liquido": 821310.0,
+    "data_referencia_balanco": "2025-06-30",
+    "data_referencia_resultado": "2025-06-30"
+  },
+  "mercado": {
+    "preco": 0.11,
+    "valor_de_mercado": 36771335.59,
+    "numero_acoes": 334284869
+  },
+  "multiplos": {
+    "p_l": 44.77,
+    "p_vp": null,
+    "margem_liquida": 0.5906,
+    "roe": -0.0531,
+    "dividend_yield_12m": 5482.2403
+  },
+  "proventos_recentes": [
+    {
+      "data": "2008-04-09",
+      "valor_por_acao": 281.314
+    },
+    {
+      "data": "2008-12-30",
+      "valor_por_acao": 91.0335
+    },
+    {
+      "data": "2010-12-22",
+      "valor_por_acao": 132.9589
+    },
+    {
+      "data": "2011-04-28",
+      "valor_por_acao": 221.2572
+    },
+    {
+      "data": "2012-05-02",
+      "valor_por_acao": 901.7206
+    },
+    {
+      "data": "2013-03-22",
+      "valor_por_acao": 377.6159
+    },
+    {
+      "data": "2013-09-30",
+      "valor_por_acao": 225.4305
+    }
+  ],
+  "dados_incompletos": false
+}

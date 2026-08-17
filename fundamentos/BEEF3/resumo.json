@@ -1,0 +1,81 @@
+{
+  "ticker": "BEEF3",
+  "cnpj": "67620377000114",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:48:59.365717+00:00",
+  "fundamentos": {
+    "ativo_total": 46737041.0,
+    "patrimonio_liquido": 2182311.0,
+    "receita_liquida": 14102235.0,
+    "lucro_liquido": 196887.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 3.2,
+    "valor_de_mercado": 3350063155.9873047,
+    "numero_acoes": 991142912
+  },
+  "multiplos": {
+    "p_l": 17015.16,
+    "p_vp": 1535.1,
+    "margem_liquida": 0.014,
+    "roe": 0.0902,
+    "dividend_yield_12m": 0.0612
+  },
+  "proventos_recentes": [
+    {
+      "data": "2011-03-04",
+      "valor_por_acao": 0.0553
+    },
+    {
+      "data": "2012-03-07",
+      "valor_por_acao": 0.2745
+    },
+    {
+      "data": "2017-04-04",
+      "valor_por_acao": 0.2301
+    },
+    {
+      "data": "2020-11-09",
+      "valor_por_acao": 0.2283
+    },
+    {
+      "data": "2021-01-04",
+      "valor_por_acao": 0.0378
+    },
+    {
+      "data": "2021-04-13",
+      "valor_por_acao": 0.6462
+    },
+    {
+      "data": "2021-11-11",
+      "valor_por_acao": 0.3089
+    },
+    {
+      "data": "2022-04-28",
+      "valor_por_acao": 0.3031
+    },
+    {
+      "data": "2022-08-18",
+      "valor_por_acao": 0.1941
+    },
+    {
+      "data": "2023-04-19",
+      "valor_por_acao": 0.3158
+    },
+    {
+      "data": "2023-08-15",
+      "valor_por_acao": 0.172
+    },
+    {
+      "data": "2025-12-16",
+      "valor_por_acao": 0.1646
+    },
+    {
+      "data": "2026-04-29",
+      "valor_por_acao": 0.0311
+    }
+  ],
+  "dados_incompletos": false
+}

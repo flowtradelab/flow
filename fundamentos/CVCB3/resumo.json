@@ -1,0 +1,81 @@
+{
+  "ticker": "CVCB3",
+  "cnpj": "10760260000119",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:05.841962+00:00",
+  "fundamentos": {
+    "ativo_total": 3682869.0,
+    "patrimonio_liquido": 322905.0,
+    "receita_liquida": 332703.0,
+    "lucro_liquido": -72537.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 1.34,
+    "valor_de_mercado": 718702048.9566388,
+    "numero_acoes": 520798588
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 2225.74,
+    "margem_liquida": -0.218,
+    "roe": -0.2246,
+    "dividend_yield_12m": 0.2728
+  },
+  "proventos_recentes": [
+    {
+      "data": "2014-03-11",
+      "valor_por_acao": 0.0937
+    },
+    {
+      "data": "2014-04-29",
+      "valor_por_acao": 0.0937
+    },
+    {
+      "data": "2014-12-10",
+      "valor_por_acao": 0.0909
+    },
+    {
+      "data": "2015-04-16",
+      "valor_por_acao": 0.5203
+    },
+    {
+      "data": "2015-12-21",
+      "valor_por_acao": 0.0944
+    },
+    {
+      "data": "2016-04-27",
+      "valor_por_acao": 0.6112
+    },
+    {
+      "data": "2016-12-09",
+      "valor_por_acao": 0.1378
+    },
+    {
+      "data": "2017-05-02",
+      "valor_por_acao": 0.1367
+    },
+    {
+      "data": "2017-12-19",
+      "valor_por_acao": 0.2384
+    },
+    {
+      "data": "2018-04-30",
+      "valor_por_acao": 0.0689
+    },
+    {
+      "data": "2018-12-11",
+      "valor_por_acao": 0.3433
+    },
+    {
+      "data": "2019-05-02",
+      "valor_por_acao": 0.0215
+    },
+    {
+      "data": "2019-12-26",
+      "valor_por_acao": 0.344
+    }
+  ],
+  "dados_incompletos": false
+}

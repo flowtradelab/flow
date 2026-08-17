@@ -1,0 +1,69 @@
+{
+  "ticker": "IGTI11",
+  "cnpj": "60543816000193",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:23.272897+00:00",
+  "fundamentos": {
+    "ativo_total": 10066034.0,
+    "patrimonio_liquido": 4937356.0,
+    "receita_liquida": 389255.0,
+    "lucro_liquido": 135085.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 23.73,
+    "valor_de_mercado": null,
+    "numero_acoes": null
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": null,
+    "margem_liquida": 0.347,
+    "roe": 0.0274,
+    "dividend_yield_12m": 0.0213
+  },
+  "proventos_recentes": [
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 0.3413
+    },
+    {
+      "data": "2023-03-06",
+      "valor_por_acao": 0.0915
+    },
+    {
+      "data": "2023-04-24",
+      "valor_por_acao": 0.2745
+    },
+    {
+      "data": "2024-02-26",
+      "valor_por_acao": 0.1676
+    },
+    {
+      "data": "2024-04-19",
+      "valor_por_acao": 0.5054
+    },
+    {
+      "data": "2025-02-24",
+      "valor_por_acao": 0.1685
+    },
+    {
+      "data": "2025-04-22",
+      "valor_por_acao": 0.5067
+    },
+    {
+      "data": "2026-02-20",
+      "valor_por_acao": 0.1685
+    },
+    {
+      "data": "2026-04-15",
+      "valor_por_acao": 0.169
+    },
+    {
+      "data": "2026-07-16",
+      "valor_por_acao": 0.1687
+    }
+  ],
+  "dados_incompletos": false
+}

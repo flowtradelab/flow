@@ -1,0 +1,109 @@
+{
+  "ticker": "UGPA3",
+  "cnpj": "33256439000139",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:50:10.028056+00:00",
+  "fundamentos": {
+    "ativo_total": 51772124.0,
+    "patrimonio_liquido": 20026383.0,
+    "receita_liquida": 41521247.0,
+    "lucro_liquido": 1677238.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 32.27,
+    "valor_de_mercado": 35964675877.5,
+    "numero_acoes": 1065620026
+  },
+  "multiplos": {
+    "p_l": 21442.8,
+    "p_vp": 1795.86,
+    "margem_liquida": 0.0404,
+    "roe": 0.0838,
+    "dividend_yield_12m": 0.0542
+  },
+  "proventos_recentes": [
+    {
+      "data": "2016-02-25",
+      "valor_por_acao": 0.1843
+    },
+    {
+      "data": "2016-08-18",
+      "valor_por_acao": 0.1843
+    },
+    {
+      "data": "2017-03-02",
+      "valor_por_acao": 0.2004
+    },
+    {
+      "data": "2017-08-17",
+      "valor_por_acao": 0.1958
+    },
+    {
+      "data": "2018-03-02",
+      "valor_por_acao": 0.2073
+    },
+    {
+      "data": "2018-08-10",
+      "valor_por_acao": 0.129
+    },
+    {
+      "data": "2019-03-01",
+      "valor_por_acao": 0.1613
+    },
+    {
+      "data": "2019-08-23",
+      "valor_por_acao": 0.0921
+    },
+    {
+      "data": "2020-02-28",
+      "valor_por_acao": 0.1106
+    },
+    {
+      "data": "2021-03-05",
+      "valor_por_acao": 0.2027
+    },
+    {
+      "data": "2021-08-20",
+      "valor_por_acao": 0.2
+    },
+    {
+      "data": "2022-03-04",
+      "valor_por_acao": 0.1704
+    },
+    {
+      "data": "2022-05-24",
+      "valor_por_acao": 0.4125
+    },
+    {
+      "data": "2023-02-24",
+      "valor_por_acao": 0.1
+    },
+    {
+      "data": "2023-08-18",
+      "valor_por_acao": 0.25
+    },
+    {
+      "data": "2024-03-08",
+      "valor_por_acao": 0.4
+    },
+    {
+      "data": "2024-08-16",
+      "valor_por_acao": 0.25
+    },
+    {
+      "data": "2025-03-07",
+      "valor_por_acao": 0.4502
+    },
+    {
+      "data": "2025-08-22",
+      "valor_por_acao": 0.3
+    },
+    {
+      "data": "2025-12-08",
+      "valor_por_acao": 1.0
+    }
+  ],
+  "dados_incompletos": false
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "HAPV3",
+  "cnpj": "05197443000138",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:21.289554+00:00",
+  "fundamentos": {
+    "ativo_total": 72799736.0,
+    "patrimonio_liquido": 48063476.0,
+    "receita_liquida": 1218855.0,
+    "lucro_liquido": -75830.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 6.73,
+    "valor_de_mercado": 3140331280.731082,
+    "numero_acoes": 475087930
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 65.34,
+    "margem_liquida": -0.0622,
+    "roe": -0.0016,
+    "dividend_yield_12m": 0.1393
+  },
+  "proventos_recentes": [
+    {
+      "data": "2018-12-17",
+      "valor_por_acao": 0.553
+    },
+    {
+      "data": "2019-04-23",
+      "valor_por_acao": 0.365
+    },
+    {
+      "data": "2019-07-03",
+      "valor_por_acao": 0.4661
+    },
+    {
+      "data": "2020-01-06",
+      "valor_por_acao": 0.4791
+    },
+    {
+      "data": "2020-04-29",
+      "valor_por_acao": 0.0495
+    },
+    {
+      "data": "2020-09-11",
+      "valor_por_acao": 0.4473
+    },
+    {
+      "data": "2021-01-08",
+      "valor_por_acao": 0.377
+    },
+    {
+      "data": "2021-05-06",
+      "valor_por_acao": 0.0379
+    },
+    {
+      "data": "2021-07-07",
+      "valor_por_acao": 0.2653
+    },
+    {
+      "data": "2021-09-28",
+      "valor_por_acao": 0.1765
+    },
+    {
+      "data": "2021-12-28",
+      "valor_por_acao": 0.0806
+    }
+  ],
+  "dados_incompletos": false
+}

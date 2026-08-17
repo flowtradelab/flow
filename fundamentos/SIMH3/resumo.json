@@ -1,0 +1,61 @@
+{
+  "ticker": "SIMH3",
+  "cnpj": "07415333000120",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:59.642426+00:00",
+  "fundamentos": {
+    "ativo_total": 91594775.0,
+    "patrimonio_liquido": 9825968.0,
+    "receita_liquida": 11248662.0,
+    "lucro_liquido": -151121.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 6.16,
+    "valor_de_mercado": 3543418996.5789237,
+    "numero_acoes": 583759291
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 360.62,
+    "margem_liquida": -0.0134,
+    "roe": -0.0154,
+    "dividend_yield_12m": 0.0278
+  },
+  "proventos_recentes": [
+    {
+      "data": "2021-01-07",
+      "valor_por_acao": 0.0572
+    },
+    {
+      "data": "2021-04-30",
+      "valor_por_acao": 0.1107
+    },
+    {
+      "data": "2021-12-23",
+      "valor_por_acao": 0.2062
+    },
+    {
+      "data": "2022-05-06",
+      "valor_por_acao": 1.0115
+    },
+    {
+      "data": "2022-12-28",
+      "valor_por_acao": 0.2704
+    },
+    {
+      "data": "2023-05-05",
+      "valor_por_acao": 0.0383
+    },
+    {
+      "data": "2025-05-06",
+      "valor_por_acao": 0.1379
+    },
+    {
+      "data": "2026-06-05",
+      "valor_por_acao": 0.1713
+    }
+  ],
+  "dados_incompletos": false
+}

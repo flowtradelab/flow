@@ -1,0 +1,97 @@
+{
+  "ticker": "MGLU3",
+  "cnpj": "47960950000121",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:36.307740+00:00",
+  "fundamentos": {
+    "ativo_total": 35912356.0,
+    "patrimonio_liquido": 11166703.0,
+    "receita_liquida": 8898727.0,
+    "lucro_liquido": -72462.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 3.91,
+    "valor_de_mercado": 3257765291.654894,
+    "numero_acoes": 775658438
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": 291.74,
+    "margem_liquida": -0.0081,
+    "roe": -0.0065,
+    "dividend_yield_12m": 0.0951
+  },
+  "proventos_recentes": [
+    {
+      "data": "2012-05-02",
+      "valor_por_acao": 0.0041
+    },
+    {
+      "data": "2014-02-21",
+      "valor_por_acao": 0.0183
+    },
+    {
+      "data": "2014-04-23",
+      "valor_por_acao": 0.0299
+    },
+    {
+      "data": "2015-01-15",
+      "valor_por_acao": 0.0218
+    },
+    {
+      "data": "2015-04-28",
+      "valor_por_acao": 0.0303
+    },
+    {
+      "data": "2017-04-26",
+      "valor_por_acao": 0.0354
+    },
+    {
+      "data": "2017-12-20",
+      "valor_por_acao": 0.1103
+    },
+    {
+      "data": "2018-04-17",
+      "valor_por_acao": 0.0736
+    },
+    {
+      "data": "2019-01-02",
+      "valor_por_acao": 0.165
+    },
+    {
+      "data": "2019-04-16",
+      "valor_por_acao": 0.1031
+    },
+    {
+      "data": "2019-10-08",
+      "valor_por_acao": 0.1639
+    },
+    {
+      "data": "2020-01-02",
+      "valor_por_acao": 0.0797
+    },
+    {
+      "data": "2020-07-31",
+      "valor_por_acao": 0.2097
+    },
+    {
+      "data": "2020-12-30",
+      "valor_por_acao": 0.2343
+    },
+    {
+      "data": "2021-07-06",
+      "valor_por_acao": 0.138
+    },
+    {
+      "data": "2025-04-28",
+      "valor_por_acao": 0.2906
+    },
+    {
+      "data": "2026-04-27",
+      "valor_por_acao": 0.0813
+    }
+  ],
+  "dados_incompletos": false
+}

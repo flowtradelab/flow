@@ -1,0 +1,101 @@
+{
+  "ticker": "CURY3",
+  "cnpj": "08797760000183",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:05.190461+00:00",
+  "fundamentos": {
+    "ativo_total": 6278509.0,
+    "patrimonio_liquido": 2048841.0,
+    "receita_liquida": 3303165.0,
+    "lucro_liquido": 311191.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 31.13,
+    "valor_de_mercado": 9912971668.928665,
+    "numero_acoes": 308047594
+  },
+  "multiplos": {
+    "p_l": 31854.94,
+    "p_vp": 4838.33,
+    "margem_liquida": 0.0942,
+    "roe": 0.1519,
+    "dividend_yield_12m": 0.1602
+  },
+  "proventos_recentes": [
+    {
+      "data": "2021-04-26",
+      "valor_por_acao": 0.3927
+    },
+    {
+      "data": "2021-12-08",
+      "valor_por_acao": 0.1707
+    },
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 0.5136
+    },
+    {
+      "data": "2023-01-25",
+      "valor_por_acao": 0.2063
+    },
+    {
+      "data": "2023-05-02",
+      "valor_por_acao": 0.0631
+    },
+    {
+      "data": "2023-09-25",
+      "valor_por_acao": 0.5157
+    },
+    {
+      "data": "2023-12-05",
+      "valor_por_acao": 0.3438
+    },
+    {
+      "data": "2024-05-02",
+      "valor_por_acao": 0.4075
+    },
+    {
+      "data": "2024-05-09",
+      "valor_por_acao": 0.911
+    },
+    {
+      "data": "2024-10-07",
+      "valor_por_acao": 0.3438
+    },
+    {
+      "data": "2025-02-11",
+      "valor_por_acao": 0.6016
+    },
+    {
+      "data": "2025-04-22",
+      "valor_por_acao": 0.5306
+    },
+    {
+      "data": "2025-10-01",
+      "valor_por_acao": 0.6829
+    },
+    {
+      "data": "2025-11-28",
+      "valor_por_acao": 0.8536
+    },
+    {
+      "data": "2025-12-17",
+      "valor_por_acao": 1.8601
+    },
+    {
+      "data": "2026-02-05",
+      "valor_por_acao": 0.4545
+    },
+    {
+      "data": "2026-05-18",
+      "valor_por_acao": 0.5194
+    },
+    {
+      "data": "2026-08-17",
+      "valor_por_acao": 0.6168
+    }
+  ],
+  "dados_incompletos": false
+}

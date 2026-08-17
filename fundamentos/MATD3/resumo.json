@@ -1,0 +1,49 @@
+{
+  "ticker": "MATD3",
+  "cnpj": "16676520000159",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:34.776055+00:00",
+  "fundamentos": {
+    "ativo_total": 4380389.0,
+    "patrimonio_liquido": 1507288.0,
+    "receita_liquida": 613633.0,
+    "lucro_liquido": 44987.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 4.84,
+    "valor_de_mercado": 1621570874.0602136,
+    "numero_acoes": 330932825
+  },
+  "multiplos": {
+    "p_l": 36045.32,
+    "p_vp": 1075.82,
+    "margem_liquida": 0.0733,
+    "roe": 0.0298,
+    "dividend_yield_12m": 0.0466
+  },
+  "proventos_recentes": [
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 0.09
+    },
+    {
+      "data": "2023-05-02",
+      "valor_por_acao": 0.0643
+    },
+    {
+      "data": "2024-05-02",
+      "valor_por_acao": 0.0749
+    },
+    {
+      "data": "2025-05-14",
+      "valor_por_acao": 0.0749
+    },
+    {
+      "data": "2025-12-09",
+      "valor_por_acao": 0.1505
+    }
+  ],
+  "dados_incompletos": false
+}

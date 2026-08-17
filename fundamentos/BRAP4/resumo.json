@@ -1,0 +1,109 @@
+{
+  "ticker": "BRAP4",
+  "cnpj": "03847461000192",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:48:59.981881+00:00",
+  "fundamentos": {
+    "ativo_total": 8098010.0,
+    "patrimonio_liquido": 8049611.0,
+    "receita_liquida": 0.0,
+    "lucro_liquido": 252313.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 20.26,
+    "valor_de_mercado": 7968068464.645348,
+    "numero_acoes": 393096610
+  },
+  "multiplos": {
+    "p_l": 31580.09,
+    "p_vp": 989.87,
+    "margem_liquida": null,
+    "roe": 0.0313,
+    "dividend_yield_12m": 0.1721
+  },
+  "proventos_recentes": [
+    {
+      "data": "2017-12-26",
+      "valor_por_acao": 0.8461
+    },
+    {
+      "data": "2018-04-30",
+      "valor_por_acao": 1.1377
+    },
+    {
+      "data": "2019-01-02",
+      "valor_por_acao": 0.5702
+    },
+    {
+      "data": "2019-05-02",
+      "valor_por_acao": 0.5267
+    },
+    {
+      "data": "2019-12-30",
+      "valor_por_acao": 0.7076
+    },
+    {
+      "data": "2020-11-12",
+      "valor_por_acao": 1.7737
+    },
+    {
+      "data": "2021-04-01",
+      "valor_por_acao": 3.0481
+    },
+    {
+      "data": "2021-07-16",
+      "valor_por_acao": 1.5766
+    },
+    {
+      "data": "2021-12-17",
+      "valor_por_acao": 6.0438
+    },
+    {
+      "data": "2022-05-02",
+      "valor_por_acao": 1.5767
+    },
+    {
+      "data": "2022-11-10",
+      "valor_por_acao": 1.5241
+    },
+    {
+      "data": "2022-12-27",
+      "valor_por_acao": 0.1708
+    },
+    {
+      "data": "2023-04-28",
+      "valor_por_acao": 1.235
+    },
+    {
+      "data": "2023-11-22",
+      "valor_por_acao": 1.7869
+    },
+    {
+      "data": "2024-04-30",
+      "valor_por_acao": 1.1825
+    },
+    {
+      "data": "2024-11-13",
+      "valor_por_acao": 0.8987
+    },
+    {
+      "data": "2024-12-20",
+      "valor_por_acao": 0.2102
+    },
+    {
+      "data": "2025-04-28",
+      "valor_por_acao": 0.9197
+    },
+    {
+      "data": "2025-11-13",
+      "valor_por_acao": 0.8146
+    },
+    {
+      "data": "2025-12-18",
+      "valor_por_acao": 1.5425
+    }
+  ],
+  "dados_incompletos": false
+}

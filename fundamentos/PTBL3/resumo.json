@@ -1,0 +1,109 @@
+{
+  "ticker": "PTBL3",
+  "cnpj": "83475913000191",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:49.378324+00:00",
+  "fundamentos": {
+    "ativo_total": 3499805.0,
+    "patrimonio_liquido": -103923.0,
+    "receita_liquida": 651277.0,
+    "lucro_liquido": -62737.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 1.44,
+    "valor_de_mercado": 198791504.55405498,
+    "numero_acoes": 140986886
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": null,
+    "margem_liquida": -0.0963,
+    "roe": 0.6037,
+    "dividend_yield_12m": 0.3598
+  },
+  "proventos_recentes": [
+    {
+      "data": "2013-05-02",
+      "valor_por_acao": 0.0543
+    },
+    {
+      "data": "2013-08-13",
+      "valor_por_acao": 0.0438
+    },
+    {
+      "data": "2014-05-02",
+      "valor_por_acao": 0.1491
+    },
+    {
+      "data": "2014-08-14",
+      "valor_por_acao": 0.0407
+    },
+    {
+      "data": "2015-05-04",
+      "valor_por_acao": 0.2441
+    },
+    {
+      "data": "2015-08-10",
+      "valor_por_acao": 0.0375
+    },
+    {
+      "data": "2016-05-02",
+      "valor_por_acao": 0.0514
+    },
+    {
+      "data": "2017-05-02",
+      "valor_por_acao": 0.0037
+    },
+    {
+      "data": "2017-08-10",
+      "valor_por_acao": 0.07
+    },
+    {
+      "data": "2018-05-07",
+      "valor_por_acao": 0.1355
+    },
+    {
+      "data": "2018-08-15",
+      "valor_por_acao": 0.0624
+    },
+    {
+      "data": "2019-04-08",
+      "valor_por_acao": 0.1549
+    },
+    {
+      "data": "2020-05-06",
+      "valor_por_acao": 0.0398
+    },
+    {
+      "data": "2021-01-27",
+      "valor_por_acao": 0.1118
+    },
+    {
+      "data": "2021-05-03",
+      "valor_por_acao": 0.3129
+    },
+    {
+      "data": "2021-09-06",
+      "valor_por_acao": 0.1298
+    },
+    {
+      "data": "2021-11-22",
+      "valor_por_acao": 0.5736
+    },
+    {
+      "data": "2022-03-24",
+      "valor_por_acao": 0.0495
+    },
+    {
+      "data": "2022-08-19",
+      "valor_por_acao": 0.3081
+    },
+    {
+      "data": "2023-05-04",
+      "valor_por_acao": 0.2101
+    }
+  ],
+  "dados_incompletos": false
+}

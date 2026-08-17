@@ -1,0 +1,28 @@
+{
+  "ticker": "SEQL3",
+  "cnpj": "01599101000193",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:59.101407+00:00",
+  "fundamentos": {
+    "ativo_total": 665038.0,
+    "patrimonio_liquido": -252680.0,
+    "receita_liquida": 265530.0,
+    "lucro_liquido": -84337.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 0.07,
+    "valor_de_mercado": 445934208.9385536,
+    "numero_acoes": 6370488672
+  },
+  "multiplos": {
+    "p_l": null,
+    "p_vp": null,
+    "margem_liquida": -0.3176,
+    "roe": 0.3338,
+    "dividend_yield_12m": null
+  },
+  "proventos_recentes": [],
+  "dados_incompletos": false
+}

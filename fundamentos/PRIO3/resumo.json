@@ -1,0 +1,33 @@
+{
+  "ticker": "PRIO3",
+  "cnpj": "10629105000168",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:47.470138+00:00",
+  "fundamentos": {
+    "ativo_total": 63510624.0,
+    "patrimonio_liquido": 28214097.0,
+    "receita_liquida": 13546190.0,
+    "lucro_liquido": 1959864.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 58.63,
+    "valor_de_mercado": 49053516357.95203,
+    "numero_acoes": 797488501
+  },
+  "multiplos": {
+    "p_l": 25029.04,
+    "p_vp": 1738.62,
+    "margem_liquida": 0.1447,
+    "roe": 0.0695,
+    "dividend_yield_12m": 0.0012
+  },
+  "proventos_recentes": [
+    {
+      "data": "2023-12-14",
+      "valor_por_acao": 0.0726
+    }
+  ],
+  "dados_incompletos": false
+}

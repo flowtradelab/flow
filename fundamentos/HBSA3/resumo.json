@@ -1,0 +1,28 @@
+{
+  "ticker": "HBSA3",
+  "cnpj": "12648327000153",
+  "razao_social": null,
+  "atualizado_em": "2026-08-17T19:49:21.958295+00:00",
+  "fundamentos": {
+    "ativo_total": 5915698.0,
+    "patrimonio_liquido": 2090449.0,
+    "receita_liquida": 664118.0,
+    "lucro_liquido": 100357.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 3.21,
+    "valor_de_mercado": 4421243589.75,
+    "numero_acoes": 1360382643
+  },
+  "multiplos": {
+    "p_l": 44055.16,
+    "p_vp": 2114.97,
+    "margem_liquida": 0.1511,
+    "roe": 0.048,
+    "dividend_yield_12m": null
+  },
+  "proventos_recentes": [],
+  "dados_incompletos": false
+}
