@@ -2,12 +2,12 @@
   "ticker": "IGTI11",
   "cnpj": "60543816000193",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:23.272897+00:00",
+  "atualizado_em": "2026-08-17T20:17:08.964130+00:00",
   "fundamentos": {
-    "ativo_total": 10066034.0,
-    "patrimonio_liquido": 4937356.0,
-    "receita_liquida": 389255.0,
-    "lucro_liquido": 135085.0,
+    "ativo_total": 10066034000.0,
+    "patrimonio_liquido": 4937356000.0,
+    "receita_liquida": 389255000.0,
+    "lucro_liquido": 135085000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },

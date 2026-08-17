@@ -2,23 +2,23 @@
   "ticker": "SUZB3",
   "cnpj": "16404287000155",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:03.258144+00:00",
+  "atualizado_em": "2026-08-17T20:17:49.435853+00:00",
   "fundamentos": {
-    "ativo_total": 171045775.0,
-    "patrimonio_liquido": 49851513.0,
-    "receita_liquida": 11590133.0,
-    "lucro_liquido": 1807466.0,
+    "ativo_total": 171045775000.0,
+    "patrimonio_liquido": 49851513000.0,
+    "receita_liquida": 11590133000.0,
+    "lucro_liquido": 1807466000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 42.03,
-    "valor_de_mercado": 50025995212.19123,
+    "valor_de_mercado": 50136835865.09248,
     "numero_acoes": 1231560722
   },
   "multiplos": {
-    "p_l": 27677.42,
-    "p_vp": 1003.5,
+    "p_l": 27.74,
+    "p_vp": 1.01,
     "margem_liquida": 0.1559,
     "roe": 0.0363,
     "dividend_yield_12m": 0.0267

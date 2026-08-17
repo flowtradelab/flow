@@ -2,24 +2,24 @@
   "ticker": "LREN3",
   "cnpj": "92754738000162",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:33.486603+00:00",
+  "atualizado_em": "2026-08-17T20:17:19.495038+00:00",
   "fundamentos": {
-    "ativo_total": 19107201.0,
-    "patrimonio_liquido": 10367784.0,
-    "receita_liquida": 7567191.0,
-    "lucro_liquido": 404645.0,
+    "ativo_total": 19107201000.0,
+    "patrimonio_liquido": 10367784000.0,
+    "receita_liquida": 4201496000.0,
+    "lucro_liquido": 404645000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 11.21,
-    "valor_de_mercado": 10579691424.426344,
+    "valor_de_mercado": 10598909278.877598,
     "numero_acoes": 960916549
   },
   "multiplos": {
-    "p_l": 26145.61,
-    "p_vp": 1020.44,
-    "margem_liquida": 0.0535,
+    "p_l": 26.19,
+    "p_vp": 1.02,
+    "margem_liquida": 0.0963,
     "roe": 0.039,
     "dividend_yield_12m": 0.0984
   },

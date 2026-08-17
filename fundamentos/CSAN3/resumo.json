@@ -2,23 +2,23 @@
   "ticker": "CSAN3",
   "cnpj": "50746577000115",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:04.602097+00:00",
+  "atualizado_em": "2026-08-17T20:16:48.350926+00:00",
   "fundamentos": {
-    "ativo_total": 126694332.0,
-    "patrimonio_liquido": 31910020.0,
-    "receita_liquida": 10775931.0,
-    "lucro_liquido": 186750.0,
+    "ativo_total": 126694332000.0,
+    "patrimonio_liquido": 31910020000.0,
+    "receita_liquida": 10775931000.0,
+    "lucro_liquido": 186750000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 3.31,
-    "valor_de_mercado": 12661416503.115639,
+    "valor_de_mercado": 12819191011.25,
     "numero_acoes": 3944366465
   },
   "multiplos": {
-    "p_l": 67798.75,
-    "p_vp": 396.78,
+    "p_l": 68.64,
+    "p_vp": 0.4,
     "margem_liquida": 0.0173,
     "roe": 0.0059,
     "dividend_yield_12m": 0.1364

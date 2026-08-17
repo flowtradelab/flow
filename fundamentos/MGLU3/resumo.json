@@ -2,23 +2,23 @@
   "ticker": "MGLU3",
   "cnpj": "47960950000121",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:36.307740+00:00",
+  "atualizado_em": "2026-08-17T20:17:22.511508+00:00",
   "fundamentos": {
-    "ativo_total": 35912356.0,
-    "patrimonio_liquido": 11166703.0,
-    "receita_liquida": 8898727.0,
-    "lucro_liquido": -72462.0,
+    "ativo_total": 35912356000.0,
+    "patrimonio_liquido": 11166703000.0,
+    "receita_liquida": 8898727000.0,
+    "lucro_liquido": -72462000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 3.91,
-    "valor_de_mercado": 3257765291.654894,
+    "valor_de_mercado": 3288791599.5858727,
     "numero_acoes": 775658438
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 291.74,
+    "p_vp": 0.29,
     "margem_liquida": -0.0081,
     "roe": -0.0065,
     "dividend_yield_12m": 0.0951

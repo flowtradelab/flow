@@ -1,0 +1,83 @@
+{
+  "ticker": "CAML3",
+  "cnpj": "64904295000103",
+  "periodos": [
+    {
+      "data_fim_exercicio": "2024-02-28",
+      "tipo_periodo": "anual",
+      "ativo_total": 10621358000.0,
+      "patrimonio_liquido": 3087346000.0,
+      "receita_liquida": 11249647000.0,
+      "lucro_liquido": 360461000.0,
+      "margem_liquida": 0.032,
+      "roe": 0.1168,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-02-28",
+      "tipo_periodo": "anual",
+      "ativo_total": 11106595000.0,
+      "patrimonio_liquido": 3457590000.0,
+      "receita_liquida": 12262939000.0,
+      "lucro_liquido": 217001000.0,
+      "margem_liquida": 0.0177,
+      "roe": 0.0628,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-05-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 12142367000.0,
+      "patrimonio_liquido": 3489154000.0,
+      "receita_liquida": 2687327000.0,
+      "lucro_liquido": 66000000.0,
+      "margem_liquida": 0.0246,
+      "roe": 0.0189,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-08-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 11340162000.0,
+      "patrimonio_liquido": 3430036000.0,
+      "receita_liquida": 2979669000.0,
+      "lucro_liquido": 78708000.0,
+      "margem_liquida": 0.0264,
+      "roe": 0.0229,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-11-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 12320156000.0,
+      "patrimonio_liquido": 3448474000.0,
+      "receita_liquida": 2945251000.0,
+      "lucro_liquido": 44072000.0,
+      "margem_liquida": 0.015,
+      "roe": 0.0128,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-02-28",
+      "tipo_periodo": "anual",
+      "ativo_total": 10774545000.0,
+      "patrimonio_liquido": 3015690000.0,
+      "receita_liquida": 11115003000.0,
+      "lucro_liquido": 148471000.0,
+      "margem_liquida": 0.0134,
+      "roe": 0.0492,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-05-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 12021830000.0,
+      "patrimonio_liquido": 2989107000.0,
+      "receita_liquida": 2667975000.0,
+      "lucro_liquido": 27971000.0,
+      "margem_liquida": 0.0105,
+      "roe": 0.0094,
+      "dados_incompletos": false
+    }
+  ]
+}

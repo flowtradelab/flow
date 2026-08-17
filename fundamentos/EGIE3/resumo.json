@@ -2,25 +2,25 @@
   "ticker": "EGIE3",
   "cnpj": "02474103000119",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:11.239139+00:00",
+  "atualizado_em": "2026-08-17T20:16:54.735503+00:00",
   "fundamentos": {
-    "ativo_total": 59005891.0,
-    "patrimonio_liquido": 16094317.0,
-    "receita_liquida": 6920090.0,
-    "lucro_liquido": 2753965.0,
+    "ativo_total": 59005891000.0,
+    "patrimonio_liquido": 16094317000.0,
+    "receita_liquida": 3511433000.0,
+    "lucro_liquido": 1961907000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 28.03,
-    "valor_de_mercado": 39616190141.84799,
+    "valor_de_mercado": 39729500555.38666,
     "numero_acoes": 1416381520
   },
   "multiplos": {
-    "p_l": 14385.15,
-    "p_vp": 2461.5,
-    "margem_liquida": 0.398,
-    "roe": 0.1711,
+    "p_l": 20.25,
+    "p_vp": 2.47,
+    "margem_liquida": 0.5587,
+    "roe": 0.1219,
     "dividend_yield_12m": 0.0648
   },
   "proventos_recentes": [

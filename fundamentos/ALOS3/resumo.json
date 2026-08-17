@@ -2,24 +2,24 @@
   "ticker": "ALOS3",
   "cnpj": "05878397000132",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:48:53.493098+00:00",
+  "atualizado_em": "2026-08-17T20:16:35.222454+00:00",
   "fundamentos": {
-    "ativo_total": 25708088.0,
-    "patrimonio_liquido": 12948961.0,
-    "receita_liquida": 1384706.0,
-    "lucro_liquido": 325863.0,
+    "ativo_total": 25708088000.0,
+    "patrimonio_liquido": 12948961000.0,
+    "receita_liquida": 721004000.0,
+    "lucro_liquido": 325863000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 25.69,
-    "valor_de_mercado": 12768602754.069643,
+    "valor_de_mercado": 12753598177.5,
     "numero_acoes": 500141105
   },
   "multiplos": {
-    "p_l": 39183.96,
-    "p_vp": 986.07,
-    "margem_liquida": 0.2353,
+    "p_l": 39.14,
+    "p_vp": 0.98,
+    "margem_liquida": 0.452,
     "roe": 0.0252,
     "dividend_yield_12m": 0.1144
   },

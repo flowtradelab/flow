@@ -2,25 +2,25 @@
   "ticker": "RENT3",
   "cnpj": "16670085000155",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:54.088706+00:00",
+  "atualizado_em": "2026-08-17T20:17:39.935585+00:00",
   "fundamentos": {
-    "ativo_total": 90820332.0,
-    "patrimonio_liquido": 27102546.0,
-    "receita_liquida": 12326818.0,
-    "lucro_liquido": 2224943.0,
+    "ativo_total": 90820332000.0,
+    "patrimonio_liquido": 27102546000.0,
+    "receita_liquida": 12326818000.0,
+    "lucro_liquido": 1003047000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 33.51,
-    "valor_de_mercado": 36883091571.37656,
+    "valor_de_mercado": 36905184375.46914,
     "numero_acoes": 1104614922
   },
   "multiplos": {
-    "p_l": 16577.1,
-    "p_vp": 1360.87,
-    "margem_liquida": 0.1805,
-    "roe": 0.0821,
+    "p_l": 36.79,
+    "p_vp": 1.36,
+    "margem_liquida": 0.0814,
+    "roe": 0.037,
     "dividend_yield_12m": 0.0774
   },
   "proventos_recentes": [

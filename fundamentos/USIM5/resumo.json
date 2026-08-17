@@ -2,23 +2,23 @@
   "ticker": "USIM5",
   "cnpj": "60894730000105",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:11.555872+00:00",
+  "atualizado_em": "2026-08-17T20:17:57.084958+00:00",
   "fundamentos": {
-    "ativo_total": 35106656.0,
-    "patrimonio_liquido": 23645091.0,
-    "receita_liquida": 6131378.0,
-    "lucro_liquido": 428182.0,
+    "ativo_total": 35106656000.0,
+    "patrimonio_liquido": 23645091000.0,
+    "receita_liquida": 6131378000.0,
+    "lucro_liquido": 428182000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 6.32,
-    "valor_de_mercado": 7841104603.329792,
+    "valor_de_mercado": 7828795481.948576,
     "numero_acoes": 1230942660
   },
   "multiplos": {
-    "p_l": 18312.55,
-    "p_vp": 331.62,
+    "p_l": 18.28,
+    "p_vp": 0.33,
     "margem_liquida": 0.0698,
     "roe": 0.0181,
     "dividend_yield_12m": 0.0968

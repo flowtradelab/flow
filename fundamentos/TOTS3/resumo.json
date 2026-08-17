@@ -2,23 +2,23 @@
   "ticker": "TOTS3",
   "cnpj": "53113791000122",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:08.193791+00:00",
+  "atualizado_em": "2026-08-17T20:17:53.725835+00:00",
   "fundamentos": {
-    "ativo_total": 12994264.0,
-    "patrimonio_liquido": 5457910.0,
-    "receita_liquida": 1919723.0,
-    "lucro_liquido": 688522.0,
+    "ativo_total": 12994264000.0,
+    "patrimonio_liquido": 5457910000.0,
+    "receita_liquida": 1919723000.0,
+    "lucro_liquido": 688522000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 30.2,
-    "valor_de_mercado": 17545499391.680466,
+    "valor_de_mercado": 17499643835.171776,
     "numero_acoes": 573195003
   },
   "multiplos": {
-    "p_l": 25482.84,
-    "p_vp": 3214.69,
+    "p_l": 25.42,
+    "p_vp": 3.21,
     "margem_liquida": 0.3587,
     "roe": 0.1262,
     "dividend_yield_12m": 0.0275

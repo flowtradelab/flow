@@ -2,23 +2,23 @@
   "ticker": "EVEN3",
   "cnpj": "43470988000165",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:14.742417+00:00",
+  "atualizado_em": "2026-08-17T20:16:58.627260+00:00",
   "fundamentos": {
-    "ativo_total": 5164205.0,
-    "patrimonio_liquido": 2304714.0,
-    "receita_liquida": 201054.0,
-    "lucro_liquido": 35075.0,
+    "ativo_total": 5164205000.0,
+    "patrimonio_liquido": 2304714000.0,
+    "receita_liquida": 201054000.0,
+    "lucro_liquido": 35075000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 4.28,
-    "valor_de_mercado": 867022538.1345406,
+    "valor_de_mercado": 870990600.9902973,
     "numero_acoes": 198403332
   },
   "multiplos": {
-    "p_l": 24719.1,
-    "p_vp": 376.2,
+    "p_l": 24.83,
+    "p_vp": 0.38,
     "margem_liquida": 0.1745,
     "roe": 0.0152,
     "dividend_yield_12m": 0.2141

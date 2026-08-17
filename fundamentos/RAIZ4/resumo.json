@@ -2,12 +2,12 @@
   "ticker": "RAIZ4",
   "cnpj": "33453598000123",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:51.237957+00:00",
+  "atualizado_em": "2026-08-17T20:17:36.856107+00:00",
   "fundamentos": {
-    "ativo_total": 95654603.0,
-    "patrimonio_liquido": -10603231.0,
-    "receita_liquida": 51459710.0,
-    "lucro_liquido": -1641604.0,
+    "ativo_total": 95654603000.0,
+    "patrimonio_liquido": -10603231000.0,
+    "receita_liquida": 51459710000.0,
+    "lucro_liquido": -1641604000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },

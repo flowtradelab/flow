@@ -1,0 +1,72 @@
+{
+  "ticker": "GFSA3",
+  "cnpj": "01545826000107",
+  "periodos": [
+    {
+      "data_fim_exercicio": "2024-12-31",
+      "tipo_periodo": "anual",
+      "ativo_total": 5302367000.0,
+      "patrimonio_liquido": 1951996000.0,
+      "receita_liquida": 1012352000.0,
+      "lucro_liquido": -40723000.0,
+      "margem_liquida": -0.0402,
+      "roe": -0.0209,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-03-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 4938033000.0,
+      "patrimonio_liquido": 1995287000.0,
+      "receita_liquida": 226841000.0,
+      "lucro_liquido": 21138000.0,
+      "margem_liquida": 0.0932,
+      "roe": 0.0106,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-06-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 5154481000.0,
+      "patrimonio_liquido": 2002110000.0,
+      "receita_liquida": 162291000.0,
+      "lucro_liquido": 6825000.0,
+      "margem_liquida": 0.0421,
+      "roe": 0.0034,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-09-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 4984012000.0,
+      "patrimonio_liquido": 1989360000.0,
+      "receita_liquida": 120832000.0,
+      "lucro_liquido": -92114000.0,
+      "margem_liquida": -0.7623,
+      "roe": -0.0463,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-12-31",
+      "tipo_periodo": "anual",
+      "ativo_total": 4727891000.0,
+      "patrimonio_liquido": 1537033000.0,
+      "receita_liquida": 619692000.0,
+      "lucro_liquido": -544550000.0,
+      "margem_liquida": -0.8787,
+      "roe": -0.3543,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-03-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 4728597000.0,
+      "patrimonio_liquido": 1533237000.0,
+      "receita_liquida": 99931000.0,
+      "lucro_liquido": -45639000.0,
+      "margem_liquida": -0.4567,
+      "roe": -0.0298,
+      "dados_incompletos": false
+    }
+  ]
+}

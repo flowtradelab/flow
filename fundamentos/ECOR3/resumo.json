@@ -2,24 +2,24 @@
   "ticker": "ECOR3",
   "cnpj": "04149454000180",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:10.168319+00:00",
+  "atualizado_em": "2026-08-17T20:16:53.894169+00:00",
   "fundamentos": {
-    "ativo_total": 39586109.0,
-    "patrimonio_liquido": 4398915.0,
-    "receita_liquida": 5514213.0,
-    "lucro_liquido": 9896.0,
+    "ativo_total": 39586109000.0,
+    "patrimonio_liquido": 4398915000.0,
+    "receita_liquida": 2955338000.0,
+    "lucro_liquido": 9896000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 5.91,
-    "valor_de_mercado": 4152858573.2728586,
+    "valor_de_mercado": 4180683727.4750633,
     "numero_acoes": 695621226
   },
   "multiplos": {
-    "p_l": 419650.22,
-    "p_vp": 944.06,
-    "margem_liquida": 0.0018,
+    "p_l": 422.46,
+    "p_vp": 0.95,
+    "margem_liquida": 0.0033,
     "roe": 0.0022,
     "dividend_yield_12m": 0.1034
   },

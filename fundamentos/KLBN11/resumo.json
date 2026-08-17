@@ -2,12 +2,12 @@
   "ticker": "KLBN11",
   "cnpj": "89637490000145",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:29.715551+00:00",
+  "atualizado_em": "2026-08-17T20:17:15.564415+00:00",
   "fundamentos": {
-    "ativo_total": 63678586.0,
-    "patrimonio_liquido": 15973853.0,
-    "receita_liquida": 5150712.0,
-    "lucro_liquido": -110396.0,
+    "ativo_total": 63678586000.0,
+    "patrimonio_liquido": 15973853000.0,
+    "receita_liquida": 5150712000.0,
+    "lucro_liquido": 386580000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
@@ -17,10 +17,10 @@
     "numero_acoes": 7106061317
   },
   "multiplos": {
-    "p_l": null,
-    "p_vp": 7749.39,
-    "margem_liquida": -0.0214,
-    "roe": -0.0069,
+    "p_l": 320.21,
+    "p_vp": 7.75,
+    "margem_liquida": 0.0751,
+    "roe": 0.0242,
     "dividend_yield_12m": 0.1077
   },
   "proventos_recentes": [

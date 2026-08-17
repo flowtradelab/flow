@@ -2,23 +2,23 @@
   "ticker": "PETR3",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:43.323387+00:00",
+  "atualizado_em": "2026-08-17T20:17:29.716559+00:00",
   "fundamentos": {
-    "ativo_total": 1279019000.0,
-    "patrimonio_liquido": 481854000.0,
-    "receita_liquida": 169530000.0,
-    "lucro_liquido": 52495000.0,
+    "ativo_total": 1279019000000.0,
+    "patrimonio_liquido": 481854000000.0,
+    "receita_liquida": 169530000000.0,
+    "lucro_liquido": 52495000000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 46.83,
-    "valor_de_mercado": 611441464481.8591,
+    "valor_de_mercado": 611699245037.0728,
     "numero_acoes": 12888732761
   },
   "multiplos": {
-    "p_l": 11647.61,
-    "p_vp": 1268.94,
+    "p_l": 11.65,
+    "p_vp": 1.27,
     "margem_liquida": 0.3097,
     "roe": 0.1089,
     "dividend_yield_12m": 0.0832

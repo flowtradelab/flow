@@ -2,18 +2,18 @@
   "ticker": "RCSL4",
   "cnpj": "91333666000117",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:51.956777+00:00",
+  "atualizado_em": "2026-08-17T20:17:37.584136+00:00",
   "fundamentos": {
-    "ativo_total": 33843.0,
-    "patrimonio_liquido": -14922.0,
-    "receita_liquida": 3.0,
-    "lucro_liquido": -2902.0,
+    "ativo_total": 33843000.0,
+    "patrimonio_liquido": -14922000.0,
+    "receita_liquida": 3000.0,
+    "lucro_liquido": -2902000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 0.56,
-    "valor_de_mercado": 71281938.86348104,
+    "valor_de_mercado": 70009048.31740522,
     "numero_acoes": 127289176
   },
   "multiplos": {

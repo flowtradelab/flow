@@ -2,12 +2,12 @@
   "ticker": "JALL3",
   "cnpj": "02635522000195",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:27.412017+00:00",
+  "atualizado_em": "2026-08-17T20:17:13.147576+00:00",
   "fundamentos": {
-    "ativo_total": 7192662.0,
-    "patrimonio_liquido": 1936164.0,
-    "receita_liquida": 340413.0,
-    "lucro_liquido": -74085.0,
+    "ativo_total": 7192662000.0,
+    "patrimonio_liquido": 1936164000.0,
+    "receita_liquida": 340413000.0,
+    "lucro_liquido": -74085000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
@@ -18,7 +18,7 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 306.82,
+    "p_vp": 0.31,
     "margem_liquida": -0.2176,
     "roe": -0.0383,
     "dividend_yield_12m": 0.0041

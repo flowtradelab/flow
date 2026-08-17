@@ -2,23 +2,23 @@
   "ticker": "GRND3",
   "cnpj": "89850341000160",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:20.693331+00:00",
+  "atualizado_em": "2026-08-17T20:17:05.516638+00:00",
   "fundamentos": {
-    "ativo_total": 3822330.0,
-    "patrimonio_liquido": 3211205.0,
-    "receita_liquida": 552839.0,
-    "lucro_liquido": 89408.0,
+    "ativo_total": 3822330000.0,
+    "patrimonio_liquido": 3211205000.0,
+    "receita_liquida": 552839000.0,
+    "lucro_liquido": 89408000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 3.53,
-    "valor_de_mercado": 3256797505.3596497,
+    "valor_de_mercado": 3247775913.963318,
     "numero_acoes": 902160000
   },
   "multiplos": {
-    "p_l": 36426.24,
-    "p_vp": 1014.2,
+    "p_l": 36.33,
+    "p_vp": 1.01,
     "margem_liquida": 0.1617,
     "roe": 0.0278,
     "dividend_yield_12m": 0.4356

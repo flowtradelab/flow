@@ -2,23 +2,23 @@
   "ticker": "UGPA3",
   "cnpj": "33256439000139",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:10.028056+00:00",
+  "atualizado_em": "2026-08-17T20:17:55.403457+00:00",
   "fundamentos": {
-    "ativo_total": 51772124.0,
-    "patrimonio_liquido": 20026383.0,
-    "receita_liquida": 41521247.0,
-    "lucro_liquido": 1677238.0,
+    "ativo_total": 51772124000.0,
+    "patrimonio_liquido": 20026383000.0,
+    "receita_liquida": 41521247000.0,
+    "lucro_liquido": 1677238000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 32.27,
-    "valor_de_mercado": 35964675877.5,
-    "numero_acoes": 1065620026
+    "valor_de_mercado": 35985097904.88739,
+    "numero_acoes": 1064018280
   },
   "multiplos": {
-    "p_l": 21442.8,
-    "p_vp": 1795.86,
+    "p_l": 21.45,
+    "p_vp": 1.8,
     "margem_liquida": 0.0404,
     "roe": 0.0838,
     "dividend_yield_12m": 0.0542

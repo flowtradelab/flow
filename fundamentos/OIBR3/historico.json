@@ -1,0 +1,39 @@
+{
+  "ticker": "OIBR3",
+  "cnpj": "76535764000143",
+  "periodos": [
+    {
+      "data_fim_exercicio": "2024-12-31",
+      "tipo_periodo": "anual",
+      "ativo_total": 19760628000.0,
+      "patrimonio_liquido": -16286602000.0,
+      "receita_liquida": 3180421000.0,
+      "lucro_liquido": 9610110000.0,
+      "margem_liquida": 3.0216,
+      "roe": -0.5901,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-03-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 19644491000.0,
+      "patrimonio_liquido": -14631963000.0,
+      "receita_liquida": 676987000.0,
+      "lucro_liquido": 1657010000.0,
+      "margem_liquida": 2.4476,
+      "roe": -0.1132,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-06-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 18729654000.0,
+      "patrimonio_liquido": -15469158000.0,
+      "receita_liquida": 713564000.0,
+      "lucro_liquido": -835700000.0,
+      "margem_liquida": -1.1712,
+      "roe": 0.054,
+      "dados_incompletos": false
+    }
+  ]
+}

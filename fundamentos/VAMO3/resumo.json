@@ -2,23 +2,23 @@
   "ticker": "VAMO3",
   "cnpj": "23373000000132",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:13.210051+00:00",
+  "atualizado_em": "2026-08-17T20:17:58.695601+00:00",
   "fundamentos": {
-    "ativo_total": 22772802.0,
-    "patrimonio_liquido": 3298473.0,
-    "receita_liquida": 1564305.0,
-    "lucro_liquido": 101068.0,
+    "ativo_total": 22772802000.0,
+    "patrimonio_liquido": 3298473000.0,
+    "receita_liquida": 1564305000.0,
+    "lucro_liquido": 101068000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 2.8,
-    "valor_de_mercado": 3457525618.0085945,
+    "valor_de_mercado": 3433090830.631446,
     "numero_acoes": 1221740534
   },
   "multiplos": {
-    "p_l": 34209.89,
-    "p_vp": 1048.22,
+    "p_l": 33.97,
+    "p_vp": 1.04,
     "margem_liquida": 0.0646,
     "roe": 0.0306,
     "dividend_yield_12m": 0.05

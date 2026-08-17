@@ -2,24 +2,24 @@
   "ticker": "FRAS3",
   "cnpj": "88610126000129",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:17.333898+00:00",
+  "atualizado_em": "2026-08-17T20:17:02.041723+00:00",
   "fundamentos": {
-    "ativo_total": 7019518.0,
-    "patrimonio_liquido": 2539212.0,
-    "receita_liquida": 2634845.0,
-    "lucro_liquido": 87458.0,
+    "ativo_total": 7019518000.0,
+    "patrimonio_liquido": 2539212000.0,
+    "receita_liquida": 1384681000.0,
+    "lucro_liquido": 87458000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 21.6,
-    "valor_de_mercado": 6007078028.742023,
+    "valor_de_mercado": 6018171686.289883,
     "numero_acoes": 277335091
   },
   "multiplos": {
-    "p_l": 68685.29,
-    "p_vp": 2365.73,
-    "margem_liquida": 0.0332,
+    "p_l": 68.81,
+    "p_vp": 2.37,
+    "margem_liquida": 0.0632,
     "roe": 0.0344,
     "dividend_yield_12m": 0.0287
   },

@@ -2,24 +2,24 @@
   "ticker": "CPFE3",
   "cnpj": "02429144000193",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:03.933411+00:00",
+  "atualizado_em": "2026-08-17T20:16:47.560210+00:00",
   "fundamentos": {
-    "ativo_total": 83455954.0,
-    "patrimonio_liquido": 23674713.0,
-    "receita_liquida": 22448961.0,
-    "lucro_liquido": 1438045.0,
+    "ativo_total": 83455954000.0,
+    "patrimonio_liquido": 23674713000.0,
+    "receita_liquida": 11107429000.0,
+    "lucro_liquido": 1438045000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 41.29,
-    "valor_de_mercado": 47219386423.73978,
+    "valor_de_mercado": 47461358801.21933,
     "numero_acoes": 1152254440
   },
   "multiplos": {
-    "p_l": 32835.82,
-    "p_vp": 1994.51,
-    "margem_liquida": 0.0641,
+    "p_l": 33.0,
+    "p_vp": 2.0,
+    "margem_liquida": 0.1295,
     "roe": 0.0607,
     "dividend_yield_12m": 0.0904
   },

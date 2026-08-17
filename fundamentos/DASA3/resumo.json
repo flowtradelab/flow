@@ -2,24 +2,24 @@
   "ticker": "DASA3",
   "cnpj": "61486650000183",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:07.661299+00:00",
+  "atualizado_em": "2026-08-17T20:16:51.477688+00:00",
   "fundamentos": {
-    "ativo_total": 17123380.0,
-    "patrimonio_liquido": 6865844.0,
-    "receita_liquida": 2223502.0,
-    "lucro_liquido": -30858.0,
+    "ativo_total": 17123380000.0,
+    "patrimonio_liquido": 6865844000.0,
+    "receita_liquida": 2223502000.0,
+    "lucro_liquido": -31206000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 2.11,
-    "valor_de_mercado": 2762111934.1070166,
+    "valor_de_mercado": 2787108397.9285083,
     "numero_acoes": 1249824383
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 402.3,
-    "margem_liquida": -0.0139,
+    "p_vp": 0.41,
+    "margem_liquida": -0.014,
     "roe": -0.0045,
     "dividend_yield_12m": 0.278
   },

@@ -2,23 +2,23 @@
   "ticker": "VVEO3",
   "cnpj": "12420164000157",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:17.962468+00:00",
+  "atualizado_em": "2026-08-17T20:18:02.732001+00:00",
   "fundamentos": {
-    "ativo_total": 8760103.0,
-    "patrimonio_liquido": 1822554.0,
-    "receita_liquida": 2910169.0,
-    "lucro_liquido": -34652.0,
+    "ativo_total": 8760103000.0,
+    "patrimonio_liquido": 1822554000.0,
+    "receita_liquida": 2910169000.0,
+    "lucro_liquido": -34652000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 0.6,
-    "valor_de_mercado": 195883681.28652608,
+    "valor_de_mercado": 202202503.64042175,
     "numero_acoes": 315941419
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 107.48,
+    "p_vp": 0.11,
     "margem_liquida": -0.0119,
     "roe": -0.019,
     "dividend_yield_12m": 0.2275

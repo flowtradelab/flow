@@ -2,24 +2,24 @@
   "ticker": "MOVI3",
   "cnpj": "21314559000166",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:38.395163+00:00",
+  "atualizado_em": "2026-08-17T20:17:24.031152+00:00",
   "fundamentos": {
-    "ativo_total": 37340960.0,
-    "patrimonio_liquido": 3901507.0,
-    "receita_liquida": 7546475.0,
-    "lucro_liquido": 135650.0,
+    "ativo_total": 37340960000.0,
+    "patrimonio_liquido": 3901507000.0,
+    "receita_liquida": 3765830000.0,
+    "lucro_liquido": 135650000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 6.79,
-    "valor_de_mercado": 2667475246.65602,
-    "numero_acoes": 404162922
+    "valor_de_mercado": 2662880832.3758802,
+    "numero_acoes": 401036278
   },
   "multiplos": {
-    "p_l": 19664.4,
-    "p_vp": 683.7,
-    "margem_liquida": 0.018,
+    "p_l": 19.63,
+    "p_vp": 0.68,
+    "margem_liquida": 0.036,
     "roe": 0.0348,
     "dividend_yield_12m": 0.1336
   },

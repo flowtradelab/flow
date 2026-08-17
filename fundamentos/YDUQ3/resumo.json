@@ -2,24 +2,24 @@
   "ticker": "YDUQ3",
   "cnpj": "08807432000110",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:20.616769+00:00",
+  "atualizado_em": "2026-08-17T20:18:05.160355+00:00",
   "fundamentos": {
-    "ativo_total": 9245110.0,
-    "patrimonio_liquido": 2939421.0,
-    "receita_liquida": 2900852.0,
-    "lucro_liquido": -1451.0,
+    "ativo_total": 9245110000.0,
+    "patrimonio_liquido": 2939421000.0,
+    "receita_liquida": 1392055000.0,
+    "lucro_liquido": -1451000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 7.32,
-    "valor_de_mercado": 1852387098.9854765,
+    "valor_de_mercado": 1857476069.5322514,
     "numero_acoes": 254448770
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 630.19,
-    "margem_liquida": -0.0005,
+    "p_vp": 0.63,
+    "margem_liquida": -0.001,
     "roe": -0.0005,
     "dividend_yield_12m": 0.1557
   },

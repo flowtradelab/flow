@@ -2,23 +2,23 @@
   "ticker": "B3SA3",
   "cnpj": "09346601000125",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:48:55.701802+00:00",
+  "atualizado_em": "2026-08-17T20:16:37.435393+00:00",
   "fundamentos": {
-    "ativo_total": 48951120.0,
-    "patrimonio_liquido": 18729402.0,
-    "receita_liquida": 3081392.0,
-    "lucro_liquido": 1701217.0,
+    "ativo_total": 48951120000.0,
+    "patrimonio_liquido": 18729402000.0,
+    "receita_liquida": 3081392000.0,
+    "lucro_liquido": 1701217000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 14.67,
-    "valor_de_mercado": 72118929846.20575,
+    "valor_de_mercado": 72268656397.4938,
     "numero_acoes": 4990929467
   },
   "multiplos": {
-    "p_l": 42392.55,
-    "p_vp": 3850.57,
+    "p_l": 42.48,
+    "p_vp": 3.86,
     "margem_liquida": 0.5521,
     "roe": 0.0908,
     "dividend_yield_12m": 0.0514

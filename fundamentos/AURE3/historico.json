@@ -1,0 +1,83 @@
+{
+  "ticker": "AURE3",
+  "cnpj": "28594234000123",
+  "periodos": [
+    {
+      "data_fim_exercicio": "2024-12-31",
+      "tipo_periodo": "anual",
+      "ativo_total": 52754117000.0,
+      "patrimonio_liquido": 14483354000.0,
+      "receita_liquida": 8059951000.0,
+      "lucro_liquido": 271869000.0,
+      "margem_liquida": 0.0337,
+      "roe": 0.0188,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-03-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 52266696000.0,
+      "patrimonio_liquido": 14578748000.0,
+      "receita_liquida": 2952303000.0,
+      "lucro_liquido": 53997000.0,
+      "margem_liquida": 0.0183,
+      "roe": 0.0037,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-06-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 49202800000.0,
+      "patrimonio_liquido": 14063603000.0,
+      "receita_liquida": 2885529000.0,
+      "lucro_liquido": -562853000.0,
+      "margem_liquida": -0.1951,
+      "roe": -0.04,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-09-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 48833477000.0,
+      "patrimonio_liquido": 13564283000.0,
+      "receita_liquida": 3537391000.0,
+      "lucro_liquido": -403695000.0,
+      "margem_liquida": -0.1141,
+      "roe": -0.0298,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2025-12-31",
+      "tipo_periodo": "anual",
+      "ativo_total": 48727388000.0,
+      "patrimonio_liquido": 13775463000.0,
+      "receita_liquida": 13176952000.0,
+      "lucro_liquido": -557875000.0,
+      "margem_liquida": -0.0423,
+      "roe": -0.0405,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-03-31",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 47381486000.0,
+      "patrimonio_liquido": 13123193000.0,
+      "receita_liquida": 3074535000.0,
+      "lucro_liquido": -601606000.0,
+      "margem_liquida": -0.1957,
+      "roe": -0.0458,
+      "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-06-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 46710105000.0,
+      "patrimonio_liquido": 12752850000.0,
+      "receita_liquida": 3055499000.0,
+      "lucro_liquido": -379061000.0,
+      "margem_liquida": -0.1241,
+      "roe": -0.0297,
+      "dados_incompletos": false
+    }
+  ]
+}

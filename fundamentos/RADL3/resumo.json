@@ -2,23 +2,23 @@
   "ticker": "RADL3",
   "cnpj": "61585865000151",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:50.090675+00:00",
+  "atualizado_em": "2026-08-17T20:17:35.434873+00:00",
   "fundamentos": {
-    "ativo_total": 24822598.0,
-    "patrimonio_liquido": 7290780.0,
-    "receita_liquida": 11062398.0,
-    "lucro_liquido": 424540.0,
+    "ativo_total": 24822598000.0,
+    "patrimonio_liquido": 7290780000.0,
+    "receita_liquida": 11062398000.0,
+    "lucro_liquido": 424540000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 17.53,
-    "valor_de_mercado": 30302132853.807274,
+    "valor_de_mercado": 30284647091.229088,
     "numero_acoes": 1748536237
   },
   "multiplos": {
-    "p_l": 71376.39,
-    "p_vp": 4156.23,
+    "p_l": 71.34,
+    "p_vp": 4.15,
     "margem_liquida": 0.0384,
     "roe": 0.0582,
     "dividend_yield_12m": 0.0251

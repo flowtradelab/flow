@@ -2,25 +2,25 @@
   "ticker": "SBSP3",
   "cnpj": "43776517000180",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:57.808137+00:00",
+  "atualizado_em": "2026-08-17T20:17:43.248975+00:00",
   "fundamentos": {
-    "ativo_total": 119606768.0,
-    "patrimonio_liquido": 45310286.0,
-    "receita_liquida": 10208902.0,
-    "lucro_liquido": 3213464.0,
+    "ativo_total": 119606768000.0,
+    "patrimonio_liquido": 45310286000.0,
+    "receita_liquida": 10208902000.0,
+    "lucro_liquido": 1464433000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 23.79,
-    "valor_de_mercado": 83240424968.41336,
+    "valor_de_mercado": 83662432607.71027,
     "numero_acoes": 3516705733
   },
   "multiplos": {
-    "p_l": 25903.64,
-    "p_vp": 1837.12,
-    "margem_liquida": 0.3148,
-    "roe": 0.0709,
+    "p_l": 57.13,
+    "p_vp": 1.85,
+    "margem_liquida": 0.1434,
+    "roe": 0.0323,
     "dividend_yield_12m": 0.0596
   },
   "proventos_recentes": [

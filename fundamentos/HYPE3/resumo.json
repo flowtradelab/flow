@@ -2,25 +2,25 @@
   "ticker": "HYPE3",
   "cnpj": "02932074000191",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:22.748956+00:00",
+  "atualizado_em": "2026-08-17T20:17:08.097592+00:00",
   "fundamentos": {
-    "ativo_total": 25352937.0,
-    "patrimonio_liquido": 14431129.0,
-    "receita_liquida": 2336699.0,
-    "lucro_liquido": 837077.0,
+    "ativo_total": 25352937000.0,
+    "patrimonio_liquido": 14431129000.0,
+    "receita_liquida": 2336699000.0,
+    "lucro_liquido": 490236000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 21.51,
-    "valor_de_mercado": 14805035417.04566,
+    "valor_de_mercado": 14833194557.007484,
     "numero_acoes": 703995955
   },
   "multiplos": {
-    "p_l": 17686.59,
-    "p_vp": 1025.91,
-    "margem_liquida": 0.3582,
-    "roe": 0.058,
+    "p_l": 30.26,
+    "p_vp": 1.03,
+    "margem_liquida": 0.2098,
+    "roe": 0.034,
     "dividend_yield_12m": 0.0514
   },
   "proventos_recentes": [

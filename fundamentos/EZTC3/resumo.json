@@ -2,25 +2,25 @@
   "ticker": "EZTC3",
   "cnpj": "08312229000173",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:15.341435+00:00",
+  "atualizado_em": "2026-08-17T20:16:59.491780+00:00",
   "fundamentos": {
-    "ativo_total": 7493444.0,
-    "patrimonio_liquido": 5315140.0,
-    "receita_liquida": 699229.0,
-    "lucro_liquido": 243523.0,
+    "ativo_total": 7493444000.0,
+    "patrimonio_liquido": 5315140000.0,
+    "receita_liquida": 376711000.0,
+    "lucro_liquido": 117329000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 10.67,
-    "valor_de_mercado": 2973288843.5028505,
+    "valor_de_mercado": 2978835886.4975567,
     "numero_acoes": 277359027
   },
   "multiplos": {
-    "p_l": 12209.48,
-    "p_vp": 559.4,
-    "margem_liquida": 0.3483,
-    "roe": 0.0458,
+    "p_l": 25.39,
+    "p_vp": 0.56,
+    "margem_liquida": 0.3115,
+    "roe": 0.0221,
     "dividend_yield_12m": 0.1153
   },
   "proventos_recentes": [

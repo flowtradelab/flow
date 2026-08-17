@@ -2,23 +2,23 @@
   "ticker": "UNIP6",
   "cnpj": "33958695000178",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:10.868437+00:00",
+  "atualizado_em": "2026-08-17T20:17:56.268986+00:00",
   "fundamentos": {
-    "ativo_total": 7759771.0,
-    "patrimonio_liquido": 2010867.0,
-    "receita_liquida": 1495676.0,
-    "lucro_liquido": 123321.0,
+    "ativo_total": 7759771000.0,
+    "patrimonio_liquido": 2010867000.0,
+    "receita_liquida": 1495676000.0,
+    "lucro_liquido": 123321000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 57.71,
-    "valor_de_mercado": 6534360938.813133,
+    "valor_de_mercado": 6552220466.260944,
     "numero_acoes": 111622153
   },
   "multiplos": {
-    "p_l": 52986.6,
-    "p_vp": 3249.52,
+    "p_l": 53.13,
+    "p_vp": 3.26,
     "margem_liquida": 0.0825,
     "roe": 0.0613,
     "dividend_yield_12m": 0.2162

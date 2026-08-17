@@ -2,12 +2,12 @@
   "ticker": "JHSF3",
   "cnpj": "08294224000165",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:28.188893+00:00",
+  "atualizado_em": "2026-08-17T20:17:13.967439+00:00",
   "fundamentos": {
-    "ativo_total": 19079038.0,
-    "patrimonio_liquido": 7898068.0,
-    "receita_liquida": 935319.0,
-    "lucro_liquido": 444517.0,
+    "ativo_total": 19079038000.0,
+    "patrimonio_liquido": 7898068000.0,
+    "receita_liquida": 935319000.0,
+    "lucro_liquido": 444517000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
@@ -17,8 +17,8 @@
     "numero_acoes": 666712156
   },
   "multiplos": {
-    "p_l": 15568.52,
-    "p_vp": 876.22,
+    "p_l": 15.57,
+    "p_vp": 0.88,
     "margem_liquida": 0.4753,
     "roe": 0.0563,
     "dividend_yield_12m": 0.0654

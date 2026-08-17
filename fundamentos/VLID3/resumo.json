@@ -2,25 +2,25 @@
   "ticker": "VLID3",
   "cnpj": "33113309000147",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:50:15.407010+00:00",
+  "atualizado_em": "2026-08-17T20:18:01.210103+00:00",
   "fundamentos": {
-    "ativo_total": 2971127.0,
-    "patrimonio_liquido": 1723208.0,
-    "receita_liquida": 505653.0,
-    "lucro_liquido": 93226.0,
+    "ativo_total": 2971127000.0,
+    "patrimonio_liquido": 1723208000.0,
+    "receita_liquida": 505653000.0,
+    "lucro_liquido": 37547000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 16.59,
-    "valor_de_mercado": 1334044403.1552696,
+    "valor_de_mercado": 1331697206.3568382,
     "numero_acoes": 78243077
   },
   "multiplos": {
-    "p_l": 14309.79,
-    "p_vp": 774.16,
-    "margem_liquida": 0.1844,
-    "roe": 0.0541,
+    "p_l": 35.47,
+    "p_vp": 0.77,
+    "margem_liquida": 0.0743,
+    "roe": 0.0218,
     "dividend_yield_12m": 0.1125
   },
   "proventos_recentes": [

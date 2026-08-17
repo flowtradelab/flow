@@ -2,23 +2,23 @@
   "ticker": "MRVE3",
   "cnpj": "08343492000120",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:39.365582+00:00",
+  "atualizado_em": "2026-08-17T20:17:24.836620+00:00",
   "fundamentos": {
-    "ativo_total": 28349797.0,
-    "patrimonio_liquido": 5201564.0,
-    "receita_liquida": 2999518.0,
-    "lucro_liquido": -645762.0,
+    "ativo_total": 28349797000.0,
+    "patrimonio_liquido": 5201564000.0,
+    "receita_liquida": 2999518000.0,
+    "lucro_liquido": -645762000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 4.76,
-    "valor_de_mercado": 2735375370.9265027,
+    "valor_de_mercado": 2752260253.3234973,
     "numero_acoes": 562834423
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 525.88,
+    "p_vp": 0.53,
     "margem_liquida": -0.2153,
     "roe": -0.1241,
     "dividend_yield_12m": 0.1172

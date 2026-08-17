@@ -2,23 +2,23 @@
   "ticker": "ITSA4",
   "cnpj": "61532644000115",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:26.026095+00:00",
+  "atualizado_em": "2026-08-17T20:17:11.522781+00:00",
   "fundamentos": {
-    "ativo_total": 119772000.0,
-    "patrimonio_liquido": 98582000.0,
-    "receita_liquida": 2231000.0,
-    "lucro_liquido": 5264000.0,
+    "ativo_total": 119772000000.0,
+    "patrimonio_liquido": 98582000000.0,
+    "receita_liquida": 2231000000.0,
+    "lucro_liquido": 5264000000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 12.49,
-    "valor_de_mercado": 137962482907.3512,
+    "valor_de_mercado": 138410776478.86475,
     "numero_acoes": 11207349976
   },
   "multiplos": {
-    "p_l": 26208.68,
-    "p_vp": 1399.47,
+    "p_l": 26.29,
+    "p_vp": 1.4,
     "margem_liquida": 2.3595,
     "roe": 0.0534,
     "dividend_yield_12m": 0.1094

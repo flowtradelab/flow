@@ -2,23 +2,23 @@
   "ticker": "RECV3",
   "cnpj": "03342704000130",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:53.492151+00:00",
+  "atualizado_em": "2026-08-17T20:17:39.032358+00:00",
   "fundamentos": {
-    "ativo_total": 9031752.0,
-    "patrimonio_liquido": 4433506.0,
-    "receita_liquida": 807943.0,
-    "lucro_liquido": 202683.0,
+    "ativo_total": 9031752000.0,
+    "patrimonio_liquido": 4433506000.0,
+    "receita_liquida": 807943000.0,
+    "lucro_liquido": 202683000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 10.51,
-    "valor_de_mercado": 3143193580.6554546,
-    "numero_acoes": 293482126
+    "valor_de_mercado": 3161567854.122591,
+    "numero_acoes": 293009070
   },
   "multiplos": {
-    "p_l": 15507.93,
-    "p_vp": 708.96,
+    "p_l": 15.6,
+    "p_vp": 0.71,
     "margem_liquida": 0.2509,
     "roe": 0.0457,
     "dividend_yield_12m": 0.1298

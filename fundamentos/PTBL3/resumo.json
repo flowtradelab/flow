@@ -2,18 +2,18 @@
   "ticker": "PTBL3",
   "cnpj": "83475913000191",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:49.378324+00:00",
+  "atualizado_em": "2026-08-17T20:17:34.565484+00:00",
   "fundamentos": {
-    "ativo_total": 3499805.0,
-    "patrimonio_liquido": -103923.0,
-    "receita_liquida": 651277.0,
-    "lucro_liquido": -62737.0,
+    "ativo_total": 3499805000.0,
+    "patrimonio_liquido": -103923000.0,
+    "receita_liquida": 651277000.0,
+    "lucro_liquido": -62737000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 1.44,
-    "valor_de_mercado": 198791504.55405498,
+    "valor_de_mercado": 200201372.06949925,
     "numero_acoes": 140986886
   },
   "multiplos": {

@@ -2,23 +2,23 @@
   "ticker": "MULT3",
   "cnpj": "07816890000153",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:40.833074+00:00",
+  "atualizado_em": "2026-08-17T20:17:26.437913+00:00",
   "fundamentos": {
-    "ativo_total": 13213205.0,
-    "patrimonio_liquido": 6755937.0,
-    "receita_liquida": 846841.0,
-    "lucro_liquido": 427434.0,
+    "ativo_total": 13213205000.0,
+    "patrimonio_liquido": 6755937000.0,
+    "receita_liquida": 846841000.0,
+    "lucro_liquido": 427434000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 26.73,
-    "valor_de_mercado": 13164958762.03283,
+    "valor_de_mercado": 13160048183.761185,
     "numero_acoes": 491046588
   },
   "multiplos": {
-    "p_l": 30799.98,
-    "p_vp": 1948.65,
+    "p_l": 30.79,
+    "p_vp": 1.95,
     "margem_liquida": 0.5047,
     "roe": 0.0633,
     "dividend_yield_12m": 0.042

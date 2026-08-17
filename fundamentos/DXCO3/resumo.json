@@ -2,23 +2,23 @@
   "ticker": "DXCO3",
   "cnpj": "97837181000147",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T19:49:09.346172+00:00",
+  "atualizado_em": "2026-08-17T20:16:53.103332+00:00",
   "fundamentos": {
-    "ativo_total": 19086932.0,
-    "patrimonio_liquido": 7404259.0,
-    "receita_liquida": 2231538.0,
-    "lucro_liquido": 14880.0,
+    "ativo_total": 19086932000.0,
+    "patrimonio_liquido": 7404259000.0,
+    "receita_liquida": 2231538000.0,
+    "lucro_liquido": 14880000.0,
     "data_referencia_balanco": "2026-06-30",
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
     "preco": 4.98,
-    "valor_de_mercado": 4448566379.381294,
+    "valor_de_mercado": 4457644860.989929,
     "numero_acoes": 907870672
   },
   "multiplos": {
-    "p_l": 298962.79,
-    "p_vp": 600.81,
+    "p_l": 299.57,
+    "p_vp": 0.6,
     "margem_liquida": 0.0067,
     "roe": 0.002,
     "dividend_yield_12m": 0.0096
