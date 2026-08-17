@@ -9,7 +9,7 @@ jobs:
   update-fundamentos:
     name: Baixar e commitar dados da CVM
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     permissions:
       contents: write        # Permite fazer commit
 
