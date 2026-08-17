@@ -89,7 +89,61 @@ def ler_csv_do_zip(zf: zipfile.ZipFile, nome: str):
         return pd.read_csv(f, sep=";", encoding="latin1", decimal=",", dtype=str)
 
 
-def processar_pacote(prefixo: str, base_url: str, ano: int) -> dict:
+def aplicar_escala_moeda(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    A CVM reporta VL_CONTA na escala indicada pela coluna ESCALA_MOEDA
+    ("MIL" = valor em milhares de reais, "UNIDADE" = valor já em reais).
+    Empresas grandes (Petrobras, Vale etc.) quase sempre reportam em "MIL" —
+    sem essa conversão, VL_CONTA fica 1000x menor que o valor real em reais,
+    o que estraga qualquer múltiplo calculado com valor de mercado (P/L,
+    P/VP saem 1000x maiores do que deveriam). Aqui a gente já normaliza tudo
+    pra reais "cheios", então o resto do pipeline nunca precisa pensar em
+    escala de novo.
+    """
+    if "VL_CONTA" not in df.columns:
+        return df
+
+    valor = pd.to_numeric(df["VL_CONTA"], errors="coerce")
+
+    if "ESCALA_MOEDA" in df.columns:
+        escala = df["ESCALA_MOEDA"].astype(str).str.strip().str.upper()
+        multiplicador = escala.map({"MIL": 1000, "UNIDADE": 1})
+        nao_reconhecida = escala.notna() & multiplicador.isna()
+        if nao_reconhecida.any():
+            print(f"  ⚠️  ESCALA_MOEDA com valor inesperado: "
+                  f"{escala[nao_reconhecida].unique().tolist()} — assumindo 'MIL' (padrão CVM)")
+        multiplicador = multiplicador.fillna(1000)
+    else:
+        # coluna não veio no csv — assume o padrão da CVM pra empresas
+        # grandes (mais seguro do que assumir 'UNIDADE' e ficar 1000x menor)
+        multiplicador = 1000
+
+    df = df.copy()
+    df["VL_CONTA"] = valor * multiplicador
+    return df
+
+
+def filtrar_periodo_isolado(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Demonstrativos de "fluxo" (DRE, DFC, DMPL, DVA) vêm no ITR com duas linhas
+    pro mesmo DT_FIM_EXERC: o trimestre isolado (~3 meses) e o acumulado do
+    ano até aquele ponto (~6, 9 ou 12 meses) — ambos com o mesmo CD_CONTA,
+    então sem separar isso a série mistura trimestre com acumulado e qualquer
+    comparação entre períodos fica sem sentido. Fica só com o período de
+    verdade isolado (~1 trimestre), usando DT_INI_EXERC pra medir a duração.
+
+    Balanço (BPA/BPP) não tem DT_INI_EXERC — é posição num instante, não
+    fluxo — então passa direto sem filtro.
+    """
+    if "DT_INI_EXERC" not in df.columns or "DT_FIM_EXERC" not in df.columns:
+        return df
+    ini = pd.to_datetime(df["DT_INI_EXERC"], errors="coerce")
+    fim = pd.to_datetime(df["DT_FIM_EXERC"], errors="coerce")
+    dias = (fim - ini).dt.days
+    return df[(dias >= 80) & (dias <= 100)]
+
+
+def processar_pacote(prefixo: str, base_url: str, ano: int, apenas_trimestre_isolado: bool = False) -> dict:
     """Baixa o zip de um ano (DFP ou ITR) e devolve {chave: DataFrame} filtrado."""
     url = f"{base_url}/{prefixo}_{ano}.zip"
     print(f"→ baixando {url}")
@@ -118,6 +172,9 @@ def processar_pacote(prefixo: str, base_url: str, ano: int) -> dict:
             if "CD_CONTA" in df_full.columns:
                 profundidade = df_full["CD_CONTA"].astype(str).str.count(r"\.")
                 df_full = df_full[profundidade <= MAX_PROFUNDIDADE]
+            if apenas_trimestre_isolado:
+                df_full = filtrar_periodo_isolado(df_full)
+            df_full = aplicar_escala_moeda(df_full)
             resultado[chave] = df_full
     return resultado
 
@@ -130,10 +187,12 @@ def salvar(df: pd.DataFrame, caminho: str):
     print(f"  ✅ {caminho} ({len(df)} linhas, {tamanho_mb:.1f} MB){aviso}")
 
 
-def montar_serie(prefixo: str, base_url: str, chave: str, anos: list[int]) -> pd.DataFrame | None:
+def montar_serie(
+    prefixo: str, base_url: str, chave: str, anos: list[int], apenas_trimestre_isolado: bool = False
+) -> pd.DataFrame | None:
     partes = []
     for ano in anos:
-        pacote = processar_pacote(prefixo, base_url, ano)
+        pacote = processar_pacote(prefixo, base_url, ano, apenas_trimestre_isolado)
         if chave in pacote:
             partes.append(pacote[chave])
     if not partes:
@@ -217,7 +276,7 @@ def main():
         if df_dfp is not None:
             salvar(df_dfp, os.path.join(OUT_DIR, f"dfp_{chave}.csv"))
 
-        df_itr = montar_serie("itr_cia_aberta", BASE_ITR, chave, YEARS_ITR)
+        df_itr = montar_serie("itr_cia_aberta", BASE_ITR, chave, YEARS_ITR, apenas_trimestre_isolado=True)
         if df_itr is not None:
             salvar(df_itr, os.path.join(OUT_DIR, f"itr_{chave}.csv"))
 

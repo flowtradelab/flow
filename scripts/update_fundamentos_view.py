@@ -8,7 +8,7 @@ proventos do yfinance, e escreve um resumo por ativo em:
 
   fundamentos/{TICKER}/resumo.json
 
-O que entra no resumo:
+O que entra no resumo (fundamentos/{TICKER}/resumo.json):
   - Última Receita Líquida, Lucro/Prejuízo do Período, Patrimônio Líquido e
     Ativo Total reportados (DFP/ITR, prioriza consolidado sobre individual)
   - Preço atual (lido de quant/{TICKER}/analysis.json — não faz nova chamada
@@ -17,6 +17,11 @@ O que entra no resumo:
   - Múltiplos derivados: P/L, P/VP, Margem Líquida, ROE
   - Dividend Yield (últimos 12 meses) e histórico de proventos, via
     yfinance (ticker.dividends)
+
+Além do resumo, também escreve fundamentos/{TICKER}/historico.json — uma
+série com TODOS os períodos disponíveis (trimestres isolados do ITR +
+fechamentos anuais do DFP), pra dar pra comparar "esse trimestre vs. mesmo
+trimestre do ano passado" ou a evolução ano a ano dentro do seu app.
 
 ⚠️ Limitação importante: os nomes das contas do plano padronizado da CVM
 variam entre setores (bancos e seguradoras usam um modelo de DRE diferente
@@ -94,6 +99,88 @@ def linha_mais_recente(df: pd.DataFrame, cnpj: str, incluir: list[str], excluir:
         ascending=[False, False, True],
     )
     return candidatos.iloc[0]
+
+
+def serie_conta(df: pd.DataFrame, cnpj: str, incluir: list[str]) -> pd.DataFrame:
+    """
+    Como linha_mais_recente, mas devolve UMA LINHA POR PERÍODO (não só a mais
+    recente) — resolvendo empate entre consolidado/individual e profundidade
+    da conta do mesmo jeito. Usada pra montar a série histórica.
+    """
+    if df is None:
+        return pd.DataFrame()
+    sub = df[df["CNPJ_CIA"].astype(str).str.replace(r"\D", "", regex=True) == cnpj]
+    if sub.empty:
+        return pd.DataFrame()
+
+    ds_norm = sub["DS_CONTA"].fillna("").map(normalizar)
+    ok = pd.Series(True, index=sub.index)
+    for termo in incluir:
+        ok &= ds_norm.str.contains(termo)
+    candidatos = sub[ok].copy()
+    if candidatos.empty:
+        return pd.DataFrame()
+
+    candidatos["profundidade"] = candidatos["CD_CONTA"].astype(str).str.count(r"\.")
+    candidatos["eh_consolidado"] = (candidatos["TIPO_DEMONSTRATIVO"] == "con").astype(int)
+    candidatos = candidatos.sort_values(["eh_consolidado", "profundidade"], ascending=[False, True])
+    # uma linha por período — fica com a de maior prioridade (consolidado + mais rasa)
+    return candidatos.drop_duplicates(subset=["DT_FIM_EXERC"], keep="first")
+
+
+def montar_historico(cnpj: str, dfp: dict, itr: dict) -> list[dict]:
+    """
+    Junta os períodos anuais (DFP) e trimestrais isolados (ITR, já filtrados
+    em update_fundamentos.py) numa única série ordenada por data, pra dar pra
+    comparar evolução ao longo do tempo dentro do app.
+    """
+    linhas: dict[tuple[str, str], dict] = {}
+
+    def registrar(fontes: dict, tipo_periodo: str):
+        campos = {
+            "ativo_total": serie_conta(fontes.get("bpa"), cnpj, ["ATIVO TOTAL"]),
+            "patrimonio_liquido": serie_conta(fontes.get("bpp"), cnpj, ["PATRIMONIO LIQUIDO"]),
+            "receita_liquida": serie_conta(fontes.get("dre"), cnpj, ["RECEITA"]),
+        }
+        lucro = serie_conta(fontes.get("dre"), cnpj, ["LUCRO", "PERIODO"])
+        if lucro.empty:
+            lucro = serie_conta(fontes.get("dre"), cnpj, ["PREJUIZO", "PERIODO"])
+        campos["lucro_liquido"] = lucro
+
+        for nome_campo, serie in campos.items():
+            for _, row in serie.iterrows():
+                dt = str(row["DT_FIM_EXERC"])
+                chave = (dt, tipo_periodo)
+                # todo ponto sempre nasce com os 4 campos presentes (mesmo que
+                # null) — schema consistente é mais fácil de consumir no app
+                # do que ter que checar se a chave existe.
+                linhas.setdefault(chave, {
+                    "data_fim_exercicio": dt,
+                    "tipo_periodo": tipo_periodo,
+                    "ativo_total": None,
+                    "patrimonio_liquido": None,
+                    "receita_liquida": None,
+                    "lucro_liquido": None,
+                })
+                valor = row["VL_CONTA"]
+                linhas[chave][nome_campo] = float(valor) if pd.notna(valor) else None
+
+    registrar(dfp, "anual")
+    registrar(itr, "trimestre")
+
+    serie = list(linhas.values())
+    for ponto in serie:
+        lucro = ponto.get("lucro_liquido")
+        receita = ponto.get("receita_liquida")
+        pl = ponto.get("patrimonio_liquido")
+        ponto["margem_liquida"] = round(lucro / receita, 4) if (lucro is not None and receita) else None
+        ponto["roe"] = round(lucro / pl, 4) if (lucro is not None and pl) else None
+        ponto["dados_incompletos"] = any(
+            ponto[c] is None for c in ("ativo_total", "patrimonio_liquido", "receita_liquida", "lucro_liquido")
+        )
+
+    serie.sort(key=lambda x: (x["data_fim_exercicio"], x["tipo_periodo"]))
+    return serie
 
 
 def carregar_preco_quant(ticker: str):
@@ -237,6 +324,7 @@ def main():
         print(f"→ {ticker}")
         try:
             resumo = montar_resumo(ticker, cnpj, dfp, itr, cadastro)
+            historico = montar_historico(cnpj, dfp, itr)
         except Exception as e:
             print(f"  ⚠️  falhou: {e}")
             continue
@@ -245,9 +333,11 @@ def main():
         pasta.mkdir(parents=True, exist_ok=True)
         with open(pasta / "resumo.json", "w", encoding="utf-8") as f:
             json.dump(resumo, f, ensure_ascii=False, indent=2)
+        with open(pasta / "historico.json", "w", encoding="utf-8") as f:
+            json.dump({"ticker": ticker, "cnpj": cnpj, "periodos": historico}, f, ensure_ascii=False, indent=2)
         ok += 1
 
-    print(f"\n✅ {ok}/{total} resumos gerados em fundamentos/<TICKER>/resumo.json")
+    print(f"\n✅ {ok}/{total} resumos + históricos gerados em fundamentos/<TICKER>/")
 
 
 if __name__ == "__main__":
