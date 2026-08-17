@@ -29,6 +29,20 @@ série com TODOS os períodos disponíveis (trimestres isolados do ITR +
 fechamentos anuais do DFP), pra dar pra comparar "esse trimestre vs. mesmo
 trimestre do ano passado" ou a evolução ano a ano dentro do seu app.
 
+⚠️ Capex/FCF complementares via Yahoo Finance: pra muitas empresas (ex:
+Petrobras) o Demonstrativo de Fluxo de Caixa — Método Indireto que a CVM
+disponibiliza de forma estruturada só traz as linhas-síntese (Caixa Líquido
+Operacional/Investimento/Financiamento), sem detalhar a conta de "Aquisição
+de Imobilizado/Intangível" que o capex_aprox (CVM) precisa — nesse caso
+capex_aprox/fcf_aprox saem null. Como complemento (não substituto), este
+script também busca "Capital Expenditure" e "Free Cash Flow" no Yahoo
+Finance via yfinance e grava em campos SEPARADOS (capex_yahoo/fcf_yahoo) —
+nunca misturados com os campos "_aprox" que vêm da CVM. yfinance não é uma
+API oficial (faz scraping do Yahoo Finance) — pode quebrar, mudar de
+formato ou simplesmente não ter cobertura pra tickers menos acompanhados,
+então esses campos vêm sempre como "bônus, quando disponível", nunca como
+obrigatórios, e o app deve rotular claramente a fonte quando os exibir.
+
 ⚠️ Limitação importante: os nomes das contas do plano padronizado da CVM
 variam entre setores (bancos e seguradoras usam um modelo de DRE diferente
 do de empresas não-financeiras). O parser abaixo tenta casar as contas certas
@@ -216,10 +230,11 @@ CAMPOS_HISTORICO_BASE = (
     "ativo_total", "patrimonio_liquido", "receita_liquida", "lucro_liquido",
     "caixa_e_equivalentes", "divida_bruta", "ebit", "depreciacao_amortizacao",
     "caixa_operacional", "caixa_investimento", "caixa_financiamento", "capex",
+    "capex_yahoo", "fcf_yahoo",
 )
 
 
-def montar_historico(cnpj: str, dfp: dict, itr: dict) -> list[dict]:
+def montar_historico(cnpj: str, dfp: dict, itr: dict, complementar_yahoo: dict | None = None) -> list[dict]:
     """
     Junta os períodos anuais (DFP) e trimestrais isolados (ITR, já filtrados
     em update_fundamentos.py) numa única série ordenada por data, pra dar pra
@@ -269,8 +284,27 @@ def montar_historico(cnpj: str, dfp: dict, itr: dict) -> list[dict]:
     registrar(dfp, "anual")
     registrar(itr, "trimestre")
 
+    complementar_yahoo = complementar_yahoo or {}
+    capex_yahoo_por_tipo = {
+        "anual": complementar_yahoo.get("capex_anual", {}),
+        "trimestre": complementar_yahoo.get("capex_trimestral", {}),
+    }
+    fcf_yahoo_por_tipo = {
+        "anual": complementar_yahoo.get("fcf_anual", {}),
+        "trimestre": complementar_yahoo.get("fcf_trimestral", {}),
+    }
+
     serie = list(linhas.values())
     for ponto in serie:
+        # Complemento via Yahoo Finance (não-CVM) — casado por data exata
+        # (data_fim_exercicio igual à data da coluna do yfinance). Fiscal
+        # years que não terminam em datas "redondas" (31/03, 30/06, 30/09,
+        # 31/12) podem não casar — nesse caso fica None, sem tentar
+        # aproximar por data mais próxima (evitaria comparar períodos que
+        # não são exatamente o mesmo).
+        ponto["capex_yahoo"] = capex_yahoo_por_tipo.get(ponto["tipo_periodo"], {}).get(ponto["data_fim_exercicio"])
+        ponto["fcf_yahoo"] = fcf_yahoo_por_tipo.get(ponto["tipo_periodo"], {}).get(ponto["data_fim_exercicio"])
+
         lucro = ponto.get("lucro_liquido")
         receita = ponto.get("receita_liquida")
         pl = ponto.get("patrimonio_liquido")
@@ -321,7 +355,82 @@ def carregar_preco_quant(ticker: str):
         return None
 
 
-def montar_resumo(ticker: str, cnpj: str, dfp: dict, itr: dict, cadastro: pd.DataFrame | None):
+def _achar_linha_yfinance(df, termos: list[str]):
+    """
+    Acha, num DataFrame de demonstrativo do yfinance (index = rótulo da
+    linha, ex: "Capital Expenditure"; colunas = datas), a primeira linha
+    cujo rótulo contenha TODOS os termos (sem acento/case) — mesmo padrão
+    de casamento tolerante já usado pro FCA em update_fundamentos.py, já
+    que o rótulo exato pode variar entre versões do yfinance.
+    """
+    if df is None or df.empty:
+        return None
+    for idx in df.index:
+        rotulo = normalizar(str(idx))
+        if all(t in rotulo for t in termos):
+            return df.loc[idx]
+    return None
+
+
+def _serie_por_data(linha) -> dict:
+    """Converte uma linha do yfinance (index=data) em {'AAAA-MM-DD': valor},
+    pulando qualquer coluna que não seja uma data de verdade (ex: uma
+    eventual coluna "TTM" que algumas versões do yfinance incluem)."""
+    if linha is None:
+        return {}
+    serie = {}
+    for dt, v in linha.items():
+        if pd.isna(v):
+            continue
+        try:
+            serie[str(pd.Timestamp(dt).date())] = float(v)
+        except Exception:
+            continue  # coluna não é uma data (ex: "TTM") — ignora
+    return serie
+
+
+def buscar_complementar_yahoo(ticker: str) -> dict:
+    """
+    Busca Capex e Fluxo de Caixa Livre no Yahoo Finance (via yfinance) como
+    COMPLEMENTO pro que a CVM não detalha — ver aviso no topo do arquivo.
+    Chamada uma vez por ticker em main() e reaproveitada tanto em
+    montar_resumo quanto em montar_historico (evita duas buscas repetidas).
+
+    Nunca derruba o resto do resumo/histórico se falhar — devolve tudo
+    vazio nesse caso, e quem usa (montar_resumo/montar_historico) já trata
+    ausência como "sem complemento disponível", igual qualquer outro campo
+    opcional deste pipeline.
+    """
+    vazio = {"capex_anual": {}, "capex_trimestral": {}, "fcf_anual": {}, "fcf_trimestral": {}}
+    if yf is None:
+        return vazio
+    try:
+        yt = yf.Ticker(f"{ticker}.SA")
+        resultado = dict(vazio)
+        for sufixo, df in (("_anual", yt.cashflow), ("_trimestral", yt.quarterly_cashflow)):
+            linha_capex = _achar_linha_yfinance(df, ["CAPITAL", "EXPENDITURE"])
+            linha_fcf = _achar_linha_yfinance(df, ["FREE", "CASH", "FLOW"])
+            resultado["capex" + sufixo] = _serie_por_data(linha_capex)
+            resultado["fcf" + sufixo] = _serie_por_data(linha_fcf)
+        return resultado
+    except Exception as e:
+        print(f"    ⚠️  complemento Yahoo (capex/FCF) falhou para {ticker}: {e}")
+        return vazio
+
+
+def _valor_mais_recente_dict(*dicionarios: dict):
+    """Entre um ou mais {'AAAA-MM-DD': valor}, devolve (valor, data) da chave mais recente."""
+    combinado = {}
+    for d in dicionarios:
+        combinado.update(d)
+    if not combinado:
+        return None, None
+    dt = max(combinado.keys())
+    return combinado[dt], dt
+
+
+def montar_resumo(ticker: str, cnpj: str, dfp: dict, itr: dict, cadastro: pd.DataFrame | None,
+                   complementar_yahoo: dict | None = None):
     incompleto = False
 
     def pegar(fontes, incluir, excluir=None):
@@ -376,6 +485,15 @@ def montar_resumo(ticker: str, cnpj: str, dfp: dict, itr: dict, cadastro: pd.Dat
     if capex_imob is not None or capex_intang is not None:
         capex = (capex_imob or 0) + (capex_intang or 0)
     fcf_aprox = (caixa_operacional + capex) if (caixa_operacional is not None and capex is not None) else None
+
+    # Complemento via Yahoo Finance (não-CVM) — ver aviso no topo do arquivo.
+    complementar_yahoo = complementar_yahoo or {}
+    capex_yahoo, dt_capex_yahoo = _valor_mais_recente_dict(
+        complementar_yahoo.get("capex_trimestral", {}), complementar_yahoo.get("capex_anual", {})
+    )
+    fcf_yahoo, dt_fcf_yahoo = _valor_mais_recente_dict(
+        complementar_yahoo.get("fcf_trimestral", {}), complementar_yahoo.get("fcf_anual", {})
+    )
 
     razao_social = None
     if cadastro is not None:
@@ -458,6 +576,15 @@ def montar_resumo(ticker: str, cnpj: str, dfp: dict, itr: dict, cadastro: pd.Dat
             "capex_aprox": capex,
             "fcf_aprox": fcf_aprox,
             "data_referencia": dt_cfo,
+            # Complementares — fonte: Yahoo Finance (yfinance), NÃO é dado
+            # estruturado da CVM. Podem vir null quando a cobertura do
+            # Yahoo pro ticker não tiver essa linha. Ver aviso no topo do
+            # arquivo antes de exibir — nunca misturar com os campos acima.
+            "capex_yahoo": capex_yahoo,
+            "capex_yahoo_data_referencia": dt_capex_yahoo,
+            "fcf_yahoo": fcf_yahoo,
+            "fcf_yahoo_data_referencia": dt_fcf_yahoo,
+            "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM.",
         },
         "multiplos": {
             "p_l": round(p_l, 2) if p_l else None,
@@ -505,8 +632,11 @@ def main():
         total += 1
         print(f"→ {ticker}")
         try:
-            resumo = montar_resumo(ticker, cnpj, dfp, itr, cadastro)
-            historico = montar_historico(cnpj, dfp, itr)
+            # busca uma vez só e reaproveita no resumo e no histórico — evita
+            # duas chamadas ao Yahoo Finance pro mesmo ticker.
+            complementar_yahoo = buscar_complementar_yahoo(ticker)
+            resumo = montar_resumo(ticker, cnpj, dfp, itr, cadastro, complementar_yahoo)
+            historico = montar_historico(cnpj, dfp, itr, complementar_yahoo)
         except Exception as e:
             print(f"  ⚠️  falhou: {e}")
             continue
