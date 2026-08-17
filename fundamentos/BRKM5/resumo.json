@@ -2,7 +2,7 @@
   "ticker": "BRKM5",
   "cnpj": "42150391000170",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:26:56.702706+00:00",
+  "atualizado_em": "2026-08-17T22:21:46.379167+00:00",
   "fundamentos": {
     "ativo_total": 79240000000.0,
     "patrimonio_liquido": -13087000000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 796968412
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 49336000000.0,
+    "caixa_e_equivalentes": 3931000000.0,
+    "liquida": 45405000000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 4054000000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 5227000000.0,
+    "margem_ebitda_aprox": 0.2407
   },
   "fluxo_de_caixa": {
     "operacional": -4249000000.0,
     "investimento": -920000000.0,
     "financiamento": -363000000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": 0,
+    "fcf_aprox": -4249000000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -674000000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -4923000000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 1.25,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.153,
     "roe": -0.2539,
     "dividend_yield_12m": 1.8733,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 8.69
   },
   "proventos_recentes": [
     {

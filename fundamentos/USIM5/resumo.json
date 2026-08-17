@@ -2,7 +2,7 @@
   "ticker": "USIM5",
   "cnpj": "60894730000105",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:29:36.868457+00:00",
+  "atualizado_em": "2026-08-17T22:26:30.446779+00:00",
   "fundamentos": {
     "ativo_total": 35106656000.0,
     "patrimonio_liquido": 23645091000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 1230942660
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 6223308000.0,
+    "caixa_e_equivalentes": 5274257000.0,
+    "liquida": 949051000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 579755000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 860634000.0,
+    "margem_ebitda_aprox": 0.1404
   },
   "fluxo_de_caixa": {
     "operacional": 369639000.0,
     "investimento": -458134000.0,
     "financiamento": -48301000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -263113000.0,
+    "fcf_aprox": 106526000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -322276000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 35625000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 18.28,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.0698,
     "roe": 0.0181,
     "dividend_yield_12m": 0.0968,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 1.1
   },
   "proventos_recentes": [
     {

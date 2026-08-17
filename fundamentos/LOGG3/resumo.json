@@ -2,7 +2,7 @@
   "ticker": "LOGG3",
   "cnpj": "09041168000110",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:11.580429+00:00",
+  "atualizado_em": "2026-08-17T22:23:43.841136+00:00",
   "fundamentos": {
     "ativo_total": 6806969000.0,
     "patrimonio_liquido": 3545864000.0,
@@ -17,15 +17,15 @@
     "numero_acoes": 87429219
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 2130316000.0,
+    "caixa_e_equivalentes": 250199000.0,
+    "liquida": 1880117000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 78378000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 79770000.0,
+    "margem_ebitda_aprox": 1.2095
   },
   "fluxo_de_caixa": {
     "operacional": 5569000.0,
@@ -33,7 +33,12 @@
     "financiamento": -126263000.0,
     "capex_aprox": null,
     "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": null,
+    "capex_yahoo_data_referencia": null,
+    "fcf_yahoo": 5569000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 35.54,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.8902,
     "roe": 0.0166,
     "dividend_yield_12m": 0.296,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 23.57
   },
   "proventos_recentes": [
     {

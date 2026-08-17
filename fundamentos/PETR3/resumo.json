@@ -2,7 +2,7 @@
   "ticker": "PETR3",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:36.955196+00:00",
+  "atualizado_em": "2026-08-17T22:24:39.051123+00:00",
   "fundamentos": {
     "ativo_total": 1279019000000.0,
     "patrimonio_liquido": 481854000000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 12888732761
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 366533000000.0,
+    "caixa_e_equivalentes": 33560000000.0,
+    "liquida": 332973000000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 72356000000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 93970000000.0,
+    "margem_ebitda_aprox": 0.5543
   },
   "fluxo_de_caixa": {
     "operacional": 43975000000.0,
     "investimento": -18812000000.0,
     "financiamento": -24953000000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -23734000000.0,
+    "fcf_aprox": 20241000000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -4565829504.461743,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 7734015378.773495,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 11.65,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.3097,
     "roe": 0.1089,
     "dividend_yield_12m": 0.0832,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 3.54
   },
   "proventos_recentes": [
     {

@@ -2,7 +2,7 @@
   "ticker": "CAML3",
   "cnpj": "64904295000103",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:27:00.174475+00:00",
+  "atualizado_em": "2026-08-17T22:21:51.453300+00:00",
   "fundamentos": {
     "ativo_total": 12021830000.0,
     "patrimonio_liquido": 2989107000.0,
@@ -17,10 +17,10 @@
     "numero_acoes": 341071232
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 5946954000.0,
+    "caixa_e_equivalentes": 1430714000.0,
+    "liquida": 4516240000.0,
+    "data_referencia": "2026-05-31"
   },
   "resultado_operacional": {
     "ebit": 139521000.0,
@@ -31,9 +31,14 @@
     "operacional": -1195446000.0,
     "investimento": -77540000.0,
     "financiamento": 712531000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-05-31"
+    "capex_aprox": -71534000.0,
+    "fcf_aprox": -1266980000.0,
+    "data_referencia": "2026-05-31",
+    "capex_yahoo": -49613000.0,
+    "capex_yahoo_data_referencia": "2026-05-31",
+    "fcf_yahoo": -971769000.0,
+    "fcf_yahoo_data_referencia": "2026-05-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 56.58,

@@ -2,7 +2,7 @@
   "ticker": "ITUB4",
   "cnpj": "60872504000123",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:27:59.051075+00:00",
+  "atualizado_em": "2026-08-17T22:23:25.013504+00:00",
   "fundamentos": {
     "ativo_total": 3202125000000.0,
     "patrimonio_liquido": 228026000000.0,
@@ -31,9 +31,14 @@
     "operacional": 55594000000.0,
     "investimento": -57031000000.0,
     "financiamento": -5715000000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -438000000.0,
+    "fcf_aprox": 55156000000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -1695000000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 69423000000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 34.32,

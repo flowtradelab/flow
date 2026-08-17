@@ -2,7 +2,7 @@
   "ticker": "SUZB3",
   "cnpj": "16404287000155",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:29:21.044958+00:00",
+  "atualizado_em": "2026-08-17T22:26:05.239913+00:00",
   "fundamentos": {
     "ativo_total": 171045775000.0,
     "patrimonio_liquido": 49851513000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 1231560722
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 92706122000.0,
+    "caixa_e_equivalentes": 16645571000.0,
+    "liquida": 76060551000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 2788631000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 5595283000.0,
+    "margem_ebitda_aprox": 0.4828
   },
   "fluxo_de_caixa": {
     "operacional": 2900767000.0,
     "investimento": -3218270000.0,
     "financiamento": -2184089000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -926698000.0,
+    "fcf_aprox": 1974069000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -3002446000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -101679000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 27.65,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.1559,
     "roe": 0.0363,
     "dividend_yield_12m": 0.0267,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 13.59
   },
   "proventos_recentes": [
     {

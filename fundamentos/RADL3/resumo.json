@@ -2,7 +2,7 @@
   "ticker": "RADL3",
   "cnpj": "61585865000151",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:50.212696+00:00",
+  "atualizado_em": "2026-08-17T22:25:00.267295+00:00",
   "fundamentos": {
     "ativo_total": 24822598000.0,
     "patrimonio_liquido": 7290780000.0,
@@ -17,10 +17,10 @@
     "numero_acoes": 1748536237
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 3452649000.0,
+    "caixa_e_equivalentes": 536501000.0,
+    "liquida": 2916148000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 854039000.0,
@@ -31,9 +31,14 @@
     "operacional": 769602000.0,
     "investimento": -336766000.0,
     "financiamento": -500653000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -517946000.0,
+    "fcf_aprox": 251656000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -324281000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 514470000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 71.13,

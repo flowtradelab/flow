@@ -2,7 +2,7 @@
   "ticker": "BRSR6",
   "cnpj": "92702067000196",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:26:58.407411+00:00",
+  "atualizado_em": "2026-08-17T22:21:49.057216+00:00",
   "fundamentos": {
     "ativo_total": 172693778000.0,
     "patrimonio_liquido": 11847888000.0,
@@ -31,9 +31,14 @@
     "operacional": 4361178000.0,
     "investimento": -2166392000.0,
     "financiamento": -1756849000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -53993000.0,
+    "fcf_aprox": 4307185000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -53983000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 4307088000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 18.78,

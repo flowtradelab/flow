@@ -2,7 +2,7 @@
   "ticker": "KLBN11",
   "cnpj": "89637490000145",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:06.019201+00:00",
+  "atualizado_em": "2026-08-17T22:23:36.252848+00:00",
   "fundamentos": {
     "ativo_total": 63678586000.0,
     "patrimonio_liquido": 15973853000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 7106061317
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 34859750000.0,
+    "caixa_e_equivalentes": 9321549000.0,
+    "liquida": 25538201000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 1036149000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 1630692000.0,
+    "margem_ebitda_aprox": 0.3166
   },
   "fluxo_de_caixa": {
     "operacional": 1334181000.0,
     "investimento": -606814000.0,
     "financiamento": -2531704000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -1103984000.0,
+    "fcf_aprox": 230197000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -656597000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 909749000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 319.84,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.0751,
     "roe": 0.0242,
     "dividend_yield_12m": 0.1077,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 15.66
   },
   "proventos_recentes": [
     {

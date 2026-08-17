@@ -2,7 +2,7 @@
   "ticker": "RAIZ4",
   "cnpj": "33453598000123",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:53.473291+00:00",
+  "atualizado_em": "2026-08-17T22:25:05.337290+00:00",
   "fundamentos": {
     "ativo_total": 95654603000.0,
     "patrimonio_liquido": -10603231000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 10343115881
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 74057521000.0,
+    "caixa_e_equivalentes": 13921231000.0,
+    "liquida": 60136290000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 2138076000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 3985289000.0,
+    "margem_ebitda_aprox": 0.0774
   },
   "fluxo_de_caixa": {
     "operacional": 4393393000.0,
     "investimento": -786634000.0,
     "financiamento": -2631587000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-06-30"
+    "capex_aprox": -695161000.0,
+    "fcf_aprox": 3698232000.0,
+    "data_referencia": "2026-06-30",
+    "capex_yahoo": -8209973000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -12004802000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": null,
@@ -41,7 +46,7 @@
     "margem_liquida": -0.0319,
     "roe": 0.1548,
     "dividend_yield_12m": 0.807,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 15.09
   },
   "proventos_recentes": [
     {

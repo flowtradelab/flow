@@ -2,7 +2,7 @@
   "ticker": "VIVT3",
   "cnpj": "02558157000162",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:29:43.325261+00:00",
+  "atualizado_em": "2026-08-17T22:26:42.524812+00:00",
   "fundamentos": {
     "ativo_total": 128914784000.0,
     "patrimonio_liquido": 65703234000.0,
@@ -17,10 +17,10 @@
     "numero_acoes": 3195606352
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 19716509000.0,
+    "caixa_e_equivalentes": 8484361000.0,
+    "liquida": 11232148000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 2597477000.0,
@@ -31,9 +31,14 @@
     "operacional": 5297382000.0,
     "investimento": -2243197000.0,
     "financiamento": -1023434000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -4825500000.0,
+    "fcf_aprox": 471882000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -2412750000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 2884632000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 60.63,

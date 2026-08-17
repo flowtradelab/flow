@@ -2,7 +2,7 @@
   "ticker": "SLCE3",
   "cnpj": "89096457000155",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:29:14.301312+00:00",
+  "atualizado_em": "2026-08-17T22:25:54.018507+00:00",
   "fundamentos": {
     "ativo_total": 19986941000.0,
     "patrimonio_liquido": 6096702000.0,
@@ -17,113 +17,37 @@
     "numero_acoes": 496311324
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 8212449000.0,
+    "caixa_e_equivalentes": 924266000.0,
+    "liquida": 7288183000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 677429000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 758696000.0,
+    "margem_ebitda_aprox": 0.2743
   },
   "fluxo_de_caixa": {
     "operacional": -485217000.0,
     "investimento": -831027000.0,
     "financiamento": -409480000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -350641000.0,
+    "fcf_aprox": -835858000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -825277000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -1310494000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 27.83,
     "p_vp": 1.12,
     "margem_liquida": 0.0886,
     "roe": 0.0402,
-    "dividend_yield_12m": 0.0966,
-    "divida_liquida_ebitda": null
+    "dividend_yield_12m": null,
+    "divida_liquida_ebitda": 9.61
   },
-  "proventos_recentes": [
-    {
-      "data": "2011-04-28",
-      "valor_por_acao": 0.0292
-    },
-    {
-      "data": "2012-05-02",
-      "valor_por_acao": 0.1165
-    },
-    {
-      "data": "2013-04-18",
-      "valor_por_acao": 0.0285
-    },
-    {
-      "data": "2014-04-17",
-      "valor_por_acao": 0.0713
-    },
-    {
-      "data": "2015-04-30",
-      "valor_por_acao": 0.0514
-    },
-    {
-      "data": "2016-05-02",
-      "valor_por_acao": 0.1101
-    },
-    {
-      "data": "2017-04-27",
-      "valor_por_acao": 0.0269
-    },
-    {
-      "data": "2017-10-02",
-      "valor_por_acao": 0.3801
-    },
-    {
-      "data": "2018-05-02",
-      "valor_por_acao": 0.3919
-    },
-    {
-      "data": "2019-05-02",
-      "valor_por_acao": 0.3479
-    },
-    {
-      "data": "2020-07-31",
-      "valor_por_acao": 0.1446
-    },
-    {
-      "data": "2020-11-16",
-      "valor_por_acao": 0.0727
-    },
-    {
-      "data": "2021-04-30",
-      "valor_por_acao": 0.3903
-    },
-    {
-      "data": "2022-05-02",
-      "valor_por_acao": 0.9803
-    },
-    {
-      "data": "2022-12-27",
-      "valor_por_acao": 0.1405
-    },
-    {
-      "data": "2023-05-05",
-      "valor_por_acao": 1.049
-    },
-    {
-      "data": "2023-12-28",
-      "valor_por_acao": 0.0485
-    },
-    {
-      "data": "2024-05-02",
-      "valor_por_acao": 0.7377
-    },
-    {
-      "data": "2025-05-06",
-      "valor_por_acao": 0.4856
-    },
-    {
-      "data": "2025-12-15",
-      "valor_por_acao": 0.8052
-    }
-  ],
+  "proventos_recentes": [],
   "dados_incompletos": false
 }

@@ -2,7 +2,7 @@
   "ticker": "RCSL4",
   "cnpj": "91333666000117",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:28:55.350832+00:00",
+  "atualizado_em": "2026-08-17T22:25:08.451231+00:00",
   "fundamentos": {
     "ativo_total": 33843000.0,
     "patrimonio_liquido": -14922000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 127289176
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 0.0,
+    "caixa_e_equivalentes": 3000.0,
+    "liquida": -3000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": -822000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": -768000.0,
+    "margem_ebitda_aprox": -256.0
   },
   "fluxo_de_caixa": {
     "operacional": -13428000.0,
     "investimento": -77000.0,
     "financiamento": 13261000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": 2193000.0,
+    "fcf_aprox": -11235000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -77000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -13505000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": null,
@@ -41,7 +46,7 @@
     "margem_liquida": -967.3333,
     "roe": 0.1945,
     "dividend_yield_12m": null,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 0.0
   },
   "proventos_recentes": [],
   "dados_incompletos": false

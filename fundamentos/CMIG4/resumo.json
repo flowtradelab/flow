@@ -2,7 +2,7 @@
   "ticker": "CMIG4",
   "cnpj": "17155730000164",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:27:02.199773+00:00",
+  "atualizado_em": "2026-08-17T22:21:54.408103+00:00",
   "fundamentos": {
     "ativo_total": 70861249000.0,
     "patrimonio_liquido": 29186153000.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 2860681883
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 22352709000.0,
+    "caixa_e_equivalentes": 2162396000.0,
+    "liquida": 20190313000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 1829246000.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 2230567000.0,
+    "margem_ebitda_aprox": 0.1999
   },
   "fluxo_de_caixa": {
     "operacional": 1119038000.0,
     "investimento": -1626372000.0,
     "financiamento": -16742000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -83575000.0,
+    "fcf_aprox": 1035463000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -1078000000.0,
+    "capex_yahoo_data_referencia": "2025-12-31",
+    "fcf_yahoo": 2999000000.0,
+    "fcf_yahoo_data_referencia": "2025-12-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 30.89,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.0847,
     "roe": 0.0324,
     "dividend_yield_12m": 0.1456,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 9.05
   },
   "proventos_recentes": [
     {

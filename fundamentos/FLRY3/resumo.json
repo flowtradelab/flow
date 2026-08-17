@@ -2,7 +2,7 @@
   "ticker": "FLRY3",
   "cnpj": "60840055000131",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:27:34.998042+00:00",
+  "atualizado_em": "2026-08-17T22:22:47.713167+00:00",
   "fundamentos": {
     "ativo_total": 13558475000.0,
     "patrimonio_liquido": 5518372000.0,
@@ -17,10 +17,10 @@
     "numero_acoes": 543626208
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 5408985000.0,
+    "caixa_e_equivalentes": 19060000.0,
+    "liquida": 5389925000.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 391762000.0,
@@ -31,9 +31,14 @@
     "operacional": 264561000.0,
     "investimento": -95569000.0,
     "financiamento": -181044000.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -121224000.0,
+    "fcf_aprox": 143337000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -60612000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 203949000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 44.96,

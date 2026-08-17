@@ -2,7 +2,7 @@
   "ticker": "VIVA3",
   "cnpj": "33839910000111",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T21:29:41.790774+00:00",
+  "atualizado_em": "2026-08-17T22:26:39.699249+00:00",
   "fundamentos": {
     "ativo_total": 4880312783.0,
     "patrimonio_liquido": 3184286048.0,
@@ -17,23 +17,28 @@
     "numero_acoes": 235135052
   },
   "divida": {
-    "bruta": null,
-    "caixa_e_equivalentes": null,
-    "liquida": null,
-    "data_referencia": null
+    "bruta": 518331322.0,
+    "caixa_e_equivalentes": 416659228.0,
+    "liquida": 101672094.0,
+    "data_referencia": "2026-06-30"
   },
   "resultado_operacional": {
     "ebit": 199854112.0,
-    "ebitda_aprox": null,
-    "margem_ebitda_aprox": null
+    "ebitda_aprox": 241523032.0,
+    "margem_ebitda_aprox": 0.2899
   },
   "fluxo_de_caixa": {
     "operacional": -39650769.0,
     "investimento": -18576788.0,
     "financiamento": -31942992.0,
-    "capex_aprox": null,
-    "fcf_aprox": null,
-    "data_referencia": "2026-03-31"
+    "capex_aprox": -18561794.0,
+    "fcf_aprox": -58212563.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -18577000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": -58227000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": 32.08,
@@ -41,7 +46,7 @@
     "margem_liquida": 0.182,
     "roe": 0.0476,
     "dividend_yield_12m": 0.0651,
-    "divida_liquida_ebitda": null
+    "divida_liquida_ebitda": 0.42
   },
   "proventos_recentes": [
     {
