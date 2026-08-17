@@ -69,6 +69,23 @@ STATEMENTS = {
 # toda a explosão de linhas: notas explicativas bem detalhadas).
 MAX_PROFUNDIDADE = 1
 
+# Exceção pontual: algumas contas que a view por ticker precisa (dívida,
+# EBITDA aproximado, capex) ficam um nível mais fundo que MAX_PROFUNDIDADE —
+# "Empréstimos e Financiamentos" fica dentro de Passivo Circulante/Não
+# Circulante, "Depreciação e Amortização" fica dentro dos ajustes do fluxo de
+# caixa, etc. Em vez de afrouxar o corte de profundidade pra todo mundo (o
+# que reabriria o problema de tamanho de arquivo), mantemos essas contas
+# específicas de qualquer profundidade, por palavra-chave.
+PALAVRAS_CHAVE_MANTER_PROFUNDO = [
+    "EMPRESTIMOS E FINANCIAMENTOS",
+    "CAIXA E EQUIVALENTES DE CAIXA",
+    "APLICACOES FINANCEIRAS",
+    "DEPRECIACAO",     # cobre "Depreciação e Amortização" e variações
+    "AMORTIZACAO",
+    "IMOBILIZADO",     # capex: "Aquisição de Ativo Imobilizado"
+    "INTANGIVEL",      # capex: "Aquisição de Ativo Intangível"
+]
+
 TIMEOUT = 60
 
 
@@ -168,10 +185,16 @@ def processar_pacote(prefixo: str, base_url: str, ano: int, apenas_trimestre_iso
             # duplicar período já coberto pelo zip do ano anterior.
             if "ORDEM_EXERC" in df_full.columns:
                 df_full = df_full[df_full["ORDEM_EXERC"] == "ÚLTIMO"]
-            # descarta subcontas profundas — ver MAX_PROFUNDIDADE acima.
-            if "CD_CONTA" in df_full.columns:
+            # descarta subcontas profundas — ver MAX_PROFUNDIDADE acima —,
+            # exceto as poucas contas específicas que precisamos de qualquer
+            # jeito (PALAVRAS_CHAVE_MANTER_PROFUNDO).
+            if "CD_CONTA" in df_full.columns and "DS_CONTA" in df_full.columns:
                 profundidade = df_full["CD_CONTA"].astype(str).str.count(r"\.")
-                df_full = df_full[profundidade <= MAX_PROFUNDIDADE]
+                ds_norm = df_full["DS_CONTA"].fillna("").map(normalizar)
+                relevante_mesmo_profundo = ds_norm.apply(
+                    lambda t: any(p in t for p in PALAVRAS_CHAVE_MANTER_PROFUNDO)
+                )
+                df_full = df_full[(profundidade <= MAX_PROFUNDIDADE) | relevante_mesmo_profundo]
             if apenas_trimestre_isolado:
                 df_full = filtrar_periodo_isolado(df_full)
             df_full = aplicar_escala_moeda(df_full)
