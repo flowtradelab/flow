@@ -2,7 +2,7 @@
   "ticker": "SEER3",
   "cnpj": "04986320000113",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T20:17:43.997273+00:00",
+  "atualizado_em": "2026-08-17T21:29:09.296973+00:00",
   "fundamentos": {
     "ativo_total": 3359945000.0,
     "patrimonio_liquido": 1523705000.0,
@@ -13,15 +13,35 @@
   },
   "mercado": {
     "preco": 11.27,
-    "valor_de_mercado": 1435333673.5843563,
+    "valor_de_mercado": 1423810011.746931,
     "numero_acoes": 128040470
   },
+  "divida": {
+    "bruta": null,
+    "caixa_e_equivalentes": null,
+    "liquida": null,
+    "data_referencia": null
+  },
+  "resultado_operacional": {
+    "ebit": 154098000.0,
+    "ebitda_aprox": null,
+    "margem_ebitda_aprox": null
+  },
+  "fluxo_de_caixa": {
+    "operacional": 133285000.0,
+    "investimento": -39954000.0,
+    "financiamento": 172354000.0,
+    "capex_aprox": null,
+    "fcf_aprox": null,
+    "data_referencia": "2026-03-31"
+  },
   "multiplos": {
-    "p_l": 13.5,
-    "p_vp": 0.94,
+    "p_l": 13.4,
+    "p_vp": 0.93,
     "margem_liquida": 0.1709,
     "roe": 0.0698,
-    "dividend_yield_12m": 0.0561
+    "dividend_yield_12m": 0.0561,
+    "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
     {

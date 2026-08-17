@@ -2,7 +2,7 @@
   "ticker": "TAEE11",
   "cnpj": "07859971000130",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T20:17:50.237673+00:00",
+  "atualizado_em": "2026-08-17T21:29:22.837107+00:00",
   "fundamentos": {
     "ativo_total": 22700882000.0,
     "patrimonio_liquido": 8070915000.0,
@@ -13,15 +13,35 @@
   },
   "mercado": {
     "preco": 37.34,
-    "valor_de_mercado": 12880813922.464554,
+    "valor_de_mercado": 12832584285.75,
     "numero_acoes": 344498907
   },
+  "divida": {
+    "bruta": null,
+    "caixa_e_equivalentes": null,
+    "liquida": null,
+    "data_referencia": null
+  },
+  "resultado_operacional": {
+    "ebit": 997184000.0,
+    "ebitda_aprox": null,
+    "margem_ebitda_aprox": null
+  },
+  "fluxo_de_caixa": {
+    "operacional": 264559000.0,
+    "investimento": 36568000.0,
+    "financiamento": 48398000.0,
+    "capex_aprox": null,
+    "fcf_aprox": null,
+    "data_referencia": "2026-03-31"
+  },
   "multiplos": {
-    "p_l": 22.71,
-    "p_vp": 1.6,
+    "p_l": 22.63,
+    "p_vp": 1.59,
     "margem_liquida": 0.5312,
     "roe": 0.0703,
-    "dividend_yield_12m": 0.1038
+    "dividend_yield_12m": 0.1038,
+    "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
     {

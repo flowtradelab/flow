@@ -2,7 +2,7 @@
   "ticker": "SMFT3",
   "cnpj": "07594978000178",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T20:17:46.917734+00:00",
+  "atualizado_em": "2026-08-17T21:29:15.794282+00:00",
   "fundamentos": {
     "ativo_total": 21490311000.0,
     "patrimonio_liquido": 6092484000.0,
@@ -13,15 +13,35 @@
   },
   "mercado": {
     "preco": 17.12,
-    "valor_de_mercado": 10574232288.80561,
+    "valor_de_mercado": 10531272738.435204,
     "numero_acoes": 613710538
   },
+  "divida": {
+    "bruta": null,
+    "caixa_e_equivalentes": null,
+    "liquida": null,
+    "data_referencia": null
+  },
+  "resultado_operacional": {
+    "ebit": 526632000.0,
+    "ebitda_aprox": null,
+    "margem_ebitda_aprox": null
+  },
+  "fluxo_de_caixa": {
+    "operacional": 666646000.0,
+    "investimento": -180798000.0,
+    "financiamento": 976508000.0,
+    "capex_aprox": null,
+    "fcf_aprox": null,
+    "data_referencia": "2026-03-31"
+  },
   "multiplos": {
-    "p_l": 67.84,
-    "p_vp": 1.74,
+    "p_l": 67.56,
+    "p_vp": 1.73,
     "margem_liquida": 0.0716,
     "roe": 0.0256,
-    "dividend_yield_12m": 0.0646
+    "dividend_yield_12m": 0.0646,
+    "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
     {

@@ -2,7 +2,7 @@
   "ticker": "KLBN11",
   "cnpj": "89637490000145",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T20:17:15.564415+00:00",
+  "atualizado_em": "2026-08-17T21:28:06.019201+00:00",
   "fundamentos": {
     "ativo_total": 63678586000.0,
     "patrimonio_liquido": 15973853000.0,
@@ -13,15 +13,35 @@
   },
   "mercado": {
     "preco": 17.55,
-    "valor_de_mercado": 123787588684.28946,
+    "valor_de_mercado": 123645464205.05273,
     "numero_acoes": 7106061317
   },
+  "divida": {
+    "bruta": null,
+    "caixa_e_equivalentes": null,
+    "liquida": null,
+    "data_referencia": null
+  },
+  "resultado_operacional": {
+    "ebit": 1036149000.0,
+    "ebitda_aprox": null,
+    "margem_ebitda_aprox": null
+  },
+  "fluxo_de_caixa": {
+    "operacional": 1334181000.0,
+    "investimento": -606814000.0,
+    "financiamento": -2531704000.0,
+    "capex_aprox": null,
+    "fcf_aprox": null,
+    "data_referencia": "2026-03-31"
+  },
   "multiplos": {
-    "p_l": 320.21,
-    "p_vp": 7.75,
+    "p_l": 319.84,
+    "p_vp": 7.74,
     "margem_liquida": 0.0751,
     "roe": 0.0242,
-    "dividend_yield_12m": 0.1077
+    "dividend_yield_12m": 0.1077,
+    "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
     {
