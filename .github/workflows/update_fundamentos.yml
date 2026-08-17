@@ -25,10 +25,13 @@ jobs:
           python-version: '3.11'
 
       - name: 📦 Instalar dependências
-        run: pip install pandas requests
+        run: pip install pandas requests yfinance
 
-      - name: 🔄 Rodar script de atualização
+      - name: 🔄 Baixar dados brutos da CVM (DFP, ITR, cadastro, ticker↔CNPJ)
         run: python scripts/update_fundamentos.py
+
+      - name: 🧮 Montar resumo por ticker (cruza com quant/ + proventos)
+        run: python scripts/update_fundamentos_view.py
 
       - name: 📤 Commit e push dos dados atualizados
         run: |
