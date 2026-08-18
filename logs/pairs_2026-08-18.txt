@@ -1,0 +1,14 @@
+PNT Trade Lab — Pair Trading Log
+Data: 2026-08-18T10:33:51
+Tickers: 69 (Ibovespa)
+────────────────────────────────────────
+Período   Pares Arquivo
+────────────────────────────────────────
+3 anos       24   pair-trading/pairs_3y.json (251.3 KB)
+2 anos       57   pair-trading/pairs_2y.json (520.8 KB)
+1 ano       100   pair-trading/pairs_1y.json (532.4 KB)
+6 meses     202   pair-trading/pairs_6m.json (561.5 KB)
+3 meses     189   pair-trading/pairs_3m.json (324.2 KB)
+2 meses     191   pair-trading/pairs_2m.json (232.6 KB)
+────────────────────────────────────────
+Total de períodos calculados: 6
