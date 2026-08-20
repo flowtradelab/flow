@@ -413,11 +413,47 @@ def main():
 
     # ── 1. Download SI_D_SEDE ─────────────────────────────────────────────────
     print("[1/5] Download SI_D_SEDE...")
-    playwright_download(
-        page_url=B3_SERIES_URL, link_text=B3_SERIES_TEXT,
-        fallback_url=B3_SERIES_FB, out_path=series_path,
-        accept="application/zip,text/plain,*/*",
-    )
+    import requests as req
+
+    # Tenta primeiro um download direto do link do arquivo (sem navegador).
+    # Sites com proteção anti-bot (WAF/captcha) costumam travar o carregamento
+    # da PÁGINA HTML para navegadores headless rodando de IPs de datacenter
+    # (como os runners do GitHub Actions), mas o endpoint de download direto
+    # do arquivo às vezes não tem essa mesma proteção. Só cai pro Playwright
+    # se isso falhar — mantém o comportamento anterior como rede de segurança.
+    series_ok = False
+    try:
+        print(f"  Tentando download direto: {B3_SERIES_FB}")
+        r = req.get(
+            B3_SERIES_FB, timeout=60, stream=True,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+        )
+        if r.status_code == 200:
+            raw = b"".join(r.iter_content(65536))
+            if raw[:2] == b"PK":
+                with zipfile.ZipFile(io.BytesIO(raw)) as zf:
+                    fname = next((n for n in zf.namelist() if n.upper().endswith(".TXT")), None)
+                    if fname:
+                        raw = zf.read(fname)
+            # Uma resposta HTML/JSON (página de erro, captcha, etc.) não é o
+            # arquivo pipe-delimited esperado.
+            if raw[:1] not in (b"<", b"{") and len(raw) > 1000:
+                series_path.write_bytes(raw)
+                series_ok = True
+                print(f"  OK direto ({len(raw)/1024:.0f} KB)")
+            else:
+                print("  Resposta não parece ser o arquivo esperado (HTML/erro) — usando Playwright")
+        else:
+            print(f"  HTTP {r.status_code} — usando Playwright")
+    except Exception as e:
+        print(f"  Download direto falhou ({e}) — usando Playwright")
+
+    if not series_ok:
+        playwright_download(
+            page_url=B3_SERIES_URL, link_text=B3_SERIES_TEXT,
+            fallback_url=B3_SERIES_FB, out_path=series_path,
+            accept="application/zip,text/plain,*/*",
+        )
     with open(series_path, encoding="latin-1") as f:
         first = f.readline()
     data_date = first.strip().split("|")[1] if "|" in first else ""
