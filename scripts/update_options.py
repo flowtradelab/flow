@@ -29,6 +29,22 @@ MAX_RETRIES    = 3
 NAV_TIMEOUT    = 120000
 PAGE_TIMEOUT   = 90000
 
+# Mapa "raiz do ticker da opção" (4 primeiros chars) → ticker real do ativo
+# objeto. Antes esse valor era "adivinhado" via regex no ISIN da opção, o que
+# é estruturalmente errado (o ISIN é da opção, não do ativo objeto, e o regex
+# só captura 1 dígito — nunca reproduz sufixos de 2 dígitos como "11" de
+# BOVA11, ITSA11, HGLG11 etc.). Mantenha sincronizado com os ativos
+# suportados no frontend (Opcoes.jsx → ASSET_CONFIGS / chainSpotMap).
+ATIVO_OBJETO_MAP = {
+    "PETR": "PETR4",   # ⚠️ PETR3 e PETR4 compartilham a raiz "PETR" nos
+                        # 4 primeiros chars do ticker de opção — ambíguo,
+                        # assume-se PETR4 (mais líquido) até haver um sinal
+                        # melhor para desambiguar.
+    "BOVA": "BOVA11",
+    "VALE": "VALE3",
+    "BBDC": "BBDC4",
+}
+
 
 def github_output(key, value):
     gh = os.environ.get("GITHUB_OUTPUT", "")
@@ -243,10 +259,7 @@ def parse_bdi(filepath) -> dict:
                 if ticker.upper() in ("CÓDIGO", "INSTRUMENTO", "REFERENTE"):
                     continue
                 try:
-                    isin = parts[1] if len(parts) > 1 else ""
-                    m    = re.match(r'^BR([A-Z]{4}\d)', isin)
                     result[ticker] = {
-                        "ativo_objeto":   m.group(1) if m else "",
                         # [9]  = quantidade coberta     (ignorada)
                         # [10] = total posições bloqueadas (ignorada)
                         "qtd_descoberta": parse_int(parts[11]) if len(parts) > 11 else 0,
@@ -274,7 +287,7 @@ def build_options(series: dict, bdi: dict) -> dict:
 
         by_ticker[base_key].append({
             "ticker":         ticker_opcao,
-            "ativo_objeto":   oi_data.get("ativo_objeto", ""),
+            "ativo_objeto":   ATIVO_OBJETO_MAP.get(base_key, base_key),
             "tipo":           s["tipo"],
             "estilo":         s["estilo"],
             "strike":         s["strike"],
@@ -284,6 +297,7 @@ def build_options(series: dict, bdi: dict) -> dict:
             "open_interest":  oi_data.get("open_interest",  0),
             "qtd_tomadores":  oi_data.get("qtd_tomadores",  0),
             "qtd_doadores":   oi_data.get("qtd_doadores",   0),
+            "com_oi":         bool(oi_data),
         })
 
     print(f"    JOIN: {matched:,} com OI  |  {len(series)-matched:,} sem OI")
@@ -487,7 +501,7 @@ def main():
         data_date     = data_date,
         series_count  = len(series),
         bdi_count     = len(bdi_data),
-        matched       = sum(1 for opts in by_ticker.values() for o in opts if o.get("ativo_objeto")),
+        matched       = sum(1 for opts in by_ticker.values() for o in opts if o.get("com_oi")),
         tickers_count = len(by_ticker),
         changed       = changed,
         series_path   = series_path,
