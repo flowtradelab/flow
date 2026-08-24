@@ -2,7 +2,7 @@
   "ticker": "B3SA3",
   "cnpj": "09346601000125",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:21:26.683602+00:00",
+  "atualizado_em": "2026-08-24T11:32:22.095848+00:00",
   "fundamentos": {
     "ativo_total": 48951120000.0,
     "patrimonio_liquido": 18729402000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 14.67,
-    "valor_de_mercado": 71919292857.9146,
+    "preco": 15.09,
+    "valor_de_mercado": 75313126418.5854,
     "numero_acoes": 4990929467
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 42.28,
-    "p_vp": 3.84,
+    "p_l": 44.27,
+    "p_vp": 4.02,
     "margem_liquida": 0.5521,
     "roe": 0.0908,
-    "dividend_yield_12m": 0.0514,
+    "dividend_yield_12m": 0.05,
     "divida_liquida_ebitda": 6.85
   },
   "proventos_recentes": [

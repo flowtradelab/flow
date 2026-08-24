@@ -2,7 +2,7 @@
   "ticker": "SOJA3",
   "cnpj": "10807374000177",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:26:02.341214+00:00",
+  "atualizado_em": "2026-08-24T11:35:48.071825+00:00",
   "fundamentos": {
     "ativo_total": 4009574000.0,
     "patrimonio_liquido": 1352502000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.03,
-    "valor_de_mercado": 839318266.1945782,
+    "preco": 6.38,
+    "valor_de_mercado": 899974925.3832531,
     "numero_acoes": 141061898
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 314.23,
-    "p_vp": 0.62,
+    "p_l": 336.94,
+    "p_vp": 0.67,
     "margem_liquida": 0.0214,
     "roe": 0.002,
-    "dividend_yield_12m": 0.0873,
+    "dividend_yield_12m": 0.0688,
     "divida_liquida_ebitda": 35.53
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "TUPY3",
   "cnpj": "84683374000149",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:26:21.091672+00:00",
+  "atualizado_em": "2026-08-24T11:36:04.099109+00:00",
   "fundamentos": {
     "ativo_total": 9364820000.0,
     "patrimonio_liquido": 2298057000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 15.06,
-    "valor_de_mercado": 1980636675.4568462,
-    "numero_acoes": 131081186
+    "preco": 14.78,
+    "valor_de_mercado": 1938344717.6801157,
+    "numero_acoes": 131146465
   },
   "divida": {
     "bruta": 3941316000.0,
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.86,
+    "p_vp": 0.84,
     "margem_liquida": -0.0044,
     "roe": -0.0047,
-    "dividend_yield_12m": 0.1196,
+    "dividend_yield_12m": 0.1219,
     "divida_liquida_ebitda": 15.56
   },
   "proventos_recentes": [

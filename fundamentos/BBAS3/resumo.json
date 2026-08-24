@@ -2,7 +2,7 @@
   "ticker": "BBAS3",
   "cnpj": "00000000000191",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:21:29.788205+00:00",
+  "atualizado_em": "2026-08-24T11:32:24.555710+00:00",
   "fundamentos": {
     "ativo_total": 2588103740000.0,
     "patrimonio_liquido": 190767860000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 18.38,
-    "valor_de_mercado": 102474281239.32472,
+    "preco": 18.43,
+    "valor_de_mercado": 105214537840.72989,
     "numero_acoes": 5708873364
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 31.47,
-    "p_vp": 0.54,
+    "p_l": 32.31,
+    "p_vp": 0.55,
     "margem_liquida": 0.0398,
     "roe": 0.0171,
-    "dividend_yield_12m": 0.053,
+    "dividend_yield_12m": 0.0529,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "CURY3",
   "cnpj": "08797760000183",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:22:05.155002+00:00",
+  "atualizado_em": "2026-08-24T11:32:55.174182+00:00",
   "fundamentos": {
     "ativo_total": 6278509000.0,
     "patrimonio_liquido": 2048841000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 31.13,
-    "valor_de_mercado": 9956098144.071335,
+    "preco": 29.9,
+    "valor_de_mercado": 9210622943.089169,
     "numero_acoes": 308047594
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 31.99,
-    "p_vp": 4.86,
+    "p_l": 29.6,
+    "p_vp": 4.5,
     "margem_liquida": 0.1841,
     "roe": 0.1519,
-    "dividend_yield_12m": 0.1602,
+    "dividend_yield_12m": 0.1668,
     "divida_liquida_ebitda": -0.08
   },
   "proventos_recentes": [

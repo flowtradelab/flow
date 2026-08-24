@@ -2,7 +2,7 @@
   "ticker": "EGIE3",
   "cnpj": "02474103000119",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:22:24.874518+00:00",
+  "atualizado_em": "2026-08-24T11:33:11.520161+00:00",
   "fundamentos": {
     "ativo_total": 59005891000.0,
     "patrimonio_liquido": 16094317000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 28.03,
-    "valor_de_mercado": 39729500555.38666,
+    "preco": 27.63,
+    "valor_de_mercado": 39134620208.92532,
     "numero_acoes": 1416381520
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 20.25,
-    "p_vp": 2.47,
+    "p_l": 19.95,
+    "p_vp": 2.43,
     "margem_liquida": 0.5587,
     "roe": 0.1219,
-    "dividend_yield_12m": 0.0648,
+    "dividend_yield_12m": 0.063,
     "divida_liquida_ebitda": 11.58
   },
   "proventos_recentes": [
-    {
-      "data": "2020-08-10",
-      "valor_por_acao": 0.5887
-    },
     {
       "data": "2020-12-21",
       "valor_por_acao": 0.6336
@@ -128,6 +124,10 @@
     {
       "data": "2026-05-05",
       "valor_por_acao": 0.4845
+    },
+    {
+      "data": "2026-08-21",
+      "valor_por_acao": 0.5442
     }
   ],
   "dados_incompletos": false

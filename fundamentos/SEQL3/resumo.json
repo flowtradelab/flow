@@ -2,7 +2,7 @@
   "ticker": "SEQL3",
   "cnpj": "01599101000193",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:25:39.248616+00:00",
+  "atualizado_em": "2026-08-24T11:35:36.393508+00:00",
   "fundamentos": {
     "ativo_total": 665038000.0,
     "patrimonio_liquido": -252680000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 0.07,
+    "preco": 0.06,
     "valor_de_mercado": 382229311.7765089,
     "numero_acoes": 6370488672
   },

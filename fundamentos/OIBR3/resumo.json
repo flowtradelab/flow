@@ -2,7 +2,7 @@
   "ticker": "OIBR3",
   "cnpj": "76535764000143",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:24:28.399857+00:00",
+  "atualizado_em": "2026-08-24T11:34:45.667285+00:00",
   "fundamentos": {
     "ativo_total": 18729654000.0,
     "patrimonio_liquido": -15469158000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2025-06-30"
   },
   "mercado": {
-    "preco": 0.11,
-    "valor_de_mercado": 30085639.405495852,
+    "preco": 0.1,
+    "valor_de_mercado": 33428487.39812327,
     "numero_acoes": 334284869
   },
   "divida": {
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": -1.1712,
     "roe": 0.054,
-    "dividend_yield_12m": 5482.2403,
+    "dividend_yield_12m": 6030.4643,
     "divida_liquida_ebitda": -60.7
   },
   "proventos_recentes": [

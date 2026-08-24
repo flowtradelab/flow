@@ -2,7 +2,7 @@
   "ticker": "ITSA4",
   "cnpj": "61532644000115",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:23:22.001827+00:00",
+  "atualizado_em": "2026-08-24T11:33:57.769599+00:00",
   "fundamentos": {
     "ativo_total": 119772000000.0,
     "patrimonio_liquido": 98582000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 12.49,
-    "valor_de_mercado": 138522841855.62173,
+    "preco": 12.5,
+    "valor_de_mercado": 140091874700.0,
     "numero_acoes": 11207349976
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 26.32,
-    "p_vp": 1.41,
+    "p_l": 26.61,
+    "p_vp": 1.42,
     "margem_liquida": 2.3595,
     "roe": 0.0534,
-    "dividend_yield_12m": 0.1094,
+    "dividend_yield_12m": 0.1093,
     "divida_liquida_ebitda": 1.11
   },
   "proventos_recentes": [

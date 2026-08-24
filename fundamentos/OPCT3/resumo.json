@@ -2,7 +2,7 @@
   "ticker": "OPCT3",
   "cnpj": "09114805000130",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:24:30.934627+00:00",
+  "atualizado_em": "2026-08-24T11:34:47.706484+00:00",
   "fundamentos": {
     "ativo_total": 3477460000.0,
     "patrimonio_liquido": 1034464000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 9.68,
-    "valor_de_mercado": 1955559279.36627,
-    "numero_acoes": 199954942
+    "preco": 9.85,
+    "valor_de_mercado": 1969510826.7749977,
+    "numero_acoes": 199950330
   },
   "divida": {
     "bruta": 1979003000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 35.03,
-    "p_vp": 1.89,
+    "p_l": 35.28,
+    "p_vp": 1.9,
     "margem_liquida": 0.0759,
     "roe": 0.054,
-    "dividend_yield_12m": 0.01,
+    "dividend_yield_12m": 0.0099,
     "divida_liquida_ebitda": 6.83
   },
   "proventos_recentes": [

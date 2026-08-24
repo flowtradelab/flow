@@ -2,7 +2,7 @@
   "ticker": "GOAU4",
   "cnpj": "92690783000109",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:22:59.268429+00:00",
+  "atualizado_em": "2026-08-24T11:33:38.960559+00:00",
   "fundamentos": {
     "ativo_total": 82037333000.0,
     "patrimonio_liquido": 53796916000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 10.99,
-    "valor_de_mercado": 14640091732.764557,
-    "numero_acoes": 1322501548
+    "preco": 9.85,
+    "valor_de_mercado": 13028477777.365448,
+    "numero_acoes": 1322688048
   },
   "divida": {
     "bruta": 13558089000.0,
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 10.0,
-    "p_vp": 0.27,
+    "p_l": 8.9,
+    "p_vp": 0.24,
     "margem_liquida": 0.0819,
     "roe": 0.0272,
-    "dividend_yield_12m": 0.0303,
+    "dividend_yield_12m": 0.0388,
     "divida_liquida_ebitda": 2.59
   },
   "proventos_recentes": [
-    {
-      "data": "2021-09-28",
-      "valor_por_acao": 0.15
-    },
     {
       "data": "2021-11-08",
       "valor_por_acao": 1.1625
@@ -128,6 +124,10 @@
     {
       "data": "2026-05-14",
       "valor_por_acao": 0.08
+    },
+    {
+      "data": "2026-08-20",
+      "valor_por_acao": 0.11
     }
   ],
   "dados_incompletos": false

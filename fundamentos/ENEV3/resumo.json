@@ -2,7 +2,7 @@
   "ticker": "ENEV3",
   "cnpj": "04423567000121",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:22:27.612709+00:00",
+  "atualizado_em": "2026-08-24T11:33:13.766596+00:00",
   "fundamentos": {
     "ativo_total": 58091080000.0,
     "patrimonio_liquido": 21997618000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 24.45,
-    "valor_de_mercado": 47106108641.48751,
+    "preco": 25.36,
+    "valor_de_mercado": 48699996349.76668,
     "numero_acoes": 1920346813
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 289.0,
-    "p_vp": 2.14,
+    "p_l": 298.78,
+    "p_vp": 2.21,
     "margem_liquida": 0.041,
     "roe": 0.0074,
-    "dividend_yield_12m": 0.0674,
+    "dividend_yield_12m": 0.0649,
     "divida_liquida_ebitda": 15.61
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "RENT3",
   "cnpj": "16670085000155",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:25:16.183378+00:00",
+  "atualizado_em": "2026-08-24T11:35:22.323396+00:00",
   "fundamentos": {
     "ativo_total": 90820332000.0,
     "patrimonio_liquido": 27102546000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 33.51,
-    "valor_de_mercado": 36927277179.56172,
+    "preco": 33.92,
+    "valor_de_mercado": 37468536131.62967,
     "numero_acoes": 1104614922
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.82,
-    "p_vp": 1.36,
+    "p_l": 37.35,
+    "p_vp": 1.38,
     "margem_liquida": 0.0814,
     "roe": 0.037,
-    "dividend_yield_12m": 0.0774,
+    "dividend_yield_12m": 0.0765,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

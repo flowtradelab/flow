@@ -2,7 +2,7 @@
   "ticker": "POSI3",
   "cnpj": "81243735000148",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:24:47.930743+00:00",
+  "atualizado_em": "2026-08-24T11:34:59.342704+00:00",
   "fundamentos": {
     "ativo_total": 4314123000.0,
     "patrimonio_liquido": 1560822000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.32,
-    "valor_de_mercado": 466646384.6932812,
+    "preco": 3.4,
+    "valor_de_mercado": 470800536.005599,
     "numero_acoes": 138470742
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 181.08,
+    "p_l": 182.69,
     "p_vp": 0.3,
     "margem_liquida": 0.0027,
     "roe": 0.0017,
-    "dividend_yield_12m": 0.1365,
+    "dividend_yield_12m": 0.1333,
     "divida_liquida_ebitda": 8.51
   },
   "proventos_recentes": [

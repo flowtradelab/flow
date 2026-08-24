@@ -2,7 +2,7 @@
   "ticker": "ALOS3",
   "cnpj": "05878397000132",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:21:18.169883+00:00",
+  "atualizado_em": "2026-08-24T11:32:15.453014+00:00",
   "fundamentos": {
     "ativo_total": 25708088000.0,
     "patrimonio_liquido": 12948961000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 25.69,
-    "valor_de_mercado": 12723589978.304167,
+    "preco": 25.79,
+    "valor_de_mercado": 13043679980.242262,
     "numero_acoes": 500141105
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 39.05,
-    "p_vp": 0.98,
+    "p_l": 40.03,
+    "p_vp": 1.01,
     "margem_liquida": 0.452,
     "roe": 0.0252,
-    "dividend_yield_12m": 0.1144,
+    "dividend_yield_12m": 0.1213,
     "divida_liquida_ebitda": -0.09
   },
   "proventos_recentes": [
-    {
-      "data": "2024-12-23",
-      "valor_por_acao": 0.1201
-    },
     {
       "data": "2025-01-24",
       "valor_por_acao": 0.0909
@@ -127,6 +123,10 @@
     },
     {
       "data": "2026-07-24",
+      "valor_por_acao": 0.2919
+    },
+    {
+      "data": "2026-08-24",
       "valor_por_acao": 0.2919
     }
   ],

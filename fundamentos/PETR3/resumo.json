@@ -2,7 +2,7 @@
   "ticker": "PETR3",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-08-17T22:24:39.051123+00:00",
+  "atualizado_em": "2026-08-24T11:34:52.365435+00:00",
   "fundamentos": {
     "ativo_total": 1279019000000.0,
     "patrimonio_liquido": 481854000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 46.83,
-    "valor_de_mercado": 611699245037.0728,
+    "preco": 47.99,
+    "valor_de_mercado": 635930076394.4045,
     "numero_acoes": 12888732761
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 11.65,
-    "p_vp": 1.27,
+    "p_l": 12.11,
+    "p_vp": 1.32,
     "margem_liquida": 0.3097,
     "roe": 0.1089,
-    "dividend_yield_12m": 0.0832,
+    "dividend_yield_12m": 0.0764,
     "divida_liquida_ebitda": 3.54
   },
   "proventos_recentes": [
-    {
-      "data": "2022-04-14",
-      "valor_por_acao": 2.9702
-    },
     {
       "data": "2022-05-24",
       "valor_por_acao": 3.7155
@@ -128,6 +124,10 @@
     {
       "data": "2026-06-02",
       "valor_por_acao": 0.701
+    },
+    {
+      "data": "2026-08-24",
+      "valor_por_acao": 1.3481
     }
   ],
   "dados_incompletos": false
