@@ -2,7 +2,7 @@
   "ticker": "BBSE3",
   "cnpj": "17344597000194",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:32:31.586351+00:00",
+  "atualizado_em": "2026-08-31T17:58:26.348882+00:00",
   "fundamentos": {
     "ativo_total": 21923706000.0,
     "patrimonio_liquido": 10890345000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 37.19,
-    "valor_de_mercado": 72195030685.46082,
+    "preco": 40.02,
+    "valor_de_mercado": 78290557334.05225,
     "numero_acoes": 1941248544
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 29.92,
-    "p_vp": 6.63,
+    "p_l": 32.45,
+    "p_vp": 7.19,
     "margem_liquida": null,
     "roe": 0.2215,
-    "dividend_yield_12m": 0.1756,
+    "dividend_yield_12m": 0.1632,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

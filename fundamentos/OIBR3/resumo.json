@@ -2,7 +2,7 @@
   "ticker": "OIBR3",
   "cnpj": "76535764000143",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:34:45.667285+00:00",
+  "atualizado_em": "2026-08-31T18:00:44.634053+00:00",
   "fundamentos": {
     "ativo_total": 18729654000.0,
     "patrimonio_liquido": -15469158000.0,
@@ -13,7 +13,7 @@
   },
   "mercado": {
     "preco": 0.1,
-    "valor_de_mercado": 33428487.39812327,
+    "valor_de_mercado": 33428486.900000002,
     "numero_acoes": 334284869
   },
   "divida": {

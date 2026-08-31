@@ -2,7 +2,7 @@
   "ticker": "KEPL3",
   "cnpj": "91983056000169",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:34:07.403616+00:00",
+  "atualizado_em": "2026-08-31T18:00:06.941984+00:00",
   "fundamentos": {
     "ativo_total": 1481756000.0,
     "patrimonio_liquido": 797669000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 6.13,
-    "valor_de_mercado": 1062069420.4577646,
+    "preco": 6.55,
+    "valor_de_mercado": 1131372497.3809018,
     "numero_acoes": 173257651
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 168.1,
-    "p_vp": 1.33,
+    "p_l": 179.07,
+    "p_vp": 1.42,
     "margem_liquida": 0.0211,
     "roe": 0.0079,
-    "dividend_yield_12m": 0.1365,
+    "dividend_yield_12m": 0.1277,
     "divida_liquida_ebitda": -0.49
   },
   "proventos_recentes": [

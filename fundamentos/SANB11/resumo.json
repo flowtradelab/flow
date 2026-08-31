@@ -2,7 +2,7 @@
   "ticker": "SANB11",
   "cnpj": "90400888000142",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:35:27.302778+00:00",
+  "atualizado_em": "2026-08-31T18:01:27.129180+00:00",
   "fundamentos": {
     "ativo_total": 1290558915000.0,
     "patrimonio_liquido": 129093065000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 29.55,
-    "valor_de_mercado": 139488454028.50415,
+    "preco": 30.01,
+    "valor_de_mercado": 140479747241.69876,
     "numero_acoes": 4720421578
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 41.1,
-    "p_vp": 1.08,
+    "p_l": 41.39,
+    "p_vp": 1.09,
     "margem_liquida": 0.0789,
     "roe": 0.0263,
-    "dividend_yield_12m": 0.0781,
+    "dividend_yield_12m": 0.0769,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

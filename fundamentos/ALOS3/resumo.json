@@ -2,7 +2,7 @@
   "ticker": "ALOS3",
   "cnpj": "05878397000132",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:32:15.453014+00:00",
+  "atualizado_em": "2026-08-31T17:58:09.821550+00:00",
   "fundamentos": {
     "ativo_total": 25708088000.0,
     "patrimonio_liquido": 12948961000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 25.79,
-    "valor_de_mercado": 13043679980.242262,
+    "preco": 26.41,
+    "valor_de_mercado": 13293750532.742262,
     "numero_acoes": 500141105
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 40.03,
-    "p_vp": 1.01,
+    "p_l": 40.8,
+    "p_vp": 1.03,
     "margem_liquida": 0.452,
     "roe": 0.0252,
-    "dividend_yield_12m": 0.1213,
+    "dividend_yield_12m": 0.1185,
     "divida_liquida_ebitda": -0.09
   },
   "proventos_recentes": [

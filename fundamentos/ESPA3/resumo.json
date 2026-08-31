@@ -2,7 +2,7 @@
   "ticker": "ESPA3",
   "cnpj": "26659061000159",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:33:20.656751+00:00",
+  "atualizado_em": "2026-08-31T17:59:18.188543+00:00",
   "fundamentos": {
     "ativo_total": 2192790000.0,
     "patrimonio_liquido": 861973000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 7.01,
-    "valor_de_mercado": 251321588.8658409,
+    "preco": 6.97,
+    "valor_de_mercado": 244868242.0447197,
     "numero_acoes": 35851866
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.29,
+    "p_vp": 0.28,
     "margem_liquida": -0.0229,
     "roe": -0.0068,
-    "dividend_yield_12m": 0.0545,
+    "dividend_yield_12m": 0.0548,
     "divida_liquida_ebitda": 11.72
   },
   "proventos_recentes": [

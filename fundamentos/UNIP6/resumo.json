@@ -2,7 +2,7 @@
   "ticker": "UNIP6",
   "cnpj": "33958695000178",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:36:08.933168+00:00",
+  "atualizado_em": "2026-08-31T18:02:09.374908+00:00",
   "fundamentos": {
     "ativo_total": 7759771000.0,
     "patrimonio_liquido": 2010867000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 59.08,
-    "valor_de_mercado": 6594637003.6262665,
+    "preco": 55.44,
+    "valor_de_mercado": 6276513612.093433,
     "numero_acoes": 111622153
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 53.48,
-    "p_vp": 3.28,
+    "p_l": 50.9,
+    "p_vp": 3.12,
     "margem_liquida": 0.0825,
     "roe": 0.0613,
-    "dividend_yield_12m": 0.2112,
+    "dividend_yield_12m": 0.225,
     "divida_liquida_ebitda": 8.31
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "PNVL3",
   "cnpj": "92665611000177",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:34:57.014275+00:00",
+  "atualizado_em": "2026-08-31T18:00:56.426113+00:00",
   "fundamentos": {
     "ativo_total": 3709889000.0,
     "patrimonio_liquido": 1317019000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 11.51,
-    "valor_de_mercado": 1719313489.4493675,
+    "preco": 11.94,
+    "valor_de_mercado": 1798482531.341772,
     "numero_acoes": 149375626
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 56.61,
-    "p_vp": 1.31,
+    "p_l": 59.22,
+    "p_vp": 1.37,
     "margem_liquida": 0.0201,
     "roe": 0.0231,
-    "dividend_yield_12m": 0.0405,
+    "dividend_yield_12m": 0.039,
     "divida_liquida_ebitda": 10.45
   },
   "proventos_recentes": [

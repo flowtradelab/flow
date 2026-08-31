@@ -2,7 +2,7 @@
   "ticker": "BRAP4",
   "cnpj": "03847461000192",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:32:36.175058+00:00",
+  "atualizado_em": "2026-08-31T17:58:30.999851+00:00",
   "fundamentos": {
     "ativo_total": 8098010000.0,
     "patrimonio_liquido": 8049611000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 21.03,
-    "valor_de_mercado": 8266821978.218021,
+    "preco": 22.22,
+    "valor_de_mercado": 8718882929.763565,
     "numero_acoes": 393096610
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 32.76,
-    "p_vp": 1.03,
+    "p_l": 34.56,
+    "p_vp": 1.08,
     "margem_liquida": null,
     "roe": 0.0313,
-    "dividend_yield_12m": 0.1658,
+    "dividend_yield_12m": 0.1569,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

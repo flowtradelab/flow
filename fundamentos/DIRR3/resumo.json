@@ -2,7 +2,7 @@
   "ticker": "DIRR3",
   "cnpj": "16614075000100",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:33:04.540414+00:00",
+  "atualizado_em": "2026-08-31T17:59:00.550888+00:00",
   "fundamentos": {
     "ativo_total": 14628318000.0,
     "patrimonio_liquido": 2737142000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 10.48,
-    "valor_de_mercado": 3429433926.6832123,
-    "numero_acoes": 327236076
+    "preco": 10.87,
+    "valor_de_mercado": 5740841755.52343,
+    "numero_acoes": 520003784
   },
   "divida": {
     "bruta": 3041410000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 13.43,
-    "p_vp": 1.25,
+    "p_l": 22.48,
+    "p_vp": 2.1,
     "margem_liquida": 0.1997,
     "roe": 0.0933,
-    "dividend_yield_12m": 0.2519,
+    "dividend_yield_12m": 0.2429,
     "divida_liquida_ebitda": 4.86
   },
   "proventos_recentes": [

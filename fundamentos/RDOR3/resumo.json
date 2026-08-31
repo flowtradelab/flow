@@ -2,7 +2,7 @@
   "ticker": "RDOR3",
   "cnpj": "06047087000139",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:35:17.773238+00:00",
+  "atualizado_em": "2026-08-31T18:01:17.341703+00:00",
   "fundamentos": {
     "ativo_total": 113232658000.0,
     "patrimonio_liquido": 22938044000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 34.25,
-    "valor_de_mercado": 74555449628.25,
+    "preco": 35.44,
+    "valor_de_mercado": 77319988464.94063,
     "numero_acoes": 2176801449
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 57.81,
-    "p_vp": 3.25,
+    "p_l": 59.96,
+    "p_vp": 3.37,
     "margem_liquida": 0.088,
     "roe": 0.0562,
-    "dividend_yield_12m": 0.1241,
+    "dividend_yield_12m": 0.1199,
     "divida_liquida_ebitda": 14.59
   },
   "proventos_recentes": [

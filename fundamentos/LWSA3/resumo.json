@@ -2,7 +2,7 @@
   "ticker": "LWSA3",
   "cnpj": "02351877000152",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:34:22.714500+00:00",
+  "atualizado_em": "2026-08-31T18:00:23.360064+00:00",
   "fundamentos": {
     "ativo_total": 3536070000.0,
     "patrimonio_liquido": 2382054000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 4.06,
-    "valor_de_mercado": 2278022412.2142143,
+    "preco": 4.31,
+    "valor_de_mercado": 2401462201.881214,
     "numero_acoes": 561089272
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 66.36,
-    "p_vp": 0.96,
+    "p_l": 69.96,
+    "p_vp": 1.01,
     "margem_liquida": 0.0915,
     "roe": 0.0144,
-    "dividend_yield_12m": 0.086,
+    "dividend_yield_12m": 0.0811,
     "divida_liquida_ebitda": -3.17
   },
   "proventos_recentes": [

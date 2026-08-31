@@ -2,7 +2,7 @@
   "ticker": "EQTL3",
   "cnpj": "03220438000173",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:33:18.394838+00:00",
+  "atualizado_em": "2026-08-31T17:59:15.891304+00:00",
   "fundamentos": {
     "ativo_total": 118944065000.0,
     "patrimonio_liquido": 28715324000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 35.77,
-    "valor_de_mercado": 44937805467.55791,
+    "preco": 36.75,
+    "valor_de_mercado": 46395111780.62194,
     "numero_acoes": 1256298711
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 68.82,
-    "p_vp": 1.56,
+    "p_l": 71.05,
+    "p_vp": 1.62,
     "margem_liquida": 0.0475,
     "roe": 0.0227,
-    "dividend_yield_12m": 0.0663,
+    "dividend_yield_12m": 0.0646,
     "divida_liquida_ebitda": 17.86
   },
   "proventos_recentes": [

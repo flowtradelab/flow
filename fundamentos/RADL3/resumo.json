@@ -2,7 +2,7 @@
   "ticker": "RADL3",
   "cnpj": "61585865000151",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:35:08.523932+00:00",
+  "atualizado_em": "2026-08-31T18:01:08.119383+00:00",
   "fundamentos": {
     "ativo_total": 24822598000.0,
     "patrimonio_liquido": 7290780000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 18.43,
-    "valor_de_mercado": 32225523381.520912,
+    "preco": 19.36,
+    "valor_de_mercado": 34551076443.328186,
     "numero_acoes": 1748536237
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 75.91,
-    "p_vp": 4.42,
+    "p_l": 81.38,
+    "p_vp": 4.74,
     "margem_liquida": 0.0384,
     "roe": 0.0582,
-    "dividend_yield_12m": 0.0239,
+    "dividend_yield_12m": 0.0227,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "JHSF3",
   "cnpj": "08294224000165",
   "razao_social": null,
-  "atualizado_em": "2026-08-24T11:34:05.163056+00:00",
+  "atualizado_em": "2026-08-31T18:00:04.610540+00:00",
   "fundamentos": {
     "ativo_total": 19079038000.0,
     "patrimonio_liquido": 7898068000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 10.16,
-    "valor_de_mercado": 6733535387.832443,
+    "preco": 10.21,
+    "valor_de_mercado": 7038400208.874332,
     "numero_acoes": 662749556
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 15.15,
-    "p_vp": 0.85,
+    "p_l": 15.83,
+    "p_vp": 0.89,
     "margem_liquida": 0.4753,
     "roe": 0.0563,
-    "dividend_yield_12m": 0.0696,
+    "dividend_yield_12m": 0.073,
     "divida_liquida_ebitda": 7.4
   },
   "proventos_recentes": [
-    {
-      "data": "2024-12-30",
-      "valor_por_acao": 0.031
-    },
     {
       "data": "2025-01-31",
       "valor_por_acao": 0.0311
@@ -127,6 +123,10 @@
     },
     {
       "data": "2026-07-31",
+      "valor_por_acao": 0.0692
+    },
+    {
+      "data": "2026-08-31",
       "valor_por_acao": 0.0692
     }
   ],
