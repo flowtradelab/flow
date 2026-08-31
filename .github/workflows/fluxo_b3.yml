@@ -15,24 +15,46 @@ jobs:
 
       - name: Scraping e geração do CSV
         run: |
-          HTML=$(curl -s --max-time 30 \
-            -H "User-Agent: Mozilla/5.0 (compatible; FlowBot/1.0)" \
-            "https://www.dadosdemercado.com.br/fluxo")
-
           python3 - <<'PYEOF' > perfil-investidores/perfil-investidores.csv
-          import sys, re
-
-          import urllib.request
-          page = open('/dev/stdin').read() if False else None
-
+          import re
           import subprocess
-          result = subprocess.run(
-              ['curl', '-s', '--max-time', '30',
-               '-H', 'User-Agent: Mozilla/5.0 (compatible; FlowBot/1.0)',
-               'https://www.dadosdemercado.com.br/fluxo'],
-              capture_output=True, text=True
-          )
-          page = result.stdout
+          import sys
+
+          url = "https://www.dadosdemercado.com.br/fluxo"
+
+          # -s silencioso, mas -w nos dá o status HTTP e o tamanho baixado
+          # separadamente do corpo, para não perder essa informação como
+          # antes. -L segue redirecionamentos (ex.: http -> https).
+          curl_cmd = [
+              "curl", "-s", "-L", "--max-time", "30",
+              "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+              "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+              "-H", "Accept-Language: pt-BR,pt;q=0.9,en;q=0.8",
+              "-w", "\n__HTTP_STATUS__:%{http_code}",
+              url,
+          ]
+          result = subprocess.run(curl_cmd, capture_output=True, text=True)
+
+          raw = result.stdout
+          if "__HTTP_STATUS__:" in raw:
+              page, status_marker = raw.rsplit("__HTTP_STATUS__:", 1)
+              http_status = status_marker.strip()
+          else:
+              page, http_status = raw, "desconhecido"
+
+          # --- Diagnóstico: sempre vai para stderr, então aparece no log do
+          # Actions mesmo quando o passo falha, sem contaminar o CSV (stdout).
+          print(f"[diag] HTTP status: {http_status}", file=sys.stderr)
+          print(f"[diag] curl exit code: {result.returncode}", file=sys.stderr)
+          print(f"[diag] tamanho do corpo: {len(page)} bytes", file=sys.stderr)
+          if result.stderr:
+              print(f"[diag] curl stderr: {result.stderr.strip()}", file=sys.stderr)
+          print(f"[diag] primeiros 500 caracteres da resposta:\n{page[:500]}", file=sys.stderr)
+          print(f"[diag] contém '<table'? {'<table' in page}", file=sys.stderr)
+          print(f"[diag] contém 'captcha'/'cloudflare'/'blocked'? "
+                f"{any(k in page.lower() for k in ('captcha', 'cloudflare', 'blocked', 'access denied'))}",
+                file=sys.stderr)
 
           rows = re.findall(
               r'<tr>\s*<td[^>]*>([\d/]+)</td>\s*'
@@ -54,7 +76,12 @@ jobs:
               lines.append(f"{data},{fmt(est)},{fmt(inst)},{fmt(pf)},{fmt(if_)},{fmt(out)}")
 
           if len(lines) < 2:
-              raise Exception("Nenhum dado extraído — layout do site pode ter mudado")
+              raise Exception(
+                  f"Nenhum dado extraído (HTTP {http_status}, {len(page)} bytes recebidos). "
+                  "Veja o log acima ([diag]) para o status HTTP e o início do corpo da resposta — "
+                  "provavelmente a página recebida não é a página real (bloqueio anti-bot, "
+                  "erro do servidor, etc.), e não uma mudança de layout."
+              )
 
           print('\n'.join(lines))
           PYEOF
