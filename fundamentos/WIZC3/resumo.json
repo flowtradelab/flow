@@ -2,7 +2,7 @@
   "ticker": "WIZC3",
   "cnpj": "42278473000103",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:02:33.268805+00:00",
+  "atualizado_em": "2026-09-07T16:24:35.768449+00:00",
   "fundamentos": {
     "ativo_total": 2407530000.0,
     "patrimonio_liquido": 1342950000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 7.89,
-    "valor_de_mercado": 1274461003.990117,
+    "preco": 8.1,
+    "valor_de_mercado": 1295249045.1997871,
     "numero_acoes": 159907282
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -5025000.0,
     "fcf_aprox": 57063000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -5059000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 57029000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -3384000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 139120000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 15.3,
-    "p_vp": 0.95,
+    "p_l": 15.55,
+    "p_vp": 0.96,
     "margem_liquida": 0.291,
     "roe": 0.062,
-    "dividend_yield_12m": 0.0797,
+    "dividend_yield_12m": 0.0776,
     "divida_liquida_ebitda": 2.35
   },
   "proventos_recentes": [

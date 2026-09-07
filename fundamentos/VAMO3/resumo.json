@@ -2,7 +2,7 @@
   "ticker": "VAMO3",
   "cnpj": "23373000000132",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:02:16.568223+00:00",
+  "atualizado_em": "2026-09-07T16:24:19.943090+00:00",
   "fundamentos": {
     "ativo_total": 22772802000.0,
     "patrimonio_liquido": 3298473000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 2.99,
-    "valor_de_mercado": 3726308570.4428716,
+    "preco": 3.5,
+    "valor_de_mercado": 4276091869.0,
     "numero_acoes": 1221740534
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": 45000.0,
     "fcf_aprox": 233201000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -3390000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 229766000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -19658000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 866407000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.87,
-    "p_vp": 1.13,
+    "p_l": 42.31,
+    "p_vp": 1.3,
     "margem_liquida": 0.0646,
     "roe": 0.0306,
-    "dividend_yield_12m": 0.0469,
+    "dividend_yield_12m": 0.04,
     "divida_liquida_ebitda": 15.95
   },
   "proventos_recentes": [

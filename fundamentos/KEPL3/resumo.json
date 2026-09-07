@@ -2,7 +2,7 @@
   "ticker": "KEPL3",
   "cnpj": "91983056000169",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:00:06.941984+00:00",
+  "atualizado_em": "2026-09-07T16:22:13.742224+00:00",
   "fundamentos": {
     "ativo_total": 1481756000.0,
     "patrimonio_liquido": 797669000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 6.55,
-    "valor_de_mercado": 1131372497.3809018,
+    "preco": 6.68,
+    "valor_de_mercado": 1157361078.938353,
     "numero_acoes": 173257651
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -19078000.0,
     "fcf_aprox": 54158000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -9575000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 63661000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -9432000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": -23793000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 179.07,
-    "p_vp": 1.42,
+    "p_l": 183.18,
+    "p_vp": 1.45,
     "margem_liquida": 0.0211,
     "roe": 0.0079,
-    "dividend_yield_12m": 0.1277,
+    "dividend_yield_12m": 0.1253,
     "divida_liquida_ebitda": -0.49
   },
   "proventos_recentes": [

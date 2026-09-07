@@ -2150,8 +2150,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,149257000.0,S,con
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,164477000.0,S,ind
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,165078000.0,S,con
-02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,34997160000.0,S,ind
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,35304077000.0,S,con
+02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,34997160000.0,S,ind
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8528835000.0,S,ind
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8918697000.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,5507212000.0,S,ind
@@ -2180,8 +2180,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
-02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,6803846000.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,6802311000.0,S,ind
+02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,6803846000.0,S,con
 02.041.460/0001-93,2025-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,21747704000.0,S,ind
 02.041.460/0001-93,2025-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,22428597000.0,S,con
 02.041.460/0001-93,2025-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01,Ativo Circulante,2974407000.0,S,ind
@@ -3888,10 +3888,10 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,604281000.0,S,con
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,0.0,S,ind
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,14592523000.0,S,con
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6048802000.0,S,ind
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6701940000.0,S,con
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,1801826000.0,S,ind
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6048802000.0,S,ind
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,2120283000.0,S,con
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,1801826000.0,S,ind
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1049863000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,980080000.0,S,ind
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,17453000.0,S,con
@@ -6215,20 +6215,20 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,136954000.0,S,ind
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,7150619000.0,S,con
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,3878466000.0,S,ind
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,43129012000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,52770780000.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,4811746000.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,43129012000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8518296000.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,1470933000.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,4811746000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,3194255000.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,452014000.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,1470933000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,672057000.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,452014000.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,452014000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,672057000.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,452014000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,44252484000.0,S,con
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,38317266000.0,S,ind
 04.423.567/0001-21,2024-12-31,1,ENEVA S.A,021237,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
@@ -8340,36 +8340,36 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,565040000.0,S,ind
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,2551064000.0,S,con
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,230861000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3337510000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3605082000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,488489000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3337510000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,1099490000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,25636000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,488489000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,170953000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,136000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,25636000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,22941000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,136000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,136000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,22941000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,136000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,2849021000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,2505592000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,2849021000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,15720000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,2894000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,2894000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03,Imobilizado,411287000.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03,Imobilizado,435966000.0,S,con
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.01,Imobilizado em Operação,202130000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.01,Imobilizado em Operação,89259000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.01,Imobilizado em Operação,202130000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.04,Intangível,4479000.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.04,Intangível,4430000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.02.04,Intangível,4479000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1,Ativo Total,3419400000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1,Ativo Total,3837002000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,646244000.0,S,ind
@@ -8400,6 +8400,36 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.04,Intangível,5047000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.04,Intangível,5095000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1,Ativo Total,3706838000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1,Ativo Total,3232281000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,1091354000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,542252000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,103354000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,168499000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,16353000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,16353000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02,Ativo Não Circulante,2690029000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02,Ativo Não Circulante,2615484000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,8322000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,18394000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,399462000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,513511000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,150135000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,277967000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.04,Intangível,4974000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.04,Intangível,5021000.0,S,con
 07.636.657/0001-99,2024-12-31,1,AÇO VERDE DO BRASIL S.A,026425,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,3777717000.0,S,ind
 07.636.657/0001-99,2024-12-31,1,AÇO VERDE DO BRASIL S.A,026425,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,1342965000.0,S,ind
 07.636.657/0001-99,2024-12-31,1,AÇO VERDE DO BRASIL S.A,026425,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,603972000.0,S,ind
@@ -31171,8 +31201,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02,Ativo Não Circulante,4270644000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02,Ativo Não Circulante,4169539000.0,S,ind
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02,Ativo Não Circulante,4270644000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
@@ -31205,10 +31235,10 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02,Ativo Não Circulante,4896205000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
-64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,13728000.0,S,ind
+64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,15032000.0,S,con
+64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,13728000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03,Imobilizado,1483855000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03,Imobilizado,2767253000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03.01,Imobilizado em Operação,958246000.0,S,ind
@@ -31221,8 +31251,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1,Ativo Total,8936679000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01,Ativo Circulante,5513437000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01,Ativo Circulante,3707592000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1634980000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1997608000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1634980000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02,Aplicações Financeiras,25095000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02,Aplicações Financeiras,25095000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,25095000.0,S,con
@@ -31243,8 +31273,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03,Imobilizado,1653942000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.01,Imobilizado em Operação,2062038000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.01,Imobilizado em Operação,1029959000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,781603000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,464046000.0,S,ind
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,781603000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.04,Intangível,1155075000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.04,Intangível,601396000.0,S,ind
 65.654.303/0001-73,2024-12-31,1,DIBENS LEASING S.A. - ARREND.MERCANTIL,014214,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,1015948000.0,S,ind
@@ -33700,24 +33730,24 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,299582000.0,S,con
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,53988000.0,S,ind
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,546290205.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,877647024.0,S,con
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,177118785.0,S,ind
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,546290205.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,439796997.0,S,con
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,177118785.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,53609808.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,163398300.0,S,con
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,con
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,437850027.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,369171420.0,S,ind
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,7505327.0,S,con
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02,Ativo Não Circulante,437850027.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,7505327.0,S,ind
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,7505327.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind

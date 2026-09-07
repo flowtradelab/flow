@@ -2,7 +2,7 @@
   "ticker": "PETR3",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:00:51.692998+00:00",
+  "atualizado_em": "2026-09-07T16:22:57.400227+00:00",
   "fundamentos": {
     "ativo_total": 1279019000000.0,
     "patrimonio_liquido": 481854000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 48.25,
-    "valor_de_mercado": 643147784440.5454,
+    "preco": 52.01,
+    "valor_de_mercado": 670342969266.3,
     "numero_acoes": 12888732761
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -23734000000.0,
     "fcf_aprox": 20241000000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -4565829504.461743,
+    "capex_yahoo": -4559000000.0,
     "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 7734015378.773495,
+    "fcf_yahoo": 7691000000.0,
     "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 12.25,
-    "p_vp": 1.33,
+    "p_l": 12.77,
+    "p_vp": 1.39,
     "margem_liquida": 0.3097,
     "roe": 0.1089,
-    "dividend_yield_12m": 0.0759,
+    "dividend_yield_12m": 0.0705,
     "divida_liquida_ebitda": 3.54
   },
   "proventos_recentes": [

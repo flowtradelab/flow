@@ -2,7 +2,7 @@
   "ticker": "POSI3",
   "cnpj": "81243735000148",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:00:58.927365+00:00",
+  "atualizado_em": "2026-09-07T16:23:04.410571+00:00",
   "fundamentos": {
     "ativo_total": 4314123000.0,
     "patrimonio_liquido": 1560822000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.36,
-    "valor_de_mercado": 456953441.9972005,
+    "preco": 3.42,
+    "valor_de_mercado": 473569948.2044792,
     "numero_acoes": 138470742
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -32865000.0,
     "fcf_aprox": 58180000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -32865000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 58180000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -36622000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": -55454000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 177.32,
-    "p_vp": 0.29,
+    "p_l": 183.77,
+    "p_vp": 0.3,
     "margem_liquida": 0.0027,
     "roe": 0.0017,
-    "dividend_yield_12m": 0.1349,
+    "dividend_yield_12m": 0.1326,
     "divida_liquida_ebitda": 8.51
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "RDOR3",
   "cnpj": "06047087000139",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:01:17.341703+00:00",
+  "atualizado_em": "2026-09-07T16:23:22.657281+00:00",
   "fundamentos": {
     "ativo_total": 113232658000.0,
     "patrimonio_liquido": 22938044000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 35.44,
-    "valor_de_mercado": 77319988464.94063,
+    "preco": 37.13,
+    "valor_de_mercado": 80824640126.4448,
     "numero_acoes": 2176801449
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -699337000.0,
     "fcf_aprox": -278637000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -699337000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": -278637000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -833554000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 371659000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 59.96,
-    "p_vp": 3.37,
+    "p_l": 62.67,
+    "p_vp": 3.52,
     "margem_liquida": 0.088,
     "roe": 0.0562,
-    "dividend_yield_12m": 0.1199,
+    "dividend_yield_12m": 0.1145,
     "divida_liquida_ebitda": 14.59
   },
   "proventos_recentes": [

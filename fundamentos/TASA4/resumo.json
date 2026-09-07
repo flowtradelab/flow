@@ -2,7 +2,7 @@
   "ticker": "TASA4",
   "cnpj": "92781335000102",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:01:54.858108+00:00",
+  "atualizado_em": "2026-09-07T16:23:59.027034+00:00",
   "fundamentos": {
     "ativo_total": 2427070000.0,
     "patrimonio_liquido": 1284525000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.57,
-    "valor_de_mercado": 763268606.8166046,
+    "preco": 5.63,
+    "valor_de_mercado": 784161008.8996277,
     "numero_acoes": 139282592
   },
   "divida": {
@@ -36,16 +36,16 @@
     "data_referencia": "2026-03-31",
     "capex_yahoo": -19887000.0,
     "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 26290000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 162251000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 7.84,
-    "p_vp": 0.59,
+    "p_l": 8.05,
+    "p_vp": 0.61,
     "margem_liquida": 0.2699,
     "roe": 0.0758,
-    "dividend_yield_12m": 0.0336,
+    "dividend_yield_12m": 0.0333,
     "divida_liquida_ebitda": 5.66
   },
   "proventos_recentes": [

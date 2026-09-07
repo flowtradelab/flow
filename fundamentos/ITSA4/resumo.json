@@ -2,7 +2,7 @@
   "ticker": "ITSA4",
   "cnpj": "61532644000115",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T17:59:56.413149+00:00",
+  "atualizado_em": "2026-09-07T16:22:04.630970+00:00",
   "fundamentos": {
     "ativo_total": 119772000000.0,
     "patrimonio_liquido": 98582000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 12.95,
-    "valor_de_mercado": 146704212895.9459,
+    "preco": 13.95,
+    "valor_de_mercado": 156342530027.56763,
     "numero_acoes": 11207349976
   },
   "divida": {
@@ -34,25 +34,21 @@
     "capex_aprox": -308000000.0,
     "fcf_aprox": -83000000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -154000000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 71000000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -249000000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 168000000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 27.87,
-    "p_vp": 1.49,
+    "p_l": 29.7,
+    "p_vp": 1.59,
     "margem_liquida": 2.3595,
     "roe": 0.0534,
-    "dividend_yield_12m": 0.1055,
+    "dividend_yield_12m": 0.0825,
     "divida_liquida_ebitda": 1.11
   },
   "proventos_recentes": [
-    {
-      "data": "2024-03-01",
-      "valor_por_acao": 0.0219
-    },
     {
       "data": "2024-03-22",
       "valor_por_acao": 0.0651
@@ -128,6 +124,10 @@
     {
       "data": "2026-06-19",
       "valor_por_acao": 0.138
+    },
+    {
+      "data": "2026-09-01",
+      "valor_por_acao": 0.0242
     }
   ],
   "dados_incompletos": false

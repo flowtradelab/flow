@@ -2,7 +2,7 @@
   "ticker": "PTBL3",
   "cnpj": "83475913000191",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:01:05.914857+00:00",
+  "atualizado_em": "2026-09-07T16:23:11.193605+00:00",
   "fundamentos": {
     "ativo_total": 3499805000.0,
     "patrimonio_liquido": -103923000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 1.58,
-    "valor_de_mercado": 229808623.50772214,
+    "preco": 1.67,
+    "valor_de_mercado": 235448093.56949925,
     "numero_acoes": 140986886
   },
   "divida": {
@@ -34,10 +34,10 @@
     "capex_aprox": -138270000.0,
     "fcf_aprox": -202966000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -30774000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": -95470000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -32791000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": -14721000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": -0.0963,
     "roe": 0.6037,
-    "dividend_yield_12m": 0.328,
+    "dividend_yield_12m": 0.3103,
     "divida_liquida_ebitda": 13.53
   },
   "proventos_recentes": [

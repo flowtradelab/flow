@@ -2,7 +2,7 @@
   "ticker": "MGLU3",
   "cnpj": "47960950000121",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:00:30.132024+00:00",
+  "atualizado_em": "2026-09-07T16:22:36.491609+00:00",
   "fundamentos": {
     "ativo_total": 35912356000.0,
     "patrimonio_liquido": 11166703000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 4.62,
-    "valor_de_mercado": 3792969658.2584257,
+    "preco": 5.79,
+    "valor_de_mercado": 4491062326.430979,
     "numero_acoes": 775658438
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -188368000.0,
     "fcf_aprox": 4323521000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -189599000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 4322290000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -155066000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 4759821000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.34,
+    "p_vp": 0.4,
     "margem_liquida": -0.0081,
     "roe": -0.0065,
-    "dividend_yield_12m": 0.0805,
+    "dividend_yield_12m": 0.0642,
     "divida_liquida_ebitda": 5.98
   },
   "proventos_recentes": [

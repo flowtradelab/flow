@@ -2,7 +2,7 @@
   "ticker": "HBSA3",
   "cnpj": "12648327000153",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T17:59:44.585866+00:00",
+  "atualizado_em": "2026-09-07T16:21:52.718592+00:00",
   "fundamentos": {
     "ativo_total": 5915698000.0,
     "patrimonio_liquido": 2090449000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.4,
-    "valor_de_mercado": 4666112556.305339,
+    "preco": 3.42,
+    "valor_de_mercado": 4652508742.848959,
     "numero_acoes": 1360382643
   },
   "divida": {
@@ -34,14 +34,14 @@
     "capex_aprox": -79508000.0,
     "fcf_aprox": -104190000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -39754000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": -64436000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -35589000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 381378000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 46.5,
+    "p_l": 46.36,
     "p_vp": 2.23,
     "margem_liquida": 0.1511,
     "roe": 0.048,

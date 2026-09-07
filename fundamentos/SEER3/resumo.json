@@ -2,7 +2,7 @@
   "ticker": "SEER3",
   "cnpj": "04986320000113",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:01:34.086627+00:00",
+  "atualizado_em": "2026-09-07T16:23:38.758256+00:00",
   "fundamentos": {
     "ativo_total": 3359945000.0,
     "patrimonio_liquido": 1523705000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 12.17,
-    "valor_de_mercado": 1597945006.9877243,
+    "preco": 13.52,
+    "valor_de_mercado": 1731107213.0122757,
     "numero_acoes": 128040470
   },
   "divida": {
@@ -34,25 +34,21 @@
     "capex_aprox": -23665000.0,
     "fcf_aprox": 109620000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -23665000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 109620000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -23838000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 57992000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 15.03,
-    "p_vp": 1.05,
+    "p_l": 16.29,
+    "p_vp": 1.14,
     "margem_liquida": 0.1709,
     "roe": 0.0698,
-    "dividend_yield_12m": 0.0519,
+    "dividend_yield_12m": 0.0653,
     "divida_liquida_ebitda": 1.91
   },
   "proventos_recentes": [
-    {
-      "data": "2014-04-29",
-      "valor_por_acao": 0.0308
-    },
     {
       "data": "2014-08-15",
       "valor_por_acao": 0.1379
@@ -128,6 +124,10 @@
     {
       "data": "2026-04-07",
       "valor_por_acao": 0.4776
+    },
+    {
+      "data": "2026-09-01",
+      "valor_por_acao": 0.4055
     }
   ],
   "dados_incompletos": false

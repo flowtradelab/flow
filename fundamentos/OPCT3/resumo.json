@@ -2,7 +2,7 @@
   "ticker": "OPCT3",
   "cnpj": "09114805000130",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:00:47.081752+00:00",
+  "atualizado_em": "2026-09-07T16:22:52.810206+00:00",
   "fundamentos": {
     "ativo_total": 3477460000.0,
     "patrimonio_liquido": 1034464000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 10.43,
-    "valor_de_mercado": 2061487986.2024975,
-    "numero_acoes": 199950330
+    "preco": 11.36,
+    "valor_de_mercado": 2271488072.4709187,
+    "numero_acoes": 199954942
   },
   "divida": {
     "bruta": 1979003000.0,
@@ -34,18 +34,18 @@
     "capex_aprox": 3712000.0,
     "fcf_aprox": 67407000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -207886000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": -144191000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -204640000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": -88713000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.93,
-    "p_vp": 1.99,
+    "p_l": 40.69,
+    "p_vp": 2.2,
     "margem_liquida": 0.0759,
     "roe": 0.054,
-    "dividend_yield_12m": 0.0093,
+    "dividend_yield_12m": 0.0086,
     "divida_liquida_ebitda": 6.83
   },
   "proventos_recentes": [

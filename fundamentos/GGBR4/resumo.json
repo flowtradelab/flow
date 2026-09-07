@@ -2,7 +2,7 @@
   "ticker": "GGBR4",
   "cnpj": "33611500000119",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T17:59:34.775150+00:00",
+  "atualizado_em": "2026-09-07T16:21:43.565319+00:00",
   "fundamentos": {
     "ativo_total": 81972713000.0,
     "patrimonio_liquido": 53734748000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 23.8,
-    "valor_de_mercado": 47071412246.754906,
+    "preco": 25.34,
+    "valor_de_mercado": 49720283655.496735,
     "numero_acoes": 1962126415
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 32.11,
-    "p_vp": 0.88,
+    "p_l": 33.91,
+    "p_vp": 0.93,
     "margem_liquida": 0.082,
     "roe": 0.0273,
-    "dividend_yield_12m": 0.0332,
+    "dividend_yield_12m": 0.0312,
     "divida_liquida_ebitda": 2.6
   },
   "proventos_recentes": [

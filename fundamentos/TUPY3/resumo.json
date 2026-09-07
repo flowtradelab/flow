@@ -2,7 +2,7 @@
   "ticker": "TUPY3",
   "cnpj": "84683374000149",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T18:02:04.289488+00:00",
+  "atualizado_em": "2026-09-07T16:24:08.207171+00:00",
   "fundamentos": {
     "ativo_total": 9364820000.0,
     "patrimonio_liquido": 2298057000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 15.25,
-    "valor_de_mercado": 1999983591.25,
+    "preco": 15.72,
+    "valor_de_mercado": 2061622464.8198843,
     "numero_acoes": 131146465
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -78416000.0,
     "fcf_aprox": 119858000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -81380000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 116894000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -64855000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 238513000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.87,
+    "p_vp": 0.9,
     "margem_liquida": -0.0044,
     "roe": -0.0047,
-    "dividend_yield_12m": 0.1181,
+    "dividend_yield_12m": 0.1146,
     "divida_liquida_ebitda": 15.56
   },
   "proventos_recentes": [

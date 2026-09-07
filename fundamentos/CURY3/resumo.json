@@ -2,7 +2,7 @@
   "ticker": "CURY3",
   "cnpj": "08797760000183",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T17:58:50.909381+00:00",
+  "atualizado_em": "2026-09-07T16:21:01.548336+00:00",
   "fundamentos": {
     "ativo_total": 6278509000.0,
     "patrimonio_liquido": 2048841000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 32.72,
-    "valor_de_mercado": 10156329550.21466,
+    "preco": 33.21,
+    "valor_de_mercado": 10230260314.714005,
     "numero_acoes": 308047594
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -13519000.0,
     "fcf_aprox": 68406000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -13519000.0,
-    "capex_yahoo_data_referencia": "2026-03-31",
-    "fcf_yahoo": 68406000.0,
-    "fcf_yahoo_data_referencia": "2026-03-31",
+    "capex_yahoo": -13320000.0,
+    "capex_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 136661000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 32.64,
-    "p_vp": 4.96,
+    "p_l": 32.87,
+    "p_vp": 4.99,
     "margem_liquida": 0.1841,
     "roe": 0.1519,
-    "dividend_yield_12m": 0.1524,
+    "dividend_yield_12m": 0.1502,
     "divida_liquida_ebitda": -0.08
   },
   "proventos_recentes": [

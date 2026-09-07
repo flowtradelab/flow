@@ -2,7 +2,7 @@
   "ticker": "BBDC4",
   "cnpj": "60746948000112",
   "razao_social": null,
-  "atualizado_em": "2026-08-31T17:58:23.963818+00:00",
+  "atualizado_em": "2026-09-07T16:20:35.129843+00:00",
   "fundamentos": {
     "ativo_total": 2468826550000.0,
     "patrimonio_liquido": 182736591000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 17.08,
-    "valor_de_mercado": 187336805512.888,
+    "preco": 17.9,
+    "valor_de_mercado": 194960965027.556,
     "numero_acoes": 10891674256
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 25.85,
-    "p_vp": 1.03,
+    "p_l": 26.91,
+    "p_vp": 1.07,
     "margem_liquida": 0.094,
     "roe": 0.0397,
-    "dividend_yield_12m": 0.092,
+    "dividend_yield_12m": 0.0878,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
-    {
-      "data": "2025-06-03",
-      "valor_por_acao": 0.0189
-    },
     {
       "data": "2025-07-01",
       "valor_por_acao": 0.2966
@@ -128,6 +124,10 @@
     {
       "data": "2026-08-04",
       "valor_por_acao": 0.0189
+    },
+    {
+      "data": "2026-09-02",
+      "valor_por_acao": 0.019
     }
   ],
   "dados_incompletos": false
