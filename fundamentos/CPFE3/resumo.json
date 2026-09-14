@@ -2,7 +2,7 @@
   "ticker": "CPFE3",
   "cnpj": "02429144000193",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:20:56.919795+00:00",
+  "atualizado_em": "2026-09-14T16:51:31.781456+00:00",
   "fundamentos": {
     "ativo_total": 83455954000.0,
     "patrimonio_liquido": 23674713000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 46.83,
-    "valor_de_mercado": 53960077535.04089,
+    "preco": 45.54,
+    "valor_de_mercado": 51690134881.6803,
     "numero_acoes": 1152254440
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 37.52,
-    "p_vp": 2.28,
+    "p_l": 35.94,
+    "p_vp": 2.18,
     "margem_liquida": 0.1295,
     "roe": 0.0607,
-    "dividend_yield_12m": 0.0797,
+    "dividend_yield_12m": 0.0819,
     "divida_liquida_ebitda": 8.32
   },
   "proventos_recentes": [

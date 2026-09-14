@@ -2,7 +2,7 @@
   "ticker": "CYRE3",
   "cnpj": "73178600000118",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:21:05.992432+00:00",
+  "atualizado_em": "2026-09-14T16:51:41.594890+00:00",
   "fundamentos": {
     "ativo_total": 27740895000.0,
     "patrimonio_liquido": 12451506000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 25.6,
-    "valor_de_mercado": 9377560178.136534,
-    "numero_acoes": 366310939
+    "preco": 25.97,
+    "valor_de_mercado": 9137300173.35035,
+    "numero_acoes": 360872839
   },
   "divida": {
     "bruta": 8873618000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 18.08,
-    "p_vp": 0.75,
+    "p_l": 17.61,
+    "p_vp": 0.73,
     "margem_liquida": 0.2091,
     "roe": 0.0417,
-    "dividend_yield_12m": 0.1484,
+    "dividend_yield_12m": 0.1463,
     "divida_liquida_ebitda": 15.91
   },
   "proventos_recentes": [

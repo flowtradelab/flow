@@ -2,7 +2,7 @@
   "ticker": "PCAR3",
   "cnpj": "47508411000156",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:22:55.083198+00:00",
+  "atualizado_em": "2026-09-14T16:53:35.504619+00:00",
   "fundamentos": {
     "ativo_total": 15561000000.0,
     "patrimonio_liquido": 409000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 2.83,
-    "valor_de_mercado": 1393908314.851637,
+    "preco": 2.97,
+    "valor_de_mercado": 1482566829.5127046,
     "numero_acoes": 492547121
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 3.41,
+    "p_vp": 3.62,
     "margem_liquida": -0.0596,
     "roe": -0.6161,
-    "dividend_yield_12m": 0.8007,
+    "dividend_yield_12m": 0.7629,
     "divida_liquida_ebitda": 7.97
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "VIVA3",
   "cnpj": "33839910000111",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:24:22.237847+00:00",
+  "atualizado_em": "2026-09-14T16:55:09.050799+00:00",
   "fundamentos": {
     "ativo_total": 4880312783.0,
     "patrimonio_liquido": 3184286048.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 23.13,
-    "valor_de_mercado": 5438673555.426811,
+    "preco": 22.33,
+    "valor_de_mercado": 5314052264.896904,
     "numero_acoes": 235135052
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 35.86,
-    "p_vp": 1.71,
+    "p_l": 35.04,
+    "p_vp": 1.67,
     "margem_liquida": 0.182,
     "roe": 0.0476,
-    "dividend_yield_12m": 0.0587,
+    "dividend_yield_12m": 0.0608,
     "divida_liquida_ebitda": 0.42
   },
   "proventos_recentes": [

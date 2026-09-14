@@ -2,7 +2,7 @@
   "ticker": "PETR4",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:22:59.734252+00:00",
+  "atualizado_em": "2026-09-14T16:53:40.606645+00:00",
   "fundamentos": {
     "ativo_total": 1279019000000.0,
     "patrimonio_liquido": 481854000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 47.11,
-    "valor_de_mercado": 643686823011.3398,
+    "preco": 49.0,
+    "valor_de_mercado": 671970234387.5449,
     "numero_acoes": 13663485771
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 12.26,
-    "p_vp": 1.34,
+    "p_l": 12.8,
+    "p_vp": 1.39,
     "margem_liquida": 0.3097,
     "roe": 0.1089,
-    "dividend_yield_12m": 0.0778,
+    "dividend_yield_12m": 0.0748,
     "divida_liquida_ebitda": 3.54
   },
   "proventos_recentes": [

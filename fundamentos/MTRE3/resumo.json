@@ -2,7 +2,7 @@
   "ticker": "MTRE3",
   "cnpj": "07882930000165",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:22:45.817705+00:00",
+  "atualizado_em": "2026-09-14T16:53:25.938334+00:00",
   "fundamentos": {
     "ativo_total": 2410550000.0,
     "patrimonio_liquido": 1073805000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.42,
-    "valor_de_mercado": 361749892.46997833,
+    "preco": 3.47,
+    "valor_de_mercado": 356461131.2950325,
     "numero_acoes": 105774820
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 13.45,
-    "p_vp": 0.34,
+    "p_l": 13.25,
+    "p_vp": 0.33,
     "margem_liquida": 0.0993,
     "roe": 0.0251,
-    "dividend_yield_12m": 0.1216,
+    "dividend_yield_12m": 0.1144,
     "divida_liquida_ebitda": 15.51
   },
   "proventos_recentes": [
-    {
-      "data": "2024-11-22",
-      "valor_por_acao": 0.0378
-    },
     {
       "data": "2024-12-20",
       "valor_por_acao": 0.0473
@@ -127,6 +123,10 @@
     },
     {
       "data": "2026-08-13",
+      "valor_por_acao": 0.0284
+    },
+    {
+      "data": "2026-09-09",
       "valor_por_acao": 0.0284
     }
   ],

@@ -2,7 +2,7 @@
   "ticker": "MULT3",
   "cnpj": "07816890000153",
   "razao_social": null,
-  "atualizado_em": "2026-09-07T16:22:48.083841+00:00",
+  "atualizado_em": "2026-09-14T16:53:28.333040+00:00",
   "fundamentos": {
     "ativo_total": 13213205000.0,
     "patrimonio_liquido": 6755937000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 30.18,
-    "valor_de_mercado": 14819786175.695526,
-    "numero_acoes": 491046588
+    "preco": 30.07,
+    "valor_de_mercado": 14656485120.602386,
+    "numero_acoes": 489201788
   },
   "divida": {
     "bruta": 5058114000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.67,
-    "p_vp": 2.19,
+    "p_l": 34.29,
+    "p_vp": 2.17,
     "margem_liquida": 0.5047,
     "roe": 0.0633,
-    "dividend_yield_12m": 0.0372,
+    "dividend_yield_12m": 0.0373,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
