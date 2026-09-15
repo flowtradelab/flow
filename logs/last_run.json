@@ -1,16 +1,16 @@
 {
   "status": "ok",
-  "executado_em": "2026-09-14 14:07:13 BRT",
-  "executado_em_ts": 1789405633,
+  "executado_em": "2026-09-15 12:46:57 BRT",
+  "executado_em_ts": 1789487217,
   "arquivos": {
     "series_autorizadas": {
       "nome": "SI_D_SEDE.txt",
-      "tamanho_mb": 13.63,
-      "data_pregao": "2026-09-11",
-      "data_geracao": "2026-09-12",
-      "hora_geracao": "00:09:46",
-      "last_modified_http": "Mon, 14 Sep 2026 17:04:37 GMT",
-      "opcoes_total": 82950
+      "tamanho_mb": 13.86,
+      "data_pregao": "2026-09-14",
+      "data_geracao": "2026-09-15",
+      "hora_geracao": "00:01:36",
+      "last_modified_http": "Tue, 15 Sep 2026 15:42:06 GMT",
+      "opcoes_total": 84508
     },
     "bdi": {
       "nome": "BDI_03-4_20260911.pdf",
@@ -21,7 +21,7 @@
   },
   "processamento": {
     "opcoes_com_join": 47915,
-    "opcoes_sem_oi": 35035,
+    "opcoes_sem_oi": 36593,
     "tickers_gerados": 226,
     "arquivos_alterados": 226
   },
