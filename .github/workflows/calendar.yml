@@ -2,10 +2,10 @@ name: Atualizar Calendário Econômico
 
 on:
   schedule:
-    # A cada 30min, dias úteis, 7h–22h BRT (= 10h–01h UTC)
-    - cron: '0,30 10-23 * * 1-5'
-    - cron: '0,30 0-1  * * 2-6'
-  workflow_dispatch: # permite rodar manualmente
+    # Atualiza agenda 4 vezes por dia em dias úteis.
+    # Horários em UTC: 08h, 12h, 16h e 20h.
+    - cron: '0 8,12,16,20 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   fetch-calendar:
@@ -23,15 +23,15 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install httpx beautifulsoup4
+        run: pip install -r requirements-calendar.txt
 
-      - name: Buscar calendário
+      - name: Atualizar calendário
         run: python scripts/fetch_calendar.py
 
       - name: Commit calendar.json
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add news/calendar.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendaario-economico/calendar.json
           git diff --cached --quiet || git commit -m "chore: calendar update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
