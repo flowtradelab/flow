@@ -80,8 +80,11 @@ def signed_value(verb, value, suffix="%"):
 
 def signed_thousands(value):
     number = int(value.replace(",", ""))
-    sign = "-" if number < 0 else ""
-    return f"{sign}{abs(number):,}K".replace(",", "")
+    thousands = number / 1000
+    sign = "-" if thousands < 0 else ""
+    absolute = abs(thousands)
+    formatted = f"{absolute:g}"
+    return f"{sign}{formatted}K"
 
 
 def parser_cpi(text):
