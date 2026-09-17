@@ -26,7 +26,7 @@ JSON_FILE = DATA_DIR / "macro_brasil.json"
 CSV_FILE = DATA_DIR / "macro_brasil.csv"
 
 HISTORICO_DESDE = date(1995, 1, 1)
-HISTORICO_CHUNK_ANOS = 9
+HISTORICO_CHUNK_ANOS = 4
 
 # Focus: ano atual + próximos 3 anos
 FOCUS_QUANTIDADE_ANOS = 4
@@ -46,6 +46,8 @@ SERIES = {
         "unidade": "% a.a.",
         "fonte": "Banco Central do Brasil",
         "historico": True,
+        # Início oficial da série SGS 432
+        "historico_desde": "1999-03-05",
     },
     "ipca_12m": {
         "sgs": 13522,
@@ -288,10 +290,11 @@ def buscar_bcb_ultimo(serie):
 
 def intervalos_historicos(inicio, fim):
     """
-    Divide o período em blocos de até 9 anos.
+    Divide o período em blocos padrão de 4 anos.
 
-    O BCB limita consultas JSON/CSV de séries diárias
-    a períodos de no máximo 10 anos.
+    Embora o BCB documente limite máximo de 10 anos para
+    séries diárias, blocos menores reduzem o risco de rejeição
+    por volume. Há ainda fallback automático para subdivisão.
     """
     ano_inicio = inicio.year
 
@@ -356,10 +359,66 @@ def buscar_bcb_intervalo(serie, data_inicial, data_final):
     return saida
 
 
+def buscar_bcb_intervalo_seguro(serie, data_inicial, data_final):
+    """
+    Busca um intervalo do SGS.
+
+    Se o BCB rejeitar o bloco (por exemplo, devolver HTML em vez
+    de JSON por limite/volume), divide automaticamente o período
+    em duas partes e tenta novamente.
+
+    Isso torna a rotina mais robusta para séries diárias.
+    """
+    try:
+        return buscar_bcb_intervalo(
+            serie,
+            data_inicial,
+            data_final,
+        )
+
+    except RuntimeError as erro:
+        dias = (data_final - data_inicial).days
+
+        # Se já chegamos a um intervalo curto, não escondemos
+        # o erro original: deixamos o Action falhar com diagnóstico.
+        if dias <= 370:
+            raise
+
+        meio = data_inicial + timedelta(days=dias // 2)
+
+        esquerda_fim = meio
+        direita_inicio = meio + timedelta(days=1)
+
+        print(
+            f"  Aviso: BCB rejeitou {data_inicial.isoformat()} "
+            f"-> {data_final.isoformat()} para SGS {serie}."
+        )
+        print(
+            "  Dividindo automaticamente o período em blocos menores..."
+        )
+
+        esquerda = buscar_bcb_intervalo_seguro(
+            serie,
+            data_inicial,
+            esquerda_fim,
+        )
+
+        direita = buscar_bcb_intervalo_seguro(
+            serie,
+            direita_inicio,
+            data_final,
+        )
+
+        return esquerda + direita
+
+
 def buscar_bcb_historico(serie, inicio, fim):
     """
     Busca o histórico completo, juntando os blocos e
     removendo eventuais duplicações.
+
+    Os blocos padrão são curtos e ainda possuem fallback
+    automático para divisão em períodos menores.
     """
     pontos_por_data = {}
 
@@ -372,7 +431,7 @@ def buscar_bcb_historico(serie, inicio, fim):
             f"{bloco_inicio.isoformat()} -> {bloco_fim.isoformat()}"
         )
 
-        pontos = buscar_bcb_intervalo(
+        pontos = buscar_bcb_intervalo_seguro(
             serie,
             bloco_inicio,
             bloco_fim,
@@ -656,9 +715,16 @@ def coletar_macro():
             f"(SGS {config['sgs']})..."
         )
 
+        inicio_historico = date.fromisoformat(
+            config.get(
+                "historico_desde",
+                HISTORICO_DESDE.isoformat(),
+            )
+        )
+
         pontos = buscar_bcb_historico(
             config["sgs"],
-            HISTORICO_DESDE,
+            inicio_historico,
             hoje,
         )
 
