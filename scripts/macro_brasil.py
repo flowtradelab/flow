@@ -30,7 +30,7 @@ HISTORICO_CHUNK_ANOS = 9
 
 # Focus: ano atual + próximos 3 anos
 FOCUS_QUANTIDADE_ANOS = 4
-FOCUS_TOP_POR_INDICADOR = 2000
+FOCUS_TOP_POR_INDICADOR = 4000
 
 
 # ============================================================
@@ -402,11 +402,14 @@ def buscar_bcb_historico(serie, inicio, fim):
 # ============================================================
 
 def buscar_focus_indicador(nome_api):
+    # IMPORTANTE:
+    # Não filtramos baseCalculo no OData.
+    # Em algumas respostas/versões do serviço, o campo pode ser
+    # tipado de forma que a expressão "baseCalculo eq 0" resulte
+    # em HTTP 400. Buscamos por indicador e filtramos baseCalculo
+    # localmente no Python.
     params = {
-        "$filter": (
-            f"Indicador eq '{nome_api}' "
-            "and baseCalculo eq 0"
-        ),
+        "$filter": f"Indicador eq '{nome_api}'",
         "$orderby": "Data desc",
         "$top": str(FOCUS_TOP_POR_INDICADOR),
         "$select": (
@@ -434,6 +437,16 @@ def buscar_focus_indicador(nome_api):
 
     for item in registros:
         if not isinstance(item, dict):
+            continue
+
+        # Mantemos somente baseCalculo = 0.
+        # A API pode devolver esse campo como número, string ou,
+        # dependendo da versão/metadado, valor equivalente.
+        base = item.get("baseCalculo")
+
+        base_normalizada = str(base).strip().lower()
+
+        if base_normalizada not in {"0", "0.0", "false"}:
             continue
 
         data_txt = item.get("Data")
