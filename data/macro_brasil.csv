@@ -1,6 +1,27 @@
-﻿indicador,nome,valor,unidade,periodo,fonte,codigo,coletado_em
-inflacao,IPCA acumulado em 12 meses,4.22,%,202608,IBGE,Agregado 1737 - variável 2265,2026-09-17T09:59:09.039379-03:00
-selic,Meta Selic,13.75,% a.a.,04/11/2026,Banco Central do Brasil,SGS 432,2026-09-17T09:59:09.039379-03:00
-pib,PIB - variação contra o trimestre imediatamente anterior,0.5,%,202602,IBGE,Agregado 5932 - variável 6564 - classificação 11255 / categoria 90707,2026-09-17T09:59:09.039379-03:00
-desemprego,Taxa de desocupação,5.3,%,202607,IBGE - PNAD Contínua,Agregado 6381 - variável 4099,2026-09-17T09:59:09.039379-03:00
-divida_pib,Dívida Bruta do Governo Geral / PIB,82.56,% do PIB,01/07/2026,Banco Central do Brasil,SGS 13762,2026-09-17T09:59:09.039379-03:00
+﻿tipo,indicador,nome,ano_referencia,valor,unidade,data,fonte,codigo,variacao_1s,variacao_4s
+macro,selic_meta,Selic Meta,,13.75,% a.a.,2026-09-17,Banco Central do Brasil,SGS 432,,
+macro,ipca_12m,IPCA 12 meses,,4.22,%,2026-08-01,IBGE via Banco Central do Brasil,SGS 13522,,
+macro,cdi,CDI anualizado base 252,,13.9,% a.a.,2026-09-16,Banco Central do Brasil,SGS 4389,,
+macro,dolar_ptax,Dólar PTAX venda,,5.1527,R$/US$,2026-09-16,Banco Central do Brasil,SGS 1,,
+macro,igpm,IGP-M,,-0.22,% no mês,2026-08-01,FGV via Banco Central do Brasil,SGS 189,,
+macro,euro_ptax,Euro PTAX venda,,5.9457,R$/EUR,2026-09-16,Banco Central do Brasil,SGS 21619,,
+macro,reservas_internacionais,Reservas internacionais,,369584.0,US$ milhões,2026-09-16,Banco Central do Brasil,SGS 13621,,
+macro,balanca_comercial,Balança comercial,,881.0,US$ milhões,2026-07-01,Banco Central do Brasil,SGS 22704,,
+macro,resultado_primario,Resultado primário - setor público consolidado,,-1361.2,R$ milhões,2026-07-01,Banco Central do Brasil,SGS 4649,,
+macro,divida_pib,Dívida Bruta do Governo Geral / PIB,,82.56,% do PIB,2026-07-01,Banco Central do Brasil,SGS 13762,,
+focus,ipca,IPCA,2026,4.9,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,-0.1,-0.1227
+focus,selic,Selic,2026,13.75,% a.a.,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,pib,PIB,2026,1.893,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,-0.0371,-0.0891
+focus,cambio,Câmbio,2026,5.2,R$/US$,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,ipca,IPCA,2027,4.3,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.012,0.0598
+focus,selic,Selic,2027,12.0,% a.a.,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,pib,PIB,2027,1.453,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,-0.047,-0.0515
+focus,cambio,Câmbio,2027,5.275,R$/US$,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,-0.025,-0.0117
+focus,ipca,IPCA,2028,3.8,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,selic,Selic,2028,10.5,% a.a.,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,pib,PIB,2028,1.87,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,-0.09,-0.015
+focus,cambio,Câmbio,2028,5.3,R$/US$,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,ipca,IPCA,2029,3.5003,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0003,0.0003
+focus,selic,Selic,2029,10.0,% a.a.,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,pib,PIB,2029,2.0,%,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0,0.0
+focus,cambio,Câmbio,2029,5.363,R$/US$,2026-09-11,Banco Central - Focus,ExpectativasMercadoAnuais,0.0122,0.003
