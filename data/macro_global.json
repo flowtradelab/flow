@@ -1,12 +1,12 @@
 {
-  "atualizado_em": "2026-09-17T12:52:17.751071-03:00",
+  "atualizado_em": "2026-09-17T13:14:04.834934-03:00",
   "timezone": "America/Sao_Paulo",
   "ano_referencia_weo": 2026,
   "metodologia": {
     "pib": {
-      "descricao": "Crescimento real do PIB",
-      "fonte": "IMF World Economic Outlook",
-      "codigo": "NGDP_RPCH"
+      "descricao": "PIB nominal em US$ correntes",
+      "fonte": "World Bank - WDI",
+      "codigo": "NY.GDP.MKTP.CD"
     },
     "inflacao": {
       "descricao": "Inflação ao consumidor",
@@ -42,10 +42,11 @@
   "fontes": {
     "imf": {
       "api": "https://www.imf.org/external/datamapper/api/v1",
-      "observacao": "WEO é uma base semestral; o ano corrente pode conter estimativas/projeções."
+      "observacao": "WEO é uma base semestral; inflação, desemprego e dívida/PIB do ano corrente podem conter estimativas/projeções."
     },
     "world_bank": {
       "api": "https://api.worldbank.org/v2",
+      "ultima_atualizacao_pib_usd": "2026-07-13",
       "ultima_atualizacao_fdi_pib": "2026-07-13",
       "ultima_atualizacao_fdi_usd": "2026-07-13"
     },
@@ -56,7 +57,7 @@
   },
   "cobertura": {
     "total_paises_imf": 241,
-    "pib": 197,
+    "pib": 210,
     "inflacao": 197,
     "desemprego": 118,
     "divida_pib": 194,
@@ -69,14 +70,6 @@
       "codigo": "ABW",
       "iso2": "AW",
       "nome": "Aruba",
-      "pib": {
-        "valor": 2.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.2,
         "unidade": "%",
@@ -101,6 +94,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 4167588070.29217,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.4774663008564,
         "unidade": "% do PIB",
@@ -121,14 +121,6 @@
       "codigo": "AFG",
       "iso2": "AF",
       "nome": "Afghanistan",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2025,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.9,
         "unidade": "%",
@@ -145,6 +137,13 @@
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 17778508875.7396,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.144466946606861,
@@ -166,14 +165,6 @@
       "codigo": "AGO",
       "iso2": "AO",
       "nome": "Angola",
-      "pib": {
-        "valor": 2.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 12.9,
         "unidade": "%",
@@ -190,6 +181,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 122174889423.635,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.940234642686515,
@@ -211,10 +209,10 @@
       "codigo": "AIA",
       "iso2": "AI",
       "nome": "Anguilla",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -223,14 +221,6 @@
       "codigo": "ALB",
       "iso2": "AL",
       "nome": "Albania",
-      "pib": {
-        "valor": 3.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.4,
         "unidade": "%",
@@ -255,6 +245,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 30540188271.3421,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 6.0631729079562,
         "unidade": "% do PIB",
@@ -275,14 +272,6 @@
       "codigo": "AND",
       "iso2": "AD",
       "nome": "Andorra",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -307,6 +296,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 4500982731.80784,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 6.63542850454759,
         "unidade": "% do PIB",
@@ -327,14 +323,6 @@
       "codigo": "ARE",
       "iso2": "AE",
       "nome": "United Arab Emirates",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -351,6 +339,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 552324919095.872,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 8.26261604873876,
@@ -372,14 +367,6 @@
       "codigo": "ARG",
       "iso2": "AR",
       "nome": "Argentina",
-      "pib": {
-        "valor": 3.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 30.4,
         "unidade": "%",
@@ -404,6 +391,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 683097891618.597,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.458822968080686,
         "unidade": "% do PIB",
@@ -424,14 +418,6 @@
       "codigo": "ARM",
       "iso2": "AM",
       "nome": "Armenia",
-      "pib": {
-        "valor": 5.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.6,
         "unidade": "%",
@@ -456,6 +442,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 29243452882.3545,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.06928849014455,
         "unidade": "% do PIB",
@@ -476,10 +469,16 @@
       "codigo": "ASM",
       "iso2": "AS",
       "nome": "American Samoa",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 871000000.0,
+        "unidade": "US$",
+        "ano": "2022",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -488,14 +487,6 @@
       "codigo": "ATG",
       "iso2": "AG",
       "nome": "Antigua and Barbuda",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.6,
         "unidade": "%",
@@ -512,6 +503,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2338196296.2963,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 12.05860582627,
@@ -533,10 +531,10 @@
       "codigo": "ATI",
       "iso2": null,
       "nome": "ATI",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -545,10 +543,10 @@
       "codigo": "ATL",
       "iso2": null,
       "nome": "ATL",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -557,14 +555,6 @@
       "codigo": "AUS",
       "iso2": "AU",
       "nome": "Australia",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -589,6 +579,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1798518933689.21,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.030634840302,
         "unidade": "% do PIB",
@@ -609,14 +606,6 @@
       "codigo": "AUT",
       "iso2": "AT",
       "nome": "Austria",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -641,6 +630,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 579470021095.418,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -2.01581463662181,
         "unidade": "% do PIB",
@@ -661,14 +657,6 @@
       "codigo": "AZE",
       "iso2": "AZ",
       "nome": "Azerbaijan",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.0,
         "unidade": "%",
@@ -693,6 +681,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 75937647058.8235,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.492755588950687,
         "unidade": "% do PIB",
@@ -713,14 +708,6 @@
       "codigo": "BDI",
       "iso2": "BI",
       "nome": "Burundi",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 14.5,
         "unidade": "%",
@@ -737,6 +724,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 3364713864.08488,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.04365754120843,
@@ -758,14 +752,6 @@
       "codigo": "BEL",
       "iso2": "BE",
       "nome": "Belgium",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.8,
         "unidade": "%",
@@ -790,6 +776,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 725466462859.646,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -3.96835875820548,
         "unidade": "% do PIB",
@@ -810,14 +803,6 @@
       "codigo": "BEN",
       "iso2": "BJ",
       "nome": "Benin",
-      "pib": {
-        "valor": 7.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.0,
         "unidade": "%",
@@ -834,6 +819,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 24566420903.5337,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.5276563137227,
@@ -855,10 +847,10 @@
       "codigo": "BES",
       "iso2": "BQ",
       "nome": "Bonaire, Sint Eustatius and Saba",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -867,14 +859,6 @@
       "codigo": "BFA",
       "iso2": "BF",
       "nome": "Burkina Faso",
-      "pib": {
-        "valor": 4.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -891,6 +875,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 27627297461.3181,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -0.874048616893636,
@@ -912,14 +903,6 @@
       "codigo": "BGD",
       "iso2": "BD",
       "nome": "Bangladesh",
-      "pib": {
-        "valor": 4.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 9.2,
         "unidade": "%",
@@ -936,6 +919,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 456319229255.578,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.404544313117544,
@@ -957,14 +947,6 @@
       "codigo": "BGR",
       "iso2": "BG",
       "nome": "Bulgaria",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.8,
         "unidade": "%",
@@ -989,6 +971,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 130777235529.606,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.7338455582314,
         "unidade": "% do PIB",
@@ -1009,14 +998,6 @@
       "codigo": "BHR",
       "iso2": "BH",
       "nome": "Bahrain",
-      "pib": {
-        "valor": -0.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.4,
         "unidade": "%",
@@ -1041,6 +1022,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 48965725531.9149,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 5.72467195311559,
         "unidade": "% do PIB",
@@ -1061,14 +1049,6 @@
       "codigo": "BHS",
       "iso2": "BS",
       "nome": "Bahamas, The",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.6,
         "unidade": "%",
@@ -1093,6 +1073,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 15832800000.0,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.51932088638775,
         "unidade": "% do PIB",
@@ -1113,14 +1100,6 @@
       "codigo": "BIH",
       "iso2": "BA",
       "nome": "Bosnia and Herzegovina",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.5,
         "unidade": "%",
@@ -1145,6 +1124,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 32599982936.3931,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.19810904099247,
         "unidade": "% do PIB",
@@ -1165,14 +1151,6 @@
       "codigo": "BLR",
       "iso2": "BY",
       "nome": "Belarus",
-      "pib": {
-        "valor": 1.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.4,
         "unidade": "%",
@@ -1197,6 +1175,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 93397215864.198,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.71482023151392,
         "unidade": "% do PIB",
@@ -1217,14 +1202,6 @@
       "codigo": "BLZ",
       "iso2": "BZ",
       "nome": "Belize",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -1249,6 +1226,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 3326500000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.0072149017030738,
         "unidade": "% do PIB",
@@ -1269,10 +1253,16 @@
       "codigo": "BMU",
       "iso2": "BM",
       "nome": "Bermuda",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 9194499000.0,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.2816357911399,
         "unidade": "% do PIB",
@@ -1293,14 +1283,6 @@
       "codigo": "BOL",
       "iso2": "BO",
       "nome": "Bolivia",
-      "pib": {
-        "valor": -3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 20.7,
         "unidade": "%",
@@ -1325,6 +1307,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 64768947525.3256,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.957783217657101,
         "unidade": "% do PIB",
@@ -1345,14 +1334,6 @@
       "codigo": "BRA",
       "iso2": "BR",
       "nome": "Brazil",
-      "pib": {
-        "valor": 1.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -1377,6 +1358,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2279920092492.13,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.40696865505948,
         "unidade": "% do PIB",
@@ -1397,14 +1385,6 @@
       "codigo": "BRB",
       "iso2": "BB",
       "nome": "Barbados",
-      "pib": {
-        "valor": 2.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.3,
         "unidade": "%",
@@ -1429,6 +1409,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 8016550000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.98890634980471,
         "unidade": "% do PIB",
@@ -1449,14 +1436,6 @@
       "codigo": "BRN",
       "iso2": "BN",
       "nome": "Brunei Darussalam",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.6,
         "unidade": "%",
@@ -1481,6 +1460,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 15031980994.1121,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.411162483586338,
         "unidade": "% do PIB",
@@ -1501,14 +1487,6 @@
       "codigo": "BTN",
       "iso2": "BT",
       "nome": "Bhutan",
-      "pib": {
-        "valor": 7.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -1533,6 +1511,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 3579320145.13077,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.0841982308924301,
         "unidade": "% do PIB",
@@ -1553,14 +1538,6 @@
       "codigo": "BWA",
       "iso2": "BW",
       "nome": "Botswana",
-      "pib": {
-        "valor": 4.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.1,
         "unidade": "%",
@@ -1577,6 +1554,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 19928479839.4476,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.42279666305462,
@@ -1598,14 +1582,6 @@
       "codigo": "CAF",
       "iso2": "CF",
       "nome": "Central African Republic",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -1622,6 +1598,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 3066109226.40165,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.46851186564355,
@@ -1643,14 +1626,6 @@
       "codigo": "CAN",
       "iso2": "CA",
       "nome": "Canada",
-      "pib": {
-        "valor": 1.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -1675,6 +1650,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2319899772425.92,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.97568378108142,
         "unidade": "% do PIB",
@@ -1695,14 +1677,6 @@
       "codigo": "CHE",
       "iso2": "CH",
       "nome": "Switzerland",
-      "pib": {
-        "valor": 1.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.5,
         "unidade": "%",
@@ -1727,6 +1701,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1043529899250.92,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1.17732336606846,
         "unidade": "% do PIB",
@@ -1747,10 +1728,16 @@
       "codigo": "CHI",
       "iso2": null,
       "nome": "Channel Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 12507320838.3932,
+        "unidade": "US$",
+        "ano": "2023",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -1759,14 +1746,6 @@
       "codigo": "CHL",
       "iso2": "CL",
       "nome": "Chile",
-      "pib": {
-        "valor": 2.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.9,
         "unidade": "%",
@@ -1791,6 +1770,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 357371159574.862,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.06114644888118,
         "unidade": "% do PIB",
@@ -1811,14 +1797,6 @@
       "codigo": "CHN",
       "iso2": "CN",
       "nome": "China, People's Republic of",
-      "pib": {
-        "valor": 4.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.2,
         "unidade": "%",
@@ -1843,6 +1821,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 19498039388042.6,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.410194399848574,
         "unidade": "% do PIB",
@@ -1863,14 +1848,6 @@
       "codigo": "CIV",
       "iso2": "CI",
       "nome": "Côte d'Ivoire",
-      "pib": {
-        "valor": 6.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.8,
         "unidade": "%",
@@ -1887,6 +1864,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 99773555666.1988,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.58346670744132,
@@ -1908,14 +1892,6 @@
       "codigo": "CMR",
       "iso2": "CM",
       "nome": "Cameroon",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.5,
         "unidade": "%",
@@ -1932,6 +1908,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 58933453923.761,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.66655391243674,
@@ -1953,14 +1936,6 @@
       "codigo": "COD",
       "iso2": "CD",
       "nome": "Congo, Dem. Rep. of the",
-      "pib": {
-        "valor": 5.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.3,
         "unidade": "%",
@@ -1977,6 +1952,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 91030531316.9936,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.05275472591522,
@@ -1998,14 +1980,6 @@
       "codigo": "COG",
       "iso2": "CG",
       "nome": "Congo, Republic of ",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.8,
         "unidade": "%",
@@ -2022,6 +1996,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 16306633778.765,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.83980276481754,
@@ -2043,10 +2024,10 @@
       "codigo": "COK",
       "iso2": "CK",
       "nome": "Cook Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -2055,14 +2036,6 @@
       "codigo": "COL",
       "iso2": "CO",
       "nome": "Colombia",
-      "pib": {
-        "valor": 2.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.9,
         "unidade": "%",
@@ -2087,6 +2060,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 457410034202.523,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.52970921188005,
         "unidade": "% do PIB",
@@ -2107,14 +2087,6 @@
       "codigo": "COM",
       "iso2": "KM",
       "nome": "Comoros",
-      "pib": {
-        "valor": 4.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.7,
         "unidade": "%",
@@ -2131,6 +2103,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1814920856.27026,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.440971140907408,
@@ -2152,14 +2131,6 @@
       "codigo": "CPV",
       "iso2": "CV",
       "nome": "Cabo Verde",
-      "pib": {
-        "valor": 4.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.2,
         "unidade": "%",
@@ -2184,6 +2155,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 3056630435.32463,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 5.03338899080779,
         "unidade": "% do PIB",
@@ -2204,14 +2182,6 @@
       "codigo": "CRI",
       "iso2": "CR",
       "nome": "Costa Rica",
-      "pib": {
-        "valor": 3.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": -0.4,
         "unidade": "%",
@@ -2236,6 +2206,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 102904921157.478,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 5.42895237748853,
         "unidade": "% do PIB",
@@ -2256,10 +2233,16 @@
       "codigo": "CUB",
       "iso2": "CU",
       "nome": "Cuba",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 107352000000.0,
+        "unidade": "US$",
+        "ano": "2020",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -2268,10 +2251,16 @@
       "codigo": "CUW",
       "iso2": "CW",
       "nome": "Curacao",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 3561178212.2905,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.34710595121915,
         "unidade": "% do PIB",
@@ -2292,10 +2281,16 @@
       "codigo": "CYM",
       "iso2": "KY",
       "nome": "Cayman Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 7765336505.34319,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 40.9173186763319,
         "unidade": "% do PIB",
@@ -2316,14 +2311,6 @@
       "codigo": "CYP",
       "iso2": "CY",
       "nome": "Cyprus",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.6,
         "unidade": "%",
@@ -2348,6 +2335,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 41225787247.3309,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 27.0778550174763,
         "unidade": "% do PIB",
@@ -2368,14 +2362,6 @@
       "codigo": "CZE",
       "iso2": "CZ",
       "nome": "Czech Republic",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.4,
         "unidade": "%",
@@ -2400,6 +2386,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 391026962800.475,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.68622429295406,
         "unidade": "% do PIB",
@@ -2420,14 +2413,6 @@
       "codigo": "DEU",
       "iso2": "DE",
       "nome": "Germany",
-      "pib": {
-        "valor": 0.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.7,
         "unidade": "%",
@@ -2452,6 +2437,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 5050922925047.05,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.88462297077013,
         "unidade": "% do PIB",
@@ -2472,14 +2464,6 @@
       "codigo": "DJI",
       "iso2": "DJ",
       "nome": "Djibouti",
-      "pib": {
-        "valor": 6.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -2496,6 +2480,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 4624533092.31886,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.63337101411676,
@@ -2517,14 +2508,6 @@
       "codigo": "DMA",
       "iso2": "DM",
       "nome": "Dominica",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -2541,6 +2524,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 723859259.259259,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 6.8354356791273,
@@ -2562,14 +2552,6 @@
       "codigo": "DNK",
       "iso2": "DK",
       "nome": "Denmark",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.0,
         "unidade": "%",
@@ -2594,6 +2576,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 462526660468.393,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.29658848924698,
         "unidade": "% do PIB",
@@ -2614,14 +2603,6 @@
       "codigo": "DOM",
       "iso2": "DO",
       "nome": "Dominican Republic",
-      "pib": {
-        "valor": 3.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.1,
         "unidade": "%",
@@ -2646,6 +2627,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 127407463759.043,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.86068433895096,
         "unidade": "% do PIB",
@@ -2666,14 +2654,6 @@
       "codigo": "DZA",
       "iso2": "DZ",
       "nome": "Algeria",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.9,
         "unidade": "%",
@@ -2698,6 +2678,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 287031225987.736,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.455370730483787,
         "unidade": "% do PIB",
@@ -2718,14 +2705,6 @@
       "codigo": "ECU",
       "iso2": "EC",
       "nome": "Ecuador",
-      "pib": {
-        "valor": 2.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.9,
         "unidade": "%",
@@ -2750,6 +2729,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 130320560400.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.99695043238739,
         "unidade": "% do PIB",
@@ -2770,14 +2756,6 @@
       "codigo": "EGY",
       "iso2": "EG",
       "nome": "Egypt",
-      "pib": {
-        "valor": 4.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 13.2,
         "unidade": "%",
@@ -2802,6 +2780,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 365254630179.737,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.23066505478546,
         "unidade": "% do PIB",
@@ -2822,14 +2807,6 @@
       "codigo": "ERI",
       "iso2": "ER",
       "nome": "Eritrea",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2019,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.3,
         "unidade": "%",
@@ -2846,6 +2823,13 @@
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2065001626.01626,
+        "unidade": "US$",
+        "ano": "2011",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.8886183675912,
@@ -2867,10 +2851,10 @@
       "codigo": "ESH",
       "iso2": "EH",
       "nome": "Western Sahara",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -2879,14 +2863,6 @@
       "codigo": "ESP",
       "iso2": "ES",
       "nome": "Spain",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -2911,6 +2887,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1906453309985.88,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.47335515487964,
         "unidade": "% do PIB",
@@ -2931,14 +2914,6 @@
       "codigo": "EST",
       "iso2": "EE",
       "nome": "Estonia",
-      "pib": {
-        "valor": 1.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.8,
         "unidade": "%",
@@ -2963,6 +2938,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 47030833798.5866,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1.78224185932094,
         "unidade": "% do PIB",
@@ -2983,14 +2965,6 @@
       "codigo": "ETH",
       "iso2": "ET",
       "nome": "Ethiopia",
-      "pib": {
-        "valor": 9.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 11.8,
         "unidade": "%",
@@ -3007,6 +2981,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 126358758448.356,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.68582028017543,
@@ -3028,14 +3009,6 @@
       "codigo": "FIN",
       "iso2": "FI",
       "nome": "Finland",
-      "pib": {
-        "valor": 1.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -3060,6 +3033,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 317039368819.607,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.090167862928476,
         "unidade": "% do PIB",
@@ -3080,14 +3060,6 @@
       "codigo": "FJI",
       "iso2": "FJ",
       "nome": "Fiji",
-      "pib": {
-        "valor": 2.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.2,
         "unidade": "%",
@@ -3112,6 +3084,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 6198013062.06553,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.41161017865705,
         "unidade": "% do PIB",
@@ -3132,10 +3111,10 @@
       "codigo": "FLK",
       "iso2": "FK",
       "nome": "Falkland Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3144,14 +3123,6 @@
       "codigo": "FRA",
       "iso2": "FR",
       "nome": "France",
-      "pib": {
-        "valor": 0.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.8,
         "unidade": "%",
@@ -3176,6 +3147,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 3366315927447.33,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.16930740558009,
         "unidade": "% do PIB",
@@ -3196,10 +3174,16 @@
       "codigo": "FRO",
       "iso2": "FO",
       "nome": "Faeroe Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 4052937169.76536,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3208,14 +3192,6 @@
       "codigo": "FSM",
       "iso2": "FM",
       "nome": "Micronesia, Fed. States of",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -3232,6 +3208,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 501797600.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 6.39534810126582,
@@ -3253,14 +3236,6 @@
       "codigo": "GAB",
       "iso2": "GA",
       "nome": "Gabon",
-      "pib": {
-        "valor": 2.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -3277,6 +3252,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 21427119323.2764,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 5.47750591310442,
@@ -3298,14 +3280,6 @@
       "codigo": "GBR",
       "iso2": "GB",
       "nome": "United Kingdom",
-      "pib": {
-        "valor": 0.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -3330,6 +3304,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 4002587541846.01,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.91447167382408,
         "unidade": "% do PIB",
@@ -3350,14 +3331,6 @@
       "codigo": "GEO",
       "iso2": "GE",
       "nome": "Georgia",
-      "pib": {
-        "valor": 5.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.4,
         "unidade": "%",
@@ -3382,6 +3355,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 38143612855.1367,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.33966026261481,
         "unidade": "% do PIB",
@@ -3402,14 +3382,6 @@
       "codigo": "GHA",
       "iso2": "GH",
       "nome": "Ghana",
-      "pib": {
-        "valor": 4.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.8,
         "unidade": "%",
@@ -3426,6 +3398,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 114209905278.717,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.6708218135385,
@@ -3447,10 +3426,10 @@
       "codigo": "GIB",
       "iso2": "GI",
       "nome": "Gibraltar",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3459,14 +3438,6 @@
       "codigo": "GIN",
       "iso2": "GN",
       "nome": "Guinea",
-      "pib": {
-        "valor": 8.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.1,
         "unidade": "%",
@@ -3483,6 +3454,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 28346024753.2924,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 5.60537419672253,
@@ -3504,10 +3482,10 @@
       "codigo": "GLP",
       "iso2": "GP",
       "nome": "Guadeloupe",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3516,14 +3494,6 @@
       "codigo": "GMB",
       "iso2": "GM",
       "nome": "Gambia, The",
-      "pib": {
-        "valor": 5.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.8,
         "unidade": "%",
@@ -3540,6 +3510,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2593673987.53306,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 9.66186336562045,
@@ -3561,14 +3538,6 @@
       "codigo": "GNB",
       "iso2": "GW",
       "nome": "Guinea-Bissau",
-      "pib": {
-        "valor": 4.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -3585,6 +3554,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2527930272.92988,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.21259612687519,
@@ -3606,14 +3582,6 @@
       "codigo": "GNQ",
       "iso2": "GQ",
       "nome": "Equatorial Guinea",
-      "pib": {
-        "valor": -2.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -3630,6 +3598,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 12823210425.9217,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.41848628768048,
@@ -3651,14 +3626,6 @@
       "codigo": "GRC",
       "iso2": "GR",
       "nome": "Greece",
-      "pib": {
-        "valor": 1.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.5,
         "unidade": "%",
@@ -3683,6 +3650,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 280635521324.441,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.6312519942121,
         "unidade": "% do PIB",
@@ -3703,14 +3677,6 @@
       "codigo": "GRD",
       "iso2": "GD",
       "nome": "Grenada",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.3,
         "unidade": "%",
@@ -3727,6 +3693,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1420173228.56948,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 12.0171926585936,
@@ -3748,10 +3721,16 @@
       "codigo": "GRL",
       "iso2": "GL",
       "nome": "Greenland",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 3326543974.39193,
+        "unidade": "US$",
+        "ano": "2023",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3760,14 +3739,6 @@
       "codigo": "GTM",
       "iso2": "GT",
       "nome": "Guatemala",
-      "pib": {
-        "valor": 3.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.6,
         "unidade": "%",
@@ -3784,6 +3755,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 123306008821.471,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.63228788754296,
@@ -3805,10 +3783,10 @@
       "codigo": "GUF",
       "iso2": "GF",
       "nome": "French Guiana",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3817,10 +3795,16 @@
       "codigo": "GUM",
       "iso2": "GU",
       "nome": "Guam",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 6910000000.0,
+        "unidade": "US$",
+        "ano": "2022",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -3829,14 +3813,6 @@
       "codigo": "GUY",
       "iso2": "GY",
       "nome": "Guyana",
-      "pib": {
-        "valor": 16.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.1,
         "unidade": "%",
@@ -3853,6 +3829,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 27097477218.2254,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 34.9900654897849,
@@ -3874,14 +3857,6 @@
       "codigo": "HKG",
       "iso2": "HK",
       "nome": "Hong Kong SAR",
-      "pib": {
-        "valor": 2.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.1,
         "unidade": "%",
@@ -3906,6 +3881,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 427310315921.993,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 30.8106332188954,
         "unidade": "% do PIB",
@@ -3926,14 +3908,6 @@
       "codigo": "HND",
       "iso2": "HN",
       "nome": "Honduras",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.4,
         "unidade": "%",
@@ -3958,6 +3932,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 39601409103.3005,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.52535439103993,
         "unidade": "% do PIB",
@@ -3978,14 +3959,6 @@
       "codigo": "HRV",
       "iso2": "HR",
       "nome": "Croatia",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.4,
         "unidade": "%",
@@ -4010,6 +3983,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 105060182186.274,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.87790164584768,
         "unidade": "% do PIB",
@@ -4030,14 +4010,6 @@
       "codigo": "HTI",
       "iso2": "HT",
       "nome": "Haiti",
-      "pib": {
-        "valor": -1.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 23.5,
         "unidade": "%",
@@ -4054,6 +4026,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 32077278409.2339,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.0824597396111034,
@@ -4075,14 +4054,6 @@
       "codigo": "HUN",
       "iso2": "HU",
       "nome": "Hungary",
-      "pib": {
-        "valor": 1.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.8,
         "unidade": "%",
@@ -4107,6 +4078,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 246490213513.054,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -28.3736403614031,
         "unidade": "% do PIB",
@@ -4127,14 +4105,6 @@
       "codigo": "IDN",
       "iso2": "ID",
       "nome": "Indonesia",
-      "pib": {
-        "valor": 5.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -4159,6 +4129,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1445642584163.81,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.54140671670434,
         "unidade": "% do PIB",
@@ -4179,10 +4156,10 @@
       "codigo": "IMY",
       "iso2": null,
       "nome": "Isle of Man",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -4191,14 +4168,6 @@
       "codigo": "IND",
       "iso2": "IN",
       "nome": "India",
-      "pib": {
-        "valor": 6.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.7,
         "unidade": "%",
@@ -4223,6 +4192,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 3956067115771.63,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.988285383995246,
         "unidade": "% do PIB",
@@ -4243,10 +4219,10 @@
       "codigo": "IOT",
       "iso2": "IO",
       "nome": "British Indian Ocean Territories",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -4255,14 +4231,6 @@
       "codigo": "IRL",
       "iso2": "IE",
       "nome": "Ireland",
-      "pib": {
-        "valor": 2.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.1,
         "unidade": "%",
@@ -4287,6 +4255,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 721701359046.313,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.791076186083952,
         "unidade": "% do PIB",
@@ -4307,14 +4282,6 @@
       "codigo": "IRN",
       "iso2": "IR",
       "nome": "Iran",
-      "pib": {
-        "valor": -6.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 68.9,
         "unidade": "%",
@@ -4339,6 +4306,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 362682115433.364,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.304914200880697,
         "unidade": "% do PIB",
@@ -4359,14 +4333,6 @@
       "codigo": "IRQ",
       "iso2": "IQ",
       "nome": "Iraq",
-      "pib": {
-        "valor": -6.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -4383,6 +4349,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 254367293538.462,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -2.73525447039729,
@@ -4404,14 +4377,6 @@
       "codigo": "ISL",
       "iso2": "IS",
       "nome": "Iceland",
-      "pib": {
-        "valor": 1.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.8,
         "unidade": "%",
@@ -4436,6 +4401,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 38582528789.0033,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.52278219243446,
         "unidade": "% do PIB",
@@ -4456,14 +4428,6 @@
       "codigo": "ISR",
       "iso2": "IL",
       "nome": "Israel",
-      "pib": {
-        "valor": 3.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.3,
         "unidade": "%",
@@ -4488,6 +4452,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 610777842873.595,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.29339412127743,
         "unidade": "% do PIB",
@@ -4508,14 +4479,6 @@
       "codigo": "ITA",
       "iso2": "IT",
       "nome": "Italy",
-      "pib": {
-        "valor": 0.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.6,
         "unidade": "%",
@@ -4540,6 +4503,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2551556954100.35,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.034602983660439,
         "unidade": "% do PIB",
@@ -4560,14 +4530,6 @@
       "codigo": "JAM",
       "iso2": "JM",
       "nome": "Jamaica",
-      "pib": {
-        "valor": -1.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.1,
         "unidade": "%",
@@ -4592,6 +4554,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 22704903217.5631,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.38581611857042,
         "unidade": "% do PIB",
@@ -4612,14 +4581,6 @@
       "codigo": "JOR",
       "iso2": "JO",
       "nome": "Jordan",
-      "pib": {
-        "valor": 2.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.3,
         "unidade": "%",
@@ -4644,6 +4605,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 61610052535.2113,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.78862682935517,
         "unidade": "% do PIB",
@@ -4664,14 +4632,6 @@
       "codigo": "JPN",
       "iso2": "JP",
       "nome": "Japan",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.2,
         "unidade": "%",
@@ -4696,6 +4656,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 4435162999976.94,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.03278551644542,
         "unidade": "% do PIB",
@@ -4716,14 +4683,6 @@
       "codigo": "KAZ",
       "iso2": "KZ",
       "nome": "Kazakhstan",
-      "pib": {
-        "valor": 4.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 10.7,
         "unidade": "%",
@@ -4748,6 +4707,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 306239209650.024,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.299243931188651,
         "unidade": "% do PIB",
@@ -4768,14 +4734,6 @@
       "codigo": "KEN",
       "iso2": "KE",
       "nome": "Kenya",
-      "pib": {
-        "valor": 4.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.9,
         "unidade": "%",
@@ -4792,6 +4750,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 135941278878.815,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.384924569449646,
@@ -4813,14 +4778,6 @@
       "codigo": "KGZ",
       "iso2": "KG",
       "nome": "Kyrgyz Republic",
-      "pib": {
-        "valor": 6.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 10.6,
         "unidade": "%",
@@ -4845,6 +4802,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 22623752095.4613,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.40593817941355,
         "unidade": "% do PIB",
@@ -4865,14 +4829,6 @@
       "codigo": "KHM",
       "iso2": "KH",
       "nome": "Cambodia",
-      "pib": {
-        "valor": 4.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -4889,6 +4845,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 51267065842.9641,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 9.94609689113059,
@@ -4910,14 +4873,6 @@
       "codigo": "KIR",
       "iso2": "KI",
       "nome": "Kiribati",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.5,
         "unidade": "%",
@@ -4934,6 +4889,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 349227254.158833,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.19148861022682,
@@ -4955,14 +4917,6 @@
       "codigo": "KNA",
       "iso2": "KN",
       "nome": "Saint Kitts and Nevis",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.2,
         "unidade": "%",
@@ -4979,6 +4933,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1183514814.81481,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.39552084343872,
@@ -5000,14 +4961,6 @@
       "codigo": "KOR",
       "iso2": "KR",
       "nome": "Korea, Republic of",
-      "pib": {
-        "valor": 1.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -5032,6 +4985,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1872374961553.15,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.844067044503223,
         "unidade": "% do PIB",
@@ -5052,10 +5012,10 @@
       "codigo": "KOS",
       "iso2": null,
       "nome": "Kosovo",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -5064,14 +5024,6 @@
       "codigo": "KWT",
       "iso2": "KW",
       "nome": "Kuwait",
-      "pib": {
-        "valor": -0.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.8,
         "unidade": "%",
@@ -5088,6 +5040,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 157209026926.418,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.262764598716339,
@@ -5109,14 +5068,6 @@
       "codigo": "LAO",
       "iso2": "LA",
       "nome": "Lao P.D.R.",
-      "pib": {
-        "valor": 4.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 9.6,
         "unidade": "%",
@@ -5133,6 +5084,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 18302970218.5902,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 5.98958863567394,
@@ -5154,14 +5112,6 @@
       "codigo": "LBN",
       "iso2": "LB",
       "nome": "Lebanon",
-      "pib": {
-        "valor": 4.0,
-        "unidade": "%",
-        "ano": 2025,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 14.6,
         "unidade": "%",
@@ -5186,6 +5136,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 25971643441.3408,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 7.09437049742925,
         "unidade": "% do PIB",
@@ -5206,14 +5163,6 @@
       "codigo": "LBR",
       "iso2": "LR",
       "nome": "Liberia",
-      "pib": {
-        "valor": 5.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.7,
         "unidade": "%",
@@ -5230,6 +5179,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 5245938900.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 9.86626133953545,
@@ -5251,14 +5207,6 @@
       "codigo": "LBY",
       "iso2": "LY",
       "nome": "Libya",
-      "pib": {
-        "valor": 6.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 10.5,
         "unidade": "%",
@@ -5269,6 +5217,13 @@
       },
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 48098909613.6316,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.80500147243983,
         "unidade": "% do PIB",
@@ -5289,14 +5244,6 @@
       "codigo": "LCA",
       "iso2": "LC",
       "nome": "Saint Lucia",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -5313,6 +5260,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2656444444.44444,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 7.30212999832689,
@@ -5334,14 +5288,6 @@
       "codigo": "LIE",
       "iso2": "LI",
       "nome": "Liechtenstein",
-      "pib": {
-        "valor": -0.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.5,
         "unidade": "%",
@@ -5366,6 +5312,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 8905764270.4054,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1303.10826691135,
         "unidade": "% do PIB",
@@ -5386,14 +5339,6 @@
       "codigo": "LKA",
       "iso2": "LK",
       "nome": "Sri Lanka",
-      "pib": {
-        "valor": 5.0,
-        "unidade": "%",
-        "ano": 2024,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.2,
         "unidade": "%",
@@ -5418,6 +5363,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 108825231671.196,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.764077754153862,
         "unidade": "% do PIB",
@@ -5438,14 +5390,6 @@
       "codigo": "LSO",
       "iso2": "LS",
       "nome": "Lesotho",
-      "pib": {
-        "valor": 1.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.2,
         "unidade": "%",
@@ -5462,6 +5406,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 2573572920.05159,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -0.22425996725048,
@@ -5483,14 +5434,6 @@
       "codigo": "LTU",
       "iso2": "LT",
       "nome": "Lithuania",
-      "pib": {
-        "valor": 2.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -5515,6 +5458,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 95210150818.3512,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.24263476181387,
         "unidade": "% do PIB",
@@ -5535,14 +5485,6 @@
       "codigo": "LUX",
       "iso2": "LU",
       "nome": "Luxembourg",
-      "pib": {
-        "valor": 1.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.1,
         "unidade": "%",
@@ -5567,6 +5509,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 101157829491.107,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -92.8195151180004,
         "unidade": "% do PIB",
@@ -5587,14 +5536,6 @@
       "codigo": "LVA",
       "iso2": "LV",
       "nome": "Latvia",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -5619,6 +5560,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 48618869160.3254,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.501253304600754,
         "unidade": "% do PIB",
@@ -5639,14 +5587,6 @@
       "codigo": "MAC",
       "iso2": "MO",
       "nome": "Macao SAR",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.8,
         "unidade": "%",
@@ -5671,6 +5611,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 52061007670.169,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.82364491952989,
         "unidade": "% do PIB",
@@ -5691,14 +5638,6 @@
       "codigo": "MAR",
       "iso2": "MA",
       "nome": "Morocco",
-      "pib": {
-        "valor": 4.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.3,
         "unidade": "%",
@@ -5723,6 +5662,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 182374250612.28,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.81954513887835,
         "unidade": "% do PIB",
@@ -5743,10 +5689,16 @@
       "codigo": "MCO",
       "iso2": "MC",
       "nome": "Monaco",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 11125788838.2812,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -5755,14 +5707,6 @@
       "codigo": "MDA",
       "iso2": "MD",
       "nome": "Moldova",
-      "pib": {
-        "valor": 1.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.4,
         "unidade": "%",
@@ -5787,6 +5731,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 20351796275.2943,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.25785505605625,
         "unidade": "% do PIB",
@@ -5807,14 +5758,6 @@
       "codigo": "MDG",
       "iso2": "MG",
       "nome": "Madagascar",
-      "pib": {
-        "valor": 3.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 8.3,
         "unidade": "%",
@@ -5831,6 +5774,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 19620352035.7899,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.44577112659577,
@@ -5852,14 +5802,6 @@
       "codigo": "MDV",
       "iso2": "MV",
       "nome": "Maldives",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.0,
         "unidade": "%",
@@ -5876,6 +5818,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 7741066860.6337,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 11.416720004027,
@@ -5897,14 +5846,6 @@
       "codigo": "MEX",
       "iso2": "MX",
       "nome": "Mexico",
-      "pib": {
-        "valor": 1.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.9,
         "unidade": "%",
@@ -5929,6 +5870,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1832641364775.52,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.35098180233848,
         "unidade": "% do PIB",
@@ -5949,10 +5897,10 @@
       "codigo": "MFX",
       "iso2": null,
       "nome": "Saint Martin",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -5961,14 +5909,6 @@
       "codigo": "MHL",
       "iso2": "MH",
       "nome": "Marshall Islands",
-      "pib": {
-        "valor": 3.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.4,
         "unidade": "%",
@@ -5985,6 +5925,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 308000000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 4.68730725530449,
@@ -6006,14 +5953,6 @@
       "codigo": "MKD",
       "iso2": "MK",
       "nome": "North Macedonia ",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.5,
         "unidade": "%",
@@ -6038,6 +5977,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 19101199817.0174,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.53789593592464,
         "unidade": "% do PIB",
@@ -6058,14 +6004,6 @@
       "codigo": "MLI",
       "iso2": "ML",
       "nome": "Mali",
-      "pib": {
-        "valor": 5.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.2,
         "unidade": "%",
@@ -6082,6 +6020,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 30069148580.7688,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.44170555566452,
@@ -6103,14 +6048,6 @@
       "codigo": "MLT",
       "iso2": "MT",
       "nome": "Malta",
-      "pib": {
-        "valor": 3.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -6135,6 +6072,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 27771821560.9411,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 170.053519530959,
         "unidade": "% do PIB",
@@ -6155,14 +6099,6 @@
       "codigo": "MMR",
       "iso2": "MM",
       "nome": "Myanmar",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 19.0,
         "unidade": "%",
@@ -6179,6 +6115,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 81665773809.5238,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.47879223317634,
@@ -6200,14 +6143,6 @@
       "codigo": "MNE",
       "iso2": "ME",
       "nome": "Montenegro",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -6224,6 +6159,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 9232801464.79257,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 7.32378193243735,
@@ -6245,14 +6187,6 @@
       "codigo": "MNG",
       "iso2": "MN",
       "nome": "Mongolia",
-      "pib": {
-        "valor": 5.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.4,
         "unidade": "%",
@@ -6277,6 +6211,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 25369107325.4549,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 11.6924984371367,
         "unidade": "% do PIB",
@@ -6297,10 +6238,16 @@
       "codigo": "MNP",
       "iso2": "MP",
       "nome": "Northern Mariana Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 1096000000.0,
+        "unidade": "US$",
+        "ano": "2022",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -6309,14 +6256,6 @@
       "codigo": "MOZ",
       "iso2": "MZ",
       "nome": "Mozambique",
-      "pib": {
-        "valor": 0.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.4,
         "unidade": "%",
@@ -6333,6 +6272,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 22337997046.1913,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 15.4210115464394,
@@ -6354,14 +6300,6 @@
       "codigo": "MRT",
       "iso2": "MR",
       "nome": "Mauritania",
-      "pib": {
-        "valor": 4.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.1,
         "unidade": "%",
@@ -6378,6 +6316,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 11679910946.4371,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 13.2389288029166,
@@ -6399,10 +6344,10 @@
       "codigo": "MSR",
       "iso2": "MS",
       "nome": "Montserrat",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -6411,10 +6356,10 @@
       "codigo": "MTQ",
       "iso2": "MQ",
       "nome": "Martinique",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -6423,14 +6368,6 @@
       "codigo": "MUS",
       "iso2": "MU",
       "nome": "Mauritius",
-      "pib": {
-        "valor": 3.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.7,
         "unidade": "%",
@@ -6455,6 +6392,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 16157804491.7614,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.56067539257877,
         "unidade": "% do PIB",
@@ -6475,14 +6419,6 @@
       "codigo": "MWI",
       "iso2": "MW",
       "nome": "Malawi",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 24.4,
         "unidade": "%",
@@ -6499,6 +6435,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 14918276698.303,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.28053083149593,
@@ -6520,14 +6463,6 @@
       "codigo": "MYS",
       "iso2": "MY",
       "nome": "Malaysia",
-      "pib": {
-        "valor": 4.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.9,
         "unidade": "%",
@@ -6552,6 +6487,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 472193128644.597,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.6930953933026,
         "unidade": "% do PIB",
@@ -6572,10 +6514,10 @@
       "codigo": "MYT",
       "iso2": "YT",
       "nome": "Mayotte",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -6584,14 +6526,6 @@
       "codigo": "NAM",
       "iso2": "NA",
       "nome": "Namibia",
-      "pib": {
-        "valor": 2.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.9,
         "unidade": "%",
@@ -6608,6 +6542,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 15080340653.5276,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 14.1844922069439,
@@ -6629,10 +6570,16 @@
       "codigo": "NCL",
       "iso2": "NC",
       "nome": "New Caledonia",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 8548919387.12607,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 8.48945728851914,
         "unidade": "% do PIB",
@@ -6653,14 +6600,6 @@
       "codigo": "NER",
       "iso2": "NE",
       "nome": "Niger",
-      "pib": {
-        "valor": 6.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.4,
         "unidade": "%",
@@ -6677,6 +6616,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 21646191388.2507,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.81493836603542,
@@ -6698,14 +6644,6 @@
       "codigo": "NGA",
       "iso2": "NG",
       "nome": "Nigeria",
-      "pib": {
-        "valor": 4.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 16.0,
         "unidade": "%",
@@ -6730,6 +6668,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 290794361542.112,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.37738584935978,
         "unidade": "% do PIB",
@@ -6750,14 +6695,6 @@
       "codigo": "NIC",
       "iso2": "NI",
       "nome": "Nicaragua",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.5,
         "unidade": "%",
@@ -6782,6 +6719,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 22237167113.0916,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 6.86575238184716,
         "unidade": "% do PIB",
@@ -6802,10 +6746,10 @@
       "codigo": "NIU",
       "iso2": "NU",
       "nome": "Niue",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -6814,14 +6758,6 @@
       "codigo": "NLD",
       "iso2": "NL",
       "nome": "Netherlands",
-      "pib": {
-        "valor": 1.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.7,
         "unidade": "%",
@@ -6846,6 +6782,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1332767651100.39,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1.40518243891316,
         "unidade": "% do PIB",
@@ -6866,14 +6809,6 @@
       "codigo": "NOR",
       "iso2": "NO",
       "nome": "Norway",
-      "pib": {
-        "valor": 1.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.3,
         "unidade": "%",
@@ -6898,6 +6833,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 530755719438.879,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1.4735026863079,
         "unidade": "% do PIB",
@@ -6918,14 +6860,6 @@
       "codigo": "NPL",
       "iso2": "NP",
       "nome": "Nepal",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.1,
         "unidade": "%",
@@ -6942,6 +6876,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 45489810283.1132,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.131412557108071,
@@ -6963,14 +6904,6 @@
       "codigo": "NRU",
       "iso2": "NR",
       "nome": "Nauru",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.5,
         "unidade": "%",
@@ -6987,6 +6920,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 176040043.932346,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -3.48330107219992,
@@ -7008,14 +6948,6 @@
       "codigo": "NZL",
       "iso2": "NZ",
       "nome": "New Zealand",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.1,
         "unidade": "%",
@@ -7040,6 +6972,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 264057413739.965,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.36610006279868,
         "unidade": "% do PIB",
@@ -7060,14 +6999,6 @@
       "codigo": "OMN",
       "iso2": "OM",
       "nome": "Oman",
-      "pib": {
-        "valor": 3.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.7,
         "unidade": "%",
@@ -7084,6 +7015,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 109604780696.23,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 11.6351181598926,
@@ -7105,14 +7043,6 @@
       "codigo": "PAK",
       "iso2": "PK",
       "nome": "Pakistan",
-      "pib": {
-        "valor": 3.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.2,
         "unidade": "%",
@@ -7137,6 +7067,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 407307214476.222,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.454693640126553,
         "unidade": "% do PIB",
@@ -7157,14 +7094,6 @@
       "codigo": "PAN",
       "iso2": "PA",
       "nome": "Panama",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.4,
         "unidade": "%",
@@ -7189,6 +7118,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 90462600000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.03740687229861,
         "unidade": "% do PIB",
@@ -7209,10 +7145,10 @@
       "codigo": "PCN",
       "iso2": "PN",
       "nome": "Pitcairn",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -7221,14 +7157,6 @@
       "codigo": "PER",
       "iso2": "PE",
       "nome": "Peru",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -7253,6 +7181,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 334854659181.893,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.09176833503603,
         "unidade": "% do PIB",
@@ -7273,14 +7208,6 @@
       "codigo": "PHL",
       "iso2": "PH",
       "nome": "Philippines",
-      "pib": {
-        "valor": 4.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.3,
         "unidade": "%",
@@ -7305,6 +7232,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 487086123720.417,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.59958262597666,
         "unidade": "% do PIB",
@@ -7325,14 +7259,6 @@
       "codigo": "PLW",
       "iso2": "PW",
       "nome": "Palau",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.9,
         "unidade": "%",
@@ -7349,6 +7275,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 345000000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 21.4868990824119,
@@ -7370,14 +7303,6 @@
       "codigo": "PNG",
       "iso2": "PG",
       "nome": "Papua New Guinea",
-      "pib": {
-        "valor": 3.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.0,
         "unidade": "%",
@@ -7394,6 +7319,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 32498658653.8415,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -0.64380460730506,
@@ -7415,14 +7347,6 @@
       "codigo": "POL",
       "iso2": "PL",
       "nome": "Poland",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.3,
         "unidade": "%",
@@ -7447,6 +7371,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1035491784197.44,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.93405687091201,
         "unidade": "% do PIB",
@@ -7467,14 +7398,6 @@
       "codigo": "PRI",
       "iso2": "PR",
       "nome": "Puerto Rico",
-      "pib": {
-        "valor": -0.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.1,
         "unidade": "%",
@@ -7499,6 +7422,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 129368484000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -7507,10 +7437,10 @@
       "codigo": "PRK",
       "iso2": "KP",
       "nome": "Korea, Dem. People's Rep. of",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": {
         "valor": 203000.0,
@@ -7525,14 +7455,6 @@
       "codigo": "PRT",
       "iso2": "PT",
       "nome": "Portugal",
-      "pib": {
-        "valor": 1.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.1,
         "unidade": "%",
@@ -7557,6 +7479,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 346639825141.821,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.29974090969256,
         "unidade": "% do PIB",
@@ -7577,14 +7506,6 @@
       "codigo": "PRY",
       "iso2": "PY",
       "nome": "Paraguay",
-      "pib": {
-        "valor": 4.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.3,
         "unidade": "%",
@@ -7609,6 +7530,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 49278227554.3339,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.39525418709854,
         "unidade": "% do PIB",
@@ -7629,10 +7557,16 @@
       "codigo": "PYF",
       "iso2": "PF",
       "nome": "French Polynesia",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 6323716355.05009,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.219284661446365,
         "unidade": "% do PIB",
@@ -7653,14 +7587,6 @@
       "codigo": "QAT",
       "iso2": "QA",
       "nome": "Qatar",
-      "pib": {
-        "valor": -8.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.9,
         "unidade": "%",
@@ -7677,6 +7603,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 215559615384.615,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.40702006150615,
@@ -7698,10 +7631,10 @@
       "codigo": "REU",
       "iso2": "RE",
       "nome": "Reunion",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -7710,14 +7643,6 @@
       "codigo": "ROU",
       "iso2": "RO",
       "nome": "Romania",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.8,
         "unidade": "%",
@@ -7742,6 +7667,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 428677977854.826,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.18672174987663,
         "unidade": "% do PIB",
@@ -7762,14 +7694,6 @@
       "codigo": "RUS",
       "iso2": "RU",
       "nome": "Russian Federation",
-      "pib": {
-        "valor": 1.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.6,
         "unidade": "%",
@@ -7794,6 +7718,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2561310169358.74,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.895273062759947,
         "unidade": "% do PIB",
@@ -7814,14 +7745,6 @@
       "codigo": "RWA",
       "iso2": "RW",
       "nome": "Rwanda",
-      "pib": {
-        "valor": 7.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.6,
         "unidade": "%",
@@ -7838,6 +7761,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 16372132990.2271,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.79145567191588,
@@ -7859,14 +7789,6 @@
       "codigo": "SAU",
       "iso2": "SA",
       "nome": "Saudi Arabia",
-      "pib": {
-        "valor": 3.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.3,
         "unidade": "%",
@@ -7891,6 +7813,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1276942933333.33,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.55517254024168,
         "unidade": "% do PIB",
@@ -7911,14 +7840,6 @@
       "codigo": "SDN",
       "iso2": "SD",
       "nome": "Sudan",
-      "pib": {
-        "valor": 0.7,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 75.1,
         "unidade": "%",
@@ -7943,6 +7864,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 60162634574.4689,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.37399372870934,
         "unidade": "% do PIB",
@@ -7963,14 +7891,6 @@
       "codigo": "SEN",
       "iso2": "SN",
       "nome": "Senegal",
-      "pib": {
-        "valor": 2.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -7987,6 +7907,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 37006536238.3731,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 6.26804204995863,
@@ -8008,14 +7935,6 @@
       "codigo": "SGP",
       "iso2": "SG",
       "nome": "Singapore",
-      "pib": {
-        "valor": 3.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.3,
         "unidade": "%",
@@ -8040,6 +7959,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 603869516998.738,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 26.3447254389071,
         "unidade": "% do PIB",
@@ -8060,10 +7986,10 @@
       "codigo": "SHN",
       "iso2": "SH",
       "nome": "Saint Helena",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -8072,10 +7998,10 @@
       "codigo": "SJM",
       "iso2": "SJ",
       "nome": "Svalbard and Jan Mayen Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -8084,14 +8010,6 @@
       "codigo": "SLB",
       "iso2": "SB",
       "nome": "Solomon Islands",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -8108,6 +8026,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1749572442.95016,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.08128126058924,
@@ -8129,14 +8054,6 @@
       "codigo": "SLE",
       "iso2": "SL",
       "nome": "Sierra Leone",
-      "pib": {
-        "valor": 4.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.5,
         "unidade": "%",
@@ -8153,6 +8070,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 7464157904.43509,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.74699628470852,
@@ -8174,14 +8098,6 @@
       "codigo": "SLV",
       "iso2": "SV",
       "nome": "El Salvador",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -8206,6 +8122,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 36708110000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.08052874206816,
         "unidade": "% do PIB",
@@ -8226,14 +8149,6 @@
       "codigo": "SMR",
       "iso2": "SM",
       "nome": "San Marino",
-      "pib": {
-        "valor": 1.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.8,
         "unidade": "%",
@@ -8258,6 +8173,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2027243193.5116,
+        "unidade": "US$",
+        "ano": "2023",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.893473147832222,
         "unidade": "% do PIB",
@@ -8278,14 +8200,6 @@
       "codigo": "SOM",
       "iso2": "SO",
       "nome": "Somalia",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.9,
         "unidade": "%",
@@ -8296,6 +8210,13 @@
       },
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 12995200000.2658,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 6.39257959388318,
         "unidade": "% do PIB",
@@ -8316,10 +8237,10 @@
       "codigo": "SPM",
       "iso2": "PM",
       "nome": "Saint-Pierre and Miquelon",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -8328,14 +8249,6 @@
       "codigo": "SRB",
       "iso2": "RS",
       "nome": "Serbia",
-      "pib": {
-        "valor": 2.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.2,
         "unidade": "%",
@@ -8360,6 +8273,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 99953324472.9042,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.93697525829801,
         "unidade": "% do PIB",
@@ -8380,14 +8300,6 @@
       "codigo": "SSD",
       "iso2": "SS",
       "nome": "South Sudan, Republic of",
-      "pib": {
-        "valor": 4.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 14.0,
         "unidade": "%",
@@ -8404,6 +8316,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 11997800760.2242,
+        "unidade": "US$",
+        "ano": "2015",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.0012502291294692,
@@ -8425,14 +8344,6 @@
       "codigo": "STP",
       "iso2": "ST",
       "nome": "São Tomé and Príncipe",
-      "pib": {
-        "valor": 3.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 9.6,
         "unidade": "%",
@@ -8457,6 +8368,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 981293586.906408,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -2.02206346182182,
         "unidade": "% do PIB",
@@ -8477,14 +8395,6 @@
       "codigo": "SUR",
       "iso2": "SR",
       "nome": "Suriname",
-      "pib": {
-        "valor": 3.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 11.8,
         "unidade": "%",
@@ -8509,6 +8419,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 4523657796.86421,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 45.0639636830093,
         "unidade": "% do PIB",
@@ -8529,14 +8446,6 @@
       "codigo": "SVK",
       "iso2": "SK",
       "nome": "Slovak Republic",
-      "pib": {
-        "valor": 0.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.2,
         "unidade": "%",
@@ -8561,6 +8470,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 154530066506.895,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.32903607891854,
         "unidade": "% do PIB",
@@ -8581,14 +8497,6 @@
       "codigo": "SVN",
       "iso2": "SI",
       "nome": "Slovenia",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.9,
         "unidade": "%",
@@ -8613,6 +8521,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 79648204979.3618,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.26084906229915,
         "unidade": "% do PIB",
@@ -8633,14 +8548,6 @@
       "codigo": "SWE",
       "iso2": "SE",
       "nome": "Sweden",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -8665,6 +8572,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 668998664082.081,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.86246002434244,
         "unidade": "% do PIB",
@@ -8685,14 +8599,6 @@
       "codigo": "SWZ",
       "iso2": "SZ",
       "nome": "Eswatini",
-      "pib": {
-        "valor": 4.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.5,
         "unidade": "%",
@@ -8709,6 +8615,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 5160679612.81734,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.55448906259813,
@@ -8730,10 +8643,16 @@
       "codigo": "SXM",
       "iso2": "SX",
       "nome": "Sint Maarten",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 1887728480.44693,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.06435551530026,
         "unidade": "% do PIB",
@@ -8754,14 +8673,6 @@
       "codigo": "SYC",
       "iso2": "SC",
       "nome": "Seychelles",
-      "pib": {
-        "valor": 1.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.6,
         "unidade": "%",
@@ -8786,6 +8697,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 2387022853.48583,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 10.1468739688419,
         "unidade": "% do PIB",
@@ -8806,14 +8724,6 @@
       "codigo": "SYR",
       "iso2": "SY",
       "nome": "Syria",
-      "pib": {
-        "valor": 3.4,
-        "unidade": "%",
-        "ano": 2010,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.4,
         "unidade": "%",
@@ -8838,6 +8748,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 23737634644.3994,
+        "unidade": "US$",
+        "ano": "2022",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.19065647696386,
         "unidade": "% do PIB",
@@ -8858,10 +8775,16 @@
       "codigo": "TCA",
       "iso2": "TC",
       "nome": "Turks and Caicos Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 1745378000.0,
+        "unidade": "US$",
+        "ano": "2024",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.5209301366237,
         "unidade": "% do PIB",
@@ -8882,14 +8805,6 @@
       "codigo": "TCD",
       "iso2": "TD",
       "nome": "Chad",
-      "pib": {
-        "valor": 5.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.5,
         "unidade": "%",
@@ -8906,6 +8821,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 21472835225.4338,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 5.12132130084841,
@@ -8927,14 +8849,6 @@
       "codigo": "TGO",
       "iso2": "TG",
       "nome": "Togo",
-      "pib": {
-        "valor": 5.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.8,
         "unidade": "%",
@@ -8951,6 +8865,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 11889949067.4697,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.786914262545951,
@@ -8972,14 +8893,6 @@
       "codigo": "THA",
       "iso2": "TH",
       "nome": "Thailand",
-      "pib": {
-        "valor": 1.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.9,
         "unidade": "%",
@@ -9004,6 +8917,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 577009981112.015,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 3.26524902878263,
         "unidade": "% do PIB",
@@ -9024,14 +8944,6 @@
       "codigo": "TJK",
       "iso2": "TJ",
       "nome": "Tajikistan",
-      "pib": {
-        "valor": 6.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -9056,6 +8968,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 17660626562.4832,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.486117105867933,
         "unidade": "% do PIB",
@@ -9076,10 +8995,10 @@
       "codigo": "TKL",
       "iso2": "TK",
       "nome": "Tokelau",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -9088,14 +9007,6 @@
       "codigo": "TKM",
       "iso2": "TM",
       "nome": "Turkmenistan",
-      "pib": {
-        "valor": 2.6,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.9,
         "unidade": "%",
@@ -9112,6 +9023,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 49828621355.6516,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 3.71704110413,
@@ -9133,14 +9051,6 @@
       "codigo": "TLS",
       "iso2": "TL",
       "nome": "Timor-Leste",
-      "pib": {
-        "valor": 4.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.1,
         "unidade": "%",
@@ -9157,6 +9067,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1902180257.82737,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 13.3130496450646,
@@ -9178,14 +9095,6 @@
       "codigo": "TON",
       "iso2": "TO",
       "nome": "Tonga",
-      "pib": {
-        "valor": 2.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.8,
         "unidade": "%",
@@ -9202,6 +9111,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 679218218.578017,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": -1.86561431411564,
@@ -9223,14 +9139,6 @@
       "codigo": "TTO",
       "iso2": "TT",
       "nome": "Trinidad and Tobago",
-      "pib": {
-        "valor": 0.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.8,
         "unidade": "%",
@@ -9255,6 +9163,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 25942749718.4685,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -3.06209801717702,
         "unidade": "% do PIB",
@@ -9275,14 +9190,6 @@
       "codigo": "TUN",
       "iso2": "TN",
       "nome": "Tunisia",
-      "pib": {
-        "valor": 2.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.5,
         "unidade": "%",
@@ -9307,6 +9214,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 57502836548.0878,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.47747574805229,
         "unidade": "% do PIB",
@@ -9327,14 +9241,6 @@
       "codigo": "TUR",
       "iso2": "TR",
       "nome": "Türkiye, Republic of",
-      "pib": {
-        "valor": 3.4,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 28.6,
         "unidade": "%",
@@ -9359,6 +9265,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 1597293229287.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 0.860701598247461,
         "unidade": "% do PIB",
@@ -9379,14 +9292,6 @@
       "codigo": "TUV",
       "iso2": "TV",
       "nome": "Tuvalu",
-      "pib": {
-        "valor": 2.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.1,
         "unidade": "%",
@@ -9403,6 +9308,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 57345434.7234984,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.454748363534884,
@@ -9424,14 +9336,6 @@
       "codigo": "TWN",
       "iso2": "TW",
       "nome": "Taiwan Province of China",
-      "pib": {
-        "valor": 5.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 1.5,
         "unidade": "%",
@@ -9456,6 +9360,7 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -9464,14 +9369,6 @@
       "codigo": "TZA",
       "iso2": "TZ",
       "nome": "Tanzania",
-      "pib": {
-        "valor": 5.9,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -9488,6 +9385,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 90143496090.4411,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.16767805172059,
@@ -9509,14 +9413,6 @@
       "codigo": "UGA",
       "iso2": "UG",
       "nome": "Uganda",
-      "pib": {
-        "valor": 7.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -9533,6 +9429,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 61985829288.1496,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 6.04170465908871,
@@ -9554,14 +9457,6 @@
       "codigo": "UKR",
       "iso2": "UA",
       "nome": "Ukraine",
-      "pib": {
-        "valor": 2.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 6.1,
         "unidade": "%",
@@ -9586,6 +9481,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 214233312784.397,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.10549664352154,
         "unidade": "% do PIB",
@@ -9606,14 +9508,6 @@
       "codigo": "URY",
       "iso2": "UY",
       "nome": "Uruguay",
-      "pib": {
-        "valor": 1.8,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.0,
         "unidade": "%",
@@ -9638,6 +9532,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 85347696277.6859,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.31014232152148,
         "unidade": "% do PIB",
@@ -9658,14 +9559,6 @@
       "codigo": "USA",
       "iso2": "US",
       "nome": "United States",
-      "pib": {
-        "valor": 2.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.2,
         "unidade": "%",
@@ -9690,6 +9583,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 30769700000000.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.30166689957978,
         "unidade": "% do PIB",
@@ -9710,14 +9610,6 @@
       "codigo": "UVK",
       "iso2": "XK",
       "nome": "Kosovo",
-      "pib": {
-        "valor": 3.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 5.9,
         "unidade": "%",
@@ -9742,6 +9634,7 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -9750,14 +9643,6 @@
       "codigo": "UZB",
       "iso2": "UZ",
       "nome": "Uzbekistan",
-      "pib": {
-        "valor": 6.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 7.0,
         "unidade": "%",
@@ -9782,6 +9667,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 147038081129.405,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 2.99134974013705,
         "unidade": "% do PIB",
@@ -9802,10 +9694,10 @@
       "codigo": "VAT",
       "iso2": "VA",
       "nome": "Holy See",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -9814,14 +9706,6 @@
       "codigo": "VCT",
       "iso2": "VC",
       "nome": "Saint Vincent and the Grenadines",
-      "pib": {
-        "valor": 3.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 0.9,
         "unidade": "%",
@@ -9838,6 +9722,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1255222222.22222,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 8.87423003157177,
@@ -9859,14 +9750,6 @@
       "codigo": "VEN",
       "iso2": "VE",
       "nome": "Venezuela",
-      "pib": {
-        "valor": 4.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 387.4,
         "unidade": "%",
@@ -9891,6 +9774,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 99661244155.6306,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 1.35409801107577,
         "unidade": "% do PIB",
@@ -9911,10 +9801,10 @@
       "codigo": "VGB",
       "iso2": "VG",
       "nome": "British Virgin Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": {
         "valor": 53598706970.0,
@@ -9929,10 +9819,16 @@
       "codigo": "VIR",
       "iso2": "VI",
       "nome": "United States Virgin Islands ",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 4672000000.0,
+        "unidade": "US$",
+        "ano": "2022",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -9941,14 +9837,6 @@
       "codigo": "VNM",
       "iso2": "VN",
       "nome": "Vietnam",
-      "pib": {
-        "valor": 7.1,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.9,
         "unidade": "%",
@@ -9973,6 +9861,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 514697215165.065,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": 4.23450755062236,
         "unidade": "% do PIB",
@@ -9993,14 +9888,6 @@
       "codigo": "VUT",
       "iso2": "VU",
       "nome": "Vanuatu",
-      "pib": {
-        "valor": 3.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 4.1,
         "unidade": "%",
@@ -10017,6 +9904,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1353658840.63993,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 2.22365213685823,
@@ -10038,14 +9932,6 @@
       "codigo": "WBG",
       "iso2": "PS",
       "nome": "West Bank and Gaza",
-      "pib": {
-        "valor": -22.9,
-        "unidade": "%",
-        "ano": 2024,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 10.5,
         "unidade": "%",
@@ -10070,6 +9956,7 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -10078,10 +9965,10 @@
       "codigo": "WLF",
       "iso2": "WF",
       "nome": "Wallis and Futuna Islands",
-      "pib": null,
       "inflacao": null,
       "desemprego": null,
       "divida_pib": null,
+      "pib": null,
       "fdi_pib": null,
       "fdi_usd": null,
       "taxa_juros": null
@@ -10090,14 +9977,6 @@
       "codigo": "WSM",
       "iso2": "WS",
       "nome": "Samoa",
-      "pib": {
-        "valor": 3.2,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 2.5,
         "unidade": "%",
@@ -10114,6 +9993,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 1287936621.64619,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 0.17252947016909,
@@ -10135,14 +10021,6 @@
       "codigo": "YEM",
       "iso2": "YE",
       "nome": "Yemen",
-      "pib": {
-        "valor": 0.5,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 26.5,
         "unidade": "%",
@@ -10153,6 +10031,13 @@
       },
       "desemprego": null,
       "divida_pib": null,
+      "pib": {
+        "valor": 21606160663.0318,
+        "unidade": "US$",
+        "ano": "2018",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -1.30563839823089,
         "unidade": "% do PIB",
@@ -10173,14 +10058,6 @@
       "codigo": "ZAF",
       "iso2": "ZA",
       "nome": "South Africa",
-      "pib": {
-        "valor": 1.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 3.9,
         "unidade": "%",
@@ -10205,6 +10082,13 @@
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
+      "pib": {
+        "valor": 427184325997.307,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
+      },
       "fdi_pib": {
         "valor": -0.505823116244258,
         "unidade": "% do PIB",
@@ -10225,14 +10109,6 @@
       "codigo": "ZMB",
       "iso2": "ZM",
       "nome": "Zambia",
-      "pib": {
-        "valor": 4.3,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 9.0,
         "unidade": "%",
@@ -10249,6 +10125,13 @@
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 28879806220.1264,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 9.32437789659637,
@@ -10270,14 +10153,6 @@
       "codigo": "ZWE",
       "iso2": "ZW",
       "nome": "Zimbabwe",
-      "pib": {
-        "valor": 5.0,
-        "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "NGDP_RPCH"
-      },
       "inflacao": {
         "valor": 8.0,
         "unidade": "%",
@@ -10294,6 +10169,13 @@
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
+      },
+      "pib": {
+        "valor": 51215643905.5886,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
         "valor": 1.12093172517355,
