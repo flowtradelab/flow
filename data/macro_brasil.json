@@ -1,0 +1,52 @@
+{
+  "pais": "Brasil",
+  "coletado_em": "2026-09-17T09:59:09.039379-03:00",
+  "timezone": "America/Sao_Paulo",
+  "indicadores": {
+    "inflacao": {
+      "nome": "IPCA acumulado em 12 meses",
+      "valor": 4.22,
+      "unidade": "%",
+      "periodo": "202608",
+      "fonte": "IBGE",
+      "codigo": "Agregado 1737 - variável 2265",
+      "api": "https://servicodados.ibge.gov.br/api/v3/agregados/1737/periodos/-1/variaveis/2265?localidades=N1[1]"
+    },
+    "selic": {
+      "nome": "Meta Selic",
+      "valor": 13.75,
+      "unidade": "% a.a.",
+      "periodo": "04/11/2026",
+      "fonte": "Banco Central do Brasil",
+      "codigo": "SGS 432",
+      "api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
+    },
+    "pib": {
+      "nome": "PIB - variação contra o trimestre imediatamente anterior",
+      "valor": 0.5,
+      "unidade": "%",
+      "periodo": "202602",
+      "fonte": "IBGE",
+      "codigo": "Agregado 5932 - variável 6564 - classificação 11255 / categoria 90707",
+      "api": "https://servicodados.ibge.gov.br/api/v3/agregados/5932/periodos/-1/variaveis/6564?localidades=N1[1]&classificacao=11255[90707]"
+    },
+    "desemprego": {
+      "nome": "Taxa de desocupação",
+      "valor": 5.3,
+      "unidade": "%",
+      "periodo": "202607",
+      "fonte": "IBGE - PNAD Contínua",
+      "codigo": "Agregado 6381 - variável 4099",
+      "api": "https://servicodados.ibge.gov.br/api/v3/agregados/6381/periodos/-1/variaveis/4099?localidades=N1[1]"
+    },
+    "divida_pib": {
+      "nome": "Dívida Bruta do Governo Geral / PIB",
+      "valor": 82.56,
+      "unidade": "% do PIB",
+      "periodo": "01/07/2026",
+      "fonte": "Banco Central do Brasil",
+      "codigo": "SGS 13762",
+      "api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿indicador,nome,valor,unidade,periodo,fonte,codigo,coletado_em
+inflacao,IPCA acumulado em 12 meses,4.22,%,202608,IBGE,Agregado 1737 - variável 2265,2026-09-17T09:59:09.039379-03:00
+selic,Meta Selic,13.75,% a.a.,04/11/2026,Banco Central do Brasil,SGS 432,2026-09-17T09:59:09.039379-03:00
+pib,PIB - variação contra o trimestre imediatamente anterior,0.5,%,202602,IBGE,Agregado 5932 - variável 6564 - classificação 11255 / categoria 90707,2026-09-17T09:59:09.039379-03:00
+desemprego,Taxa de desocupação,5.3,%,202607,IBGE - PNAD Contínua,Agregado 6381 - variável 4099,2026-09-17T09:59:09.039379-03:00
+divida_pib,Dívida Bruta do Governo Geral / PIB,82.56,% do PIB,01/07/2026,Banco Central do Brasil,SGS 13762,2026-09-17T09:59:09.039379-03:00
