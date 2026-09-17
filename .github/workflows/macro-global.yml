@@ -1,0 +1,60 @@
+name: Macro Global
+
+on:
+  schedule:
+    # Executa após o Macro Brasil para reduzir risco de conflito no git push.
+    - cron: "30 6 * * *"
+      timezone: "America/Sao_Paulo"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar-macro-global:
+    name: Atualizar Macro Global
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pycountry
+
+      - name: Atualizar Macro Global
+        run: |
+          python scripts/macro_global.py
+
+      - name: Commit dos dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/macro_global.json data/macro_global.csv
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração encontrada."
+            exit 0
+          fi
+
+          DATA_BRASIL=$(TZ=America/Sao_Paulo date +"%Y-%m-%d")
+
+          git commit \
+            -m "Macro Global: atualização ${DATA_BRASIL}"
+
+          git pull --rebase origin main
+          git push origin main
