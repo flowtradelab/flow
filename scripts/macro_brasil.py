@@ -3,6 +3,7 @@ import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from urllib.parse import quote, urlencode
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -461,12 +462,14 @@ def buscar_bcb_historico(serie, inicio, fim):
 # ============================================================
 
 def buscar_focus_indicador(nome_api):
-    # IMPORTANTE:
-    # Não filtramos baseCalculo no OData.
-    # Em algumas respostas/versões do serviço, o campo pode ser
-    # tipado de forma que a expressão "baseCalculo eq 0" resulte
-    # em HTTP 400. Buscamos por indicador e filtramos baseCalculo
-    # localmente no Python.
+    """
+    Busca expectativas anuais do Focus.
+
+    A query OData é montada manualmente em RFC 3986 para que
+    espaços sejam enviados como %20, e não como "+".
+    """
+    # Não filtramos baseCalculo no OData. A filtragem é feita
+    # localmente após a resposta.
     params = {
         "$filter": f"Indicador eq '{nome_api}'",
         "$orderby": "Data desc",
@@ -479,10 +482,22 @@ def buscar_focus_indicador(nome_api):
         "$format": "json",
     }
 
+    # requests.get(..., params=params) codifica espaços como "+".
+    # Em OData isso pode ser interpretado como operador e gerar
+    # o erro Edm.Boolean x Edm.String.
+    #
+    # urlencode(..., quote_via=quote) segue RFC 3986 e usa %20.
+    query_string = urlencode(
+        params,
+        quote_via=quote,
+        safe="'(),$",
+    )
+
+    url_focus = f"{FOCUS_URL}?{query_string}"
+
     dados = get_json(
-        FOCUS_URL,
+        url_focus,
         f"Focus - {nome_api}",
-        params=params,
     )
 
     registros = dados.get("value")
