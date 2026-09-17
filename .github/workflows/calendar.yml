@@ -7,9 +7,14 @@ on:
     - cron: '0 8,12,16,20 * * 1-5'
   workflow_dispatch:
 
+concurrency:
+  group: economic-calendar
+  cancel-in-progress: false
+
 jobs:
   fetch-calendar:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
 
@@ -25,13 +30,16 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements-calendar.txt
 
-      - name: Atualizar calendário
+      - name: Atualizar agenda
         run: python scripts/fetch_calendar.py
 
-      - name: Commit calendar.json
+      - name: Reaplicar resultados já conhecidos
+        run: python scripts/update_calendar_results.py
+
+      - name: Commit calendário
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add calendaario-economico/calendar.json
+          git add calendaario-economico/calendar.json calendaario-economico/calendar-results.json
           git diff --cached --quiet || git commit -m "chore: calendar update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
