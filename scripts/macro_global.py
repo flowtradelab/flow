@@ -41,11 +41,6 @@ IMF_PERIODOS = list(range(ANO_ATUAL - 2, ANO_ATUAL + 2))
 IMF_BASE = "https://www.imf.org/external/datamapper/api/v1"
 
 IMF_INDICADORES = {
-    "pib": {
-        "codigo": "NGDP_RPCH",
-        "nome": "Crescimento real do PIB",
-        "unidade": "%",
-    },
     "inflacao": {
         "codigo": "PCPIPCH",
         "nome": "Inflação ao consumidor",
@@ -66,6 +61,7 @@ IMF_INDICADORES = {
 # World Bank - World Development Indicators
 WORLD_BANK_BASE = "https://api.worldbank.org/v2"
 
+WB_GDP_USD = "NY.GDP.MKTP.CD"
 WB_FDI_PIB = "BX.KLT.DINV.WD.GD.ZS"
 WB_FDI_USD = "BX.KLT.DINV.CD.WD"
 
@@ -408,7 +404,13 @@ def buscar_world_bank_mrnev(indicador):
     }
 
 
-def coletar_fdi(paises):
+def coletar_world_bank(paises):
+    print("Buscando PIB nominal em US$ no World Bank...")
+
+    pib_usd = buscar_world_bank_mrnev(
+        WB_GDP_USD
+    )
+
     print("Buscando FDI / PIB no World Bank...")
 
     fdi_pib = buscar_world_bank_mrnev(
@@ -422,8 +424,20 @@ def coletar_fdi(paises):
     )
 
     for iso3, pais in paises.items():
+        pib = pib_usd["dados"].get(iso3)
         pct = fdi_pib["dados"].get(iso3)
         usd = fdi_usd["dados"].get(iso3)
+
+        if pib:
+            pais["pib"] = {
+                "valor": pib["valor"],
+                "unidade": "US$",
+                "ano": pib["ano"],
+                "fonte": "World Bank - WDI",
+                "codigo_fonte": WB_GDP_USD,
+            }
+        else:
+            pais["pib"] = None
 
         if pct:
             pais["fdi_pib"] = {
@@ -448,6 +462,7 @@ def coletar_fdi(paises):
             pais["fdi_usd"] = None
 
     return {
+        "pib_usd": pib_usd["ultima_atualizacao_fonte"],
         "fdi_pib": fdi_pib["ultima_atualizacao_fonte"],
         "fdi_usd": fdi_usd["ultima_atualizacao_fonte"],
     }
@@ -782,7 +797,7 @@ def main():
 
     coletar_imf(paises)
 
-    atualizacoes_wb = coletar_fdi(paises)
+    atualizacoes_wb = coletar_world_bank(paises)
 
     # BIS possui policy rates para um subconjunto de economias.
     # Falha do BIS não deve apagar todos os demais dados globais.
@@ -805,7 +820,7 @@ def main():
 
     cobertura = {
         "total_paises_imf": len(paises),
-        "pib": contar_cobertura(paises, "pib"),
+        "pib": contar_cobertura(paises, "pib"),  # PIB nominal em US$
         "inflacao": contar_cobertura(paises, "inflacao"),
         "desemprego": contar_cobertura(paises, "desemprego"),
         "divida_pib": contar_cobertura(paises, "divida_pib"),
@@ -820,9 +835,9 @@ def main():
         "ano_referencia_weo": ANO_ATUAL,
         "metodologia": {
             "pib": {
-                "descricao": "Crescimento real do PIB",
-                "fonte": "IMF World Economic Outlook",
-                "codigo": "NGDP_RPCH",
+                "descricao": "PIB nominal em US$ correntes",
+                "fonte": "World Bank - WDI",
+                "codigo": WB_GDP_USD,
             },
             "inflacao": {
                 "descricao": "Inflação ao consumidor",
@@ -868,12 +883,16 @@ def main():
             "imf": {
                 "api": IMF_BASE,
                 "observacao": (
-                    "WEO é uma base semestral; o ano corrente "
-                    "pode conter estimativas/projeções."
+                    "WEO é uma base semestral; inflação, desemprego "
+                    "e dívida/PIB do ano corrente podem conter "
+                    "estimativas/projeções."
                 ),
             },
             "world_bank": {
                 "api": WORLD_BANK_BASE,
+                "ultima_atualizacao_pib_usd": (
+                    atualizacoes_wb.get("pib_usd")
+                ),
                 "ultima_atualizacao_fdi_pib": (
                     atualizacoes_wb.get("fdi_pib")
                 ),
