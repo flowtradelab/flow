@@ -1,45 +1,67 @@
 """
 scripts/update_options.py
 ==========================
-1. Baixa SI_D_SEDE.txt  (séries autorizadas) via Playwright
-2. Baixa BDI_03-4_YYYYMMDD.pdf (posições em aberto) via Playwright
-3. Faz JOIN pelo ticker da opção
-4. Gera grid-options/{TICKER}/latest.json com dados completos
+1. Baixa InstrumentsConsolidated.csv (cadastro dos instrumentos) da B3
+2. Baixa DerivativesOpenPosition.csv (posicoes em aberto) da B3
+3. Faz JOIN pelo ticker da opcao (TckrSymb)
+4. Gera grid-options/{TICKER}/latest.json com metadados + OI completos
 5. Commit via GitHub Actions
+
+Fontes:
+- InstrumentsConsolidated: strike, vencimento, tipo, estilo, ativo objeto
+- DerivativesOpenPosition: OI, variacao de OI, coberta/descoberta,
+  total de posicoes, tomadores e doadores
+
+Os downloads usam a API publica de arquivos da B3 em duas etapas:
+  GET /api/download/requestname?fileName=...&date=YYYY-MM-DD
+  GET /api/download/?token=...
 """
 
-import os, re, json, time, zipfile, io
-import pdfplumber
-from datetime import datetime, timezone, timedelta
+import csv
+import io
+import json
+import os
+import time
 from collections import defaultdict
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import requests
+
+
 # ── Constantes ────────────────────────────────────────────────────────────────
-B3_SERIES_URL  = "https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-a-vista/opcoes/series-autorizadas/"
-B3_SERIES_TEXT = "Lista Completa de Séries Autorizadas"
-B3_SERIES_FB   = "https://www.b3.com.br/lumis/portal/file/fileDownload.jsp?fileId=8AA8D0CC9DF273EF019DF53B3C720DBE"
+B3_API_BASE       = "https://arquivos.b3.com.br"
+B3_TOKEN_URL      = f"{B3_API_BASE}/api/download/requestname"
+B3_DOWNLOAD_URL   = f"{B3_API_BASE}/api/download/"  # barra final e importante
+INSTRUMENTS_FILE  = "InstrumentsConsolidated"
+POSITIONS_FILE    = "DerivativesOpenPosition"
 
-B3_BDI_PAGE    = "https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercados-a-vista-e-derivativos/bdi/"
-B3_BDI_TEXT    = "BDI"
+OUTPUT_FOLDER     = Path("grid-options")
+TEMP_DIR          = Path("/tmp")
+BRT               = timezone(timedelta(hours=-3))
+MAX_RETRIES       = 3
+REQUEST_TIMEOUT   = 300
+CSV_ENCODING      = "iso-8859-1"
 
-OUTPUT_FOLDER  = Path("grid-options")
-TEMP_DIR       = Path("/tmp")
-BRT            = timezone(timedelta(hours=-3))
-MAX_RETRIES    = 3
-NAV_TIMEOUT    = 120000
-PAGE_TIMEOUT   = 90000
+# Protecao contra publicar milhares de zeros se a B3 mudar o schema novamente.
+MIN_MATCHED       = 1000
+MIN_MATCH_RATIO   = 0.05
 
-# Mapa "raiz do ticker da opção" (4 primeiros chars) → ticker real do ativo
-# objeto. Antes esse valor era "adivinhado" via regex no ISIN da opção, o que
-# é estruturalmente errado (o ISIN é da opção, não do ativo objeto, e o regex
-# só captura 1 dígito — nunca reproduz sufixos de 2 dígitos como "11" de
-# BOVA11, ITSA11, HGLG11 etc.). Mantenha sincronizado com os ativos
-# suportados no frontend (Opcoes.jsx → ASSET_CONFIGS / chainSpotMap).
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/127.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/html, */*",
+    "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Origin": B3_API_BASE,
+    "Referer": f"{B3_API_BASE}/",
+}
+
+# Fallback apenas se o InstrumentsConsolidated nao trouxer o ativo objeto.
 ATIVO_OBJETO_MAP = {
-    "PETR": "PETR4",   # ⚠️ PETR3 e PETR4 compartilham a raiz "PETR" nos
-                        # 4 primeiros chars do ticker de opção — ambíguo,
-                        # assume-se PETR4 (mais líquido) até haver um sinal
-                        # melhor para desambiguar.
+    "PETR": "PETR4",
     "BOVA": "BOVA11",
     "VALE": "VALE3",
     "BBDC": "BBDC4",
@@ -49,505 +71,510 @@ ATIVO_OBJETO_MAP = {
 def github_output(key, value):
     gh = os.environ.get("GITHUB_OUTPUT", "")
     if gh:
-        with open(gh, "a") as f:
+        with open(gh, "a", encoding="utf-8") as f:
             f.write(f"{key}={value}\n")
     print(f"[output] {key}={value}")
 
 
-def get_bdi_url(date: datetime) -> str:
-    d = date.strftime("%Y-%m-%d")
-    c = date.strftime("%Y%m%d")
-    return f"https://arquivos.b3.com.br/bdi/download/bdi/{d}/BDI_03-4_{c}.pdf"
-
-
 def dias_uteis_recentes(n=7):
-    """
-    Retorna os últimos N dias úteis (seg-sex) a partir de hoje (BRT),
-    em ordem decrescente (mais recente primeiro).
-    Ignora fins de semana mas não feriados (BDI não existe nesses dias).
-    """
-    hoje  = datetime.now(BRT).date()
-    dias  = []
+    """Retorna os ultimos N dias uteis (seg-sex), mais recente primeiro."""
+    hoje = datetime.now(BRT).date()
+    dias = []
     delta = 0
     while len(dias) < n:
         d = hoje - timedelta(days=delta)
-        if d.weekday() < 5:   # 0=seg … 4=sex
+        if d.weekday() < 5:
             dias.append(d)
         delta += 1
     return dias
 
 
-# ── Playwright download helper ────────────────────────────────────────────────
-def playwright_download(page_url, link_text, fallback_url, out_path, accept="*/*"):
-    from playwright.sync_api import sync_playwright
-
+# ── Download B3 CSV ───────────────────────────────────────────────────────────
+def get_download_token(api_name: str, date_str: str) -> str | None:
+    """Solicita o token de download para uma tabela/data da B3."""
     for attempt in range(1, MAX_RETRIES + 1):
-        print(f"    Tentativa {attempt}/{MAX_RETRIES}...")
         try:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(
-                    headless=True,
-                    args=["--no-sandbox","--disable-setuid-sandbox",
-                          "--disable-dev-shm-usage","--disable-gpu",
-                          "--no-first-run","--single-process"]
-                )
-                ctx = browser.new_context(
-                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                    locale="pt-BR",
-                    timezone_id="America/Sao_Paulo",
-                )
-                ctx.set_default_timeout(PAGE_TIMEOUT)
-                pg = ctx.new_page()
-                pg.route("**/*.{png,jpg,jpeg,gif,svg,ico,woff,woff2}", lambda r: r.abort())
+            r = requests.get(
+                B3_TOKEN_URL,
+                params={"fileName": api_name, "date": date_str},
+                headers=HEADERS,
+                timeout=30,
+            )
+            if r.status_code == 200:
+                payload = r.json()
+                token = payload.get("token", "")
+                return token or None
+            if r.status_code == 400:
+                return None
+            print(f"    {api_name} {date_str}: HTTP {r.status_code}")
+        except Exception as e:
+            print(f"    {api_name} {date_str}: erro token ({e})")
+        if attempt < MAX_RETRIES:
+            time.sleep(attempt)
+    return None
 
-                print(f"    Carregando: {page_url}")
-                pg.goto(page_url, wait_until="domcontentloaded", timeout=NAV_TIMEOUT)
-                time.sleep(4)
 
-                dl_url = None
-                try:
-                    link = pg.locator(f"a:has-text('{link_text}')").first
-                    if link.count() > 0:
-                        href = link.get_attribute("href", timeout=5000)
-                        if href:
-                            dl_url = href if href.startswith("http") else f"https://www.b3.com.br{href}"
-                            print(f"    Link encontrado: {dl_url}")
-                except Exception:
-                    pass
-
-                if not dl_url:
-                    html = pg.content()
-                    m = re.search(r'href=["\']([^"\']*fileDownload[^"\']*)["\']', html)
-                    if m:
-                        href = m.group(1)
-                        dl_url = href if href.startswith("http") else f"https://www.b3.com.br{href}"
-                if not dl_url:
-                    dl_url = fallback_url
-                    print(f"    Usando fallback: {dl_url}")
-
-                cookies = ctx.cookies()
-                browser.close()
-
-            import requests as req
-            cookie_str = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                "Accept":     accept,
-                "Referer":    page_url,
-                "Cookie":     cookie_str,
-            }
-            print(f"    Baixando...")
-            r = req.get(dl_url, headers=headers, timeout=180, stream=True)
+def download_csv_from_token(token: str, api_name: str) -> bytes:
+    """Baixa o CSV usando o token retornado pela B3."""
+    last_error = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            r = requests.get(
+                B3_DOWNLOAD_URL,
+                params={"token": token},
+                headers=HEADERS,
+                timeout=REQUEST_TIMEOUT,
+                allow_redirects=True,
+            )
             if r.status_code != 200:
                 raise RuntimeError(f"HTTP {r.status_code}")
-            raw = b"".join(r.iter_content(65536))
-            print(f"    {len(raw):,} bytes  CT: {r.headers.get('Content-Type','?')}")
-
-            import builtins
-            builtins._last_dl_headers = {
-                "content_type":        r.headers.get("Content-Type", ""),
-                "last_modified":       r.headers.get("Last-Modified", ""),
-                "content_disposition": r.headers.get("Content-Disposition", ""),
-                "content_length":      r.headers.get("Content-Length", ""),
-                "etag":                r.headers.get("ETag", ""),
-            }
-
-            if raw[:2] == b"PK":
-                print("    ZIP detectado — extraindo...")
-                with zipfile.ZipFile(io.BytesIO(raw)) as zf:
-                    names = zf.namelist()
-                    print(f"    Conteúdo: {names}")
-                    fname = next((n for n in names if n.upper().endswith((".TXT",".PDF"))), names[0])
-                    raw = zf.read(fname)
-                    print(f"    Extraído: {fname} ({len(raw):,} bytes)")
-
-            Path(out_path).write_bytes(raw)
-            print(f"    Salvo em: {out_path}")
-            return str(out_path)
-
+            raw = r.content
+            if not raw:
+                raise RuntimeError("resposta vazia")
+            head = raw[:200].lstrip().lower()
+            if head.startswith(b"<!doctype html") or head.startswith(b"<html"):
+                raise RuntimeError("B3 retornou HTML em vez de CSV")
+            return raw
         except Exception as e:
-            print(f"    Erro: {e}")
+            last_error = e
+            print(f"    {api_name}: erro download tentativa {attempt} ({e})")
             if attempt < MAX_RETRIES:
-                wait = 20 * attempt
-                print(f"    Aguardando {wait}s...")
-                time.sleep(wait)
-            else:
-                raise RuntimeError(f"Download falhou após {MAX_RETRIES} tentativas: {e}")
+                time.sleep(2 * attempt)
+    raise RuntimeError(f"Falha ao baixar {api_name}: {last_error}")
 
 
-# ── Parser SI_D_SEDE.txt ──────────────────────────────────────────────────────
-def parse_series_header(filepath) -> dict:
-    with open(filepath, encoding="latin-1") as f:
-        first = f.readline().strip()
-    parts = first.split("|")
-    return {
-        "data_pregao":  parts[1] if len(parts) > 1 else "",
-        "data_geracao": parts[2] if len(parts) > 2 else "",
-        "hora_geracao": parts[3] if len(parts) > 3 else "",
-    }
+def parse_b3_csv(raw: bytes) -> tuple[list[dict], str]:
+    """
+    Converte o CSV da B3 em lista de dicts.
+
+    Alguns arquivos possuem na primeira linha:
+      Status do Arquivo: Final
+    DerivativesOpenPosition normalmente comeca direto pelo cabecalho.
+    """
+    text = raw.decode(CSV_ENCODING, errors="replace")
+    lines = text.strip().splitlines()
+    if not lines:
+        return [], ""
+
+    status = ""
+    header_idx = 0
+    if "Status do Arquivo" in lines[0]:
+        status = lines[0].split(":")[-1].strip() if ":" in lines[0] else ""
+        header_idx = 1
+
+    if header_idx >= len(lines):
+        return [], status
+
+    reader = csv.DictReader(io.StringIO("\n".join(lines[header_idx:])), delimiter=";")
+    rows = []
+    for row in reader:
+        if not row:
+            continue
+        clean = {
+            (k or "").strip(): (v or "").strip()
+            for k, v in row.items()
+            if k is not None
+        }
+        if any(clean.values()):
+            rows.append(clean)
+    return rows, status
 
 
-def parse_series(filepath) -> tuple[str, dict]:
-    result    = {}
-    data_date = ""
+def download_latest_pair() -> tuple[str, list[dict], list[dict], bytes, bytes]:
+    """
+    Procura a data mais recente em que as duas tabelas estejam publicadas.
+    Exige a mesma data para cadastro e posicoes, evitando JOIN entre snapshots
+    de dias diferentes.
+    """
+    for d in dias_uteis_recentes(7):
+        date_str = d.strftime("%Y-%m-%d")
+        print(f"  Tentando {date_str}...")
 
-    with open(filepath, encoding="latin-1") as f:
-        lines = f.readlines()
-
-    if lines:
-        p0 = lines[0].strip().split("|")
-        data_date = p0[1] if len(p0) > 1 else ""
-
-    for line in lines[1:]:
-        parts = line.strip().split("|")
-        if len(parts) < 19 or parts[0] != "02":
+        pos_token = get_download_token(POSITIONS_FILE, date_str)
+        if not pos_token:
+            print("    DerivativesOpenPosition indisponivel")
             continue
 
-        tipo_mercado = parts[3].strip()
-        ticker_opcao = parts[13].strip()
-        estilo       = parts[15].strip()
-        venc_raw     = parts[17].strip()
-
-        if not ticker_opcao or len(ticker_opcao) < 4:
+        inst_token = get_download_token(INSTRUMENTS_FILE, date_str)
+        if not inst_token:
+            print("    InstrumentsConsolidated indisponivel")
             continue
 
-        tipo = "C" if "COMPRA" in tipo_mercado else "P"
+        print("    Baixando DerivativesOpenPosition...")
+        pos_raw = download_csv_from_token(pos_token, POSITIONS_FILE)
+        print(f"      {len(pos_raw)/1024/1024:.1f} MB")
 
-        try:    strike = round(float(parts[16].strip()), 2)
-        except: strike = 0.0
+        print("    Baixando InstrumentsConsolidated...")
+        inst_raw = download_csv_from_token(inst_token, INSTRUMENTS_FILE)
+        print(f"      {len(inst_raw)/1024/1024:.1f} MB")
 
-        venc = (f"{venc_raw[:4]}-{venc_raw[4:6]}-{venc_raw[6:8]}"
-                if len(venc_raw) == 8 and venc_raw.isdigit() else venc_raw)
+        positions, pos_status = parse_b3_csv(pos_raw)
+        instruments, inst_status = parse_b3_csv(inst_raw)
 
-        try:    preco = round(float(parts[18].strip()), 6)
-        except: preco = 0.0
+        if inst_status and inst_status.lower() != "final":
+            print(f"    InstrumentsConsolidated status={inst_status}; ignorando snapshot parcial")
+            continue
+        if pos_status and pos_status.lower() != "final":
+            print(f"    DerivativesOpenPosition status={pos_status}; ignorando snapshot parcial")
+            continue
 
-        result[ticker_opcao] = {
-            "tipo":       tipo,
-            "estilo":     estilo,
-            "strike":     strike,
+        if not positions or not instruments:
+            print("    CSV vazio; tentando data anterior")
+            continue
+
+        print(
+            f"    OK: {len(instruments):,} instrumentos | "
+            f"{len(positions):,} posicoes"
+        )
+        return date_str, instruments, positions, inst_raw, pos_raw
+
+    raise RuntimeError(
+        "Nao foi encontrada uma data recente com InstrumentsConsolidated "
+        "e DerivativesOpenPosition publicados."
+    )
+
+
+# ── Conversores ───────────────────────────────────────────────────────────────
+def parse_int(value) -> int:
+    s = str(value or "").strip()
+    if not s or s in ("-", "N/A", "NA"):
+        return 0
+    s = s.replace(" ", "").replace(".", "").replace(",", "")
+    try:
+        return int(s)
+    except Exception:
+        try:
+            return int(float(s))
+        except Exception:
+            return 0
+
+
+def parse_float(value) -> float:
+    s = str(value or "").strip()
+    if not s or s in ("-", "N/A", "NA"):
+        return 0.0
+    if "," in s:
+        s = s.replace(".", "").replace(",", ".")
+    try:
+        return round(float(s), 6)
+    except Exception:
+        return 0.0
+
+
+def normalize_option_type(value: str, segment: str = "") -> str:
+    raw = (value or "").strip().lower()
+    seg = (segment or "").strip().lower()
+    if raw.startswith("c") or "call" in raw or "call" in seg:
+        return "C"
+    if raw.startswith("p") or "put" in raw or "put" in seg:
+        return "P"
+    return ""
+
+
+def normalize_style(value: str) -> str:
+    raw = (value or "").strip()
+    upper = raw.upper()
+    if upper.startswith("AMER"):
+        return "Americano"
+    if upper.startswith("EURO"):
+        return "Europeu"
+    return raw
+
+
+def normalize_date(value: str) -> str:
+    raw = (value or "").strip()
+    if len(raw) == 8 and raw.isdigit():
+        return f"{raw[:4]}-{raw[4:6]}-{raw[6:8]}"
+    return raw
+
+
+# ── Parsers das duas fontes ───────────────────────────────────────────────────
+def parse_instruments(rows: list[dict]) -> dict:
+    result = {}
+
+    for row in rows:
+        ticker = row.get("TckrSymb", "").strip().upper()
+        if not ticker or len(ticker) < 4:
+            continue
+
+        tipo = normalize_option_type(row.get("OptnTp", ""), row.get("SgmtNm", ""))
+        if not tipo:
+            continue
+
+        strike = parse_float(row.get("ExrcPric", ""))
+        venc = normalize_date(row.get("XprtnDt", ""))
+        if not venc:
+            continue
+
+        base_key = ticker[:4]
+        underlying = (
+            row.get("UndrlygTckrSymb1", "").strip().upper()
+            or ATIVO_OBJETO_MAP.get(base_key, base_key)
+        )
+
+        result[ticker] = {
+            "ativo_objeto": underlying,
+            "tipo": tipo,
+            "estilo": normalize_style(row.get("OptnStyle", "")),
+            "strike": strike,
             "vencimento": venc,
-            "premio":     preco,
+            "premio": 0.0,
         }
 
-    print(f"    Séries: {len(result):,} opções")
-    return data_date, result
+    print(f"    Instruments: {len(result):,} opcoes")
+    return result
 
 
-# ── Parser BDI PDF ────────────────────────────────────────────────────────────
-def parse_bdi(filepath) -> dict:
-    result     = {}
-    pages_read = 0
+def parse_positions(rows: list[dict]) -> dict:
+    result = {}
 
-    def parse_int(s):
-        try: return int(s.replace(".", "").replace(",", ""))
-        except: return 0
+    for row in rows:
+        ticker = row.get("TckrSymb", "").strip().upper()
+        if not ticker:
+            continue
 
-    with pdfplumber.open(filepath) as pdf:
-        for page in pdf.pages:
-            text = page.extract_text() or ""
-            if "tomador" not in text.lower() and "descobert" not in text.lower():
-                continue
-            pages_read += 1
-            for line in text.split("\n"):
-                parts = line.split()
-                if len(parts) < 14:
-                    continue
-                ticker = parts[0]
-                if not (len(ticker) >= 4 and ticker[:4].isalpha()):
-                    continue
-                if ticker.upper() in ("CÓDIGO", "INSTRUMENTO", "REFERENTE"):
-                    continue
-                try:
-                    result[ticker] = {
-                        # [9]  = quantidade coberta     (ignorada)
-                        # [10] = total posições bloqueadas (ignorada)
-                        "qtd_descoberta": parse_int(parts[11]) if len(parts) > 11 else 0,
-                        "open_interest":  parse_int(parts[12]) if len(parts) > 12 else 0,
-                        "qtd_tomadores":  parse_int(parts[13]) if len(parts) > 13 else 0,
-                        "qtd_doadores":   parse_int(parts[14]) if len(parts) > 14 else 0,
-                    }
-                except Exception:
-                    continue
+        segment = row.get("SgmtNm", "")
+        seg_upper = segment.upper()
+        if "CALL" not in seg_upper and "PUT" not in seg_upper:
+            continue
 
-    print(f"    BDI: {len(result):,} opções em {pages_read} páginas")
+        result[ticker] = {
+            "open_interest": parse_int(row.get("OpnIntrst", "")),
+            "variacao_open_interest": parse_int(row.get("VartnOpnIntrst", "")),
+            "qtd_coberta": parse_int(row.get("CvrdQty", "")),
+            "total_posicoes_bloqueadas": parse_int(row.get("TtlBlckdPos", "")),
+            "qtd_descoberta": parse_int(row.get("UcvrdQty", "")),
+            "total_posicoes": parse_int(row.get("TtlPos", "")),
+            "qtd_tomadores": parse_int(row.get("BrrwrQty", "")),
+            "qtd_doadores": parse_int(row.get("LndrQty", "")),
+        }
+
+    print(f"    Open Position: {len(result):,} opcoes")
     return result
 
 
 # ── JOIN ──────────────────────────────────────────────────────────────────────
-def build_options(series: dict, bdi: dict) -> dict:
+def build_options(instruments: dict, positions: dict) -> tuple[dict, int]:
     by_ticker = defaultdict(list)
-    matched   = 0
+    matched = 0
 
-    for ticker_opcao, s in series.items():
+    for ticker_opcao, inst in instruments.items():
         base_key = ticker_opcao[:4].upper()
-        oi_data  = bdi.get(ticker_opcao, {})
-        if oi_data:
+        pos = positions.get(ticker_opcao)
+        if pos is not None:
             matched += 1
+        else:
+            pos = {}
 
         by_ticker[base_key].append({
-            "ticker":         ticker_opcao,
-            "ativo_objeto":   ATIVO_OBJETO_MAP.get(base_key, base_key),
-            "tipo":           s["tipo"],
-            "estilo":         s["estilo"],
-            "strike":         s["strike"],
-            "vencimento":     s["vencimento"],
-            "premio":         s["premio"],
-            "qtd_descoberta": oi_data.get("qtd_descoberta", 0),
-            "open_interest":  oi_data.get("open_interest",  0),
-            "qtd_tomadores":  oi_data.get("qtd_tomadores",  0),
-            "qtd_doadores":   oi_data.get("qtd_doadores",   0),
-            "com_oi":         bool(oi_data),
+            "ticker": ticker_opcao,
+            "ativo_objeto": inst["ativo_objeto"],
+            "tipo": inst["tipo"],
+            "estilo": inst["estilo"],
+            "strike": inst["strike"],
+            "vencimento": inst["vencimento"],
+            "premio": inst["premio"],
+            "open_interest": pos.get("open_interest", 0),
+            "variacao_open_interest": pos.get("variacao_open_interest", 0),
+            "qtd_coberta": pos.get("qtd_coberta", 0),
+            "total_posicoes_bloqueadas": pos.get("total_posicoes_bloqueadas", 0),
+            "qtd_descoberta": pos.get("qtd_descoberta", 0),
+            "total_posicoes": pos.get("total_posicoes", 0),
+            "qtd_tomadores": pos.get("qtd_tomadores", 0),
+            "qtd_doadores": pos.get("qtd_doadores", 0),
+            "com_oi": ticker_opcao in positions,
         })
 
-    print(f"    JOIN: {matched:,} com OI  |  {len(series)-matched:,} sem OI")
-    return dict(by_ticker)
+    print(
+        f"    JOIN: {matched:,} com posicao | "
+        f"{len(instruments)-matched:,} sem posicao"
+    )
+    return dict(by_ticker), matched
+
+
+def validate_join(instruments_count: int, matched: int):
+    ratio = matched / instruments_count if instruments_count else 0.0
+    print(f"    Cobertura JOIN: {ratio:.1%}")
+
+    if matched < MIN_MATCHED or ratio < MIN_MATCH_RATIO:
+        raise RuntimeError(
+            "JOIN anormal entre InstrumentsConsolidated e "
+            f"DerivativesOpenPosition: {matched:,}/{instruments_count:,} "
+            f"({ratio:.1%}). JSONs NAO serao sobrescritos."
+        )
 
 
 # ── Salva JSONs ───────────────────────────────────────────────────────────────
 def save_jsons(data_date: str, by_ticker: dict) -> int:
     OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
     changed = 0
+
     for ticker, opcoes in sorted(by_ticker.items()):
-        opcoes_s = sorted(opcoes, key=lambda x: (x["vencimento"], x["tipo"], x["strike"]))
-        content  = json.dumps(
-            {"ticker": ticker, "data": data_date, "total": len(opcoes_s), "opcoes": opcoes_s},
-            ensure_ascii=False, separators=(",", ":")
+        opcoes_s = sorted(
+            opcoes,
+            key=lambda x: (x["vencimento"], x["tipo"], x["strike"])
+        )
+        content = json.dumps(
+            {
+                "ticker": ticker,
+                "data": data_date,
+                "total": len(opcoes_s),
+                "opcoes": opcoes_s,
+            },
+            ensure_ascii=False,
+            separators=(",", ":"),
         ).encode("utf-8")
-        out_dir  = OUTPUT_FOLDER / ticker
+
+        out_dir = OUTPUT_FOLDER / ticker
         out_dir.mkdir(parents=True, exist_ok=True)
         out_file = out_dir / "latest.json"
+
         if out_file.exists() and out_file.read_bytes() == content:
             continue
+
         out_file.write_bytes(content)
         changed += 1
+
     return changed
 
 
-def is_fresh(date_str: str) -> tuple[bool, object]:
-    try:
-        file_date = datetime.strptime(date_str, "%Y%m%d").date()
-        delta     = (datetime.now(BRT).date() - file_date).days
-        return delta <= 5, file_date
-    except Exception:
-        return False, None
-
-
-# ── Relatório ─────────────────────────────────────────────────────────────────
-def save_report(data_date, series_count, bdi_count, matched, tickers_count,
-                changed, series_path, bdi_path, bdi_date_used, errors=None):
-    import builtins
-    now      = datetime.now(BRT)
-    bdi_size = Path(bdi_path).stat().st_size    if Path(bdi_path).exists() else 0
-    ser_size = Path(series_path).stat().st_size if Path(series_path).exists() else 0
-    hdr      = parse_series_header(series_path) if Path(series_path).exists() else {}
-    dl_hdr   = getattr(builtins, "_last_dl_headers", {})
-
-    def fmt(d):
-        return f"{d[:4]}-{d[4:6]}-{d[6:8]}" if d and len(d)==8 and d.isdigit() else d
+# ── Relatorio ─────────────────────────────────────────────────────────────────
+def save_report(
+    data_date: str,
+    instruments_rows: int,
+    option_instruments: int,
+    positions_rows: int,
+    option_positions: int,
+    matched: int,
+    tickers_count: int,
+    changed: int,
+    instruments_raw: bytes,
+    positions_raw: bytes,
+):
+    now = datetime.now(BRT)
 
     report = {
-        "status":          "ok" if not errors else "error",
-        "executado_em":    now.strftime("%Y-%m-%d %H:%M:%S BRT"),
+        "status": "ok",
+        "executado_em": now.strftime("%Y-%m-%d %H:%M:%S BRT"),
         "executado_em_ts": int(now.timestamp()),
+        "data_referencia": data_date,
         "arquivos": {
-            "series_autorizadas": {
-                "nome":               "SI_D_SEDE.txt",
-                "tamanho_mb":         round(ser_size/1024/1024, 2),
-                "data_pregao":        fmt(hdr.get("data_pregao","")),
-                "data_geracao":       fmt(hdr.get("data_geracao","")),
-                "hora_geracao":       hdr.get("hora_geracao",""),
-                "last_modified_http": dl_hdr.get("last_modified",""),
-                "opcoes_total":       series_count,
+            "instruments_consolidated": {
+                "nome": INSTRUMENTS_FILE,
+                "tamanho_mb": round(len(instruments_raw) / 1024 / 1024, 2),
+                "linhas_total": instruments_rows,
+                "opcoes_total": option_instruments,
             },
-            "bdi": {
-                "nome":             f"BDI_03-4_{bdi_date_used}.pdf",
-                "tamanho_mb":       round(bdi_size/1024/1024, 2),
-                "data_referencia":  fmt(bdi_date_used),  # ← data real do BDI baixado
-                "opcoes_com_oi":    bdi_count,
+            "derivatives_open_position": {
+                "nome": POSITIONS_FILE,
+                "tamanho_mb": round(len(positions_raw) / 1024 / 1024, 2),
+                "linhas_total": positions_rows,
+                "opcoes_com_posicao": option_positions,
             },
         },
         "processamento": {
-            "opcoes_com_join":    matched,
-            "opcoes_sem_oi":      series_count - matched,
-            "tickers_gerados":    tickers_count,
+            "opcoes_com_join": matched,
+            "opcoes_sem_posicao": option_instruments - matched,
+            "cobertura_join_pct": round(
+                (matched / option_instruments * 100) if option_instruments else 0,
+                2,
+            ),
+            "tickers_gerados": tickers_count,
             "arquivos_alterados": changed,
         },
-        "erros": errors or [],
+        "erros": [],
     }
 
     logs_dir = Path("logs")
     logs_dir.mkdir(exist_ok=True)
+
     (logs_dir / "last_run.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(report, ensure_ascii=False, indent=2),
+        encoding="utf-8",
     )
 
     hist = logs_dir / "history.jsonl"
-    lines = hist.read_text(encoding="utf-8").strip().split("\n") if hist.exists() else []
-    lines = [l for l in lines if l.strip()]
+    lines = (
+        hist.read_text(encoding="utf-8").strip().split("\n")
+        if hist.exists()
+        else []
+    )
+    lines = [line for line in lines if line.strip()]
     lines.append(json.dumps({
-        "ts": report["executado_em"], "data_series": data_date,
-        "data_bdi": bdi_date_used, "status": report["status"],
-        "tickers": tickers_count, "changed": changed, "matched": matched,
+        "ts": report["executado_em"],
+        "data": data_date,
+        "status": report["status"],
+        "tickers": tickers_count,
+        "changed": changed,
+        "matched": matched,
+        "fonte": "DerivativesOpenPosition+InstrumentsConsolidated",
     }, ensure_ascii=False))
+
     hist.write_text("\n".join(lines[-30:]) + "\n", encoding="utf-8")
 
-    print(f"\n  Relatório: logs/last_run.json")
-    print(f"  Séries:  {series_count:,} ({ser_size/1024:.0f} KB)")
-    print(f"  BDI:     {bdi_count:,} com OI — data {fmt(bdi_date_used)} ({bdi_size/1024/1024:.1f} MB)")
-    print(f"  Join:    {matched:,} cruzados | {series_count-matched:,} sem OI")
+    print("\n  Relatorio: logs/last_run.json")
+    print(
+        f"  Instruments: {instruments_rows:,} linhas | "
+        f"{option_instruments:,} opcoes"
+    )
+    print(
+        f"  Open Position: {positions_rows:,} linhas | "
+        f"{option_positions:,} opcoes"
+    )
+    print(
+        f"  Join: {matched:,} cruzados | "
+        f"{option_instruments-matched:,} sem posicao"
+    )
     print(f"  Changed: {changed} arquivos")
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     now = datetime.now(BRT)
-    print("=" * 60)
-    print("  Opções B3 — Atualização Automática (Séries + BDI)")
+    print("=" * 68)
+    print("  Opcoes B3 — InstrumentsConsolidated + DerivativesOpenPosition")
     print(f"  {now.strftime('%Y-%m-%d %H:%M:%S')} BRT")
-    print("=" * 60)
-    print()
+    print("=" * 68)
 
-    series_path = TEMP_DIR / "SI_D_SEDE.txt"
-    bdi_path    = TEMP_DIR / "bdi.pdf"
+    print("\n[1/5] Localizando snapshot mais recente nas duas fontes...")
+    date_str, inst_rows, pos_rows, inst_raw, pos_raw = download_latest_pair()
+    data_date = date_str.replace("-", "")
+    print(f"  Data escolhida: {date_str}")
 
-    # ── 1. Download SI_D_SEDE ─────────────────────────────────────────────────
-    print("[1/5] Download SI_D_SEDE...")
-    import requests as req
+    (TEMP_DIR / "InstrumentsConsolidated.csv").write_bytes(inst_raw)
+    (TEMP_DIR / "DerivativesOpenPosition.csv").write_bytes(pos_raw)
 
-    # Tenta primeiro um download direto do link do arquivo (sem navegador).
-    # Sites com proteção anti-bot (WAF/captcha) costumam travar o carregamento
-    # da PÁGINA HTML para navegadores headless rodando de IPs de datacenter
-    # (como os runners do GitHub Actions), mas o endpoint de download direto
-    # do arquivo às vezes não tem essa mesma proteção. Só cai pro Playwright
-    # se isso falhar — mantém o comportamento anterior como rede de segurança.
-    series_ok = False
-    try:
-        print(f"  Tentando download direto: {B3_SERIES_FB}")
-        r = req.get(
-            B3_SERIES_FB, timeout=60, stream=True,
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
-        )
-        if r.status_code == 200:
-            raw = b"".join(r.iter_content(65536))
-            if raw[:2] == b"PK":
-                with zipfile.ZipFile(io.BytesIO(raw)) as zf:
-                    fname = next((n for n in zf.namelist() if n.upper().endswith(".TXT")), None)
-                    if fname:
-                        raw = zf.read(fname)
-            # Uma resposta HTML/JSON (página de erro, captcha, etc.) não é o
-            # arquivo pipe-delimited esperado.
-            if raw[:1] not in (b"<", b"{") and len(raw) > 1000:
-                series_path.write_bytes(raw)
-                series_ok = True
-                print(f"  OK direto ({len(raw)/1024:.0f} KB)")
-            else:
-                print("  Resposta não parece ser o arquivo esperado (HTML/erro) — usando Playwright")
-        else:
-            print(f"  HTTP {r.status_code} — usando Playwright")
-    except Exception as e:
-        print(f"  Download direto falhou ({e}) — usando Playwright")
+    print("\n[2/5] Processando InstrumentsConsolidated...")
+    instruments = parse_instruments(inst_rows)
 
-    if not series_ok:
-        playwright_download(
-            page_url=B3_SERIES_URL, link_text=B3_SERIES_TEXT,
-            fallback_url=B3_SERIES_FB, out_path=series_path,
-            accept="application/zip,text/plain,*/*",
-        )
-    with open(series_path, encoding="latin-1") as f:
-        first = f.readline()
-    data_date = first.strip().split("|")[1] if "|" in first else ""
-    print(f"  Data séries (SI_D_SEDE): {data_date}")
+    print("\n[3/5] Processando DerivativesOpenPosition...")
+    positions = parse_positions(pos_rows)
 
-    valid, _ = is_fresh(data_date)
-    if not valid:
-        print("  AVISO: data muito antiga (>5 dias)")
-        github_output("updated", "stale")
-        github_output("data_date", data_date)
-        return
+    print("\n[4/5] Cruzando dados...")
+    by_ticker, matched = build_options(instruments, positions)
+    validate_join(len(instruments), matched)
 
-    # ── 2. Download BDI direto por data ──────────────────────────────────────
-    print("\n[2/5] Download BDI...")
-    bdi_url       = None
-    bdi_date_used = None
-    import requests as req
-
-    dias = dias_uteis_recentes(n=7)
-    print(f"  Buscando BDI (últimos {len(dias)} dias úteis)...")
-
-    for d in dias:
-        url = get_bdi_url(datetime.combine(d, datetime.min.time()))
-        fname = url.split("/")[-1]
-        print(f"  {fname} ... ", end="", flush=True)
-        try:
-            r = req.get(url, timeout=60, stream=True,
-                        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
-            if r.status_code != 200:
-                print(f"HTTP {r.status_code}")
-                continue
-            raw = b"".join(r.iter_content(65536))
-            # Valida que é PDF real
-            if not raw[:4] == b"%PDF":
-                print(f"não é PDF ({raw[:8]})")
-                continue
-            bdi_path.write_bytes(raw)
-            bdi_url       = url
-            bdi_date_used = d.strftime("%Y%m%d")
-            print(f"OK ({len(raw)/1024/1024:.1f} MB)")
-            break
-        except Exception as e:
-            print(f"erro ({e})")
-
-    if not bdi_url:
-        print("  Download direto falhou em todas as datas — tentando Playwright...")
-        dias_fb = dias_uteis_recentes(n=3)
-        for d_fb in dias_fb:
-            bdi_fb = get_bdi_url(datetime.combine(d_fb, datetime.min.time()))
-            try:
-                playwright_download(
-                    page_url=B3_BDI_PAGE, link_text=B3_BDI_TEXT,
-                    fallback_url=bdi_fb, out_path=bdi_path, accept="application/pdf,*/*",
-                )
-                raw_check = bdi_path.read_bytes()[:4]
-                if raw_check == b"%PDF":
-                    bdi_date_used = d_fb.strftime("%Y%m%d")
-                    print(f"  Playwright OK: {bdi_date_used}")
-                    break
-            except Exception as e:
-                print(f"  Playwright falhou: {e}")
-        if not bdi_date_used:
-            bdi_date_used = dias_uteis_recentes(1)[0].strftime("%Y%m%d")
-
-    # ── 3. Parse séries ───────────────────────────────────────────────────────
-    print("\n[3/5] Processando séries...")
-    data_date, series = parse_series(series_path)
-
-    # ── 4. Parse BDI ─────────────────────────────────────────────────────────
-    print("\n[4/5] Processando BDI...")
-    bdi_data = parse_bdi(bdi_path)
-
-    # ── 5. JOIN + salvar ──────────────────────────────────────────────────────
     print("\n[5/5] Gerando JSONs...")
-    by_ticker = build_options(series, bdi_data)
-    changed   = save_jsons(data_date, by_ticker)
+    changed = save_jsons(data_date, by_ticker)
 
     print(f"\n  Tickers: {len(by_ticker)} | Alterados: {changed}")
 
     save_report(
-        data_date     = data_date,
-        series_count  = len(series),
-        bdi_count     = len(bdi_data),
-        matched       = sum(1 for opts in by_ticker.values() for o in opts if o.get("com_oi")),
-        tickers_count = len(by_ticker),
-        changed       = changed,
-        series_path   = series_path,
-        bdi_path      = bdi_path,
-        bdi_date_used = bdi_date_used,
+        data_date=date_str,
+        instruments_rows=len(inst_rows),
+        option_instruments=len(instruments),
+        positions_rows=len(pos_rows),
+        option_positions=len(positions),
+        matched=matched,
+        tickers_count=len(by_ticker),
+        changed=changed,
+        instruments_raw=inst_raw,
+        positions_raw=pos_raw,
     )
 
-    github_output("updated",   "true" if changed > 0 else "false")
+    github_output("updated", "true" if changed > 0 else "false")
     github_output("data_date", data_date)
-    print("\nConcluído.")
+    print("\nConcluido.")
 
 
 if __name__ == "__main__":
