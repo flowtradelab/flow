@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "executado_em": "2026-09-18 23:53:31 BRT",
-  "executado_em_ts": 1789786411,
+  "executado_em": "2026-09-19 01:15:17 BRT",
+  "executado_em_ts": 1789791317,
   "data_referencia": "2026-09-17",
   "arquivos": {
     "instruments_consolidated": {
@@ -10,17 +10,20 @@
       "linhas_total": 105071,
       "opcoes_total": 94995
     },
-    "derivatives_open_position": {
-      "nome": "DerivativesOpenPosition",
-      "tamanho_mb": 0.12,
-      "linhas_total": 1743,
-      "opcoes_com_posicao": 1447
+    "options_open_positions_json": {
+      "nome": "SI_C_OPCPOSABEMP.json",
+      "url": "https://www.b3.com.br/json/20260917/Posicoes/Empresa/SI_C_OPCPOSABEMP.json",
+      "tamanho_mb": 10.53,
+      "linhas_total": 51387,
+      "opcoes_com_posicao": 51387
     }
   },
   "processamento": {
-    "opcoes_com_join": 1447,
-    "opcoes_sem_posicao": 93548,
-    "cobertura_join_pct": 1.52,
+    "opcoes_com_join": 51387,
+    "opcoes_sem_posicao": 43608,
+    "cobertura_join_pct": 100.0,
+    "sanidade_posicoes_pct": 100.0,
+    "divergencias_metadados": 17,
     "tickers_gerados": 316,
     "arquivos_alterados": 316
   },
