@@ -1,6 +1,9 @@
 name: Atualizar historico OI e naked short
 
 on:
+  schedule:
+    # 06:17 BRT (09:17 UTC), daily: processes completed prior sessions.
+    - cron: '17 9 * * *'
   pull_request:
     paths:
       - '.github/workflows/test-oi-hist-30.yml'
@@ -9,10 +12,14 @@ on:
   workflow_dispatch:
     inputs:
       base:
-        description: 'Base de quatro caracteres (BOVA para BOVA11)'
+        description: 'ALL para todas as bases, ou BOVA/PETR/VALE etc.'
         required: true
-        default: BOVA
+        default: ALL
         type: string
+      refresh:
+        description: 'Reprocessar os 30 pregoes (revisoes da B3)'
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -24,9 +31,10 @@ concurrency:
 jobs:
   gerar-historico:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     env:
-      BASE: ${{ inputs.base || 'BOVA' }}
+      BASE: ${{ github.event_name == 'pull_request' && 'BOVA' || inputs.base || 'ALL' }}
+      REFRESH: ${{ inputs.refresh || false }}
       PYTHONUNBUFFERED: '1'
     steps:
       - uses: actions/checkout@v4
@@ -42,43 +50,46 @@ jobs:
       - name: Gerar historico real da B3 e Yahoo
         shell: bash
         run: |
-          set -o pipefail
-          python scripts/update_open_interest_hist_30.py --base "$BASE" 2>&1 | tee oi-hist-30.log
+          set -euo pipefail
+          BASE="${BASE^^}"
+          args=()
+          if [[ "$BASE" != "ALL" ]]; then
+            [[ "$BASE" =~ ^[A-Z0-9]{4}$ ]] || { echo "Base invalida"; exit 1; }
+            args+=(--base "$BASE")
+          fi
+          if [[ "$REFRESH" == "true" ]]; then args+=(--refresh); fi
+          python scripts/update_open_interest_hist_30.py "${args[@]}" 2>&1 | tee oi-hist-30.log
       - name: Conferir resultado e mostrar resumo
         run: |
           python - <<'PY'
           import json, os, re
           from pathlib import Path
           base = os.environ["BASE"].upper()
-          if not re.fullmatch(r"[A-Z0-9]{4}", base):
+          if base != "ALL" and not re.fullmatch(r"[A-Z0-9]{4}", base):
               raise ValueError("Base invalida")
-          path = Path("grid-options") / base / "oi-hist-30.json"
-          data = json.loads(path.read_text())
-          rows = data["historico"]
-          assert 0 < len(rows) <= 30
-          assert data["total_pregoes"] == len(rows)
-          dates = [row["data"] for row in rows]
-          assert dates == sorted(set(dates))
-          quotes = sum(value is not None for row in rows for value in row["spot_fechamento"].values())
-          missing = sum(value is None for row in rows for value in row["spot_fechamento"].values())
-          naked_values = [item["qtd_descoberta"] for row in rows for item in row["strikes"]]
-          assert all(v is None or (isinstance(v, (int, float)) and v >= 0) for v in naked_values)
-          naked_missing = sum(v is None for v in naked_values)
-          assert any(v is not None for v in naked_values), "Nenhuma quantidade descoberta recebida"
-          summary = (
-              f"## Historico de {base}\n\n"
-              f"- Pregoes: {len(rows)}/30\n"
-              f"- Periodo: {dates[0]} a {dates[-1]}\n"
-              f"- Fechamentos disponiveis: {quotes}; ausentes: {missing}\n"
-              f"- Naked short (qtd_descoberta): {len(naked_values) - naked_missing} registros; ausentes: {naked_missing}\n"
-              f"- JSON: `{path}`\n\n"
-              "Baixe o JSON na secao **Artifacts** desta execucao.\n"
-          )
+          paths = sorted(Path("grid-options").glob("*/oi-hist-30.json")) if base == "ALL" else [
+              Path("grid-options") / base / "oi-hist-30.json"]
+          assert paths, "Nenhum historico gerado"
+          summary = ["## Historico OI e naked short", "",
+                     "| Base | Pregoes | Ultima data | Spots ausentes | Naked ausentes |",
+                     "|---|---:|---|---:|---:|"]
+          for path in paths:
+              data = json.loads(path.read_text())
+              rows = data["historico"]
+              assert 0 < len(rows) <= 30
+              assert data["total_pregoes"] == len(rows)
+              dates = [row["data"] for row in rows]
+              assert dates == sorted(set(dates))
+              missing = sum(v is None for row in rows for v in row["spot_fechamento"].values())
+              naked = [item["qtd_descoberta"] for row in rows for item in row["strikes"]]
+              assert all(v is None or (isinstance(v, (int, float)) and v >= 0) for v in naked)
+              naked_missing = sum(v is None for v in naked)
+              summary.append(f"| {path.parent.name} | {len(rows)} | {dates[-1]} | {missing} | {naked_missing} |")
+              if len(rows) < 30 or missing or naked_missing:
+                  print(f"::warning::{path.parent.name}: dados parciais; consulte o resumo")
+          # Missing Yahoo quotes must not block valid B3 OI for all other bases.
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
-              out.write(summary)
-          if len(rows) < 30 or missing or naked_missing:
-              print("::warning::Historico parcial ou fechamento ausente; confira o resumo e os logs")
-          assert quotes > 0, "Nenhum fechamento obtido do Yahoo"
+              out.write("\n".join(summary) + "\n")
           PY
       - name: Verificar latest.json intacto
         if: always()
@@ -90,53 +101,68 @@ jobs:
           name: oi-hist-30-${{ github.run_id }}
           path: |
             grid-options/*/oi-hist-30.json
+            grid-options/oi-hist-30-state.json
             oi-hist-30.log
           retention-days: 14
           if-no-files-found: error
 
   salvar-no-repositorio:
-    # PRs only validate; an explicit manual run publishes to its selected branch.
-    if: github.event_name == 'workflow_dispatch' && github.ref_type == 'branch'
+    # PRs only validate. Scheduled and manual runs publish to their branch.
+    if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref_type == 'branch'
     needs: gerar-historico
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: write
     env:
-      BASE: ${{ inputs.base }}
+      BASE: ${{ inputs.base || 'ALL' }}
       TARGET_BRANCH: ${{ github.ref_name }}
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.sha }}
           fetch-depth: 0
       - uses: actions/download-artifact@v4
         with:
           name: oi-hist-30-${{ github.run_id }}
           path: generated-history
-      - name: Salvar somente o historico do ticker
+      - name: Salvar historicos nas pastas dos tickers
         shell: bash
         run: |
           set -euo pipefail
           BASE="${BASE^^}"
-          [[ "$BASE" =~ ^[A-Z0-9]{4}$ ]] || { echo "Base invalida"; exit 1; }
-          FILE="grid-options/$BASE/oi-hist-30.json"
-          test -s "generated-history/$FILE"
-          mkdir -p "grid-options/$BASE"
-          cp "generated-history/$FILE" "$FILE"
-          git add -- "$FILE"
+          [[ "$BASE" == "ALL" || "$BASE" =~ ^[A-Z0-9]{4}$ ]] || { echo "Base invalida"; exit 1; }
+          git checkout -B "$TARGET_BRANCH"
+          shopt -s nullglob
+          sources=(generated-history/grid-options/*/oi-hist-30.json)
+          if [[ "$BASE" != "ALL" ]]; then
+            sources=("generated-history/grid-options/$BASE/oi-hist-30.json")
+          fi
+          (( ${#sources[@]} > 0 )) || { echo "Nenhum historico encontrado"; exit 1; }
+          for source in "${sources[@]}"; do
+            ticker="$(basename "$(dirname "$source")")"
+            [[ "$ticker" =~ ^[A-Z0-9]{4}$ ]] || exit 1
+            file="grid-options/$ticker/oi-hist-30.json"
+            test -s "$source"
+            mkdir -p "grid-options/$ticker"
+            cp "$source" "$file"
+            git add -- "$file"
+          done
+          state="grid-options/oi-hist-30-state.json"
+          test -s "generated-history/$state"
+          cp "generated-history/$state" "$state"
+          git add -- "$state"
           if git diff --cached --quiet; then
-            echo "Historico de $BASE ja esta atualizado." >> "$GITHUB_STEP_SUMMARY"
+            echo "Historicos ja atualizados." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
-          # The generated artifact can contain logs; only this exact JSON is staged.
-          test "$(git diff --cached --name-only)" = "$FILE"
+          while IFS= read -r file; do
+            [[ "$file" == "$state" || "$file" =~ ^grid-options/[A-Z0-9]{4}/oi-hist-30\.json$ ]] || exit 1
+          done < <(git diff --cached --name-only)
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "data: atualiza OI e naked short de $BASE (30 pregoes)"
-          # Other data workflows may have advanced the branch while B3 was queried.
-          # A conflict stops publication; never force-push or overwrite a newer history.
+          git commit -m "data: atualiza historicos OI e naked short ($BASE)"
           git fetch origin "$TARGET_BRANCH"
           git rebase "origin/$TARGET_BRANCH"
           git push origin "HEAD:refs/heads/$TARGET_BRANCH"
-          echo "Historico salvo em $FILE na branch $TARGET_BRANCH." >> "$GITHUB_STEP_SUMMARY"
+          echo "Historicos salvos em grid-options/<BASE>/oi-hist-30.json na branch $TARGET_BRANCH." >> "$GITHUB_STEP_SUMMARY"

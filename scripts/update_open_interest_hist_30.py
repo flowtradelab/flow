@@ -8,12 +8,13 @@ Backfills dated B3 sources, never repeats today's OI into earlier sessions.
 Only completed days (before today in BRT) are eligible. Missing/unpublished
 sources are reported; fewer than 30 available sessions produces a partial
 history with an explicit session count. Existing dates survive unavailable
-sources. Each daily row groups by underlying, expiry, type and strike;
+sources. Cached sessions are reused; --refresh explicitly re-downloads them. Each daily row groups by underlying, expiry, type and strike;
 qtd_descoberta is the B3 posDe (uncovered short positions), summed per group.
 Legacy snapshots without this field retain null until successfully refreshed.
 spot_fechamento maps each underlying to its same-date unadjusted Yahoo Close.
 Missing quotes are null, never forward-filled. Re-running retries quotes.
-Writes only grid-options/<BASE>/oi-hist-30.json (atomic per file).
+Writes grid-options/<BASE>/oi-hist-30.json and oi-hist-30-state.json
+(session cache metadata), atomically per file. Never writes latest.json.
 """
 import argparse
 import json
@@ -28,6 +29,7 @@ from pathlib import Path
 import update_options as b3
 
 WINDOW = 30
+STATE_FILE = "oi-hist-30-state.json"
 OUTPUT = Path(__file__).resolve().parents[1] / "grid-options"
 
 
@@ -124,7 +126,9 @@ def enrich(histories):
     for days in histories.values():
         for day, row in days.items():
             for item in row["strikes"]:
-                dates_by_underlying[item["ativo_objeto"]].add(day)
+                underlying = item["ativo_objeto"]
+                if row.get("spot_fechamento", {}).get(underlying) is None:
+                    dates_by_underlying[underlying].add(day)
     closes = {}
     for underlying, dates in sorted(dates_by_underlying.items()):
         try:
@@ -136,7 +140,8 @@ def enrich(histories):
         for day, row in days.items():
             previous = row.get("spot_fechamento", {})
             row["spot_fechamento"] = {
-                underlying: closes[underlying].get(day, previous.get(underlying))
+                underlying: previous.get(underlying) if previous.get(underlying) is not None
+                else closes.get(underlying, {}).get(day)
                 for underlying in sorted({x["ativo_objeto"] for x in row["strikes"]})
             }
 
@@ -164,37 +169,78 @@ def save_history(path, base, days):
     return True
 
 
-def update(root, end, lookback_days=90, base=None):
+def save_state(root, sessions):
+    """Publish cache metadata only after all histories have been written."""
+    path = root / STATE_FILE
+    content = json.dumps({"schema_version": 1, "sessions": sessions},
+                         sort_keys=True, separators=(",", ":")) + "\n"
+    if path.exists() and path.read_text(encoding="utf-8") == content:
+        return
+    root.mkdir(parents=True, exist_ok=True)
+    temp = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=root, mode="w", encoding="utf-8",
+                                         delete=False) as stream:
+            temp = Path(stream.name)
+            stream.write(content)
+        os.replace(temp, path)
+    finally:
+        if temp is not None and temp.exists():
+            temp.unlink()
+
+
+def update(root, end, lookback_days=90, base=None, refresh=False):
     histories = read_histories(root, base)
+    state_path = root / STATE_FILE
+    state = {}
+    if state_path.exists():
+        payload = json.loads(state_path.read_text(encoding="utf-8"))
+        if payload.get("schema_version") != 1:
+            raise ValueError("Unexpected session cache schema")
+        state = payload["sessions"]
     sessions = set()
-    # Always re-fetch available B3 sources, including revisions. Existing
-    # snapshots are fallback only, not evidence that another base has no data.
     for offset in range(lookback_days):
         day = end - timedelta(days=offset)
         if day.weekday() >= 5:
             continue
         key = day.isoformat()
-        data = fetch_day(day)
-        if data is None:
-            print(f"{key}: sources unavailable; preserving any stored snapshot")
-            if any(key in days for days in histories.values()):
-                sessions.add(key)
+        cached = state.get(key, {})
+        # Cache records bases actually saved from each complete B3 snapshot.
+        # Missing history files force recovery; absence in a snapshot is valid.
+        expected = cached.get("bases", [])
+        if base:
+            cached_ok = key in histories.get(base, {})
+            if cached.get("all") and base not in expected:
+                cached_ok = True
         else:
+            cached_ok = bool(cached.get("all")) and all(
+                key in histories.get(ticker, {}) for ticker in expected)
+        if cached_ok and not refresh:
             sessions.add(key)
-            for ticker, strikes in data.items():
-                if base and ticker != base:
-                    continue
-                days = histories.setdefault(ticker, {})
-                previous = days.get(key, {})
-                days[key] = dict(data=key, strikes=strikes,
-                                 spot_fechamento=previous.get("spot_fechamento", {}))
+        else:
+            data = fetch_day(day)
+            if data is None:
+                print(f"{key}: sources unavailable; preserving stored snapshots")
+                if any(key in days for days in histories.values()):
+                    sessions.add(key)
+            else:
+                sessions.add(key)
+                saved = []
+                for ticker, strikes in data.items():
+                    if base and ticker != base:
+                        continue
+                    days = histories.setdefault(ticker, {})
+                    previous = days.get(key, {})
+                    days[key] = dict(data=key, strikes=strikes,
+                                     spot_fechamento=previous.get("spot_fechamento", {}))
+                    saved.append(ticker)
+                if not base or not cached.get("all"):
+                    state[key] = {"all": base is None, "bases": sorted(saved)}
         if len(sessions) == WINDOW:
             break
     if not sessions:
         raise RuntimeError("No published sessions found; history left untouched")
     cutoff = min(sessions)
-    # Keep only sessions in the requested rolling window. Preserve future
-    # entries on historical reruns, so a backfill cannot rewind stored history.
     for ticker, days in histories.items():
         retained = {k: v for k, v in days.items() if k >= cutoff}
         histories[ticker] = {k: retained[k] for k in sorted(retained)[-WINDOW:]}
@@ -205,6 +251,8 @@ def update(root, end, lookback_days=90, base=None):
             continue
         changed += save_history(root / ticker / "oi-hist-30.json", ticker, days)
         print(f"{ticker}: {len(days)}/{WINDOW} sessions")
+    state = {k: state[k] for k in sorted(state)[-WINDOW:]}
+    save_state(root, state)
     print(f"Updated {changed} history files")
     return changed
 
@@ -212,6 +260,8 @@ def update(root, end, lookback_days=90, base=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base", type=str.upper)
+    parser.add_argument("--refresh", action="store_true",
+                        help="Re-download the full window to incorporate B3 revisions")
     parser.add_argument("--end-date", type=date.fromisoformat,
                         default=datetime.now(b3.BRT).date() - timedelta(days=1))
     parser.add_argument("--lookback-days", type=int, default=90)
@@ -222,7 +272,7 @@ def main():
         parser.error("--lookback-days must be at least 30")
     if args.end_date >= datetime.now(b3.BRT).date():
         parser.error("--end-date must precede today in BRT (completed sessions only)")
-    update(OUTPUT, args.end_date, args.lookback_days, args.base)
+    update(OUTPUT, args.end_date, args.lookback_days, args.base, args.refresh)
 
 
 if __name__ == "__main__":
