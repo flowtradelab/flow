@@ -1,0 +1,86 @@
+name: Testar historico OI 30 pregoes
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/test-oi-hist-30.yml'
+      - 'scripts/update_open_interest_hist_30.py'
+      - 'tests/test_update_open_interest_hist_30.py'
+  workflow_dispatch:
+    inputs:
+      base:
+        description: 'Base de quatro caracteres (BOVA para BOVA11)'
+        required: true
+        default: BOVA
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  gerar-historico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      BASE: ${{ inputs.base || 'BOVA' }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: python -m pip install requests yfinance
+      - name: Testes unitarios
+        run: python -m unittest discover -s tests -p test_update_open_interest_hist_30.py
+      - name: Gerar historico real da B3 e Yahoo
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/update_open_interest_hist_30.py --base "$BASE" 2>&1 | tee oi-hist-30.log
+      - name: Conferir resultado e mostrar resumo
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          base = os.environ["BASE"].upper()
+          if not re.fullmatch(r"[A-Z0-9]{4}", base):
+              raise ValueError("Base invalida")
+          path = Path("grid-options") / base / "oi-hist-30.json"
+          data = json.loads(path.read_text())
+          rows = data["historico"]
+          assert 0 < len(rows) <= 30
+          assert data["total_pregoes"] == len(rows)
+          dates = [row["data"] for row in rows]
+          assert dates == sorted(set(dates))
+          quotes = sum(value is not None for row in rows for value in row["spot_fechamento"].values())
+          missing = sum(value is None for row in rows for value in row["spot_fechamento"].values())
+          summary = (
+              f"## Historico de {base}\n\n"
+              f"- Pregoes: {len(rows)}/30\n"
+              f"- Periodo: {dates[0]} a {dates[-1]}\n"
+              f"- Fechamentos disponiveis: {quotes}; ausentes: {missing}\n"
+              f"- JSON: `{path}`\n\n"
+              "Baixe o JSON na secao **Artifacts** desta execucao.\n"
+          )
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
+              out.write(summary)
+          if len(rows) < 30 or missing:
+              print("::warning::Historico parcial ou fechamento ausente; confira o resumo e os logs")
+          assert quotes > 0, "Nenhum fechamento obtido do Yahoo"
+          PY
+      - name: Verificar latest.json intacto
+        if: always()
+        run: git diff --exit-code -- 'grid-options/**/latest.json'
+      - name: Disponibilizar JSON e log para download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oi-hist-30-${{ github.run_id }}
+          path: |
+            grid-options/*/oi-hist-30.json
+            oi-hist-30.log
+          retention-days: 14
+          if-no-files-found: error
