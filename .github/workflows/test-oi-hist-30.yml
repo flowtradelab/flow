@@ -1,4 +1,4 @@
-name: Atualizar historico OI e naked short
+name: Atualizar historico mensal de OI e naked short
 
 on:
   schedule:
@@ -70,7 +70,7 @@ jobs:
           paths = sorted(Path("grid-options").glob("*/oi-hist-30.json")) if base == "ALL" else [
               Path("grid-options") / base / "oi-hist-30.json"]
           assert paths, "Nenhum historico gerado"
-          summary = ["## Historico OI e naked short", "",
+          summary = ["## Historico mensal de OI e naked short", "",
                      "| Base | Pregoes | Ultima data | Spots ausentes | Naked ausentes |",
                      "|---|---:|---|---:|---:|"]
           for path in paths:
@@ -78,6 +78,7 @@ jobs:
               rows = data["historico"]
               assert 0 < len(rows) <= 30
               assert data["total_pregoes"] == len(rows)
+              assert data["filtro_series"] == "vencimentos_mensais"
               dates = [row["data"] for row in rows]
               assert dates == sorted(set(dates))
               missing = sum(v is None for row in rows for v in row["spot_fechamento"].values())
@@ -166,3 +167,4 @@ jobs:
           git rebase "origin/$TARGET_BRANCH"
           git push origin "HEAD:refs/heads/$TARGET_BRANCH"
           echo "Historicos salvos em grid-options/<BASE>/oi-hist-30.json na branch $TARGET_BRANCH." >> "$GITHUB_STEP_SUMMARY"
+

@@ -8,7 +8,10 @@ Backfills dated B3 sources, never repeats today's OI into earlier sessions.
 Only completed days (before today in BRT) are eligible. Missing/unpublished
 sources are reported; fewer than 30 available sessions produces a partial
 history with an explicit session count. Existing dates survive unavailable
-sources. Cached sessions are reused; --refresh explicitly re-downloads them. Each daily row groups by underlying, expiry, type and strike;
+sources. Cached sessions are reused; --refresh explicitly re-downloads them.
+Only regular monthly expiries are retained. If the third Friday is absent,
+the closest preceding expiry in the same month is treated as its holiday
+adjustment. Each daily row groups by underlying, expiry, type and strike;
 qtd_descoberta is the B3 posDe (uncovered short positions), summed per group.
 Legacy snapshots without this field retain null until successfully refreshed.
 spot_fechamento maps each underlying to its same-date unadjusted Yahoo Close.
@@ -56,6 +59,38 @@ def aggregate(options):
     ]
 
 
+def monthly_expiries(options):
+    """Return regular monthly expiries represented in an option snapshot."""
+    by_month = defaultdict(set)
+    for option in options:
+        expiry = date.fromisoformat(option["vencimento"])
+        by_month[(expiry.year, expiry.month)].add(expiry)
+
+    selected = set()
+    for (year, month), expiries in by_month.items():
+        third_friday = date(year, month, 15)
+        third_friday += timedelta(days=(4 - third_friday.weekday()) % 7)
+        if third_friday in expiries:
+            selected.add(third_friday.isoformat())
+            continue
+
+        # The regular expiry is brought forward when its Friday is not a
+        # trading day. Weekly expiries later in the month are not selected.
+        preceding = [
+            expiry for expiry in expiries
+            if expiry < third_friday
+            and (third_friday - expiry).days <= 7
+        ]
+        if preceding:
+            selected.add(max(preceding).isoformat())
+    return selected
+
+
+def keep_monthly(options):
+    selected = monthly_expiries(options)
+    return [option for option in options if option["vencimento"] in selected]
+
+
 def fetch_day(day):
     """Use metadata and positions from exactly the requested date."""
     result = b3.download_positions_json(day.strftime("%Y%m%d"))
@@ -75,7 +110,11 @@ def fetch_day(day):
                         stats["sanity_ratio"])
     if stats["duplicates"] or stats["invalid_type"]:
         raise ValueError("Duplicate series or unknown option types in B3 data")
-    return {base: aggregate(items) for base, items in options.items()}
+    return {
+        base: aggregate(monthly)
+        for base, items in options.items()
+        if (monthly := keep_monthly(items))
+    }
 
 
 def read_histories(root, base=None):
@@ -95,6 +134,8 @@ def read_histories(root, base=None):
                 raise ValueError(f"Duplicate session in {path}: {key}")
             for item in row["strikes"]:
                 item.setdefault("qtd_descoberta", None)
+            # Migrate stored snapshots that still contain weekly expiries.
+            row["strikes"] = keep_monthly(row["strikes"])
             days[key] = row
         histories[path.parent.name] = days
     return histories
@@ -149,6 +190,7 @@ def enrich(histories):
 def save_history(path, base, days):
     rows = [days[key] for key in sorted(days)[-WINDOW:]]
     payload = dict(schema_version=1, ticker=base, janela_pregoes=WINDOW,
+                   filtro_series="vencimentos_mensais",
                    total_pregoes=len(rows), fonte_oi=b3.POSITIONS_JSON,
                    fonte_spot="yfinance Close (auto_adjust=False)",
                    historico=rows)
@@ -277,3 +319,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
