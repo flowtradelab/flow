@@ -1,4 +1,4 @@
-name: Testar historico OI 30 pregoes
+name: Atualizar historico OI e naked short
 
 on:
   pull_request:
@@ -16,6 +16,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: oi-hist-30-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   gerar-historico:
@@ -89,3 +93,50 @@ jobs:
             oi-hist-30.log
           retention-days: 14
           if-no-files-found: error
+
+  salvar-no-repositorio:
+    # PRs only validate; an explicit manual run publishes to its selected branch.
+    if: github.event_name == 'workflow_dispatch' && github.ref_type == 'branch'
+    needs: gerar-historico
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      BASE: ${{ inputs.base }}
+      TARGET_BRANCH: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: oi-hist-30-${{ github.run_id }}
+          path: generated-history
+      - name: Salvar somente o historico do ticker
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="${BASE^^}"
+          [[ "$BASE" =~ ^[A-Z0-9]{4}$ ]] || { echo "Base invalida"; exit 1; }
+          FILE="grid-options/$BASE/oi-hist-30.json"
+          test -s "generated-history/$FILE"
+          mkdir -p "grid-options/$BASE"
+          cp "generated-history/$FILE" "$FILE"
+          git add -- "$FILE"
+          if git diff --cached --quiet; then
+            echo "Historico de $BASE ja esta atualizado." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          # The generated artifact can contain logs; only this exact JSON is staged.
+          test "$(git diff --cached --name-only)" = "$FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: atualiza OI e naked short de $BASE (30 pregoes)"
+          # Other data workflows may have advanced the branch while B3 was queried.
+          # A conflict stops publication; never force-push or overwrite a newer history.
+          git fetch origin "$TARGET_BRANCH"
+          git rebase "origin/$TARGET_BRANCH"
+          git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+          echo "Historico salvo em $FILE na branch $TARGET_BRANCH." >> "$GITHUB_STEP_SUMMARY"
