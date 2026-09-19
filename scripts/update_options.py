@@ -44,8 +44,10 @@ REQUEST_TIMEOUT   = 300
 CSV_ENCODING      = "iso-8859-1"
 
 # Protecao contra publicar milhares de zeros se a B3 mudar o schema novamente.
-MIN_MATCHED       = 1000
-MIN_MATCH_RATIO   = 0.05
+# DerivativesOpenPosition contem apenas contratos com posicao em aberto, enquanto
+# InstrumentsConsolidated contem todas as series autorizadas. Por isso nao faz
+# sentido exigir uma cobertura percentual minima sobre todas as series.
+MIN_MATCHED       = 50
 
 HEADERS = {
     "User-Agent": (
@@ -325,17 +327,35 @@ def parse_instruments(rows: list[dict]) -> dict:
     return result
 
 
-def parse_positions(rows: list[dict]) -> dict:
+def parse_positions(rows: list[dict], valid_option_tickers: set[str]) -> dict:
+    """
+    Le DerivativesOpenPosition e mantem somente os registros cujo TckrSymb
+    existe no universo de opcoes do InstrumentsConsolidated.
+
+    IMPORTANTE: SgmtNm NAO indica Call/Put. Esse campo representa o segmento
+    de pos-negociacao (ex.: financeiro, derivativos de acoes etc.), portanto
+    nao deve ser usado para filtrar tipo de opcao.
+    """
     result = {}
+    segment_counts = defaultdict(int)
+    sample_rows = []
 
     for row in rows:
         ticker = row.get("TckrSymb", "").strip().upper()
         if not ticker:
             continue
 
-        segment = row.get("SgmtNm", "")
-        seg_upper = segment.upper()
-        if "CALL" not in seg_upper and "PUT" not in seg_upper:
+        segment = row.get("SgmtNm", "").strip() or "(vazio)"
+        segment_counts[segment] += 1
+
+        if len(sample_rows) < 12:
+            sample_rows.append(
+                f"{ticker} | Asst={row.get('Asst','')} | "
+                f"XprtnCd={row.get('XprtnCd','')} | SgmtNm={segment}"
+            )
+
+        # O filtro de opcao e feito pelo cadastro mestre, nao pelo SgmtNm.
+        if ticker not in valid_option_tickers:
             continue
 
         result[ticker] = {
@@ -349,7 +369,25 @@ def parse_positions(rows: list[dict]) -> dict:
             "qtd_doadores": parse_int(row.get("LndrQty", "")),
         }
 
-    print(f"    Open Position: {len(result):,} opcoes")
+    if rows:
+        print(f"    Colunas Open Position: {', '.join(rows[0].keys())}")
+    if segment_counts:
+        top_segments = sorted(
+            segment_counts.items(), key=lambda x: x[1], reverse=True
+        )[:10]
+        print(
+            "    Segmentos recebidos: "
+            + ", ".join(f"{name}={count}" for name, count in top_segments)
+        )
+    if sample_rows:
+        print("    Amostra TckrSymb recebidos:")
+        for sample in sample_rows:
+            print(f"      {sample}")
+
+    print(
+        f"    Open Position: {len(result):,} opcoes com ticker "
+        f"presente no InstrumentsConsolidated"
+    )
     return result
 
 
@@ -392,15 +430,25 @@ def build_options(instruments: dict, positions: dict) -> tuple[dict, int]:
     return dict(by_ticker), matched
 
 
-def validate_join(instruments_count: int, matched: int):
-    ratio = matched / instruments_count if instruments_count else 0.0
-    print(f"    Cobertura JOIN: {ratio:.1%}")
+def validate_join(
+    instruments_count: int,
+    matched: int,
+    parsed_positions_count: int,
+    raw_positions_count: int,
+):
+    authorized_ratio = matched / instruments_count if instruments_count else 0.0
+    raw_ratio = matched / raw_positions_count if raw_positions_count else 0.0
 
-    if matched < MIN_MATCHED or ratio < MIN_MATCH_RATIO:
+    print(f"    Cobertura sobre series autorizadas: {authorized_ratio:.2%}")
+    print(f"    Matches / linhas Open Position: {matched:,}/{raw_positions_count:,} ({raw_ratio:.1%})")
+
+    if matched < MIN_MATCHED:
         raise RuntimeError(
             "JOIN anormal entre InstrumentsConsolidated e "
-            f"DerivativesOpenPosition: {matched:,}/{instruments_count:,} "
-            f"({ratio:.1%}). JSONs NAO serao sobrescritos."
+            f"DerivativesOpenPosition: apenas {matched:,} tickers de opcao "
+            f"foram encontrados entre {raw_positions_count:,} linhas do arquivo "
+            f"({parsed_positions_count:,} linhas reconhecidas como opcoes por ticker). "
+            "JSONs NAO serao sobrescritos. Confira a amostra de TckrSymb impressa acima."
         )
 
 
@@ -548,11 +596,16 @@ def main():
     instruments = parse_instruments(inst_rows)
 
     print("\n[3/5] Processando DerivativesOpenPosition...")
-    positions = parse_positions(pos_rows)
+    positions = parse_positions(pos_rows, set(instruments.keys()))
 
     print("\n[4/5] Cruzando dados...")
     by_ticker, matched = build_options(instruments, positions)
-    validate_join(len(instruments), matched)
+    validate_join(
+        len(instruments),
+        matched,
+        len(positions),
+        len(pos_rows),
+    )
 
     print("\n[5/5] Gerando JSONs...")
     changed = save_jsons(data_date, by_ticker)
