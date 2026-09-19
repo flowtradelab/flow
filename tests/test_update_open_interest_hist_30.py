@@ -24,6 +24,43 @@ def option(underlying="PETR4", expiry="2026-10-16", kind="C", strike=30, oi=10, 
 
 
 class HistoryTests(unittest.TestCase):
+    def test_monthly_filter_keeps_third_friday_and_holiday_adjustment(self):
+        expiries = [
+            "2026-09-18", "2026-09-25",
+            "2026-10-02", "2026-10-09", "2026-10-16",
+            "2026-10-23", "2026-10-30",
+            "2026-11-06", "2026-11-13", "2026-11-19", "2026-11-27",
+            "2028-04-07", "2028-04-14", "2028-04-20", "2028-04-28",
+        ]
+        rows = [
+            option(expiry=expiry, kind=kind)
+            for expiry in expiries
+            for kind in ("C", "P")
+        ]
+        kept = hist.keep_monthly(rows)
+        self.assertEqual(
+            {row["vencimento"] for row in kept},
+            {"2026-09-18", "2026-10-16", "2026-11-19", "2028-04-20"},
+        )
+        self.assertEqual(len(kept), 8)
+
+    def test_existing_history_is_migrated_to_monthly_only(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "PETR/oi-hist-30.json"
+            hist.save_history(path, "PETR", {"2026-09-17": dict(
+                data="2026-09-17",
+                strikes=[
+                    option(expiry="2026-09-18"),
+                    option(expiry="2026-09-25"),
+                ],
+                spot_fechamento={},
+            )})
+            days = hist.read_histories(Path(tmp))["PETR"]
+            self.assertEqual(
+                [row["vencimento"] for row in days["2026-09-17"]["strikes"]],
+                ["2026-09-18"],
+            )
+
     def test_aggregation_preserves_contract_dimensions(self):
         rows = hist.aggregate([option(), option(oi=20), option("PETR3"),
                                option(kind="P"), option(expiry="2026-11-19")])
@@ -198,3 +235,4 @@ class HistoryTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
