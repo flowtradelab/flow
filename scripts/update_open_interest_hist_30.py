@@ -9,6 +9,8 @@ Only completed days (before today in BRT) are eligible. Missing/unpublished
 sources are reported; fewer than 30 available sessions produces a partial
 history with an explicit session count. Existing dates survive unavailable
 sources. Each daily row groups by underlying, expiry, type and strike;
+qtd_descoberta is the B3 posDe (uncovered short positions), summed per group.
+Legacy snapshots without this field retain null until successfully refreshed.
 spot_fechamento maps each underlying to its same-date unadjusted Yahoo Close.
 Missing quotes are null, never forward-filled. Re-running retries quotes.
 Writes only grid-options/<BASE>/oi-hist-30.json (atomic per file).
@@ -30,17 +32,25 @@ OUTPUT = Path(__file__).resolve().parents[1] / "grid-options"
 
 
 def aggregate(options):
-    totals = defaultdict(int)
+    totals = defaultdict(lambda: [0, 0])
     for option in options:
         key = (option["ativo_objeto"], option["vencimento"],
                option["tipo"], option["strike"])
         oi = option["open_interest"]
         if not math.isfinite(key[3]) or key[3] <= 0 or oi < 0:
             raise ValueError("Invalid strike or open interest")
-        totals[key] += oi
+        naked = option.get("qtd_descoberta")
+        if naked is not None and (not math.isfinite(naked) or naked < 0):
+            raise ValueError("Invalid uncovered quantity")
+        totals[key][0] += oi
+        if naked is None:
+            totals[key][1] = None
+        elif totals[key][1] is not None:
+            totals[key][1] += naked
     return [
-        dict(ativo_objeto=u, vencimento=e, tipo=t, strike=k, open_interest=oi)
-        for (u, e, t, k), oi in sorted(totals.items())
+        dict(ativo_objeto=u, vencimento=e, tipo=t, strike=k, open_interest=oi,
+             qtd_descoberta=naked)
+        for (u, e, t, k), (oi, naked) in sorted(totals.items())
     ]
 
 
@@ -81,6 +91,8 @@ def read_histories(root, base=None):
             key = date.fromisoformat(row["data"]).isoformat()
             if key in days:
                 raise ValueError(f"Duplicate session in {path}: {key}")
+            for item in row["strikes"]:
+                item.setdefault("qtd_descoberta", None)
             days[key] = row
         histories[path.parent.name] = days
     return histories

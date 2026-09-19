@@ -18,9 +18,9 @@ except ImportError:
 import update_open_interest_hist_30 as hist
 
 
-def option(underlying="PETR4", expiry="2026-10-16", kind="C", strike=30, oi=10):
+def option(underlying="PETR4", expiry="2026-10-16", kind="C", strike=30, oi=10, naked=3):
     return dict(ativo_objeto=underlying, vencimento=expiry, tipo=kind,
-                strike=strike, open_interest=oi)
+                strike=strike, open_interest=oi, qtd_descoberta=naked)
 
 
 class HistoryTests(unittest.TestCase):
@@ -32,6 +32,26 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(next(x["open_interest"] for x in rows
                              if x["ativo_objeto"] == "PETR4" and x["tipo"] == "C"
                              and x["vencimento"] == "2026-10-16"), 30)
+
+    def test_uncovered_sum_and_missing_are_distinct_from_zero(self):
+        rows = hist.aggregate([option(naked=4), option(naked=6),
+                               option(kind="P", naked=0)])
+        self.assertEqual([x["qtd_descoberta"] for x in rows], [10, 0])
+        row = option()
+        del row["qtd_descoberta"]
+        self.assertIsNone(hist.aggregate([row, option()])[0]["qtd_descoberta"])
+        with self.assertRaises(ValueError):
+            hist.aggregate([option(naked=-1)])
+
+    def test_legacy_history_preserves_unknown_uncovered(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "PETR/oi-hist-30.json"
+            item = option()
+            del item["qtd_descoberta"]
+            hist.save_history(path, "PETR", {"2026-09-17": dict(
+                data="2026-09-17", strikes=[item], spot_fechamento={})})
+            days = hist.read_histories(Path(tmp))["PETR"]
+            self.assertIsNone(days["2026-09-17"]["strikes"][0]["qtd_descoberta"])
 
     def test_rollover_idempotency_and_latest_untouched(self):
         with tempfile.TemporaryDirectory() as tmp:
