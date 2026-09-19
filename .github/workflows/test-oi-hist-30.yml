@@ -57,17 +57,22 @@ jobs:
           assert dates == sorted(set(dates))
           quotes = sum(value is not None for row in rows for value in row["spot_fechamento"].values())
           missing = sum(value is None for row in rows for value in row["spot_fechamento"].values())
+          naked_values = [item["qtd_descoberta"] for row in rows for item in row["strikes"]]
+          assert all(v is None or (isinstance(v, (int, float)) and v >= 0) for v in naked_values)
+          naked_missing = sum(v is None for v in naked_values)
+          assert any(v is not None for v in naked_values), "Nenhuma quantidade descoberta recebida"
           summary = (
               f"## Historico de {base}\n\n"
               f"- Pregoes: {len(rows)}/30\n"
               f"- Periodo: {dates[0]} a {dates[-1]}\n"
               f"- Fechamentos disponiveis: {quotes}; ausentes: {missing}\n"
+              f"- Naked short (qtd_descoberta): {len(naked_values) - naked_missing} registros; ausentes: {naked_missing}\n"
               f"- JSON: `{path}`\n\n"
               "Baixe o JSON na secao **Artifacts** desta execucao.\n"
           )
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
               out.write(summary)
-          if len(rows) < 30 or missing:
+          if len(rows) < 30 or missing or naked_missing:
               print("::warning::Historico parcial ou fechamento ausente; confira o resumo e os logs")
           assert quotes > 0, "Nenhum fechamento obtido do Yahoo"
           PY
