@@ -109,6 +109,69 @@ class HistoryTests(unittest.TestCase):
                     hist.update(Path(tmp), date(2026, 9, 18))
             self.assertEqual(before, path.read_bytes())
 
+
+    def test_incremental_download_counts_and_new_base(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            def fetch(day):
+                data = {"PETR": [option()]}
+                if day >= date(2026, 9, 21):
+                    data["BOVA"] = [option("BOVA11")]
+                return data
+            with patch.object(hist, "fetch_day", side_effect=fetch) as download, patch.object(
+                    hist, "fetch_closes", return_value={}):
+                hist.update(root, date(2026, 9, 18))
+                self.assertEqual(download.call_count, 30)
+                download.reset_mock()
+                hist.update(root, date(2026, 9, 18))
+                download.assert_not_called()
+                hist.update(root, date(2026, 9, 21))
+                self.assertEqual(download.call_args_list, [unittest.mock.call(date(2026, 9, 21))])
+                download.reset_mock()
+                hist.update(root, date(2026, 9, 23))
+                self.assertEqual(download.call_count, 2)
+                self.assertEqual({c.args[0] for c in download.call_args_list},
+                                 {date(2026, 9, 22), date(2026, 9, 23)})
+                download.reset_mock()
+                hist.update(root, date(2026, 9, 23))
+                download.assert_not_called()
+                hist.update(root, date(2026, 9, 23), refresh=True)
+                self.assertEqual(download.call_count, 30)
+            self.assertEqual(json.loads((root / "PETR/oi-hist-30.json").read_text())["total_pregoes"], 30)
+            self.assertEqual(json.loads((root / "BOVA/oi-hist-30.json").read_text())["total_pregoes"], 3)
+
+    def test_missing_session_retried_without_redownloading_rest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            missing = date(2026, 9, 17)
+            with patch.object(hist, "fetch_day", side_effect=lambda day:
+                              None if day == missing else {"PETR": [option()]}), patch.object(
+                    hist, "fetch_closes", return_value={}):
+                hist.update(root, date(2026, 9, 18))
+            with patch.object(hist, "fetch_day", return_value={"PETR": [option()]}) as download, patch.object(
+                    hist, "fetch_closes", return_value={}):
+                hist.update(root, date(2026, 9, 18))
+                download.assert_called_once_with(missing)
+
+    def test_single_base_cache_does_not_hide_other_bases(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            with patch.object(hist, "fetch_day", return_value={
+                    "PETR": [option()], "BOVA": [option("BOVA11")]}) as download, patch.object(
+                    hist, "fetch_closes", return_value={}):
+                hist.update(root, date(2026, 9, 18), base="PETR")
+                download.reset_mock()
+                hist.update(root, date(2026, 9, 18))
+                self.assertEqual(download.call_count, 30)
+                self.assertTrue((root / "BOVA/oi-hist-30.json").exists())
+
+    def test_saved_quotes_do_not_trigger_yahoo_requests(self):
+        days = {"2026-09-18": dict(strikes=[option()], spot_fechamento={"PETR4": 31})}
+        with patch.object(hist, "fetch_closes") as fetch:
+            hist.enrich({"PETR": days})
+            fetch.assert_not_called()
+        self.assertEqual(days["2026-09-18"]["spot_fechamento"]["PETR4"], 31)
+
     def test_yahoo_parameters_and_date_matching(self):
         class Stamp:
             def date(self):
