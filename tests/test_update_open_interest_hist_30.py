@@ -18,9 +18,11 @@ except ImportError:
 import update_open_interest_hist_30 as hist
 
 
-def option(underlying="PETR4", expiry="2026-10-16", kind="C", strike=30, oi=10, naked=3):
-    return dict(ativo_objeto=underlying, vencimento=expiry, tipo=kind,
-                strike=strike, open_interest=oi, qtd_descoberta=naked)
+def option(underlying="PETR4", expiry="2026-10-16", kind="C", strike=30,
+           oi=10, naked=3, ticker="PETRJ512"):
+    return dict(ticker=ticker, ativo_objeto=underlying, vencimento=expiry,
+                tipo=kind, strike=strike, open_interest=oi,
+                qtd_descoberta=naked)
 
 
 class HistoryTests(unittest.TestCase):
@@ -63,12 +65,21 @@ class HistoryTests(unittest.TestCase):
 
     def test_aggregation_preserves_contract_dimensions(self):
         rows = hist.aggregate([option(), option(oi=20), option("PETR3"),
-                               option(kind="P"), option(expiry="2026-11-19")])
-        self.assertEqual(len(rows), 4)
-        self.assertEqual(sum(x["open_interest"] for x in rows), 60)
+                               option(kind="P"), option(expiry="2026-11-19"),
+                               option(oi=5, ticker="PETRJ999")])
+        self.assertEqual(len(rows), 5)
+        self.assertEqual(sum(x["open_interest"] for x in rows), 65)
+        self.assertEqual({x["ticker"] for x in rows}, {"PETRJ512", "PETRJ999"})
         self.assertEqual(next(x["open_interest"] for x in rows
                              if x["ativo_objeto"] == "PETR4" and x["tipo"] == "C"
-                             and x["vencimento"] == "2026-10-16"), 30)
+                             and x["vencimento"] == "2026-10-16"
+                             and x["ticker"] == "PETRJ512"), 30)
+
+    def test_aggregation_rejects_missing_ticker(self):
+        row = option()
+        del row["ticker"]
+        with self.assertRaisesRegex(ValueError, "ticker"):
+            hist.aggregate([row])
 
     def test_uncovered_sum_and_missing_are_distinct_from_zero(self):
         rows = hist.aggregate([option(naked=4), option(naked=6),
@@ -108,7 +119,45 @@ class HistoryTests(unittest.TestCase):
             payload = json.loads(path.read_text())
             self.assertEqual(payload["total_pregoes"], 30)
             self.assertEqual(payload["historico"][-1]["data"], "2026-09-21")
+            self.assertTrue(all(
+                item["ticker"] == "PETRJ512"
+                for row in payload["historico"] for item in row["strikes"]
+            ))
             self.assertEqual(latest.read_bytes(), b'{"sentinel":true}')
+
+    def test_cached_legacy_session_without_ticker_is_refetched(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            end = date(2026, 9, 18)
+            sessions = []
+            cursor = end
+            while len(sessions) < 30:
+                if cursor.weekday() < 5:
+                    sessions.append(cursor)
+                cursor -= timedelta(days=1)
+            missing = sessions[9]
+            days = {}
+            state = {}
+            for session in sessions:
+                item = option()
+                if session == missing:
+                    del item["ticker"]
+                key = session.isoformat()
+                days[key] = dict(data=key, strikes=[item], spot_fechamento={})
+                state[key] = {"all": True, "bases": ["PETR"]}
+            hist.save_history(root / "PETR/oi-hist-30.json", "PETR", days)
+            (root / hist.STATE_FILE).write_text(json.dumps({
+                "schema_version": 1, "sessions": state,
+            }))
+            with patch.object(hist, "fetch_day", return_value={
+                    "PETR": hist.aggregate([option()])}) as download, patch.object(
+                    hist, "fetch_closes", return_value={}):
+                hist.update(root, end)
+            download.assert_called_once_with(missing)
+            payload = json.loads((root / "PETR/oi-hist-30.json").read_text())
+            repaired = next(row for row in payload["historico"]
+                            if row["data"] == missing.isoformat())
+            self.assertEqual(repaired["strikes"][0]["ticker"], "PETRJ512")
 
     def test_unpublished_day_not_counted_as_session(self):
         with tempfile.TemporaryDirectory() as tmp:
