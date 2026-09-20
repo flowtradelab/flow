@@ -11,9 +11,11 @@ history with an explicit session count. Existing dates survive unavailable
 sources. Cached sessions are reused; --refresh explicitly re-downloads them.
 Only regular monthly expiries are retained. If the third Friday is absent,
 the closest preceding expiry in the same month is treated as its holiday
-adjustment. Each daily row groups by underlying, expiry, type and strike;
+adjustment. Each daily row groups by option ticker, underlying, expiry, type
+and strike;
 qtd_descoberta is the B3 posDe (uncovered short positions), summed per group.
-Legacy snapshots without this field retain null until successfully refreshed.
+Legacy snapshots without ticker or uncovered quantity are refreshed when their
+source remains available; unavailable snapshots are preserved as-is.
 spot_fechamento maps each underlying to its same-date unadjusted Yahoo Close.
 Missing quotes are null, never forward-filled. Re-running retries quotes.
 Writes grid-options/<BASE>/oi-hist-30.json and oi-hist-30-state.json
@@ -39,10 +41,13 @@ OUTPUT = Path(__file__).resolve().parents[1] / "grid-options"
 def aggregate(options):
     totals = defaultdict(lambda: [0, 0])
     for option in options:
-        key = (option["ativo_objeto"], option["vencimento"],
+        ticker = option.get("ticker")
+        if not isinstance(ticker, str) or not ticker.strip():
+            raise ValueError("Invalid option ticker")
+        key = (ticker, option["ativo_objeto"], option["vencimento"],
                option["tipo"], option["strike"])
         oi = option["open_interest"]
-        if not math.isfinite(key[3]) or key[3] <= 0 or oi < 0:
+        if not math.isfinite(key[4]) or key[4] <= 0 or oi < 0:
             raise ValueError("Invalid strike or open interest")
         naked = option.get("qtd_descoberta")
         if naked is not None and (not math.isfinite(naked) or naked < 0):
@@ -53,10 +58,18 @@ def aggregate(options):
         elif totals[key][1] is not None:
             totals[key][1] += naked
     return [
-        dict(ativo_objeto=u, vencimento=e, tipo=t, strike=k, open_interest=oi,
-             qtd_descoberta=naked)
-        for (u, e, t, k), (oi, naked) in sorted(totals.items())
+        dict(ticker=s, ativo_objeto=u, vencimento=e, tipo=t, strike=k,
+             open_interest=oi, qtd_descoberta=naked)
+        for (s, u, e, t, k), (oi, naked) in sorted(totals.items())
     ]
+
+
+def has_option_tickers(row):
+    """Whether every contract in a stored session has a stable B3 symbol."""
+    return all(
+        isinstance(item.get("ticker"), str) and bool(item["ticker"].strip())
+        for item in row["strikes"]
+    )
 
 
 def monthly_expiries(options):
@@ -251,12 +264,16 @@ def update(root, end, lookback_days=90, base=None, refresh=False):
         # Missing history files force recovery; absence in a snapshot is valid.
         expected = cached.get("bases", [])
         if base:
-            cached_ok = key in histories.get(base, {})
+            stored = histories.get(base, {}).get(key)
+            cached_ok = stored is not None and has_option_tickers(stored)
             if cached.get("all") and base not in expected:
                 cached_ok = True
         else:
             cached_ok = bool(cached.get("all")) and all(
-                key in histories.get(ticker, {}) for ticker in expected)
+                key in histories.get(ticker, {})
+                and has_option_tickers(histories[ticker][key])
+                for ticker in expected
+            )
         if cached_ok and not refresh:
             sessions.add(key)
         else:
