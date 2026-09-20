@@ -1,5 +1,5 @@
 ﻿tipo,indicador,nome,ano_referencia,valor,unidade,data,fonte,codigo,variacao_1s,variacao_4s
-macro,selic_meta,Selic Meta,,13.75,% a.a.,2026-09-19,Banco Central do Brasil,SGS 432,,
+macro,selic_meta,Selic Meta,,13.75,% a.a.,2026-09-20,Banco Central do Brasil,SGS 432,,
 macro,ipca_12m,IPCA 12 meses,,4.22,%,2026-08-01,IBGE via Banco Central do Brasil,SGS 13522,,
 macro,cdi,CDI anualizado base 252,,13.65,% a.a.,2026-09-17,Banco Central do Brasil,SGS 4389,,
 macro,dolar_ptax,Dólar PTAX venda,,5.1575,R$/US$,2026-09-18,Banco Central do Brasil,SGS 1,,
