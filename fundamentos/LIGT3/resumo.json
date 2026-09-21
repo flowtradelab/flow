@@ -2,7 +2,7 @@
   "ticker": "LIGT3",
   "cnpj": "03378521000175",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:52:59.247164+00:00",
+  "atualizado_em": "2026-09-21T16:53:58.600273+00:00",
   "fundamentos": {
     "ativo_total": 30402965000.0,
     "patrimonio_liquido": 9309904000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.77,
-    "valor_de_mercado": 6007846378.631334,
+    "preco": 3.62,
+    "valor_de_mercado": 5750137013.665332,
     "numero_acoes": 1610682667
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.65,
+    "p_vp": 0.62,
     "margem_liquida": -0.0664,
     "roe": -0.0271,
-    "dividend_yield_12m": 0.1361,
+    "dividend_yield_12m": 0.1418,
     "divida_liquida_ebitda": 44.33
   },
   "proventos_recentes": [

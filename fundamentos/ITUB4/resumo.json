@@ -2,7 +2,7 @@
   "ticker": "ITUB4",
   "cnpj": "60872504000123",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:52:44.866419+00:00",
+  "atualizado_em": "2026-09-21T16:53:46.368558+00:00",
   "fundamentos": {
     "ativo_total": 3202125000000.0,
     "patrimonio_liquido": 228026000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 42.73,
-    "valor_de_mercado": 466555884884.51135,
+    "preco": 42.33,
+    "valor_de_mercado": 473609876584.17426,
     "numero_acoes": 11021872542
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 37.86,
-    "p_vp": 2.05,
+    "p_l": 38.43,
+    "p_vp": 2.08,
     "margem_liquida": 0.1232,
     "roe": 0.054,
-    "dividend_yield_12m": 0.0729,
+    "dividend_yield_12m": 0.0736,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

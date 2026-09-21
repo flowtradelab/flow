@@ -2,7 +2,7 @@
   "ticker": "ROMI3",
   "cnpj": "56720428000163",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:12.654649+00:00",
+  "atualizado_em": "2026-09-21T16:55:02.350156+00:00",
   "fundamentos": {
     "ativo_total": 2672855000.0,
     "patrimonio_liquido": 1250909000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 6.01,
-    "valor_de_mercado": 553434248.451273,
+    "preco": 6.0,
+    "valor_de_mercado": 566478140.731636,
     "numero_acoes": 93170748
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 39.74,
-    "p_vp": 0.44,
+    "p_l": 40.68,
+    "p_vp": 0.45,
     "margem_liquida": 0.0416,
     "roe": 0.0111,
-    "dividend_yield_12m": 0.0998,
+    "dividend_yield_12m": 0.1,
     "divida_liquida_ebitda": 25.59
   },
   "proventos_recentes": [

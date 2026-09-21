@@ -2,7 +2,7 @@
   "ticker": "RAIZ4",
   "cnpj": "33453598000123",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:00.123441+00:00",
+  "atualizado_em": "2026-09-21T16:54:52.025321+00:00",
   "fundamentos": {
     "ativo_total": 95654603000.0,
     "patrimonio_liquido": -10603231000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 0.28,
+    "preco": 0.26,
     "valor_de_mercado": 2794170599.5203595,
     "numero_acoes": 10348779587
   },
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": -0.0319,
     "roe": 0.1548,
-    "dividend_yield_12m": 0.6917,
+    "dividend_yield_12m": 0.7449,
     "divida_liquida_ebitda": 15.09
   },
   "proventos_recentes": [

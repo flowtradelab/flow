@@ -2,7 +2,7 @@
   "ticker": "TOTS3",
   "cnpj": "53113791000122",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:51.504689+00:00",
+  "atualizado_em": "2026-09-21T16:55:35.329308+00:00",
   "fundamentos": {
     "ativo_total": 12994264000.0,
     "patrimonio_liquido": 5457910000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 32.94,
-    "valor_de_mercado": 19046652517.433136,
+    "preco": 34.3,
+    "valor_de_mercado": 19845931635.37645,
     "numero_acoes": 566864684
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 27.66,
-    "p_vp": 3.49,
+    "p_l": 28.82,
+    "p_vp": 3.64,
     "margem_liquida": 0.3587,
     "roe": 0.1262,
-    "dividend_yield_12m": 0.0252,
+    "dividend_yield_12m": 0.0242,
     "divida_liquida_ebitda": 6.59
   },
   "proventos_recentes": [

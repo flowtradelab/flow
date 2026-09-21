@@ -2,7 +2,7 @@
   "ticker": "TIMS3",
   "cnpj": "02421421000111",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:49.055937+00:00",
+  "atualizado_em": "2026-09-21T16:55:33.345478+00:00",
   "fundamentos": {
     "ativo_total": 57190135000.0,
     "patrimonio_liquido": 25015378000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 19.37,
-    "valor_de_mercado": 46602707002.82196,
+    "preco": 19.46,
+    "valor_de_mercado": 45747610048.31508,
     "numero_acoes": 2375265291
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 48.07,
-    "p_vp": 1.86,
+    "p_l": 47.18,
+    "p_vp": 1.83,
     "margem_liquida": 0.1392,
     "roe": 0.0388,
-    "dividend_yield_12m": 0.082,
+    "dividend_yield_12m": 0.0816,
     "divida_liquida_ebitda": -0.01
   },
   "proventos_recentes": [

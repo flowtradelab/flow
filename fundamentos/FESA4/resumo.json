@@ -2,7 +2,7 @@
   "ticker": "FESA4",
   "cnpj": "15141799000103",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:52:10.460262+00:00",
+  "atualizado_em": "2026-09-21T16:53:16.131199+00:00",
   "fundamentos": {
     "ativo_total": 4336147000.0,
     "patrimonio_liquido": 3288981000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.78,
-    "valor_de_mercado": 1941711354.4633865,
+    "preco": 5.62,
+    "valor_de_mercado": 1907824626.7803192,
     "numero_acoes": 338867600
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 427.88,
-    "p_vp": 0.59,
+    "p_l": 420.41,
+    "p_vp": 0.58,
     "margem_liquida": 0.0087,
     "roe": 0.0014,
-    "dividend_yield_12m": 0.1987,
+    "dividend_yield_12m": 0.2043,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "FLRY3",
   "cnpj": "60840055000131",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:52:12.922262+00:00",
+  "atualizado_em": "2026-09-21T16:53:18.382110+00:00",
   "fundamentos": {
     "ativo_total": 13558475000.0,
     "patrimonio_liquido": 5518372000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 21.06,
-    "valor_de_mercado": 11628164257.316895,
+    "preco": 21.38,
+    "valor_de_mercado": 11970649349.01233,
     "numero_acoes": 543626208
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 53.02,
-    "p_vp": 2.11,
+    "p_l": 54.58,
+    "p_vp": 2.17,
     "margem_liquida": 0.0947,
     "roe": 0.0397,
-    "dividend_yield_12m": 0.0764,
+    "dividend_yield_12m": 0.0753,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

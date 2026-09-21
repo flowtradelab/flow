@@ -2,7 +2,7 @@
   "ticker": "SIMH3",
   "cnpj": "07415333000120",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:27.185912+00:00",
+  "atualizado_em": "2026-09-21T16:55:14.811082+00:00",
   "fundamentos": {
     "ativo_total": 91594775000.0,
     "patrimonio_liquido": 9825968000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 7.59,
-    "valor_de_mercado": 4401545031.87135,
+    "preco": 7.63,
+    "valor_de_mercado": 4804338697.706203,
     "numero_acoes": 583759291
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.45,
+    "p_vp": 0.49,
     "margem_liquida": -0.0134,
     "roe": -0.0154,
-    "dividend_yield_12m": 0.0226,
+    "dividend_yield_12m": 0.0225,
     "divida_liquida_ebitda": 15.87
   },
   "proventos_recentes": [

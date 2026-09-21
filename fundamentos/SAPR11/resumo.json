@@ -2,7 +2,7 @@
   "ticker": "SAPR11",
   "cnpj": "76484013000145",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:54:17.440579+00:00",
+  "atualizado_em": "2026-09-21T16:55:06.562791+00:00",
   "fundamentos": {
     "ativo_total": 26532561000.0,
     "patrimonio_liquido": 12103875000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 34.56,
-    "valor_de_mercado": 10557281820.026665,
+    "preco": 34.51,
+    "valor_de_mercado": 10738626020.643341,
     "numero_acoes": 302241103
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.87,
+    "p_vp": 0.89,
     "margem_liquida": -0.2657,
     "roe": -0.0417,
-    "dividend_yield_12m": 0.0799,
+    "dividend_yield_12m": 0.08,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

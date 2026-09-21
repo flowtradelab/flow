@@ -2,7 +2,7 @@
   "ticker": "PTBL3",
   "cnpj": "83475913000191",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:53:52.448618+00:00",
+  "atualizado_em": "2026-09-21T16:54:45.652735+00:00",
   "fundamentos": {
     "ativo_total": 3499805000.0,
     "patrimonio_liquido": -103923000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 1.64,
-    "valor_de_mercado": 234038226.05405498,
+    "preco": 1.6,
+    "valor_de_mercado": 229808623.50772214,
     "numero_acoes": 140986886
   },
   "divida": {
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": -0.0963,
     "roe": 0.6037,
-    "dividend_yield_12m": 0.316,
+    "dividend_yield_12m": 0.3239,
     "divida_liquida_ebitda": 13.53
   },
   "proventos_recentes": [

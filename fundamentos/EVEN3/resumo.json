@@ -2,7 +2,7 @@
   "ticker": "EVEN3",
   "cnpj": "43470988000165",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:52:05.717169+00:00",
+  "atualizado_em": "2026-09-21T16:53:11.786152+00:00",
   "fundamentos": {
     "ativo_total": 5164205000.0,
     "patrimonio_liquido": 2304714000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 4.07,
-    "valor_de_mercado": 801549453.7115135,
+    "preco": 4.03,
+    "valor_de_mercado": 825357830.8460541,
     "numero_acoes": 198403332
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 22.85,
-    "p_vp": 0.35,
+    "p_l": 23.53,
+    "p_vp": 0.36,
     "margem_liquida": 0.1745,
     "roe": 0.0152,
-    "dividend_yield_12m": 0.2251,
+    "dividend_yield_12m": 0.2274,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

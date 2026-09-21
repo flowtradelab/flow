@@ -2,7 +2,7 @@
   "ticker": "BBDC3",
   "cnpj": "60746948000112",
   "razao_social": null,
-  "atualizado_em": "2026-09-14T16:51:06.661998+00:00",
+  "atualizado_em": "2026-09-21T16:52:21.013468+00:00",
   "fundamentos": {
     "ativo_total": 2468826550000.0,
     "patrimonio_liquido": 182736591000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 16.32,
-    "valor_de_mercado": 170505576140.34543,
+    "preco": 15.79,
+    "valor_de_mercado": 169131392448.0,
     "numero_acoes": 10570712028
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 23.53,
+    "p_l": 23.34,
     "p_vp": 0.93,
     "margem_liquida": 0.094,
     "roe": 0.0397,
-    "dividend_yield_12m": 0.0875,
+    "dividend_yield_12m": 0.0905,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
