@@ -129,14 +129,58 @@ def calc_hedge(s1: pd.Series, s2: pd.Series):
 
 
 def calc_zscore(spread: pd.Series, window: int = 60) -> float:
-    """Z-Score atual do spread."""
-    if len(spread) < window:
+    """
+    Z-Score atual do spread — janela das últimas `window` observações.
+
+    Antes: série mais curta que `window` (ex.: período 2M, ~35-41 obs contra
+    window=60) devolvia 0.0 pra TODOS os pares, mesmo com dado de sobra pra
+    calcular um Z de verdade. Agora a janela efetiva encolhe pro tamanho da
+    série (mínimo 20 obs, mesmo piso do half-life) — mesma regra do
+    `rollingZ`/`liveZFromTail` do front-end (pairStats.js), então o Z bate
+    entre backend e front mesmo nos períodos curtos.
+    """
+    spread = spread.dropna()
+    if len(spread) < 20:
         return 0.0
-    recent = spread.iloc[-window:]
+    w = min(window, len(spread))
+    recent = spread.iloc[-w:]
     mean, std = recent.mean(), recent.std()
     if std == 0:
         return 0.0
     return round((spread.iloc[-1] - mean) / std, 3)
+
+
+def calc_zhist(spread: pd.Series, window: int = 60, n_points: int = 20) -> list:
+    """
+    Série compacta com os últimos `n_points` valores de Z-Score móvel do
+    spread — pensada pro sparkline do Scanner (Long/Short), que hoje só
+    existe pros ~50 pares com `history` completo (120 candles) e obriga o
+    front a buscar dado extra na Hist API pra todo o resto.
+
+    Mesma conta do `rollingZ` em pairStats.js: em cada ponto i, janela =
+    min(window, obs até i) observações terminando em i, desvio amostral
+    (n−1). Isso mantém o zHist consistente com o Z ao vivo calculado no
+    front, inclusive em períodos curtos (2M) onde a janela de 60 não cabe.
+
+    Leve de propósito (só floats, sem datas/preços) pra poder ir em TODOS
+    os pares do JSON, não só no top 50 do `history`.
+    """
+    spread = spread.dropna()
+    n = len(spread)
+    if n < 20:
+        return []
+    start = max(0, n - n_points)
+    out = []
+    for i in range(start, n):
+        w = min(window, i + 1)
+        if w < 2:
+            continue
+        seg = spread.iloc[i - w + 1 : i + 1]
+        mean, std = seg.mean(), seg.std()
+        if not std or std == 0:
+            continue
+        out.append(round(float((spread.iloc[i] - mean) / std), 3))
+    return out
 
 
 def get_sector(ticker: str) -> str:
@@ -273,6 +317,10 @@ def calculate_pairs(prices: pd.DataFrame, min_obs: int = MIN_OBS) -> list:
         # Z-Score atual
         zscore = calc_zscore(spread)
 
+        # Série compacta de Z-Score (sparkline do Scanner) — vai em TODO
+        # par, não só nos ~50 com `history` completo
+        zhist = calc_zhist(spread)
+
         # Teste de cointegração (Engle-Granger)
         # Nota: coint() estima seu próprio beta internamente. Aceitamos a
         # pequena divergência entre o beta usado no spread (OLS com α) e o
@@ -308,6 +356,7 @@ def calculate_pairs(prices: pd.DataFrame, min_obs: int = MIN_OBS) -> list:
             "beta":        beta,
             "halfLife":    hl,
             "zscore":      zscore,
+            "zHist":       zhist,      # NOVO: sparkline (últimos ~20 Z), todo par
             "coint":       is_coint,
             "cointPvalue": round(float(pvalue), 4),
             "pricA":       price_a,
@@ -435,6 +484,8 @@ def run_period(period: str, lookback_days: int, min_obs: int, output_file: str):
             "maxHalfLife": MAX_HALF_LIFE,
             "minObs":      min_obs,
             "spreadModel": "pa - alpha - beta*pb (OLS com intercepto)",
+            "zWindow":     60,   # janela do zscore/zHist (encolhe se a série for mais curta)
+            "zHistPoints": 20,   # nº de pontos em pairs[].zHist
         }
     }
 
