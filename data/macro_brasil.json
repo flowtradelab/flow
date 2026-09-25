@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-09-24T11:07:15.772461-03:00",
+  "atualizado_em": "2026-09-25T11:30:43.031507-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-09-24",
+      "data": "2026-09-25",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,15 +23,15 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-09-23",
+      "data": "2026-09-24",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.1414,
+      "valor": 5.1795,
       "unidade": "R$/US$",
-      "data": "2026-09-23",
+      "data": "2026-09-24",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,17 +45,17 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 5.8576,
+      "valor": 5.8906,
       "unidade": "R$/EUR",
-      "data": "2026-09-23",
+      "data": "2026-09-24",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 365460.0,
+      "valor": 364484.0,
       "unidade": "US$ milhões",
-      "data": "2026-09-23",
+      "data": "2026-09-24",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -40352,6 +40352,10 @@
         {
           "data": "2026-09-24",
           "valor": 13.75
+        },
+        {
+          "data": "2026-09-25",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -73732,6 +73736,10 @@
         {
           "data": "2026-09-23",
           "valor": 13.65
+        },
+        {
+          "data": "2026-09-24",
+          "valor": 13.65
         }
       ],
       "dolar_ptax": [
@@ -105590,6 +105598,10 @@
         {
           "data": "2026-09-23",
           "valor": 5.1414
+        },
+        {
+          "data": "2026-09-24",
+          "valor": 5.1795
         }
       ],
       "igpm": [
