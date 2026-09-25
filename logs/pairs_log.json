@@ -2194,5 +2194,41 @@
         "size_kb": 245.9
       }
     }
+  },
+  {
+    "date": "2026-09-25",
+    "time": "2026-09-25T15:05:21",
+    "periods": {
+      "3y": {
+        "pairs": 25,
+        "tickers": 68,
+        "size_kb": 264.9
+      },
+      "2y": {
+        "pairs": 52,
+        "tickers": 68,
+        "size_kb": 526.2
+      },
+      "1y": {
+        "pairs": 102,
+        "tickers": 68,
+        "size_kb": 546.6
+      },
+      "6m": {
+        "pairs": 155,
+        "tickers": 68,
+        "size_kb": 568.7
+      },
+      "3m": {
+        "pairs": 160,
+        "tickers": 68,
+        "size_kb": 337.3
+      },
+      "2m": {
+        "pairs": 157,
+        "tickers": 68,
+        "size_kb": 248.5
+      }
+    }
   }
 ]
