@@ -1,10 +1,10 @@
-name: Atualizar Calendário Econômico
+name: Atualizar Resultados do Calendário
 
 on:
   schedule:
-    # Atualiza agenda 4 vezes por dia em dias úteis.
-    # Horários em UTC: 08h, 12h, 16h e 20h.
-    - cron: '0 8,12,16,20 * * 1-5'
+    # A cada 15 minutos, dias úteis, de 08:00 a 18:45 BRT.
+    # BRT = UTC-3, portanto 11h-21h UTC.
+    - cron: '*/15 11-21 * * 1-5'
   workflow_dispatch:
 
 concurrency:
@@ -12,9 +12,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch-calendar:
+  update-results:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
     permissions:
       contents: write
 
@@ -30,16 +30,13 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements-calendar.txt
 
-      - name: Atualizar agenda
-        run: python scripts/fetch_calendar.py
-
-      - name: Reaplicar resultados já conhecidos
+      - name: Atualizar resultados divulgados
         run: python scripts/update_calendar_results.py
 
-      - name: Commit calendário
+      - name: Commit resultados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add calendaario-economico/calendar.json calendaario-economico/calendar-results.json
-          git diff --cached --quiet || git commit -m "chore: calendar update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet || git commit -m "chore: economic calendar results $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
