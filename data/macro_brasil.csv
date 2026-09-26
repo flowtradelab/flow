@@ -1,10 +1,10 @@
 ﻿tipo,indicador,nome,ano_referencia,valor,unidade,data,fonte,codigo,variacao_1s,variacao_4s
-macro,selic_meta,Selic Meta,,13.75,% a.a.,2026-09-25,Banco Central do Brasil,SGS 432,,
+macro,selic_meta,Selic Meta,,13.75,% a.a.,2026-09-26,Banco Central do Brasil,SGS 432,,
 macro,ipca_12m,IPCA 12 meses,,4.22,%,2026-08-01,IBGE via Banco Central do Brasil,SGS 13522,,
 macro,cdi,CDI anualizado base 252,,13.65,% a.a.,2026-09-24,Banco Central do Brasil,SGS 4389,,
-macro,dolar_ptax,Dólar PTAX venda,,5.1795,R$/US$,2026-09-24,Banco Central do Brasil,SGS 1,,
+macro,dolar_ptax,Dólar PTAX venda,,5.1991,R$/US$,2026-09-25,Banco Central do Brasil,SGS 1,,
 macro,igpm,IGP-M,,-0.22,% no mês,2026-08-01,FGV via Banco Central do Brasil,SGS 189,,
-macro,euro_ptax,Euro PTAX venda,,5.8906,R$/EUR,2026-09-24,Banco Central do Brasil,SGS 21619,,
+macro,euro_ptax,Euro PTAX venda,,5.928,R$/EUR,2026-09-25,Banco Central do Brasil,SGS 21619,,
 macro,reservas_internacionais,Reservas internacionais,,364484.0,US$ milhões,2026-09-24,Banco Central do Brasil,SGS 13621,,
 macro,balanca_comercial,Balança comercial,,881.0,US$ milhões,2026-07-01,Banco Central do Brasil,SGS 22704,,
 macro,resultado_primario,Resultado primário - setor público consolidado,,-1361.2,R$ milhões,2026-07-01,Banco Central do Brasil,SGS 4649,,
