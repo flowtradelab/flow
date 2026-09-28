@@ -2,7 +2,7 @@
   "ticker": "ENGI11",
   "cnpj": "00864214000106",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:53:05.685713+00:00",
+  "atualizado_em": "2026-09-28T18:37:12.987258+00:00",
   "fundamentos": {
     "ativo_total": 86127637000.0,
     "patrimonio_liquido": 22983446000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 52.08,
-    "valor_de_mercado": 24154773417.632572,
+    "preco": 51.47,
+    "valor_de_mercado": 23345652299.484856,
     "numero_acoes": 457130457
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 1.05,
+    "p_vp": 1.02,
     "margem_liquida": -0.0043,
     "roe": -0.0017,
-    "dividend_yield_12m": 0.0393,
+    "dividend_yield_12m": 0.0398,
     "divida_liquida_ebitda": 18.09
   },
   "proventos_recentes": [

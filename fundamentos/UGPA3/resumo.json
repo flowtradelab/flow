@@ -2,7 +2,7 @@
   "ticker": "UGPA3",
   "cnpj": "33256439000139",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:55:39.873394+00:00",
+  "atualizado_em": "2026-09-28T18:40:04.245268+00:00",
   "fundamentos": {
     "ativo_total": 51772124000.0,
     "patrimonio_liquido": 20026383000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 39.13,
-    "valor_de_mercado": 41484587937.381424,
-    "numero_acoes": 1065620026
+    "preco": 36.56,
+    "valor_de_mercado": 39570838371.993256,
+    "numero_acoes": 1064018280
   },
   "divida": {
     "bruta": 19563366000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 24.73,
-    "p_vp": 2.07,
+    "p_l": 23.59,
+    "p_vp": 1.98,
     "margem_liquida": 0.0404,
     "roe": 0.0838,
-    "dividend_yield_12m": 0.0511,
+    "dividend_yield_12m": 0.0547,
     "divida_liquida_ebitda": 4.99
   },
   "proventos_recentes": [

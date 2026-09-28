@@ -2,7 +2,7 @@
   "ticker": "TIMS3",
   "cnpj": "02421421000111",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:55:33.345478+00:00",
+  "atualizado_em": "2026-09-28T18:39:56.121499+00:00",
   "fundamentos": {
     "ativo_total": 57190135000.0,
     "patrimonio_liquido": 25015378000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 19.46,
-    "valor_de_mercado": 45747610048.31508,
-    "numero_acoes": 2375265291
+    "preco": 18.61,
+    "valor_de_mercado": 44070948507.05997,
+    "numero_acoes": 2388669197
   },
   "divida": {
     "bruta": 2649163000.0,
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 47.18,
-    "p_vp": 1.83,
+    "p_l": 45.45,
+    "p_vp": 1.76,
     "margem_liquida": 0.1392,
     "roe": 0.0388,
-    "dividend_yield_12m": 0.0816,
+    "dividend_yield_12m": 0.0898,
     "divida_liquida_ebitda": -0.01
   },
   "proventos_recentes": [
-    {
-      "data": "2023-04-11",
-      "valor_por_acao": 1.0741
-    },
     {
       "data": "2023-04-26",
       "valor_por_acao": 0.095
@@ -128,6 +124,10 @@
     {
       "data": "2026-06-23",
       "valor_por_acao": 0.1675
+    },
+    {
+      "data": "2026-09-23",
+      "valor_por_acao": 0.2167
     }
   ],
   "dados_incompletos": false

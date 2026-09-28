@@ -2,7 +2,7 @@
   "ticker": "MTRE3",
   "cnpj": "07882930000165",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:54:22.036182+00:00",
+  "atualizado_em": "2026-09-28T18:38:37.324958+00:00",
   "fundamentos": {
     "ativo_total": 2410550000.0,
     "patrimonio_liquido": 1073805000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.26,
+    "preco": 3.35,
     "valor_de_mercado": 354345636.9125271,
     "numero_acoes": 105774820
   },
@@ -45,7 +45,7 @@
     "p_vp": 0.33,
     "margem_liquida": 0.0993,
     "roe": 0.0251,
-    "dividend_yield_12m": 0.1218,
+    "dividend_yield_12m": 0.1185,
     "divida_liquida_ebitda": 15.51
   },
   "proventos_recentes": [

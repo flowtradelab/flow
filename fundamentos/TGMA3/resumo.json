@@ -2,7 +2,7 @@
   "ticker": "TGMA3",
   "cnpj": "02351144000118",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:55:31.260113+00:00",
+  "atualizado_em": "2026-09-28T18:39:53.824574+00:00",
   "fundamentos": {
     "ativo_total": 1528312000.0,
     "patrimonio_liquido": 994134000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 35.38,
-    "valor_de_mercado": 2367825418.3686943,
+    "preco": 35.52,
+    "valor_de_mercado": 2345406565.4873886,
     "numero_acoes": 65937773
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 28.49,
-    "p_vp": 2.38,
+    "p_l": 28.22,
+    "p_vp": 2.36,
     "margem_liquida": 0.1123,
     "roe": 0.0836,
-    "dividend_yield_12m": 0.1408,
+    "dividend_yield_12m": 0.1402,
     "divida_liquida_ebitda": 0.21
   },
   "proventos_recentes": [

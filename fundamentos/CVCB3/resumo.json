@@ -2,7 +2,7 @@
   "ticker": "CVCB3",
   "cnpj": "10760260000119",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:52:48.869449+00:00",
+  "atualizado_em": "2026-09-28T18:36:54.111946+00:00",
   "fundamentos": {
     "ativo_total": 3682869000.0,
     "patrimonio_liquido": 322905000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 1.39,
-    "valor_de_mercado": 708286087.1300836,
+    "preco": 1.45,
+    "valor_de_mercado": 775989901.0867224,
     "numero_acoes": 520798588
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 2.19,
+    "p_vp": 2.4,
     "margem_liquida": -0.218,
     "roe": -0.2246,
-    "dividend_yield_12m": 0.263,
+    "dividend_yield_12m": 0.2521,
     "divida_liquida_ebitda": 3.12
   },
   "proventos_recentes": [

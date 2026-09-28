@@ -2,7 +2,7 @@
   "ticker": "HYPE3",
   "cnpj": "02932074000191",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:53:35.382425+00:00",
+  "atualizado_em": "2026-09-28T18:37:46.405943+00:00",
   "fundamentos": {
     "ativo_total": 25352937000.0,
     "patrimonio_liquido": 14431129000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 23.8,
-    "valor_de_mercado": 16804384036.666918,
+    "preco": 24.53,
+    "valor_de_mercado": 17297180399.507484,
     "numero_acoes": 703995955
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.28,
-    "p_vp": 1.16,
+    "p_l": 35.28,
+    "p_vp": 1.2,
     "margem_liquida": 0.2098,
     "roe": 0.034,
-    "dividend_yield_12m": 0.0464,
+    "dividend_yield_12m": 0.0451,
     "divida_liquida_ebitda": 7.81
   },
   "proventos_recentes": [

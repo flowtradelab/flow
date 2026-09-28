@@ -1922,8 +1922,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,7200000.0,S,ind
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,11998000.0,S,con
 01.957.772/0001-89,2024-12-31,1,SUL 116 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO,016438,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
@@ -2150,8 +2150,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,149257000.0,S,con
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,164477000.0,S,ind
 02.016.507/0001-69,2025-12-31,1,AXIA ENERGIA SUL S.A.,027480,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,165078000.0,S,con
-02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,35304077000.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,34997160000.0,S,ind
+02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,35304077000.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8528835000.0,S,ind
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8918697000.0,S,con
 02.041.460/0001-93,2024-12-31,1,V. TAL - REDE NEUTRA DE TELECOMUNICAÇÕES S.A.,027022,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,5507212000.0,S,ind
@@ -3888,14 +3888,14 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,604281000.0,S,con
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,0.0,S,ind
 02.600.854/0001-34,2025-12-31,1,TIM BRASIL SERVIÇOS E PARTICIPAÇÕES S.A.,027090,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,14592523000.0,S,con
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6701940000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6048802000.0,S,ind
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,2120283000.0,S,con
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,6701940000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,1801826000.0,S,ind
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1049863000.0,S,con
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,2120283000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,980080000.0,S,ind
-02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,17453000.0,S,con
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1049863000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,17453000.0,S,ind
+02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,17453000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,17453000.0,S,ind
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,17453000.0,S,con
 02.635.522/0001-95,2024-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
@@ -3944,8 +3944,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,1362000.0,S,con
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03,Imobilizado,2645212000.0,S,ind
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03,Imobilizado,4448886000.0,S,con
-02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03.01,Imobilizado em Operação,1669065000.0,S,ind
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03.01,Imobilizado em Operação,2895077000.0,S,con
+02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03.01,Imobilizado em Operação,1669065000.0,S,ind
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.04,Intangível,16674000.0,S,ind
@@ -3954,16 +3954,16 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 02.635.522/0001-95,2025-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.02.04.01.02,Intangível,20740000.0,N,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1,Ativo Total,6763751000.0,S,ind
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1,Ativo Total,7420477000.0,S,con
-02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01,Ativo Circulante,2660333000.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01,Ativo Circulante,2424650000.0,S,ind
-02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.01,Caixa e Equivalentes de Caixa,1805147000.0,S,con
+02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01,Ativo Circulante,2660333000.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.01,Caixa e Equivalentes de Caixa,1722090000.0,S,ind
-02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02,Aplicações Financeiras,291000.0,S,con
+02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.01,Caixa e Equivalentes de Caixa,1805147000.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02,Aplicações Financeiras,291000.0,S,ind
-02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,291000.0,S,con
+02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02,Aplicações Financeiras,291000.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,291000.0,S,ind
-02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,291000.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 02.635.522/0001-95,2026-03-31,1,JALLES MACHADO S.A.,025496,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-03-31,1.02,Ativo Não Circulante,4760144000.0,S,con
@@ -5600,20 +5600,20 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02,Ativo Não Circulante,28276289000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,4997000.0,S,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,4997000.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,3402585000.0,S,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,4997000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,78444000.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,3023068000.0,S,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,3402585000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,37782000.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,237017000.0,S,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,3023068000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,723000.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,8050534000.0,S,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,237017000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,68864000.0,S,ind
-03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04.01.02,Intangível em Andamento,82283000.0,N,con
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,8050534000.0,S,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04.01.02,Intangível em andamento,30508000.0,N,ind
+03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04.01.02,Intangível em Andamento,82283000.0,N,con
 03.983.431/0001-03,2025-12-31,1,EDP - ENERGIAS DO BRASIL S.A.,019763,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04.01.03,Intangível em operação,38356000.0,N,ind
 04.030.182/0001-02,2024-12-31,1,CABINDA PARTICIPACOES S.A.,019119,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,20000.0,S,ind
 04.030.182/0001-02,2024-12-31,1,CABINDA PARTICIPACOES S.A.,019119,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,20000.0,S,ind
@@ -6155,36 +6155,36 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 04.368.898/0001-06,2025-12-31,1,COPEL DISTRIBUIÇÃO S.A.,026808,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,ind
 04.368.898/0001-06,2025-12-31,1,COPEL DISTRIBUIÇÃO S.A.,026808,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 04.368.898/0001-06,2025-12-31,1,COPEL DISTRIBUIÇÃO S.A.,026808,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,11868128000.0,S,ind
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,26278782000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,30206897000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,3478566000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,26278782000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,4818694000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,511790000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,3478566000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,1682854000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,511790000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02,Aplicações Financeiras,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,22800216000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,25388203000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,149368000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02,Ativo Não Circulante,22800216000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,525926000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,149368000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03,Imobilizado,3160968000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03,Imobilizado,8110769000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.01,Imobilizado em Operação,3012483000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03,Imobilizado,3160968000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.01,Imobilizado em Operação,7905476000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,148485000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.01,Imobilizado em Operação,3012483000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,205293000.0,S,con
-04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,3260920000.0,S,ind
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,148485000.0,S,ind
 04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,6638252000.0,S,con
+04.370.282/0001-70,2024-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,3260920000.0,S,ind
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,32660978000.0,S,con
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,26527794000.0,S,ind
 04.370.282/0001-70,2025-12-31,1,COPEL GERAÇÃO E TRANSMISSÃO S.A.,024740,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01,Ativo Circulante,4046518000.0,S,con
@@ -7272,28 +7272,28 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02,Aplicações Financeiras,105894000.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02,Ativo Não Circulante,4308536000.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02,Ativo Não Circulante,4228069000.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02,Ativo Não Circulante,4308536000.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.10.04,Aplicações Financeiras,42039000.0,N,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.10.04,Aplicações Financeiras,42331000.0,N,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03,Imobilizado,95361000.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.01.10.04,Aplicações Financeiras,42039000.0,N,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03,Imobilizado,102295000.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.01,Imobilizado em Operação,25567000.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03,Imobilizado,95361000.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.01,Imobilizado em Operação,30396000.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.01,Imobilizado em Operação,25567000.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
-06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.04,Intangível,291039000.0,S,ind
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.04,Intangível,2832572000.0,S,con
+06.267.630/0001-03,2025-09-30,1,COMPANHIA BRASILEIRA DE EDUCAÇÃO E SISTEMA DE ENSINO S.A.,028002,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-09-30,1.02.04,Intangível,291039000.0,S,ind
 06.272.793/0001-84,2024-12-31,1,EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A.,016608,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,11250010000.0,S,ind
 06.272.793/0001-84,2024-12-31,1,EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A.,016608,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,3400863000.0,S,ind
 06.272.793/0001-84,2024-12-31,1,EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A.,016608,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,130195000.0,S,ind
@@ -7606,18 +7606,18 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 06.981.180/0001-16,2025-12-31,1,CEMIG DISTRIBUICAO S.A.,020303,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 06.981.180/0001-16,2025-12-31,1,CEMIG DISTRIBUICAO S.A.,020303,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,15387703000.0,S,ind
 06.981.180/0001-16,2025-12-31,1,CEMIG DISTRIBUICAO S.A.,020303,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04.01.02,Intangível em Curso,411598000.0,N,ind
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,1192757000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,1194677000.0,S,con
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,556626000.0,S,ind
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,1192757000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,558336000.0,S,con
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,226348000.0,S,ind
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,556626000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,227402000.0,S,con
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,294176000.0,S,ind
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,226348000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,294176000.0,S,con
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,294176000.0,S,ind
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,294176000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,294176000.0,S,con
-06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,294176000.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 06.981.381/0001-13,2024-03-31,3,CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A.,023981,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,636131000.0,S,ind
@@ -8340,16 +8340,16 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,565040000.0,S,ind
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,2551064000.0,S,con
 07.594.978/0001-78,2025-12-31,1,SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.,024260,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,230861000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3605082000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3337510000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,1099490000.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1,Ativo Total,3605082000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,488489000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,170953000.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,1099490000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,25636000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,22941000.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,170953000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,136000.0,S,ind
-07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,22941000.0,S,con
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,22941000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,136000.0,S,ind
+07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,22941000.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2024-06-30,2,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
@@ -8374,8 +8374,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1,Ativo Total,3837002000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,646244000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,1177848000.0,S,con
-07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,30400000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,142908000.0,S,con
+07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,30400000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.02,Aplicações Financeiras,16908000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
@@ -8388,10 +8388,10 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02,Ativo Não Circulante,2659154000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.03,Imobilizado,512762000.0,S,con
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.03,Imobilizado,418844000.0,S,ind
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.03.01,Imobilizado em Operação,232669000.0,S,con
@@ -8402,14 +8402,14 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.628.528/0001-59,2025-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-06-30,1.02.04,Intangível,5095000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1,Ativo Total,3706838000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1,Ativo Total,3232281000.0,S,ind
-07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,1091354000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,542252000.0,S,ind
-07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,103354000.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,1091354000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,168499000.0,S,con
-07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,16353000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,103354000.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
-07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,16353000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,16353000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,16353000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
@@ -8422,8 +8422,8 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,18394000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,399462000.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,513511000.0,S,con
+07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,399462000.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,150135000.0,S,ind
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,277967000.0,S,con
 07.628.528/0001-59,2026-06-30,1,BRASILAGRO - CIA BRAS DE PROP AGRICOLAS,020036,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
@@ -9209,32 +9209,32 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,66628131000.0,S,ind
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,41901845000.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,24565267000.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,13902766000.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,7147566000.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,13902766000.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,53456044000.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,42062864000.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,53456044000.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,24030883000.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,14257359000.0,S,ind
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,24030883000.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,0.0,S,ind
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,0.0,S,con
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
-08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,2775094000.0,S,con
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,1620791000.0,S,ind
+08.070.508/0001-78,2024-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,2775094000.0,S,con
 08.070.508/0001-78,2025-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1,Ativo Total,105915394000.0,S,con
 08.070.508/0001-78,2025-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1,Ativo Total,75437285000.0,S,ind
 08.070.508/0001-78,2025-03-31,1,RAIZEN ENERGIA S.A.,023230,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01,Ativo Circulante,47425670000.0,S,con
@@ -9785,33 +9785,33 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 08.312.229/0001-73,2025-12-31,1,EZ TEC EMPREEND. E PARTICIPACOES S.A.,020770,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 08.312.229/0001-73,2025-12-31,1,EZ TEC EMPREEND. E PARTICIPACOES S.A.,020770,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,3101000.0,S,con
 08.312.229/0001-73,2025-12-31,1,EZ TEC EMPREEND. E PARTICIPACOES S.A.,020770,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,3101000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,7035068000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,4663597000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,2961557000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1,Ativo Total,7035068000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,1591403000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1692363000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01,Ativo Circulante,2961557000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1181855000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,21999000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.01,Caixa e Equivalentes de Caixa,1692363000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,5192000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,21056000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02,Aplicações Financeiras,21999000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,4249000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,21056000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,943000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,943000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,4073511000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,943000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,3072194000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02,Ativo Não Circulante,4073511000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,10824000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,10824000.0,S,ind
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,10824000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.10.05,Aplicações financeiras,0.0,N,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,3286749000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,1520832000.0,S,ind
-08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,2513648000.0,S,con
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,3286749000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,825937000.0,S,ind
+08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,2513648000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,139673000.0,S,con
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,132913000.0,S,ind
 08.322.396/0001-03,2024-03-31,1,CERRADINHO BIOENERGIA S.A.,026522,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,1201000.0,S,con
@@ -22508,10 +22508,10 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 33.453.598/0001-23,2024-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,6525051000.0,S,con
 33.453.598/0001-23,2024-03-31,1,RAÍZEN S.A.,025917,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04.01.02,Intangível,2252691000.0,N,ind
 33.453.598/0001-23,2024-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04.01.02,Intangível,3095986000.0,N,con
-33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1,Ativo Total,140999678000.0,S,con
 33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1,Ativo Total,58740252000.0,S,ind
-33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01,Ativo Circulante,61120378000.0,S,con
+33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1,Ativo Total,140999678000.0,S,con
 33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01,Ativo Circulante,17354698000.0,S,ind
+33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01,Ativo Circulante,61120378000.0,S,con
 33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01.01,Caixa e Equivalentes de Caixa,21721393000.0,S,con
 33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01.01,Caixa e Equivalentes de Caixa,6886721000.0,S,ind
 33.453.598/0001-23,2025-03-31,1,RAÍZEN S.A.,025917,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-03-31,1.01.01.02,Aplicações financeiras,13476683000.0,N,con
@@ -24412,6 +24412,21 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 40.593.395/0001-06,2024-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,ind
 40.593.395/0001-06,2024-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 40.593.395/0001-06,2024-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,656197000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01,Ativo Circulante,115341000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.01,Caixa e Equivalentes de Caixa,1490000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02,Aplicações Financeiras,113833000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,113833000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02,Ativo Não Circulante,540856000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,540856000.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+40.593.395/0001-06,2025-12-31,1,IFIN PARTICIPAÇÕES S.A.,026905,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,0.0,S,ind
 40.997.635/0001-20,2024-12-31,1,TRV XLIII SECURITIZADORA DE CREDITOS MERCANTIS S.A.,026239,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,150094000.0,S,ind
 40.997.635/0001-20,2024-12-31,1,TRV XLIII SECURITIZADORA DE CREDITOS MERCANTIS S.A.,026239,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,91000.0,S,ind
 40.997.635/0001-20,2024-12-31,1,TRV XLIII SECURITIZADORA DE CREDITOS MERCANTIS S.A.,026239,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01.01,Caixa e Equivalentes de Caixa,85000.0,S,ind
@@ -27309,12 +27324,12 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.10.07,Aplicações financeiras,0.0,N,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.01.10.07,Aplicações financeiras,0.0,N,ind
-51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,10834745000.0,S,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,8971341000.0,S,ind
-51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,8045148000.0,S,con
+51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03,Imobilizado,10834745000.0,S,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,6181744000.0,S,ind
-51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
+51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.01,Imobilizado em Operação,8045148000.0,S,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,454967000.0,S,con
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04,Intangível,443304000.0,S,ind
 51.466.860/0001-56,2024-03-31,1,SAO MARTINHO S.A.,020516,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-03-31,1.02.04.01.02,Intangível,454967000.0,N,con
@@ -31187,20 +31202,20 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 62.984.091/0001-02,2025-12-31,1,CRUZEIRO DO SUL EDUCACIONAL S.A.,025526,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 62.984.091/0001-02,2025-12-31,1,CRUZEIRO DO SUL EDUCACIONAL S.A.,025526,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,1926105000.0,S,con
 62.984.091/0001-02,2025-12-31,1,CRUZEIRO DO SUL EDUCACIONAL S.A.,025526,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,50679000.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1,Ativo Total,10621358000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1,Ativo Total,8987144000.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01,Ativo Circulante,6350714000.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1,Ativo Total,10621358000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01,Ativo Circulante,4817605000.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.01,Caixa e Equivalentes de Caixa,2800256000.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01,Ativo Circulante,6350714000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.01,Caixa e Equivalentes de Caixa,2455936000.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02,Aplicações Financeiras,0.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.01,Caixa e Equivalentes de Caixa,2800256000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02,Aplicações Financeiras,0.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02,Aplicações Financeiras,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02,Ativo Não Circulante,4169539000.0,S,ind
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02,Ativo Não Circulante,4270644000.0,S,con
 64.904.295/0001-03,2024-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
@@ -31237,44 +31252,44 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,15032000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,13728000.0,S,ind
+64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,15032000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03,Imobilizado,1483855000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03,Imobilizado,2767253000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03.01,Imobilizado em Operação,958246000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03.01,Imobilizado em Operação,1858713000.0,S,con
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03.03,Imobilizado em Andamento,356432000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.03.03,Imobilizado em Andamento,654098000.0,S,con
-64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.04,Intangível,605945000.0,S,ind
 64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.04,Intangível,1155976000.0,S,con
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1,Ativo Total,10774545000.0,S,con
+64.904.295/0001-03,2025-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-02-28,1.02.04,Intangível,605945000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1,Ativo Total,8936679000.0,S,ind
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1,Ativo Total,10774545000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01,Ativo Circulante,5513437000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01,Ativo Circulante,3707592000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1997608000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1634980000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02,Aplicações Financeiras,25095000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.01,Caixa e Equivalentes de Caixa,1997608000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02,Aplicações Financeiras,25095000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,25095000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02,Aplicações Financeiras,25095000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,25095000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02,Ativo Não Circulante,5261108000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02,Ativo Não Circulante,5229087000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02,Ativo Não Circulante,5261108000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03,Imobilizado,3104233000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03,Imobilizado,1653942000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.01,Imobilizado em Operação,2062038000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03,Imobilizado,3104233000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.01,Imobilizado em Operação,1029959000.0,S,ind
-64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,464046000.0,S,ind
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.01,Imobilizado em Operação,2062038000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,781603000.0,S,con
+64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.03.03,Imobilizado em Andamento,464046000.0,S,ind
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.04,Intangível,1155075000.0,S,con
 64.904.295/0001-03,2026-02-28,1,CAMIL ALIMENTOS S.A.,024228,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2026-02-28,1.02.04,Intangível,601396000.0,S,ind
 65.654.303/0001-73,2024-12-31,1,DIBENS LEASING S.A. - ARREND.MERCANTIL,014214,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,1015948000.0,S,ind
@@ -32416,6 +32431,40 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 82.636.986/0001-55,2024-12-31,1,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 82.636.986/0001-55,2024-12-31,1,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,175000.0,S,con
 82.636.986/0001-55,2024-12-31,1,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.02.04,Intangível,175000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,1190439000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1,Ativo Total,1183691000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01,Ativo Circulante,163385000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01,Ativo Circulante,165562000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.01,Caixa e Equivalentes de Caixa,1148000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.01,Caixa e Equivalentes de Caixa,708000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02,Aplicações Financeiras,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02,Aplicações Financeiras,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02,Ativo Não Circulante,1027054000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02,Ativo Não Circulante,1018129000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,164592000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03,Imobilizado,116468000.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01,Imobilizado em Operação,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01.01,Imobilizado em Operação,0.0,N,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01.01,Imobilizado em Operação,0.0,N,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01.02,Imobilizado Arrendado,0.0,N,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.01.02,Imobilizado Arrendado,0.0,N,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,941000.0,S,con
+82.636.986/0001-55,2025-12-31,2,TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL,011223,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,667000.0,S,ind
 82.640.558/0001-04,2024-12-31,1,KARSTEN S.A.,004146,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,706533000.0,S,con
 82.640.558/0001-04,2024-12-31,1,KARSTEN S.A.,004146,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,752708000.0,S,ind
 82.640.558/0001-04,2024-12-31,1,KARSTEN S.A.,004146,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,464252000.0,S,con
@@ -33730,14 +33779,14 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,299582000.0,S,con
 88.611.835/0001-29,2025-12-31,1,MARCOPOLO S.A.,008451,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2025-12-31,1.02.04,Intangível,53988000.0,S,ind
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,877647024.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,546290205.0,S,ind
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,439796997.0,S,con
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1,Ativo Total,877647024.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,177118785.0,S,ind
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01,Ativo Circulante,439796997.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,53609808.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.01,Caixa e Equivalentes de Caixa,163398300.0,S,con
-88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
+88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02,Aplicações Financeiras,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
@@ -33760,36 +33809,66 @@ CNPJ_CIA,DT_REFER,VERSAO,DENOM_CIA,CD_CVM,GRUPO_DFP,MOEDA,ESCALA_MOEDA,ORDEM_EXE
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.04,Intangível,3857821.0,S,ind
 88.613.658/0001-10,2024-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2024-06-30,1.02.04,Intangível,3956566.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1,Ativo Total,733913427.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1,Ativo Total,1024919360.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,327717690.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1,Ativo Total,733913427.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,569773694.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,149274618.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01,Ativo Circulante,327717690.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,236167073.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.01,Caixa e Equivalentes de Caixa,149274618.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02,Aplicações Financeiras,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02,Ativo Não Circulante,406195737.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02,Ativo Não Circulante,455145666.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,8435721.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02,Ativo Não Circulante,406195737.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,8435721.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,8435721.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
-88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03,Imobilizado,167059303.0,S,ind
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03,Imobilizado,432951635.0,S,con
+88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03,Imobilizado,167059303.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03.01,Imobilizado em Operação,167059303.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03.01,Imobilizado em Operação,432951635.0,S,con
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.04,Intangível,6487227.0,S,ind
 88.613.658/0001-10,2025-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2025-06-30,1.02.04,Intangível,6571378.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1,Ativo Total,752462745.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1,Ativo Total,1093922662.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,350577421.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01,Ativo Circulante,587756844.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,184766827.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.01,Caixa e Equivalentes de Caixa,262191580.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02,Aplicações Financeiras,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.01.02.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02,Ativo Não Circulante,506165818.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02,Ativo Não Circulante,401885324.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.01,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.02,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.01.03,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,448629822.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03,Imobilizado,196213435.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,448629822.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03.01,Imobilizado em Operação,196213435.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.03.03,Imobilizado em Andamento,0.0,S,ind
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Consolidado - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.04,Intangível,7626163.0,S,con
+88.613.658/0001-10,2026-06-30,1,PETTENATI S.A. INDUSTRIA TEXTIL,009539,DF Individual - Balanço Patrimonial Ativo,REAL,UNIDADE,ÚLTIMO,2026-06-30,1.02.04,Intangível,7576783.0,S,ind
 89.086.144/0001-16,2024-12-31,1,RANDONCORP S.A.,014109,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,15437636000.0,S,con
 89.086.144/0001-16,2024-12-31,1,RANDONCORP S.A.,014109,DF Individual - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1,Ativo Total,7053243000.0,S,ind
 89.086.144/0001-16,2024-12-31,1,RANDONCORP S.A.,014109,DF Consolidado - Balanço Patrimonial Ativo,REAL,MIL,ÚLTIMO,2024-12-31,1.01,Ativo Circulante,8911878000.0,S,con

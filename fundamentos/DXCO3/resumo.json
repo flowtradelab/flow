@@ -2,7 +2,7 @@
   "ticker": "DXCO3",
   "cnpj": "97837181000147",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:52:57.355642+00:00",
+  "atualizado_em": "2026-09-28T18:37:03.433597+00:00",
   "fundamentos": {
     "ativo_total": 19086932000.0,
     "patrimonio_liquido": 7404259000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.62,
+    "preco": 5.65,
     "valor_de_mercado": 5229335278.515106,
     "numero_acoes": 907870672
   },

@@ -2,7 +2,7 @@
   "ticker": "MATD3",
   "cnpj": "16676520000159",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:54:08.943597+00:00",
+  "atualizado_em": "2026-09-28T18:38:23.569566+00:00",
   "fundamentos": {
     "ativo_total": 4380389000.0,
     "patrimonio_liquido": 1507288000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.06,
-    "valor_de_mercado": 1703962110.6116295,
+    "preco": 4.95,
+    "valor_de_mercado": 1634614800.7645369,
     "numero_acoes": 330225225
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 37.88,
-    "p_vp": 1.13,
+    "p_l": 36.34,
+    "p_vp": 1.08,
     "margem_liquida": 0.0733,
     "roe": 0.0298,
-    "dividend_yield_12m": 0.0445,
+    "dividend_yield_12m": 0.0455,
     "divida_liquida_ebitda": 5.54
   },
   "proventos_recentes": [

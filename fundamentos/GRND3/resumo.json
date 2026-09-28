@@ -2,7 +2,7 @@
   "ticker": "GRND3",
   "cnpj": "89850341000160",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:53:29.075815+00:00",
+  "atualizado_em": "2026-09-28T18:37:39.530525+00:00",
   "fundamentos": {
     "ativo_total": 3822330000.0,
     "patrimonio_liquido": 3211205000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 3.67,
-    "valor_de_mercado": 3347013634.414673,
+    "preco": 3.77,
+    "valor_de_mercado": 3419186365.585327,
     "numero_acoes": 902160000
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 37.44,
-    "p_vp": 1.04,
+    "p_l": 38.24,
+    "p_vp": 1.06,
     "margem_liquida": 0.1617,
     "roe": 0.0278,
-    "dividend_yield_12m": 0.4055,
+    "dividend_yield_12m": 0.3947,
     "divida_liquida_ebitda": 0.27
   },
   "proventos_recentes": [

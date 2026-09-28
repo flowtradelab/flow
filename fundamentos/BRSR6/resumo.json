@@ -2,7 +2,7 @@
   "ticker": "BRSR6",
   "cnpj": "92702067000196",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:52:34.004809+00:00",
+  "atualizado_em": "2026-09-28T18:36:37.472724+00:00",
   "fundamentos": {
     "ativo_total": 172693778000.0,
     "patrimonio_liquido": 11847888000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 14.87,
-    "valor_de_mercado": 6179604207.059756,
+    "preco": 15.17,
+    "valor_de_mercado": 6298206789.788618,
     "numero_acoes": 408974477
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 21.43,
-    "p_vp": 0.52,
+    "p_l": 21.84,
+    "p_vp": 0.53,
     "margem_liquida": 0.0496,
     "roe": 0.0243,
-    "dividend_yield_12m": 0.1215,
+    "dividend_yield_12m": 0.1191,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

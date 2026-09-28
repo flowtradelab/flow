@@ -2,7 +2,7 @@
   "ticker": "VULC3",
   "cnpj": "50926955000142",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:55:57.460599+00:00",
+  "atualizado_em": "2026-09-28T18:40:23.300515+00:00",
   "fundamentos": {
     "ativo_total": 4132410000.0,
     "patrimonio_liquido": 2652356000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 13.41,
-    "valor_de_mercado": 4290782452.930172,
+    "preco": 13.37,
+    "valor_de_mercado": 4205972120.032113,
     "numero_acoes": 314112921
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 29.85,
-    "p_vp": 1.62,
+    "p_l": 29.26,
+    "p_vp": 1.59,
     "margem_liquida": 0.1445,
     "roe": 0.0542,
-    "dividend_yield_12m": 0.397,
+    "dividend_yield_12m": 0.3982,
     "divida_liquida_ebitda": 2.79
   },
   "proventos_recentes": [

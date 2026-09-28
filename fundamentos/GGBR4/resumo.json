@@ -2,7 +2,7 @@
   "ticker": "GGBR4",
   "cnpj": "33611500000119",
   "razao_social": null,
-  "atualizado_em": "2026-09-21T16:53:24.960117+00:00",
+  "atualizado_em": "2026-09-28T18:37:34.896889+00:00",
   "fundamentos": {
     "ativo_total": 81972713000.0,
     "patrimonio_liquido": 53734748000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 25.34,
-    "valor_de_mercado": 50202521156.347275,
-    "numero_acoes": 1961802300
+    "preco": 24.99,
+    "valor_de_mercado": 48876568698.253265,
+    "numero_acoes": 1962126415
   },
   "divida": {
     "bruta": 13558089000.0,
@@ -34,18 +34,18 @@
     "capex_aprox": -1162759000.0,
     "fcf_aprox": 346548000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -1102538000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 432478000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -1205150000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 304157000.0,
+    "fcf_yahoo_data_referencia": "2026-03-31",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.24,
-    "p_vp": 0.93,
+    "p_l": 33.34,
+    "p_vp": 0.91,
     "margem_liquida": 0.082,
     "roe": 0.0273,
-    "dividend_yield_12m": 0.0312,
+    "dividend_yield_12m": 0.0316,
     "divida_liquida_ebitda": 2.6
   },
   "proventos_recentes": [
