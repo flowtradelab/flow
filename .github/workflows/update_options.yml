@@ -3,8 +3,10 @@ name: Atualizar Opções B3
 
 on:
   schedule:
-    - cron: '0 10 * * 1-5'    # 7h00 BRT
-    - cron: '45 11 * * 1-5'   # 8h45 BRT
+    - cron: '27 7 * * 1-5'    # 07:27 em Brasília
+      timezone: 'America/Sao_Paulo'
+    - cron: '47 8 * * 1-5'    # 08:47 em Brasília
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:
 
 jobs:

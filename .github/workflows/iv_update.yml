@@ -2,7 +2,8 @@ name: IV Update Diário
 
 on:
   schedule:
-    - cron: '0 13 * * 1-5'   # 10h horário de Brasília (13h UTC), dias úteis
+    - cron: '7 10 * * 1-5'   # 10:07 em Brasília, dias úteis
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:           # permite rodar manualmente pelo GitHub
 
 jobs:

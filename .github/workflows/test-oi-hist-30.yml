@@ -2,8 +2,9 @@ name: Atualizar historico mensal de OI e naked short
 
 on:
   schedule:
-    # 06:17 BRT (09:17 UTC), daily: processes completed prior sessions.
-    - cron: '17 9 * * *'
+    # 06:17 em Brasília, diariamente: processa sessões anteriores concluídas.
+    - cron: '17 6 * * *'
+      timezone: 'America/Sao_Paulo'
   pull_request:
     paths:
       - '.github/workflows/test-oi-hist-30.yml'

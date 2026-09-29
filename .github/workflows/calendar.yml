@@ -3,8 +3,9 @@ name: Atualizar Calendário Econômico
 on:
   schedule:
     # Atualiza agenda 4 vezes por dia em dias úteis.
-    # Horários em UTC: 08h, 12h, 16h e 20h.
-    - cron: '0 8,12,16,20 * * 1-5'
+    # Horários de Brasília: 05:07, 09:07, 13:07 e 17:07.
+    - cron: '7 5,9,13,17 * * 1-5'
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:
 
 jobs:
