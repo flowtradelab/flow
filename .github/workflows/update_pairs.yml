@@ -1,9 +1,10 @@
 name: Pair Trading Data
 
 on:
-  # Todo dia útil às 07:00 BRT (10:00 UTC)
+  # Todo dia útil às 07:17 em Brasília
   schedule:
-    - cron: '0 10 * * 1-5'
+    - cron: '17 7 * * 1-5'
+      timezone: 'America/Sao_Paulo'
 
   # Permite rodar manualmente escolhendo o período
   workflow_dispatch:

@@ -3,7 +3,7 @@ name: Macro Global
 on:
   schedule:
     # Executa após o Macro Brasil para reduzir risco de conflito no git push.
-    - cron: "30 6 * * *"
+    - cron: "37 6 * * *"
       timezone: "America/Sao_Paulo"
 
   workflow_dispatch:

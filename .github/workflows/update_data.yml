@@ -2,7 +2,8 @@ name: 📊 Update Macro Data
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # Todo dia às 09:00 UTC (06:00 BRT)
+    - cron: '7 6 * * *'   # Todo dia às 06:07 em Brasília
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:        # Permite rodar manualmente pelo GitHub
 
 jobs:

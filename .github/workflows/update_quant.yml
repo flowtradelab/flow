@@ -1,7 +1,8 @@
 name: Update Quant Data
 on:
   schedule:
-    - cron: '0 10 * * 1-5'  # Seg-Sex 07:00 BRT (10:00 UTC)
+    - cron: '7 7 * * 1-5'  # Seg-Sex 07:07 em Brasília
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:
     inputs:
       ticker:

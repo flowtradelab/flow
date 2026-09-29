@@ -2,7 +2,8 @@ name: Atualizar Fluxo B3
 
 on:
   schedule:
-    - cron: '0 11 * * 1-5'  # 8h BRT = 11h UTC, segunda a sexta
+    - cron: '7 8 * * 1-5'  # 08:07 em Brasília, segunda a sexta
+      timezone: 'America/Sao_Paulo'
   workflow_dispatch:         # Permite rodar manualmente também
 
 jobs:
