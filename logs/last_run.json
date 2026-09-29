@@ -1,31 +1,31 @@
 {
   "status": "ok",
-  "executado_em": "2026-09-28 15:47:58 BRT",
-  "executado_em_ts": 1790621278,
-  "data_referencia": "2026-09-25",
+  "executado_em": "2026-09-29 13:23:14 BRT",
+  "executado_em_ts": 1790698994,
+  "data_referencia": "2026-09-28",
   "arquivos": {
     "instruments_consolidated": {
       "nome": "InstrumentsConsolidated",
-      "tamanho_mb": 19.32,
-      "linhas_total": 89982,
-      "opcoes_total": 79966
+      "tamanho_mb": 19.22,
+      "linhas_total": 89524,
+      "opcoes_total": 79512
     },
     "options_open_positions_json": {
       "nome": "SI_C_OPCPOSABEMP.json",
-      "url": "https://www.b3.com.br/json/20260925/Posicoes/Empresa/SI_C_OPCPOSABEMP.json",
-      "tamanho_mb": 8.46,
-      "linhas_total": 41229,
-      "opcoes_com_posicao": 41229
+      "url": "https://www.b3.com.br/json/20260928/Posicoes/Empresa/SI_C_OPCPOSABEMP.json",
+      "tamanho_mb": 8.58,
+      "linhas_total": 41790,
+      "opcoes_com_posicao": 41790
     }
   },
   "processamento": {
-    "opcoes_com_join": 41229,
-    "opcoes_sem_posicao": 38737,
+    "opcoes_com_join": 41790,
+    "opcoes_sem_posicao": 37722,
     "cobertura_join_pct": 100.0,
     "sanidade_posicoes_pct": 100.0,
-    "divergencias_metadados": 793,
+    "divergencias_metadados": 275,
     "tickers_gerados": 314,
-    "arquivos_alterados": 0
+    "arquivos_alterados": 314
   },
   "erros": []
 }
