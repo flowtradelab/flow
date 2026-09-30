@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-09-29T12:32:48.640135-03:00",
+  "atualizado_em": "2026-09-30T12:59:31.938690-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-09-29",
+      "data": "2026-09-30",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,15 +23,15 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-09-28",
+      "data": "2026-09-29",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.2132,
+      "valor": 5.2204,
       "unidade": "R$/US$",
-      "data": "2026-09-28",
+      "data": "2026-09-29",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,17 +45,17 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 5.9253,
+      "valor": 5.9178,
       "unidade": "R$/EUR",
-      "data": "2026-09-28",
+      "data": "2026-09-29",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 362548.0,
+      "valor": 362641.0,
       "unidade": "US$ milhões",
-      "data": "2026-09-28",
+      "data": "2026-09-29",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -69,17 +69,17 @@
     },
     "resultado_primario": {
       "nome": "Resultado primário - setor público consolidado",
-      "valor": -1361.2,
+      "valor": 10012.04,
       "unidade": "R$ milhões",
-      "data": "2026-07-01",
+      "data": "2026-08-01",
       "fonte": "Banco Central do Brasil",
       "sgs": 4649
     },
     "divida_pib": {
       "nome": "Dívida Bruta do Governo Geral / PIB",
-      "valor": 82.56,
+      "valor": 82.86,
       "unidade": "% do PIB",
-      "data": "2026-07-01",
+      "data": "2026-08-01",
       "fonte": "Banco Central do Brasil",
       "sgs": 13762
     }
@@ -40372,6 +40372,10 @@
         {
           "data": "2026-09-29",
           "valor": 13.75
+        },
+        {
+          "data": "2026-09-30",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -73764,6 +73768,10 @@
         {
           "data": "2026-09-28",
           "valor": 13.65
+        },
+        {
+          "data": "2026-09-29",
+          "valor": 13.65
         }
       ],
       "dolar_ptax": [
@@ -105634,6 +105642,10 @@
         {
           "data": "2026-09-28",
           "valor": 5.2132
+        },
+        {
+          "data": "2026-09-29",
+          "valor": 5.2204
         }
       ],
       "igpm": [
