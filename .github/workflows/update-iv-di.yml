@@ -1,0 +1,71 @@
+name: Atualizar IV-DI
+
+on:
+  schedule:
+    - cron: "30 2 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: "Data do pregão (AAAA-MM-DD); vazio usa a data de São Paulo"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-iv-di
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Definir data do pregão
+        env:
+          MANUAL_DATE: ${{ inputs.end_date }}
+        run: |
+          if [[ -n "$MANUAL_DATE" ]]; then
+            END_DATE="$MANUAL_DATE"
+          else
+            END_DATE="$(TZ=America/Sao_Paulo date +%F)"
+          fi
+          echo "END_DATE=$END_DATE" >> "$GITHUB_ENV"
+          echo "Data solicitada: $END_DATE"
+
+      - name: Executar testes
+        run: python -m unittest discover -s tests -v
+
+      - name: Atualizar curva DI1
+        run: python scripts/update_di_curve.py --sessions 250 --end-date "$END_DATE" --delay 0
+
+      - name: Atualizar IV do pregão mais recente
+        run: python scripts/update_iv_di_history.py --all-existing --sessions 250 --end-date "$END_DATE" --latest-only
+
+      - name: Reconstruir ranking
+        run: python scripts/build_iv_ranking.py
+
+      - name: Publicar dados atualizados
+        run: |
+          git add data/di_curve/history.json data/iv_di_history data/iv_di_ranking.json data/iv_di_ranking.csv
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração de dados para publicar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: atualiza IV-DI para $END_DATE"
+          git pull --rebase
+          git push
