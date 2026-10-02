@@ -1,4 +1,3 @@
-{"ts": "2026-09-07 13:46:26 BRT", "data_series": "20260904", "data_bdi": "20260903", "status": "ok", "tickers": 226, "changed": 226, "matched": 46792}
 {"ts": "2026-09-08 12:24:14 BRT", "data_series": "20260904", "data_bdi": "20260904", "status": "ok", "tickers": 226, "changed": 170, "matched": 47462}
 {"ts": "2026-09-09 12:22:06 BRT", "data_series": "20260908", "data_bdi": "20260908", "status": "ok", "tickers": 224, "changed": 224, "matched": 48266}
 {"ts": "2026-09-10 11:13:19 BRT", "data_series": "20260909", "data_bdi": "20260909", "status": "ok", "tickers": 224, "changed": 224, "matched": 48820}
@@ -28,3 +27,4 @@
 {"ts": "2026-10-01 14:04:02 BRT", "data": "2026-09-30", "status": "ok", "tickers": 313, "changed": 313, "matched": 42740, "fonte": "SI_C_OPCPOSABEMP+InstrumentsConsolidated"}
 {"ts": "2026-10-01 14:30:40 BRT", "data": "2026-09-30", "status": "ok", "tickers": 313, "changed": 0, "matched": 42740, "fonte": "SI_C_OPCPOSABEMP+InstrumentsConsolidated"}
 {"ts": "2026-10-02 13:18:28 BRT", "data": "2026-10-01", "status": "ok", "tickers": 311, "changed": 311, "matched": 43199, "fonte": "SI_C_OPCPOSABEMP+InstrumentsConsolidated"}
+{"ts": "2026-10-02 13:50:51 BRT", "data": "2026-10-01", "status": "ok", "tickers": 311, "changed": 0, "matched": 43199, "fonte": "SI_C_OPCPOSABEMP+InstrumentsConsolidated"}
