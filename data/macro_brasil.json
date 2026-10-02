@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-10-01T13:33:45.136578-03:00",
+  "atualizado_em": "2026-10-02T12:54:00.866330-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-10-01",
+      "data": "2026-10-02",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,7 +23,7 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-09-30",
+      "data": "2026-10-01",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
@@ -53,9 +53,9 @@
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 362821.0,
+      "valor": 362616.0,
       "unidade": "US$ milhões",
-      "data": "2026-09-30",
+      "data": "2026-10-01",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -40380,6 +40380,10 @@
         {
           "data": "2026-10-01",
           "valor": 13.75
+        },
+        {
+          "data": "2026-10-02",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -73779,6 +73783,10 @@
         },
         {
           "data": "2026-09-30",
+          "valor": 13.65
+        },
+        {
+          "data": "2026-10-01",
           "valor": 13.65
         }
       ],
