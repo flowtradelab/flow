@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "index": "IBEE",
+  "generated_at": "2026-10-04T23:09:23Z",
+  "reference_date": "2026-10-05",
+  "portfolio_period": {
+    "year": 2026,
+    "start_month": 9,
+    "end_month": 12
+  },
+  "source": {
+    "provider": "B3",
+    "url": "https://sistemaswebb3-listados.b3.com.br/indexPage/day/IBEE?language=pt-br"
+  },
+  "totals": {
+    "weight_percent": 100.0,
+    "theoretical_quantity": 5248907536,
+    "reductor": 25492271.20860319
+  },
+  "constituent_count": 7,
+  "constituents": [
+    {
+      "ticker": "BBAS3",
+      "company": "BCO BRASIL S.A.",
+      "trading_name": "BRASIL",
+      "asset_type": "ON      NM",
+      "theoretical_quantity": 1265109363,
+      "weight_percent": 21.5,
+      "sector": "Financeiro",
+      "subsector": "Intermediários Financeiros",
+      "segment": "Bancos",
+      "issuer_code": "BBAS",
+      "cvm_code": "1023",
+      "cnpj": "00000000000191"
+    },
+    {
+      "ticker": "BBSE3",
+      "company": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+      "trading_name": "BBSEGURIDADE",
+      "asset_type": "ON      NM",
+      "theoretical_quantity": 616248544,
+      "weight_percent": 17.859,
+      "sector": "Financeiro",
+      "subsector": "Previdência e Seguros",
+      "segment": "Seguradoras",
+      "issuer_code": "BBSE",
+      "cvm_code": "23159",
+      "cnpj": "17344597000194"
+    },
+    {
+      "ticker": "CMIG4",
+      "company": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
+      "trading_name": "CEMIG",
+      "asset_type": "PN      N1",
+      "theoretical_quantity": 1823593065,
+      "weight_percent": 14.908,
+      "sector": "Utilidade Pública",
+      "subsector": "Energia Elétrica",
+      "segment": "Energia Elétrica",
+      "issuer_code": "CMIG",
+      "cvm_code": "2453",
+      "cnpj": "17155730000164"
+    },
+    {
+      "ticker": "CSMG3",
+      "company": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
+      "trading_name": "COPASA",
+      "asset_type": "ON      NM",
+      "theoretical_quantity": 379172627,
+      "weight_percent": 15.281,
+      "sector": "Utilidade Pública",
+      "subsector": "Água e Saneamento",
+      "segment": "Água e Saneamento",
+      "issuer_code": "CSMG",
+      "cvm_code": "19445",
+      "cnpj": "17281106000103"
+    },
+    {
+      "ticker": "CXSE3",
+      "company": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A.",
+      "trading_name": "CAIXA SEGURI",
+      "asset_type": "ON      NM",
+      "theoretical_quantity": 600000000,
+      "weight_percent": 8.774,
+      "sector": "Financeiro",
+      "subsector": "Previdência e Seguros",
+      "segment": "Seguradoras",
+      "issuer_code": "CXSE",
+      "cvm_code": "23795",
+      "cnpj": "22543331000100"
+    },
+    {
+      "ticker": "PETR3",
+      "company": "PETROLEO BRASILEIRO S.A. PETROBRAS",
+      "trading_name": "PETROBRAS",
+      "asset_type": "ON      N2",
+      "theoretical_quantity": 249015157,
+      "weight_percent": 10.102,
+      "sector": "Petróleo. Gás e Biocombustíveis",
+      "subsector": "Petróleo. Gás e Biocombustíveis",
+      "segment": "Exploração. Refino e Distribuição",
+      "issuer_code": "PETR",
+      "cvm_code": "9512",
+      "cnpj": "33000167000101"
+    },
+    {
+      "ticker": "PETR4",
+      "company": "PETROLEO BRASILEIRO S.A. PETROBRAS",
+      "trading_name": "PETROBRAS",
+      "asset_type": "PN      N2",
+      "theoretical_quantity": 315768780,
+      "weight_percent": 11.576,
+      "sector": "Petróleo. Gás e Biocombustíveis",
+      "subsector": "Petróleo. Gás e Biocombustíveis",
+      "segment": "Exploração. Refino e Distribuição",
+      "issuer_code": "PETR",
+      "cvm_code": "9512",
+      "cnpj": "33000167000101"
+    }
+  ]
+}
