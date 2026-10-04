@@ -1,0 +1,46 @@
+name: Atualizar índices da B3
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 18h30 em Brasília (21h30 UTC), de segunda a sexta-feira.
+    - cron: "30 21 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-b3-indices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v7
+
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Executar testes
+        working-directory: b3-indices-json
+        run: python -m unittest discover -s tests -v
+
+      - name: Atualizar JSONs
+        working-directory: b3-indices-json
+        env:
+          B3_USER_AGENT: flow GitHub Actions
+        run: python scripts/update_data.py
+
+      - name: Validar JSONs
+        run: python -m json.tool b3-indices-json/data/consolidated.json > /dev/null
+
+      - name: Publicar alterações
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "data: atualizar índices da B3"
+          file_pattern: "b3-indices-json/data/*.json b3-indices-json/data/indices/*.json b3-indices-json/data/history/**/*.json"
