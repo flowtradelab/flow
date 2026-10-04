@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T23:09:23Z",
+  "generated_at": "2026-10-04T23:45:28Z",
   "source": {
     "provider": "B3",
     "url": "https://sistemaswebb3-listados.b3.com.br/indexPage/stocks"
@@ -15,7 +15,7 @@
     {
       "schema_version": 1,
       "index": "AGFS",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -388,7 +388,7 @@
     {
       "schema_version": 1,
       "index": "BDRX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -2301,7 +2301,7 @@
     {
       "schema_version": 1,
       "index": "BNCO",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -2492,7 +2492,7 @@
     {
       "schema_version": 1,
       "index": "GPTW",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -3089,7 +3089,7 @@
     {
       "schema_version": 1,
       "index": "IBBC",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -4274,7 +4274,7 @@
     {
       "schema_version": 1,
       "index": "IBBE",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -5459,7 +5459,7 @@
     {
       "schema_version": 1,
       "index": "IBBR",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -6644,7 +6644,7 @@
     {
       "schema_version": 1,
       "index": "IBEE",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -6765,7 +6765,7 @@
     {
       "schema_version": 1,
       "index": "IBEP",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -7754,7 +7754,7 @@
     {
       "schema_version": 1,
       "index": "IBEW",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -8841,7 +8841,7 @@
     {
       "schema_version": 1,
       "index": "IBHB",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -9214,7 +9214,7 @@
     {
       "schema_version": 1,
       "index": "IBLV",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -9587,7 +9587,7 @@
     {
       "schema_version": 1,
       "index": "IBOV",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -10674,7 +10674,7 @@
     {
       "schema_version": 1,
       "index": "IBRA",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -12769,7 +12769,7 @@
     {
       "schema_version": 1,
       "index": "IBSD",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -13058,7 +13058,7 @@
     {
       "schema_version": 1,
       "index": "IBST",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -13347,7 +13347,7 @@
     {
       "schema_version": 1,
       "index": "IBXL",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -14070,7 +14070,7 @@
     {
       "schema_version": 1,
       "index": "IBXX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -15493,7 +15493,7 @@
     {
       "schema_version": 1,
       "index": "ICO2",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -16370,7 +16370,7 @@
     {
       "schema_version": 1,
       "index": "ICON",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -17205,7 +17205,7 @@
     {
       "schema_version": 1,
       "index": "IDIV",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -17942,7 +17942,7 @@
     {
       "schema_version": 1,
       "index": "IDVR",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -19197,7 +19197,7 @@
     {
       "schema_version": 1,
       "index": "IEEX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -19388,7 +19388,7 @@
     {
       "schema_version": 1,
       "index": "IFES",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -19887,7 +19887,7 @@
     {
       "schema_version": 1,
       "index": "IFIL",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -20722,7 +20722,7 @@
     {
       "schema_version": 1,
       "index": "IFIX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -22131,7 +22131,7 @@
     {
       "schema_version": 1,
       "index": "IFNC",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -22392,7 +22392,7 @@
     {
       "schema_version": 1,
       "index": "IGCT",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -24417,7 +24417,7 @@
     {
       "schema_version": 1,
       "index": "IGCX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -27478,7 +27478,7 @@
     {
       "schema_version": 1,
       "index": "IGNM",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -29727,7 +29727,7 @@
     {
       "schema_version": 1,
       "index": "IMAT",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -29946,7 +29946,7 @@
     {
       "schema_version": 1,
       "index": "IMOB",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -30179,7 +30179,7 @@
     {
       "schema_version": 1,
       "index": "INDX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -30832,7 +30832,7 @@
     {
       "schema_version": 1,
       "index": "ISEE",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -31807,7 +31807,7 @@
     {
       "schema_version": 1,
       "index": "ITAG",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -34728,7 +34728,7 @@
     {
       "schema_version": 1,
       "index": "IVBX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -35451,7 +35451,7 @@
     {
       "schema_version": 1,
       "index": "MLCX",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -36090,7 +36090,7 @@
     {
       "schema_version": 1,
       "index": "SCSR",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -37597,7 +37597,7 @@
     {
       "schema_version": 1,
       "index": "SMLL",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
@@ -39076,7 +39076,7 @@
     {
       "schema_version": 1,
       "index": "UTIL",
-      "generated_at": "2026-10-04T23:09:23Z",
+      "generated_at": "2026-10-04T23:45:28Z",
       "reference_date": "2026-10-05",
       "portfolio_period": {
         "year": 2026,
