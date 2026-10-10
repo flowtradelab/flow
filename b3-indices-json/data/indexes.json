@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T01:17:53Z",
+  "generated_at": "2026-10-10T01:02:43Z",
   "source": {
     "provider": "B3",
     "url": "https://sistemaswebb3-listados.b3.com.br/indexPage/stocks"
@@ -15,241 +15,241 @@
     {
       "code": "AGFS",
       "constituent_count": 25,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/AGFS.json"
     },
     {
       "code": "BDRX",
       "constituent_count": 135,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/BDRX.json"
     },
     {
       "code": "BNCO",
       "constituent_count": 12,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/BNCO.json"
     },
     {
       "code": "GPTW",
       "constituent_count": 41,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/GPTW.json"
     },
     {
       "code": "IBBC",
       "constituent_count": 83,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBBC.json"
     },
     {
       "code": "IBBE",
       "constituent_count": 83,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBBE.json"
     },
     {
       "code": "IBBR",
       "constituent_count": 83,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBBR.json"
     },
     {
       "code": "IBEE",
       "constituent_count": 7,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBEE.json"
     },
     {
       "code": "IBEP",
       "constituent_count": 69,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBEP.json"
     },
     {
       "code": "IBEW",
       "constituent_count": 76,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBEW.json"
     },
     {
       "code": "IBHB",
       "constituent_count": 25,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBHB.json"
     },
     {
       "code": "IBLV",
       "constituent_count": 25,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBLV.json"
     },
     {
       "code": "IBOV",
       "constituent_count": 76,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBOV.json"
     },
     {
       "code": "IBRA",
       "constituent_count": 148,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBRA.json"
     },
     {
       "code": "IBSD",
       "constituent_count": 19,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBSD.json"
     },
     {
       "code": "IBST",
       "constituent_count": 19,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBST.json"
     },
     {
       "code": "IBXL",
       "constituent_count": 50,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBXL.json"
     },
     {
       "code": "IBXX",
       "constituent_count": 100,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IBXX.json"
     },
     {
       "code": "ICO2",
       "constituent_count": 61,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/ICO2.json"
     },
     {
       "code": "ICON",
       "constituent_count": 58,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/ICON.json"
     },
     {
       "code": "IDIV",
       "constituent_count": 51,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IDIV.json"
     },
     {
       "code": "IDVR",
       "constituent_count": 88,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IDVR.json"
     },
     {
       "code": "IEEX",
       "constituent_count": 12,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IEEX.json"
     },
     {
       "code": "IFES",
       "constituent_count": 34,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IFES.json"
     },
     {
       "code": "IFIL",
       "constituent_count": 58,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IFIL.json"
     },
     {
       "code": "IFIX",
       "constituent_count": 99,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IFIX.json"
     },
     {
       "code": "IFNC",
       "constituent_count": 17,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IFNC.json"
     },
     {
       "code": "IGCT",
       "constituent_count": 143,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IGCT.json"
     },
     {
       "code": "IGCX",
       "constituent_count": 217,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IGCX.json"
     },
     {
       "code": "IGNM",
       "constituent_count": 159,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IGNM.json"
     },
     {
       "code": "IMAT",
       "constituent_count": 14,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IMAT.json"
     },
     {
       "code": "IMOB",
       "constituent_count": 15,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IMOB.json"
     },
     {
       "code": "INDX",
       "constituent_count": 45,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/INDX.json"
     },
     {
       "code": "ISEE",
       "constituent_count": 68,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/ISEE.json"
     },
     {
       "code": "ITAG",
       "constituent_count": 207,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/ITAG.json"
     },
     {
       "code": "IVBX",
       "constituent_count": 50,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/IVBX.json"
     },
     {
       "code": "MLCX",
       "constituent_count": 44,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/MLCX.json"
     },
     {
       "code": "SCSR",
       "constituent_count": 106,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/SCSR.json"
     },
     {
       "code": "SMLL",
       "constituent_count": 104,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/SMLL.json"
     },
     {
       "code": "UTIL",
       "constituent_count": 16,
-      "reference_date": "2026-10-08",
+      "reference_date": "2026-10-09",
       "file": "indices/UTIL.json"
     }
   ]
