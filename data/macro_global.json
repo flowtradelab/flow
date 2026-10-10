@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-09T13:30:03.485835-03:00",
+  "atualizado_em": "2026-10-10T12:33:11.021277-03:00",
   "timezone": "America/Sao_Paulo",
   "ano_referencia_weo": 2026,
   "metodologia": {
@@ -46,9 +46,9 @@
     },
     "world_bank": {
       "api": "https://api.worldbank.org/v2",
-      "ultima_atualizacao_pib_usd": "2026-07-13",
-      "ultima_atualizacao_fdi_pib": "2026-07-13",
-      "ultima_atualizacao_fdi_usd": "2026-07-13"
+      "ultima_atualizacao_pib_usd": "2026-10-08",
+      "ultima_atualizacao_fdi_pib": "2026-10-08",
+      "ultima_atualizacao_fdi_usd": "2026-10-08"
     },
     "bis": {
       "bulk_download": "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip",
@@ -61,8 +61,8 @@
     "inflacao": 197,
     "desemprego": 118,
     "divida_pib": 194,
-    "fdi_pib": 200,
-    "fdi_usd": 202,
+    "fdi_pib": 201,
+    "fdi_usd": 203,
     "taxa_juros": 0
   },
   "paises": {
@@ -102,16 +102,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.4774663008564,
+        "valor": 2.47746625286701,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 103250590.0,
+        "valor": 71080620.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -146,14 +146,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.144466946606861,
+        "valor": 0.144466918556362,
         "unidade": "% do PIB",
         "ano": "2021",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 20600980.0,
+        "valor": 20600976.0,
         "unidade": "US$",
         "ano": "2021",
         "fonte": "World Bank - WDI",
@@ -190,14 +190,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.940234642686515,
+        "valor": 1.81406109811554,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1148730635.02496,
+        "valor": 2216327140.69984,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -253,14 +253,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.0631729079562,
+        "valor": 6.06317290795607,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1851704421.30683,
+        "valor": 1851704421.30679,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -304,16 +304,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.63542850454759,
+        "valor": 5.9933311039631,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 268353295.972631,
+        "valor": 269758798.049447,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -348,16 +348,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 8.26261604873876,
+        "valor": 8.26177302526361,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 45636487406.3989,
+        "valor": 48243430905.3778,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -399,14 +399,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.458822968080686,
+        "valor": 0.638521752212331,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3134210021.22103,
+        "valor": 4361728626.88855,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -450,14 +450,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.06928849014455,
+        "valor": 2.42116246926554,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 605131404.615405,
+        "valor": 708031505.904919,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -587,14 +587,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.030634840302,
+        "valor": 2.08162673750194,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 36521352076.9212,
+        "valor": 37438451002.7093,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -638,14 +638,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -2.01581463662181,
+        "valor": -2.01581463662177,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -11681041500.0769,
+        "valor": -11681041500.0767,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -784,14 +784,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -3.96835875820548,
+        "valor": -3.96835875820531,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -28789111916.7343,
+        "valor": -28789111916.733,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -828,16 +828,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.5276563137227,
+        "valor": 1.96064392078668,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 543007400.0,
+        "valor": 481660038.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -884,16 +884,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.874048616893636,
+        "valor": 1.12886934176847,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -202224388.094201,
+        "valor": 311876091.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -928,14 +928,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.404544313117544,
+        "valor": 0.391072629131908,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1846013491.61525,
+        "valor": 1784539607.08425,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1030,16 +1030,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.72467195311559,
+        "valor": 1.67703062467795,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2702659574.46808,
+        "valor": 821170212.765962,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1088,9 +1088,9 @@
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 240551037.3,
+        "valor": 1536255210.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1132,14 +1132,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.19810904099247,
+        "valor": 2.61184423353769,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 716583172.28686,
+        "valor": 851460774.458453,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1183,14 +1183,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.71482023151392,
+        "valor": 1.76312299114393,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1601594353.31,
+        "valor": 1646707785.99,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1264,16 +1264,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.2816357911399,
+        "valor": 1.27852861584602,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 117839990.0,
+        "valor": -179733549.083887,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1315,14 +1315,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.957783217657101,
+        "valor": 0.813292759868512,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 620346109.650703,
+        "valor": 526761160.866509,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1417,16 +1417,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.98890634980471,
+        "valor": 3.40659459493173,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 303060010.0,
+        "valor": 273091359.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1519,16 +1519,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.0841982308924301,
+        "valor": 0.238058616008172,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2817781.24404488,
+        "valor": 8520880.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1563,16 +1563,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.42279666305462,
+        "valor": -3.25662230314756,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 467266647.291915,
+        "valor": -648995319.129715,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1607,16 +1607,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.46851186564355,
+        "valor": 1.42916689407788,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 40406020.0,
+        "valor": 43819818.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1658,14 +1658,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.97568378108142,
+        "valor": 3.02316174291554,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 69032881265.4228,
+        "valor": 70134322393.9651,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1709,14 +1709,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.17732336606846,
+        "valor": 0.00152330843935289,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -12285721335.7918,
+        "valor": 15896179.02246,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -1873,16 +1873,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.58346670744132,
+        "valor": 2.03011443410571,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3121671772.60831,
+        "valor": 2025517355.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -1917,16 +1917,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.66655391243674,
+        "valor": 1.01631542209426,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 888218144.392838,
+        "valor": 598949781.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2005,16 +2005,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.83980276481754,
+        "valor": 3.6567523076192,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 603616460.0,
+        "valor": 596293207.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2112,16 +2112,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.440971140907408,
+        "valor": 0.506909156298219,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 7100000.0,
+        "valor": 9200000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2214,14 +2214,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.42895237748853,
+        "valor": 5.43938974549166,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 5586659163.7316,
+        "valor": 5597399729.04614,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2243,8 +2243,20 @@
         "fonte": "World Bank - WDI",
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
-      "fdi_pib": null,
-      "fdi_usd": null,
+      "fdi_pib": {
+        "valor": 0.00150472557567628,
+        "unidade": "% do PIB",
+        "ano": "2020",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
+      },
+      "fdi_usd": {
+        "valor": 79458741.0,
+        "unidade": "US$",
+        "ano": "2025",
+        "fonte": "World Bank - WDI",
+        "codigo_fonte": "BX.KLT.DINV.CD.WD"
+      },
       "taxa_juros": null
     },
     "CUW": {
@@ -2262,16 +2274,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.34710595121915,
+        "valor": 4.34710589505796,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 154808190.0,
+        "valor": 183297575.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2299,9 +2311,9 @@
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3177367484.18081,
+        "valor": 35783202968.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2343,14 +2355,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 27.0778550174763,
+        "valor": 27.0778550174765,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 11163058900.6455,
+        "valor": 11163058900.6456,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2445,14 +2457,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.88462297077013,
+        "valor": 1.88462297077009,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 95190853681.3313,
+        "valor": 95190853681.3291,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2489,16 +2501,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.63337101411676,
+        "valor": 3.22283021928311,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 67819948.247534,
+        "valor": 149040850.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2584,16 +2596,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.29658848924698,
+        "valor": 3.66450193844568,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 18240080341.0515,
+        "valor": 16949298438.6923,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2686,16 +2698,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.455370730483787,
+        "valor": 0.537107006425608,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1226414841.37248,
+        "valor": 1541664825.40945,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2737,14 +2749,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.99695043238739,
+        "valor": 1.03509330090134,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1299231390.39747,
+        "valor": 1348939390.39748,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2832,16 +2844,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.8886183675912,
+        "valor": 0.303892303082893,
         "unidade": "% do PIB",
         "ano": "2011",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -27949590.0,
+        "valor": 82365445.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -2895,14 +2907,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.47335515487964,
+        "valor": 1.50045034931968,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 28088828118.0505,
+        "valor": 28605385349.2998,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2946,14 +2958,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.78224185932094,
+        "valor": -2.19439511412125,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -838203206.746069,
+        "valor": -1032042319.00667,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -2990,16 +3002,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.68582028017543,
+        "valor": 3.00394992132766,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 4021755290.0,
+        "valor": 3795753825.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3041,14 +3053,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.090167862928476,
+        "valor": 0.113951490198755,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -285867623.506569,
+        "valor": 361271085.286669,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -3092,16 +3104,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.41161017865705,
+        "valor": 4.23946586379785,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 203609190.995767,
+        "valor": 262762648.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3155,14 +3167,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.16930740558009,
+        "valor": 1.81489710678777,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 73025740709.3369,
+        "valor": 61095170372.5774,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -3261,16 +3273,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.47750591310442,
+        "valor": 1.76789115832523,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1144562350.0,
+        "valor": 378808148.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3312,14 +3324,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.91447167382408,
+        "valor": 0.939113289040925,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 76628404708.6536,
+        "valor": 37588831510.9724,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -3463,16 +3475,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.60537419672253,
+        "valor": 27.3881497796204,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1401830000.0,
+        "valor": 7763451716.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3519,16 +3531,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 9.66186336562045,
+        "valor": 10.5535224687087,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 232357063.917134,
+        "valor": 273723967.039355,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3563,16 +3575,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.21259612687519,
+        "valor": 1.32814066746735,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 26650161.3251044,
+        "valor": 33574470.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3607,16 +3619,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.41848628768048,
+        "valor": 2.29155206254738,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 188011680.0,
+        "valor": 293850543.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3658,16 +3670,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.6312519942121,
+        "valor": 4.83712976707467,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 6742277267.34835,
+        "valor": 13574704338.9697,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3764,16 +3776,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.63228788754296,
+        "valor": 1.39027589683974,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1848004120.0,
+        "valor": 1714293720.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3838,16 +3850,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 34.9900654897849,
+        "valor": 33.0961610771946,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 8629500000.0,
+        "valor": 8968224708.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3889,16 +3901,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 30.8106332188954,
+        "valor": 28.3131144979725,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 125820976919.852,
+        "valor": 120984859008.642,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -3940,14 +3952,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.52535439103993,
+        "valor": 2.7092461796718,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1396090014.73689,
+        "valor": 1072899663.22737,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -3991,16 +4003,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.87790164584768,
+        "valor": 2.84668777577475,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 4535565345.95969,
+        "valor": 2990735363.50335,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4035,16 +4047,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.0824597396111034,
+        "valor": 0.0379829543035444,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 20001152.0,
+        "valor": 12183898.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4137,14 +4149,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.54140671670434,
+        "valor": 1.57010859073407,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 22283231891.8392,
+        "valor": 22698158405.2659,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -4200,14 +4212,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.988285383995246,
+        "valor": 1.03111732367627,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 39097233086.2133,
+        "valor": 40791693366.9814,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -4263,16 +4275,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.791076186083952,
+        "valor": 10.3920712055845,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 4818899599.81408,
+        "valor": 74999719123.764,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4314,16 +4326,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.304914200880697,
+        "valor": 0.454000166242696,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1449111110.0,
+        "valor": 1646577407.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4358,16 +4370,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -2.73525447039729,
+        "valor": -2.99496051321083,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -7648900000.0,
+        "valor": -7618200000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4409,14 +4421,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.52278219243446,
+        "valor": -2.16405360031405,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -201702589.899808,
+        "valor": -834946603.350632,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -4460,14 +4472,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.29339412127743,
+        "valor": 4.29650490864827,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 26223100000.0,
+        "valor": 26242100000.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -4511,14 +4523,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.034602983660439,
+        "valor": 0.0346029836604571,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 882914835.91414,
+        "valor": 882914835.9146,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -4562,16 +4574,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.38581611857042,
+        "valor": 1.24715249295122,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 305079506.2,
+        "valor": 283164766.5,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4613,16 +4625,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.78862682935517,
+        "valor": 3.28188623089455,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1634647887.32394,
+        "valor": 2021971831.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4759,16 +4771,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.384924569449646,
+        "valor": 0.81710993047381,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 463439704.196417,
+        "valor": 1110789689.33189,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4810,16 +4822,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.40593817941355,
+        "valor": 2.83950659594116,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 255341300.0,
+        "valor": 642402933.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -4854,14 +4866,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 9.94609689113059,
+        "valor": 9.94778474136007,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 5099072041.98093,
+        "valor": 5099937353.26941,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5093,16 +5105,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.98958863567394,
+        "valor": 7.67516219703625,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 988457806.788528,
+        "valor": 1404782651.15204,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5144,16 +5156,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 7.09437049742925,
+        "valor": 6.79248055666718,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1842524610.0,
+        "valor": 2041796982.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5188,16 +5200,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 9.86626133953545,
+        "valor": 9.53118230179921,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 471538316.99677,
+        "valor": 500000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5225,16 +5237,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.80500147243983,
+        "valor": 1.72056776265352,
         "unidade": "% do PIB",
-        "ano": "2023",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 794700000.0,
+        "valor": 827574333.0,
         "unidade": "US$",
-        "ano": "2023",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5371,16 +5383,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.764077754153862,
+        "valor": 0.959277643876202,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 761144545.734856,
+        "valor": 1043936118.31827,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5415,14 +5427,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.22425996725048,
+        "valor": 1.30107470187035,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -5771493.78767491,
+        "valor": 33484106.1969774,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5466,14 +5478,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.24263476181387,
+        "valor": 3.24263476181382,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3087317447.21127,
+        "valor": 3087317447.21122,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5517,14 +5529,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -92.8195151180004,
+        "valor": -32.6792847309028,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -93894206837.5391,
+        "valor": -33057655127.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5568,14 +5580,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.501253304600754,
+        "valor": 0.828115530328252,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 243703688.325648,
+        "valor": 402620406.186628,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5619,16 +5631,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.82364491952989,
+        "valor": 2.21163392320597,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1891452332.65239,
+        "valor": 1151398906.39632,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5783,16 +5795,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.44577112659577,
+        "valor": 4.53090698564897,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 606208749.393671,
+        "valor": 888979900.998525,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5827,16 +5839,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 11.416720004027,
+        "valor": 11.071897165053,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 806204043.653671,
+        "valor": 857082962.287357,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -5878,14 +5890,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.35098180233848,
+        "valor": 2.43265355818599,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 43085064988.0,
+        "valor": 44581815369.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -5934,16 +5946,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.68730725530449,
+        "valor": 1.04280227272727,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 13358825.6776178,
+        "valor": 3211831.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6029,16 +6041,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.44170555566452,
+        "valor": 2.80602296314978,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 921044497.586045,
+        "valor": 843747214.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6080,16 +6092,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 170.053519530959,
+        "valor": 51.7083646439552,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 42586013467.362,
+        "valor": 14360354761.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6124,16 +6136,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.47879223317634,
+        "valor": 1.30618121918243,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1095317000.0,
+        "valor": 1066703000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6168,14 +6180,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 7.32378193243735,
+        "valor": 7.32378193243752,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 676190245.536289,
+        "valor": 676190245.536305,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -6219,16 +6231,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 11.6924984371367,
+        "valor": 10.82107935471,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2782176220.49007,
+        "valor": 2745211235.26902,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6281,16 +6293,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 15.4210115464394,
+        "valor": 25.7843732918471,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3508626212.16849,
+        "valor": 5759712544.31175,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6325,16 +6337,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 13.2389288029166,
+        "valor": 5.42882056128538,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1440291135.43106,
+        "valor": 634081407.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6400,16 +6412,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.56067539257877,
+        "valor": 4.97857948714608,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 681276230.0,
+        "valor": 804429140.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6444,16 +6456,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.28053083149593,
+        "valor": 3.55360005790477,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 257972995.435814,
+        "valor": 530135889.389288,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6495,16 +6507,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.6930953933026,
+        "valor": 4.57838449139551,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 15593246086.7664,
+        "valor": 21618816971.2995,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6551,16 +6563,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 14.1844922069439,
+        "valor": 9.59574087380781,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1934933629.43032,
+        "valor": 1447070412.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6581,16 +6593,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 8.48945728851914,
+        "valor": 5.90759526590624,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 725756860.0,
+        "valor": 439548051.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6625,16 +6637,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.81493836603542,
+        "valor": 1.18752255484319,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 358083456.499382,
+        "valor": 257053405.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6727,16 +6739,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.86575238184716,
+        "valor": 6.75670597949251,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1352300000.0,
+        "valor": 1502500000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6790,16 +6802,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.40518243891316,
+        "valor": 0.30183584045909,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -17058018836.8683,
+        "valor": 4022770441.06574,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6841,14 +6853,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.4735026863079,
+        "valor": -1.33380839176639,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -7820699783.66472,
+        "valor": -7079264325.65584,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -6885,16 +6897,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.131412557108071,
+        "valor": 0.0957346932713607,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 56900207.0648416,
+        "valor": 43549530.3442623,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6929,16 +6941,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -3.48330107219992,
+        "valor": -0.0107492588488971,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -5846143.13884661,
+        "valor": -18923.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -6980,14 +6992,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.36610006279868,
+        "valor": 1.28511636838724,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3607288494.92623,
+        "valor": 3393445045.91231,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -7024,16 +7036,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 11.6351181598926,
+        "valor": 6.15593965736605,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 12465539661.8985,
+        "valor": 6747204161.24834,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7240,14 +7252,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.59958262597666,
+        "valor": 1.66751060819898,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 7791345008.57495,
+        "valor": 8122212784.10315,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -7284,16 +7296,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 21.4868990824119,
+        "valor": 16.5558028985507,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 69080770.0,
+        "valor": 57117520.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7328,16 +7340,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.64380460730506,
+        "valor": -3.63382070804454,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -198317385.750346,
+        "valor": -1180942988.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7379,14 +7391,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.93405687091201,
+        "valor": 2.02222753667037,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 20027000000.0,
+        "valor": 20940000000.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -7443,9 +7455,9 @@
       "pib": null,
       "fdi_pib": null,
       "fdi_usd": {
-        "valor": 203000.0,
+        "valor": 9207785.0,
         "unidade": "US$",
-        "ano": "1989",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7487,16 +7499,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.29974090969256,
+        "valor": 3.45281415478559,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 13486433394.8596,
+        "valor": 11968828948.6208,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7538,14 +7550,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.39525418709854,
+        "valor": 2.39525418725454,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1180338808.82313,
+        "valor": 1180338808.9,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -7568,16 +7580,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -0.219284661446365,
+        "valor": -0.219284614005907,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -13866940.0,
+        "valor": 11240976.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7726,14 +7738,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.895273062759947,
+        "valor": 0.434796227853504,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 22930720000.0,
+        "valor": 11136480000.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -7770,16 +7782,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.79145567191588,
+        "valor": 5.90921119183129,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 572929300.014102,
+        "valor": 967463915.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7872,16 +7884,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.37399372870934,
+        "valor": 3.15777394629957e-06,
         "unidade": "% do PIB",
-        "ano": "2023",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 548200000.0,
+        "valor": 1899.8,
         "unidade": "US$",
-        "ano": "2023",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -7916,16 +7928,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.26804204995863,
+        "valor": 0.0988382181039487,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2016428880.0,
+        "valor": 36576601.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8035,16 +8047,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.08128126058924,
+        "valor": 3.84517916197634,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 32966760.5535094,
+        "valor": 67274195.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8079,16 +8091,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.74699628470852,
+        "valor": 2.37188844698482,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 121785333.781549,
+        "valor": 177041499.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8188,9 +8200,9 @@
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -18112873.5752826,
+        "valor": 39870022.5094992,
         "unidade": "US$",
-        "ano": "2023",
+        "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8218,16 +8230,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.39257959388318,
+        "valor": 6.41775424759099,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 765000000.0,
+        "valor": 834000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8281,14 +8293,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.93697525829801,
+        "valor": 3.93697525829793,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3935137654.34457,
+        "valor": 3935137654.34449,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -8332,9 +8344,9 @@
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 83417020.0,
+        "valor": 73000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8376,16 +8388,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -2.02206346182182,
+        "valor": 10.5428503169941,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -16681873.0789849,
+        "valor": 103456314.037805,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8427,14 +8439,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 45.0639636830093,
+        "valor": 45.3559358058599,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2038539506.72251,
+        "valor": 2051747326.42251,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -8478,14 +8490,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.32903607891854,
+        "valor": 1.32903607891851,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2053760336.65345,
+        "valor": 2053760336.65341,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -8529,14 +8541,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.26084906229915,
+        "valor": 2.26084906229912,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1800725695.41401,
+        "valor": 1800725695.41398,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -8580,14 +8592,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.86246002434244,
+        "valor": 2.57981443806807,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 19149819322.7345,
+        "valor": 17258924126.472,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -8624,16 +8636,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.55448906259813,
+        "valor": 1.02827996156726,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 75530848.9589358,
+        "valor": 53066234.3392878,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8654,16 +8666,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.06435551530026,
+        "valor": 1.87629949788194,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 37113740.0,
+        "valor": 35419440.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8705,16 +8717,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 10.1468739688419,
+        "valor": 9.99508825835549,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 226134114.454496,
+        "valor": 238585040.953024,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8756,14 +8768,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.19065647696386,
+        "valor": 1.19065646956077,
         "unidade": "% do PIB",
         "ano": "2011",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 804162640.0,
+        "valor": 804162635.0,
         "unidade": "US$",
         "ano": "2011",
         "fonte": "World Bank - WDI",
@@ -8786,16 +8798,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.5209301366237,
+        "valor": 2.52093025121206,
         "unidade": "% do PIB",
         "ano": "2024",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 43999760.0,
+        "valor": 42058347.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8830,16 +8842,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 5.12132130084841,
+        "valor": 0.0200069574180473,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1019486410.0,
+        "valor": 4296061.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8874,16 +8886,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.786914262545951,
+        "valor": 1.86112428021605,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 83754750.0,
+        "valor": 221286729.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -8925,14 +8937,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.26524902878263,
+        "valor": 3.21055830223758,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 18840812804.2389,
+        "valor": 18525241853.3313,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -9032,16 +9044,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 3.71704110413,
+        "valor": 1.40768829423061,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1644770160.0,
+        "valor": 701431670.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9120,16 +9132,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.86561431411564,
+        "valor": 2.63512133597271,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -12079633.359431,
+        "valor": 17898224.1955631,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9222,16 +9234,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.47747574805229,
+        "valor": 1.98444302104666,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 759601641.198674,
+        "valor": 1141111026.7824,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9273,16 +9285,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.860701598247461,
+        "valor": 0.812061289822783,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 11698000000.0,
+        "valor": 12971000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9317,16 +9329,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 0.454748363534884,
+        "valor": 0.409737934907865,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 258080.0,
+        "valor": 234966.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9394,16 +9406,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.16767805172059,
+        "valor": 1.90537891749478,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1717575169.471,
+        "valor": 1717575170.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9438,16 +9450,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 6.04170465908871,
+        "valor": 5.41742750347349,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 3257198201.79845,
+        "valor": 3358037364.11234,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9489,16 +9501,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.10549664352154,
+        "valor": 0.757585260156705,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 4018000000.0,
+        "valor": 1623000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9540,14 +9552,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.31014232152148,
+        "valor": 2.27888625049842,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1118176289.37758,
+        "valor": 1944976915.58934,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -9591,14 +9603,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.30166689957978,
+        "valor": 0.997793283652424,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 400519000000.0,
+        "valor": 307018000000.0,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -9675,14 +9687,14 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.99134974013705,
+        "valor": 3.04177539543091,
         "unidade": "% do PIB",
         "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 4398423257.76696,
+        "valor": 4472568173.70797,
         "unidade": "US$",
         "ano": "2025",
         "fonte": "World Bank - WDI",
@@ -9782,16 +9794,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.35409801107577,
+        "valor": -0.523774316107118,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 1632583330.0,
+        "valor": -522000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9807,9 +9819,9 @@
       "pib": null,
       "fdi_pib": null,
       "fdi_usd": {
-        "valor": 53598706970.0,
+        "valor": 42906102039.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9869,16 +9881,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 4.23450755062236,
+        "valor": 4.27241480079657,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 20170000000.0,
+        "valor": 21990000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -9913,16 +9925,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 2.22365213685823,
+        "valor": 2.43181701413319,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 28862040.0,
+        "valor": 32918506.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -10039,16 +10051,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": -1.30563839823089,
+        "valor": -0.0361008145854707,
         "unidade": "% do PIB",
         "ano": "2018",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": -370982780.0,
+        "valor": -5000000.0,
         "unidade": "US$",
-        "ano": "2019",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -10134,16 +10146,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 9.32437789659637,
+        "valor": 4.47605461520107,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 2359364621.18767,
+        "valor": 1292675899.17709,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
@@ -10178,16 +10190,16 @@
         "codigo_fonte": "NY.GDP.MKTP.CD"
       },
       "fdi_pib": {
-        "valor": 1.12093172517355,
+        "valor": 1.88418992013239,
         "unidade": "% do PIB",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.WD.GD.ZS"
       },
       "fdi_usd": {
-        "valor": 465433000.0,
+        "valor": 965000000.0,
         "unidade": "US$",
-        "ano": "2024",
+        "ano": "2025",
         "fonte": "World Bank - WDI",
         "codigo_fonte": "BX.KLT.DINV.CD.WD"
       },
