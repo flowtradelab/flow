@@ -2,7 +2,7 @@
   "ticker": "PSSA3",
   "cnpj": "02149205000169",
   "razao_social": null,
-  "atualizado_em": "2026-09-28T18:39:00.545811+00:00",
+  "atualizado_em": "2026-10-12T20:24:17.728076+00:00",
   "fundamentos": {
     "ativo_total": 58920869000.0,
     "patrimonio_liquido": 16223389000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 47.09,
-    "valor_de_mercado": 30120230333.65433,
+    "preco": 53.16,
+    "valor_de_mercado": 34075151792.872334,
     "numero_acoes": 640992323
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 33.97,
-    "p_vp": 1.86,
+    "p_l": 38.43,
+    "p_vp": 2.1,
     "margem_liquida": 0.0816,
     "roe": 0.0547,
-    "dividend_yield_12m": 0.075,
+    "dividend_yield_12m": 0.0665,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

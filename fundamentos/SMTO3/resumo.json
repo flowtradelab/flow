@@ -2,7 +2,7 @@
   "ticker": "SMTO3",
   "cnpj": "51466860000156",
   "razao_social": null,
-  "atualizado_em": "2026-09-28T18:39:42.346208+00:00",
+  "atualizado_em": "2026-10-12T20:25:06.943401+00:00",
   "fundamentos": {
     "ativo_total": 23913510000.0,
     "patrimonio_liquido": 7375591000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 17.74,
-    "valor_de_mercado": 5732453722.036943,
+    "preco": 20.7,
+    "valor_de_mercado": 6681407369.956478,
     "numero_acoes": 322773291
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 150.26,
-    "p_vp": 0.78,
+    "p_l": 175.14,
+    "p_vp": 0.91,
     "margem_liquida": 0.025,
     "roe": 0.0052,
-    "dividend_yield_12m": 0.0379,
+    "dividend_yield_12m": 0.0325,
     "divida_liquida_ebitda": 30.6
   },
   "proventos_recentes": [

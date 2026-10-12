@@ -2,7 +2,7 @@
   "ticker": "KLBN11",
   "cnpj": "89637490000145",
   "razao_social": null,
-  "atualizado_em": "2026-09-28T18:38:07.401151+00:00",
+  "atualizado_em": "2026-10-12T20:23:15.088317+00:00",
   "fundamentos": {
     "ativo_total": 63678586000.0,
     "patrimonio_liquido": 15973853000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 18.15,
-    "valor_de_mercado": 130183041158.8422,
+    "preco": 18.13,
+    "valor_de_mercado": 128832885713.56601,
     "numero_acoes": 7106061317
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 336.76,
-    "p_vp": 8.15,
+    "p_l": 333.26,
+    "p_vp": 8.07,
     "margem_liquida": 0.0751,
     "roe": 0.0242,
-    "dividend_yield_12m": 0.1041,
+    "dividend_yield_12m": 0.1043,
     "divida_liquida_ebitda": 15.66
   },
   "proventos_recentes": [

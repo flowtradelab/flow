@@ -2,7 +2,7 @@
   "ticker": "IRBR3",
   "cnpj": "33376989000191",
   "razao_social": null,
-  "atualizado_em": "2026-09-28T18:37:51.019437+00:00",
+  "atualizado_em": "2026-10-12T20:22:55.626254+00:00",
   "fundamentos": {
     "ativo_total": 15112393000.0,
     "patrimonio_liquido": 5328366000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 61.9,
-    "valor_de_mercado": 4960225173.101501,
+    "preco": 70.19,
+    "valor_de_mercado": 5697237989.406006,
     "numero_acoes": 81168796
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.93,
+    "p_vp": 1.07,
     "margem_liquida": -0.004,
     "roe": -0.0006,
-    "dividend_yield_12m": 0.0255,
+    "dividend_yield_12m": 0.0225,
     "divida_liquida_ebitda": -2.94
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "MULT3",
   "cnpj": "07816890000153",
   "razao_social": null,
-  "atualizado_em": "2026-09-28T18:38:39.706096+00:00",
+  "atualizado_em": "2026-10-12T20:23:53.061015+00:00",
   "fundamentos": {
     "ativo_total": 13213205000.0,
     "patrimonio_liquido": 6755937000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 31.1,
-    "valor_de_mercado": 14886410558.132538,
+    "preco": 38.91,
+    "valor_de_mercado": 19034841496.43373,
     "numero_acoes": 489201788
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.83,
-    "p_vp": 2.2,
+    "p_l": 44.53,
+    "p_vp": 2.82,
     "margem_liquida": 0.5047,
     "roe": 0.0633,
-    "dividend_yield_12m": 0.0361,
+    "dividend_yield_12m": 0.0298,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
-    {
-      "data": "2020-12-29",
-      "valor_por_acao": 0.455
-    },
     {
       "data": "2021-12-29",
       "valor_por_acao": 0.4989
@@ -128,6 +124,10 @@
     {
       "data": "2026-07-01",
       "valor_por_acao": 0.2851
+    },
+    {
+      "data": "2026-10-01",
+      "valor_por_acao": 0.2841
     }
   ],
   "dados_incompletos": false
