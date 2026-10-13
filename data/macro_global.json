@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-12T16:16:39.496507-03:00",
+  "atualizado_em": "2026-10-13T14:06:11.574492-03:00",
   "timezone": "America/Sao_Paulo",
   "ano_referencia_weo": 2026,
   "metodologia": {
@@ -71,7 +71,7 @@
       "iso2": "AW",
       "nome": "Aruba",
       "inflacao": {
-        "valor": 1.2,
+        "valor": 1.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -79,7 +79,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.3,
+        "valor": 3.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -87,7 +87,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 60.3,
+        "valor": 59.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -122,7 +122,7 @@
       "iso2": "AF",
       "nome": "Afghanistan",
       "inflacao": {
-        "valor": 2.9,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2025,
         "natureza": "WEO: último ano disponível",
@@ -131,7 +131,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 8.0,
+        "valor": 7.6,
         "unidade": "% do PIB",
         "ano": 2025,
         "natureza": "WEO: último ano disponível",
@@ -166,7 +166,7 @@
       "iso2": "AO",
       "nome": "Angola",
       "inflacao": {
-        "valor": 12.9,
+        "valor": 10.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -175,7 +175,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 51.6,
+        "valor": 51.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -222,7 +222,7 @@
       "iso2": "AL",
       "nome": "Albania",
       "inflacao": {
-        "valor": 3.4,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -238,7 +238,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 51.5,
+        "valor": 49.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -273,7 +273,7 @@
       "iso2": "AD",
       "nome": "Andorra",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -281,7 +281,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 1.1,
+        "valor": 1.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -289,7 +289,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 28.0,
+        "valor": 27.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -324,7 +324,7 @@
       "iso2": "AE",
       "nome": "United Arab Emirates",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 4.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -333,7 +333,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 31.4,
+        "valor": 32.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -368,7 +368,7 @@
       "iso2": "AR",
       "nome": "Argentina",
       "inflacao": {
-        "valor": 30.4,
+        "valor": 32.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -376,7 +376,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 7.2,
+        "valor": 7.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -384,7 +384,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 70.4,
+        "valor": 69.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -419,7 +419,7 @@
       "iso2": "AM",
       "nome": "Armenia",
       "inflacao": {
-        "valor": 3.6,
+        "valor": 4.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -435,7 +435,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 50.6,
+        "valor": 48.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -488,7 +488,7 @@
       "iso2": "AG",
       "nome": "Antigua and Barbuda",
       "inflacao": {
-        "valor": 2.6,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -497,7 +497,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 66.5,
+        "valor": 66.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -556,7 +556,7 @@
       "iso2": "AU",
       "nome": "Australia",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 3.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -564,7 +564,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.2,
+        "valor": 4.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -572,7 +572,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 50.6,
+        "valor": 52.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -607,7 +607,7 @@
       "iso2": "AT",
       "nome": "Austria",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -623,7 +623,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 82.1,
+        "valor": 82.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -658,7 +658,7 @@
       "iso2": "AZ",
       "nome": "Azerbaijan",
       "inflacao": {
-        "valor": 6.0,
+        "valor": 5.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -674,7 +674,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 20.0,
+        "valor": 16.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -709,7 +709,7 @@
       "iso2": "BI",
       "nome": "Burundi",
       "inflacao": {
-        "valor": 14.5,
+        "valor": 10.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -718,7 +718,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 37.0,
+        "valor": 40.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -753,7 +753,7 @@
       "iso2": "BE",
       "nome": "Belgium",
       "inflacao": {
-        "valor": 2.8,
+        "valor": 3.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -769,7 +769,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 109.2,
+        "valor": 109.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -804,7 +804,7 @@
       "iso2": "BJ",
       "nome": "Benin",
       "inflacao": {
-        "valor": 2.0,
+        "valor": 0.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -813,7 +813,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 57.2,
+        "valor": 58.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -860,7 +860,7 @@
       "iso2": "BF",
       "nome": "Burkina Faso",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 2.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -869,7 +869,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 48.8,
+        "valor": 51.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -904,7 +904,7 @@
       "iso2": "BD",
       "nome": "Bangladesh",
       "inflacao": {
-        "valor": 9.2,
+        "valor": 8.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -913,7 +913,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 41.8,
+        "valor": 40.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -948,7 +948,7 @@
       "iso2": "BG",
       "nome": "Bulgaria",
       "inflacao": {
-        "valor": 3.8,
+        "valor": 4.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -964,7 +964,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 28.2,
+        "valor": 32.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -999,7 +999,7 @@
       "iso2": "BH",
       "nome": "Bahrain",
       "inflacao": {
-        "valor": 2.4,
+        "valor": 2.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1007,15 +1007,15 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.2,
+        "valor": 5.6,
         "unidade": "%",
-        "ano": 2024,
+        "ano": 2025,
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 152.4,
+        "valor": 162.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1050,7 +1050,7 @@
       "iso2": "BS",
       "nome": "Bahamas, The",
       "inflacao": {
-        "valor": 1.6,
+        "valor": 3.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1058,7 +1058,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 9.4,
+        "valor": 9.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1066,7 +1066,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 71.9,
+        "valor": 70.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1101,7 +1101,7 @@
       "iso2": "BA",
       "nome": "Bosnia and Herzegovina",
       "inflacao": {
-        "valor": 4.5,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1109,7 +1109,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 12.6,
+        "valor": 12.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1117,7 +1117,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 30.8,
+        "valor": 31.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1152,7 +1152,7 @@
       "iso2": "BY",
       "nome": "Belarus",
       "inflacao": {
-        "valor": 6.4,
+        "valor": 5.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1160,7 +1160,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.9,
+        "valor": 2.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1168,7 +1168,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 33.1,
+        "valor": 31.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1203,7 +1203,7 @@
       "iso2": "BZ",
       "nome": "Belize",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 3.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1211,7 +1211,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.6,
+        "valor": 2.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1219,7 +1219,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 63.2,
+        "valor": 64.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1284,7 +1284,7 @@
       "iso2": "BO",
       "nome": "Bolivia",
       "inflacao": {
-        "valor": 20.7,
+        "valor": 12.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1300,7 +1300,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 102.7,
+        "valor": 100.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1335,7 +1335,7 @@
       "iso2": "BR",
       "nome": "Brazil",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 4.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1343,7 +1343,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.8,
+        "valor": 6.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1351,7 +1351,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 96.5,
+        "valor": 97.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1386,7 +1386,7 @@
       "iso2": "BB",
       "nome": "Barbados",
       "inflacao": {
-        "valor": 2.3,
+        "valor": 2.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1394,7 +1394,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.8,
+        "valor": 7.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1402,7 +1402,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 89.5,
+        "valor": 93.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1437,7 +1437,7 @@
       "iso2": "BN",
       "nome": "Brunei Darussalam",
       "inflacao": {
-        "valor": 1.6,
+        "valor": 0.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1453,7 +1453,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 1.5,
+        "valor": 1.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1488,7 +1488,7 @@
       "iso2": "BT",
       "nome": "Bhutan",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1504,7 +1504,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 120.3,
+        "valor": 116.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1539,7 +1539,7 @@
       "iso2": "BW",
       "nome": "Botswana",
       "inflacao": {
-        "valor": 5.1,
+        "valor": 7.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1548,7 +1548,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 47.0,
+        "valor": 40.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1583,7 +1583,7 @@
       "iso2": "CF",
       "nome": "Central African Republic",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 3.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1592,7 +1592,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 64.0,
+        "valor": 43.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1627,7 +1627,7 @@
       "iso2": "CA",
       "nome": "Canada",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1643,7 +1643,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 110.7,
+        "valor": 115.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1678,7 +1678,7 @@
       "iso2": "CH",
       "nome": "Switzerland",
       "inflacao": {
-        "valor": 0.5,
+        "valor": 0.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1694,7 +1694,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 38.5,
+        "valor": 38.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1747,7 +1747,7 @@
       "iso2": "CL",
       "nome": "Chile",
       "inflacao": {
-        "valor": 2.9,
+        "valor": 3.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1755,7 +1755,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 8.1,
+        "valor": 9.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1763,7 +1763,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 42.5,
+        "valor": 42.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1798,7 +1798,7 @@
       "iso2": "CN",
       "nome": "China, People's Republic of",
       "inflacao": {
-        "valor": 1.2,
+        "valor": 1.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1814,7 +1814,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 106.9,
+        "valor": 104.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1849,7 +1849,7 @@
       "iso2": "CI",
       "nome": "Côte d'Ivoire",
       "inflacao": {
-        "valor": 1.8,
+        "valor": 2.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1858,7 +1858,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 55.1,
+        "valor": 57.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1893,7 +1893,7 @@
       "iso2": "CM",
       "nome": "Cameroon",
       "inflacao": {
-        "valor": 3.5,
+        "valor": 3.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1902,7 +1902,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 39.3,
+        "valor": 40.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1937,7 +1937,7 @@
       "iso2": "CD",
       "nome": "Congo, Dem. Rep. of the",
       "inflacao": {
-        "valor": 3.3,
+        "valor": 4.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1946,7 +1946,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 24.6,
+        "valor": 23.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1981,7 +1981,7 @@
       "iso2": "CG",
       "nome": "Congo, Republic of ",
       "inflacao": {
-        "valor": 2.8,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -1990,7 +1990,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 91.3,
+        "valor": 80.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2037,7 +2037,7 @@
       "iso2": "CO",
       "nome": "Colombia",
       "inflacao": {
-        "valor": 5.9,
+        "valor": 6.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2053,7 +2053,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 60.9,
+        "valor": 59.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2088,7 +2088,7 @@
       "iso2": "KM",
       "nome": "Comoros",
       "inflacao": {
-        "valor": 3.7,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2097,7 +2097,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 32.4,
+        "valor": 34.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2132,7 +2132,7 @@
       "iso2": "CV",
       "nome": "Cabo Verde",
       "inflacao": {
-        "valor": 2.2,
+        "valor": 1.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2148,7 +2148,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 95.9,
+        "valor": 109.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2183,7 +2183,7 @@
       "iso2": "CR",
       "nome": "Costa Rica",
       "inflacao": {
-        "valor": -0.4,
+        "valor": -0.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2199,7 +2199,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 61.1,
+        "valor": 61.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2324,7 +2324,7 @@
       "iso2": "CY",
       "nome": "Cyprus",
       "inflacao": {
-        "valor": 2.6,
+        "valor": 3.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2332,7 +2332,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.6,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2340,7 +2340,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 50.9,
+        "valor": 51.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2375,7 +2375,7 @@
       "iso2": "CZ",
       "nome": "Czech Republic",
       "inflacao": {
-        "valor": 2.4,
+        "valor": 2.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2391,7 +2391,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 46.4,
+        "valor": 45.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2434,7 +2434,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.9,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2477,7 +2477,7 @@
       "iso2": "DJ",
       "nome": "Djibouti",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 2.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2486,7 +2486,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 29.6,
+        "valor": 28.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2521,7 +2521,7 @@
       "iso2": "DM",
       "nome": "Dominica",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 2.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2530,7 +2530,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 98.3,
+        "valor": 99.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2565,7 +2565,7 @@
       "iso2": "DK",
       "nome": "Denmark",
       "inflacao": {
-        "valor": 2.0,
+        "valor": 1.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2573,7 +2573,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.9,
+        "valor": 3.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2581,7 +2581,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 27.4,
+        "valor": 26.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2632,7 +2632,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 58.3,
+        "valor": 57.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2667,7 +2667,7 @@
       "iso2": "DZ",
       "nome": "Algeria",
       "inflacao": {
-        "valor": 2.9,
+        "valor": 6.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2683,7 +2683,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 59.2,
+        "valor": 51.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2718,7 +2718,7 @@
       "iso2": "EC",
       "nome": "Ecuador",
       "inflacao": {
-        "valor": 2.9,
+        "valor": 2.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2734,7 +2734,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 54.4,
+        "valor": 54.5,
         "unidade": "% do PIB",
         "ano": 2025,
         "natureza": "WEO: último ano disponível",
@@ -2769,7 +2769,7 @@
       "iso2": "EG",
       "nome": "Egypt",
       "inflacao": {
-        "valor": 13.2,
+        "valor": 13.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2777,15 +2777,15 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 7.4,
+        "valor": 7.3,
         "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
+        "ano": 2025,
+        "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 87.0,
+        "valor": 84.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2876,7 +2876,7 @@
       "iso2": "ES",
       "nome": "Spain",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 3.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2892,7 +2892,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 98.2,
+        "valor": 97.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2927,7 +2927,7 @@
       "iso2": "EE",
       "nome": "Estonia",
       "inflacao": {
-        "valor": 3.8,
+        "valor": 3.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2935,7 +2935,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 7.3,
+        "valor": 6.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2943,7 +2943,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 27.8,
+        "valor": 27.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2978,7 +2978,7 @@
       "iso2": "ET",
       "nome": "Ethiopia",
       "inflacao": {
-        "valor": 11.8,
+        "valor": 11.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -2987,7 +2987,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 40.4,
+        "valor": 40.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3022,7 +3022,7 @@
       "iso2": "FI",
       "nome": "Finland",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3030,7 +3030,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 9.6,
+        "valor": 10.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3038,7 +3038,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 93.1,
+        "valor": 90.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3073,7 +3073,7 @@
       "iso2": "FJ",
       "nome": "Fiji",
       "inflacao": {
-        "valor": 2.2,
+        "valor": 4.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3089,7 +3089,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 82.5,
+        "valor": 78.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3136,7 +3136,7 @@
       "iso2": "FR",
       "nome": "France",
       "inflacao": {
-        "valor": 1.8,
+        "valor": 2.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3144,7 +3144,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 7.9,
+        "valor": 8.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3152,7 +3152,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 118.4,
+        "valor": 118.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3214,7 +3214,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 7.5,
+        "valor": 7.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3249,7 +3249,7 @@
       "iso2": "GA",
       "nome": "Gabon",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 0.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3258,7 +3258,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 86.1,
+        "valor": 83.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3293,7 +3293,7 @@
       "iso2": "GB",
       "nome": "United Kingdom",
       "inflacao": {
-        "valor": 3.2,
+        "valor": 3.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3301,7 +3301,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 5.6,
+        "valor": 5.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3309,7 +3309,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 103.6,
+        "valor": 102.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3344,7 +3344,7 @@
       "iso2": "GE",
       "nome": "Georgia",
       "inflacao": {
-        "valor": 4.4,
+        "valor": 5.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3360,7 +3360,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 35.1,
+        "valor": 33.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3395,7 +3395,7 @@
       "iso2": "GH",
       "nome": "Ghana",
       "inflacao": {
-        "valor": 5.8,
+        "valor": 4.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3404,7 +3404,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 53.0,
+        "valor": 51.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3451,7 +3451,7 @@
       "iso2": "GN",
       "nome": "Guinea",
       "inflacao": {
-        "valor": 4.1,
+        "valor": 6.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3460,7 +3460,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 44.7,
+        "valor": 34.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3507,7 +3507,7 @@
       "iso2": "GM",
       "nome": "Gambia, The",
       "inflacao": {
-        "valor": 5.8,
+        "valor": 7.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3516,7 +3516,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 68.3,
+        "valor": 67.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3560,7 +3560,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 73.6,
+        "valor": 73.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3595,7 +3595,7 @@
       "iso2": "GQ",
       "nome": "Equatorial Guinea",
       "inflacao": {
-        "valor": 3.2,
+        "valor": 3.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3604,7 +3604,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 39.1,
+        "valor": 32.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3639,7 +3639,7 @@
       "iso2": "GR",
       "nome": "Greece",
       "inflacao": {
-        "valor": 3.5,
+        "valor": 4.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3647,7 +3647,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 7.4,
+        "valor": 8.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3655,7 +3655,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 136.9,
+        "valor": 136.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3690,7 +3690,7 @@
       "iso2": "GD",
       "nome": "Grenada",
       "inflacao": {
-        "valor": 1.3,
+        "valor": 1.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3699,7 +3699,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 69.0,
+        "valor": 66.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3752,7 +3752,7 @@
       "iso2": "GT",
       "nome": "Guatemala",
       "inflacao": {
-        "valor": 2.6,
+        "valor": 3.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3761,7 +3761,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 27.6,
+        "valor": 27.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3835,7 +3835,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 29.2,
+        "valor": 25.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3870,7 +3870,7 @@
       "iso2": "HK",
       "nome": "Hong Kong SAR",
       "inflacao": {
-        "valor": 2.1,
+        "valor": 1.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3878,7 +3878,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.3,
+        "valor": 3.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3921,7 +3921,7 @@
       "iso2": "HN",
       "nome": "Honduras",
       "inflacao": {
-        "valor": 4.4,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3929,7 +3929,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.8,
+        "valor": 7.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3937,7 +3937,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 43.8,
+        "valor": 44.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3972,7 +3972,7 @@
       "iso2": "HR",
       "nome": "Croatia",
       "inflacao": {
-        "valor": 4.4,
+        "valor": 4.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3980,7 +3980,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.6,
+        "valor": 4.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -3988,7 +3988,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 56.5,
+        "valor": 56.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4023,7 +4023,7 @@
       "iso2": "HT",
       "nome": "Haiti",
       "inflacao": {
-        "valor": 23.5,
+        "valor": 21.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4032,7 +4032,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 10.7,
+        "valor": 10.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4067,7 +4067,7 @@
       "iso2": "HU",
       "nome": "Hungary",
       "inflacao": {
-        "valor": 3.8,
+        "valor": 1.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4075,7 +4075,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.2,
+        "valor": 4.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4083,7 +4083,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 77.9,
+        "valor": 78.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4118,7 +4118,7 @@
       "iso2": "ID",
       "nome": "Indonesia",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 3.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4126,7 +4126,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.9,
+        "valor": 4.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4134,7 +4134,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 41.5,
+        "valor": 41.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4181,7 +4181,7 @@
       "iso2": "IN",
       "nome": "India",
       "inflacao": {
-        "valor": 4.7,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4189,7 +4189,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.9,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4197,7 +4197,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 83.4,
+        "valor": 83.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4244,7 +4244,7 @@
       "iso2": "IE",
       "nome": "Ireland",
       "inflacao": {
-        "valor": 3.1,
+        "valor": 3.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4252,7 +4252,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.8,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4260,7 +4260,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 31.6,
+        "valor": 33.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4295,7 +4295,7 @@
       "iso2": "IR",
       "nome": "Iran",
       "inflacao": {
-        "valor": 68.9,
+        "valor": 78.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4311,7 +4311,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 37.3,
+        "valor": 39.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4346,7 +4346,7 @@
       "iso2": "IQ",
       "nome": "Iraq",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 3.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4355,7 +4355,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 61.7,
+        "valor": 71.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4390,7 +4390,7 @@
       "iso2": "IS",
       "nome": "Iceland",
       "inflacao": {
-        "valor": 4.8,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4398,7 +4398,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.2,
+        "valor": 4.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4406,7 +4406,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 53.6,
+        "valor": 54.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4441,7 +4441,7 @@
       "iso2": "IL",
       "nome": "Israel",
       "inflacao": {
-        "valor": 2.3,
+        "valor": 1.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4449,7 +4449,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.2,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4457,7 +4457,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 69.8,
+        "valor": 68.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4492,7 +4492,7 @@
       "iso2": "IT",
       "nome": "Italy",
       "inflacao": {
-        "valor": 2.6,
+        "valor": 3.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4500,7 +4500,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.0,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4508,7 +4508,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 138.4,
+        "valor": 137.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4543,7 +4543,7 @@
       "iso2": "JM",
       "nome": "Jamaica",
       "inflacao": {
-        "valor": 6.1,
+        "valor": 5.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4559,7 +4559,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 65.8,
+        "valor": 64.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4594,7 +4594,7 @@
       "iso2": "JO",
       "nome": "Jordan",
       "inflacao": {
-        "valor": 2.3,
+        "valor": 2.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4604,13 +4604,13 @@
       "desemprego": {
         "valor": 21.3,
         "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
+        "ano": 2025,
+        "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 81.8,
+        "valor": 82.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4645,7 +4645,7 @@
       "iso2": "JP",
       "nome": "Japan",
       "inflacao": {
-        "valor": 2.2,
+        "valor": 2.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4661,7 +4661,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 204.4,
+        "valor": 199.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4696,7 +4696,7 @@
       "iso2": "KZ",
       "nome": "Kazakhstan",
       "inflacao": {
-        "valor": 10.7,
+        "valor": 10.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4712,7 +4712,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 24.9,
+        "valor": 23.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4747,7 +4747,7 @@
       "iso2": "KE",
       "nome": "Kenya",
       "inflacao": {
-        "valor": 5.9,
+        "valor": 6.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4756,7 +4756,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 71.6,
+        "valor": 72.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4791,7 +4791,7 @@
       "iso2": "KG",
       "nome": "Kyrgyz Republic",
       "inflacao": {
-        "valor": 10.6,
+        "valor": 12.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4807,7 +4807,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 37.4,
+        "valor": 34.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4842,7 +4842,7 @@
       "iso2": "KH",
       "nome": "Cambodia",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4851,7 +4851,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 27.1,
+        "valor": 25.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4930,7 +4930,7 @@
       "iso2": "KN",
       "nome": "Saint Kitts and Nevis",
       "inflacao": {
-        "valor": 2.2,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4939,7 +4939,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 64.0,
+        "valor": 65.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4974,7 +4974,7 @@
       "iso2": "KR",
       "nome": "Korea, Republic of",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -4990,7 +4990,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 54.4,
+        "valor": 47.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5037,7 +5037,7 @@
       "iso2": "KW",
       "nome": "Kuwait",
       "inflacao": {
-        "valor": 2.8,
+        "valor": 2.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5046,7 +5046,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 22.3,
+        "valor": 26.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5081,7 +5081,7 @@
       "iso2": "LA",
       "nome": "Lao P.D.R.",
       "inflacao": {
-        "valor": 9.6,
+        "valor": 9.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5090,7 +5090,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 74.6,
+        "valor": 79.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5176,7 +5176,7 @@
       "iso2": "LR",
       "nome": "Liberia",
       "inflacao": {
-        "valor": 5.7,
+        "valor": 5.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5185,7 +5185,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 53.8,
+        "valor": 54.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5220,7 +5220,7 @@
       "iso2": "LY",
       "nome": "Libya",
       "inflacao": {
-        "valor": 10.5,
+        "valor": 14.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5228,7 +5228,14 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": null,
-      "divida_pib": null,
+      "divida_pib": {
+        "valor": 125.2,
+        "unidade": "% do PIB",
+        "ano": 2026,
+        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
+        "fonte": "IMF World Economic Outlook",
+        "codigo_fonte": "GGXWDG_NGDP"
+      },
       "pib": {
         "valor": 48098909613.6316,
         "unidade": "US$",
@@ -5257,7 +5264,7 @@
       "iso2": "LC",
       "nome": "Saint Lucia",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5266,7 +5273,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 77.5,
+        "valor": 78.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5301,7 +5308,7 @@
       "iso2": "LI",
       "nome": "Liechtenstein",
       "inflacao": {
-        "valor": 0.5,
+        "valor": 0.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5309,7 +5316,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.9,
+        "valor": 2.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5352,26 +5359,26 @@
       "iso2": "LK",
       "nome": "Sri Lanka",
       "inflacao": {
-        "valor": 1.2,
+        "valor": 5.3,
         "unidade": "%",
-        "ano": 2024,
-        "natureza": "WEO: último ano disponível",
+        "ano": 2026,
+        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.4,
+        "valor": 3.9,
         "unidade": "%",
-        "ano": 2024,
-        "natureza": "WEO: último ano disponível",
+        "ano": 2026,
+        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 100.8,
+        "valor": 95.2,
         "unidade": "% do PIB",
-        "ano": 2024,
-        "natureza": "WEO: último ano disponível",
+        "ano": 2026,
+        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
@@ -5403,7 +5410,7 @@
       "iso2": "LS",
       "nome": "Lesotho",
       "inflacao": {
-        "valor": 4.2,
+        "valor": 4.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5412,7 +5419,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 49.0,
+        "valor": 47.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5447,7 +5454,7 @@
       "iso2": "LT",
       "nome": "Lithuania",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 5.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5455,7 +5462,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.5,
+        "valor": 6.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5463,7 +5470,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 45.1,
+        "valor": 44.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5498,7 +5505,7 @@
       "iso2": "LU",
       "nome": "Luxembourg",
       "inflacao": {
-        "valor": 2.1,
+        "valor": 3.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5506,7 +5513,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 5.9,
+        "valor": 6.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5514,7 +5521,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 28.0,
+        "valor": 28.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5549,7 +5556,7 @@
       "iso2": "LV",
       "nome": "Latvia",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5565,7 +5572,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 47.4,
+        "valor": 47.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5651,7 +5658,7 @@
       "iso2": "MA",
       "nome": "Morocco",
       "inflacao": {
-        "valor": 1.3,
+        "valor": 0.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5667,7 +5674,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 65.8,
+        "valor": 66.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5720,7 +5727,7 @@
       "iso2": "MD",
       "nome": "Moldova",
       "inflacao": {
-        "valor": 6.4,
+        "valor": 7.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5736,7 +5743,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 39.3,
+        "valor": 41.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5771,7 +5778,7 @@
       "iso2": "MG",
       "nome": "Madagascar",
       "inflacao": {
-        "valor": 8.3,
+        "valor": 8.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5780,7 +5787,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 49.3,
+        "valor": 49.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5815,7 +5822,7 @@
       "iso2": "MV",
       "nome": "Maldives",
       "inflacao": {
-        "valor": 3.0,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5824,7 +5831,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 129.4,
+        "valor": 130.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5859,7 +5866,7 @@
       "iso2": "MX",
       "nome": "Mexico",
       "inflacao": {
-        "valor": 3.9,
+        "valor": 3.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5867,7 +5874,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.7,
+        "valor": 2.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5875,7 +5882,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 62.7,
+        "valor": 62.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5922,7 +5929,7 @@
       "iso2": "MH",
       "nome": "Marshall Islands",
       "inflacao": {
-        "valor": 7.4,
+        "valor": 8.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5931,7 +5938,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 16.7,
+        "valor": 13.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5966,7 +5973,7 @@
       "iso2": "MK",
       "nome": "North Macedonia ",
       "inflacao": {
-        "valor": 4.5,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -5982,7 +5989,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 53.1,
+        "valor": 53.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6017,7 +6024,7 @@
       "iso2": "ML",
       "nome": "Mali",
       "inflacao": {
-        "valor": 2.2,
+        "valor": 3.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6026,7 +6033,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 40.8,
+        "valor": 39.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6061,7 +6068,7 @@
       "iso2": "MT",
       "nome": "Malta",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6077,7 +6084,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 47.3,
+        "valor": 46.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6112,7 +6119,7 @@
       "iso2": "MM",
       "nome": "Myanmar",
       "inflacao": {
-        "valor": 19.0,
+        "valor": 20.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6121,7 +6128,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 51.9,
+        "valor": 53.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6156,7 +6163,7 @@
       "iso2": "ME",
       "nome": "Montenegro",
       "inflacao": {
-        "valor": 3.2,
+        "valor": 3.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6165,7 +6172,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 62.4,
+        "valor": 66.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6200,7 +6207,7 @@
       "iso2": "MN",
       "nome": "Mongolia",
       "inflacao": {
-        "valor": 7.4,
+        "valor": 11.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6216,7 +6223,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 43.7,
+        "valor": 44.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6269,7 +6276,7 @@
       "iso2": "MZ",
       "nome": "Mozambique",
       "inflacao": {
-        "valor": 4.4,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6278,7 +6285,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 106.1,
+        "valor": 91.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6313,7 +6320,7 @@
       "iso2": "MR",
       "nome": "Mauritania",
       "inflacao": {
-        "valor": 4.1,
+        "valor": 8.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6322,7 +6329,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 37.1,
+        "valor": 38.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6381,7 +6388,7 @@
       "iso2": "MU",
       "nome": "Mauritius",
       "inflacao": {
-        "valor": 3.7,
+        "valor": 4.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6389,7 +6396,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 5.9,
+        "valor": 6.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6397,7 +6404,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 86.5,
+        "valor": 87.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6432,7 +6439,7 @@
       "iso2": "MW",
       "nome": "Malawi",
       "inflacao": {
-        "valor": 24.4,
+        "valor": 21.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6441,7 +6448,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 74.5,
+        "valor": 78.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6476,7 +6483,7 @@
       "iso2": "MY",
       "nome": "Malaysia",
       "inflacao": {
-        "valor": 1.9,
+        "valor": 2.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6492,7 +6499,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 69.5,
+        "valor": 69.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6539,7 +6546,7 @@
       "iso2": "NA",
       "nome": "Namibia",
       "inflacao": {
-        "valor": 3.9,
+        "valor": 4.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6548,7 +6555,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 70.5,
+        "valor": 67.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6613,7 +6620,7 @@
       "iso2": "NE",
       "nome": "Niger",
       "inflacao": {
-        "valor": 0.4,
+        "valor": -1.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6622,7 +6629,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 45.5,
+        "valor": 46.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6657,7 +6664,7 @@
       "iso2": "NG",
       "nome": "Nigeria",
       "inflacao": {
-        "valor": 16.0,
+        "valor": 15.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6673,7 +6680,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 32.3,
+        "valor": 34.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6716,7 +6723,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.7,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6724,7 +6731,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 33.2,
+        "valor": 31.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6771,7 +6778,7 @@
       "iso2": "NL",
       "nome": "Netherlands",
       "inflacao": {
-        "valor": 2.7,
+        "valor": 2.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6779,7 +6786,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.1,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6787,7 +6794,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 44.1,
+        "valor": 45.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6822,7 +6829,7 @@
       "iso2": "NO",
       "nome": "Norway",
       "inflacao": {
-        "valor": 3.3,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6830,7 +6837,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.2,
+        "valor": 4.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6838,7 +6845,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 42.9,
+        "valor": 40.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6882,7 +6889,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 49.6,
+        "valor": 49.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6915,9 +6922,9 @@
     "NRU": {
       "codigo": "NRU",
       "iso2": "NR",
-      "nome": "Nauru",
+      "nome": "Naoero",
       "inflacao": {
-        "valor": 5.5,
+        "valor": 5.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6926,7 +6933,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 12.7,
+        "valor": 2.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6961,7 +6968,7 @@
       "iso2": "NZ",
       "nome": "New Zealand",
       "inflacao": {
-        "valor": 3.1,
+        "valor": 4.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -6977,7 +6984,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 56.7,
+        "valor": 57.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7012,7 +7019,7 @@
       "iso2": "OM",
       "nome": "Oman",
       "inflacao": {
-        "valor": 1.7,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7021,7 +7028,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 32.7,
+        "valor": 31.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7056,7 +7063,7 @@
       "iso2": "PK",
       "nome": "Pakistan",
       "inflacao": {
-        "valor": 7.2,
+        "valor": 7.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7072,7 +7079,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 70.1,
+        "valor": 69.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7107,7 +7114,7 @@
       "iso2": "PA",
       "nome": "Panama",
       "inflacao": {
-        "valor": 1.4,
+        "valor": 1.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7115,7 +7122,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 10.4,
+        "valor": 9.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7123,7 +7130,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 57.7,
+        "valor": 56.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7170,7 +7177,7 @@
       "iso2": "PE",
       "nome": "Peru",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 3.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7178,7 +7185,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.3,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7186,7 +7193,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 30.0,
+        "valor": 28.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7221,7 +7228,7 @@
       "iso2": "PH",
       "nome": "Philippines",
       "inflacao": {
-        "valor": 4.3,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7229,7 +7236,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.7,
+        "valor": 5.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7237,7 +7244,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 60.2,
+        "valor": 60.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7272,7 +7279,7 @@
       "iso2": "PW",
       "nome": "Palau",
       "inflacao": {
-        "valor": 5.9,
+        "valor": 1.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7281,7 +7288,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 56.7,
+        "valor": 53.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7316,7 +7323,7 @@
       "iso2": "PG",
       "nome": "Papua New Guinea",
       "inflacao": {
-        "valor": 5.0,
+        "valor": 4.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7325,7 +7332,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 49.2,
+        "valor": 46.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7360,7 +7367,7 @@
       "iso2": "PL",
       "nome": "Poland",
       "inflacao": {
-        "valor": 3.3,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7368,7 +7375,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.4,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7376,7 +7383,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 65.7,
+        "valor": 66.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7411,7 +7418,7 @@
       "iso2": "PR",
       "nome": "Puerto Rico",
       "inflacao": {
-        "valor": 2.1,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7419,7 +7426,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.0,
+        "valor": 5.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7427,7 +7434,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 18.8,
+        "valor": 18.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7468,7 +7475,7 @@
       "iso2": "PT",
       "nome": "Portugal",
       "inflacao": {
-        "valor": 3.1,
+        "valor": 3.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7484,7 +7491,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 85.6,
+        "valor": 85.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7519,7 +7526,7 @@
       "iso2": "PY",
       "nome": "Paraguay",
       "inflacao": {
-        "valor": 3.3,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7527,7 +7534,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 5.2,
+        "valor": 4.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7535,7 +7542,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 37.8,
+        "valor": 36.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7600,7 +7607,7 @@
       "iso2": "QA",
       "nome": "Qatar",
       "inflacao": {
-        "valor": 3.9,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7609,7 +7616,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 43.3,
+        "valor": 46.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7656,7 +7663,7 @@
       "iso2": "RO",
       "nome": "Romania",
       "inflacao": {
-        "valor": 7.8,
+        "valor": 8.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7664,7 +7671,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 6.0,
+        "valor": 6.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7672,7 +7679,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 61.9,
+        "valor": 62.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7707,7 +7714,7 @@
       "iso2": "RU",
       "nome": "Russian Federation",
       "inflacao": {
-        "valor": 5.6,
+        "valor": 6.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7715,7 +7722,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.4,
+        "valor": 2.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7723,7 +7730,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 19.1,
+        "valor": 19.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7758,7 +7765,7 @@
       "iso2": "RW",
       "nome": "Rwanda",
       "inflacao": {
-        "valor": 5.6,
+        "valor": 12.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7767,7 +7774,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 66.8,
+        "valor": 63.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7802,7 +7809,7 @@
       "iso2": "SA",
       "nome": "Saudi Arabia",
       "inflacao": {
-        "valor": 2.3,
+        "valor": 1.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7810,15 +7817,15 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 3.5,
+        "valor": 3.2,
         "unidade": "%",
-        "ano": 2024,
+        "ano": 2025,
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 32.1,
+        "valor": 35.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7853,7 +7860,7 @@
       "iso2": "SD",
       "nome": "Sudan",
       "inflacao": {
-        "valor": 75.1,
+        "valor": 41.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7861,7 +7868,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 61.3,
+        "valor": 59.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7869,7 +7876,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 169.1,
+        "valor": 334.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7904,19 +7911,19 @@
       "iso2": "SN",
       "nome": "Senegal",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 1.4,
         "unidade": "%",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
+        "ano": 2025,
+        "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 132.3,
+        "valor": 127.7,
         "unidade": "% do PIB",
-        "ano": 2026,
-        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
+        "ano": 2025,
+        "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
@@ -7956,7 +7963,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 2.0,
+        "valor": 2.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -7964,7 +7971,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 171.9,
+        "valor": 166.4,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8023,7 +8030,7 @@
       "iso2": "SB",
       "nome": "Solomon Islands",
       "inflacao": {
-        "valor": 3.2,
+        "valor": 5.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8032,7 +8039,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 29.9,
+        "valor": 32.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8067,7 +8074,7 @@
       "iso2": "SL",
       "nome": "Sierra Leone",
       "inflacao": {
-        "valor": 7.5,
+        "valor": 13.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8076,7 +8083,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 44.3,
+        "valor": 50.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8111,7 +8118,7 @@
       "iso2": "SV",
       "nome": "El Salvador",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 2.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8127,7 +8134,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 84.5,
+        "valor": 85.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8178,7 +8185,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 77.3,
+        "valor": 56.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8213,7 +8220,7 @@
       "iso2": "SO",
       "nome": "Somalia",
       "inflacao": {
-        "valor": 5.9,
+        "valor": 6.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8262,7 +8269,7 @@
       "iso2": "RS",
       "nome": "Serbia",
       "inflacao": {
-        "valor": 5.2,
+        "valor": 3.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8270,7 +8277,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 8.8,
+        "valor": 8.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8278,7 +8285,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 42.6,
+        "valor": 42.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8313,7 +8320,7 @@
       "iso2": "SS",
       "nome": "South Sudan, Republic of",
       "inflacao": {
-        "valor": 14.0,
+        "valor": 27.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8322,7 +8329,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 57.3,
+        "valor": 43.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8357,7 +8364,7 @@
       "iso2": "ST",
       "nome": "São Tomé and Príncipe",
       "inflacao": {
-        "valor": 9.6,
+        "valor": 11.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8373,7 +8380,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 50.4,
+        "valor": 55.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8408,7 +8415,7 @@
       "iso2": "SR",
       "nome": "Suriname",
       "inflacao": {
-        "valor": 11.8,
+        "valor": 10.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8424,7 +8431,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 87.1,
+        "valor": 85.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8459,7 +8466,7 @@
       "iso2": "SK",
       "nome": "Slovak Republic",
       "inflacao": {
-        "valor": 4.2,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8475,7 +8482,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 63.0,
+        "valor": 62.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8510,7 +8517,7 @@
       "iso2": "SI",
       "nome": "Slovenia",
       "inflacao": {
-        "valor": 2.9,
+        "valor": 3.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8526,7 +8533,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 65.2,
+        "valor": 63.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8561,7 +8568,7 @@
       "iso2": "SE",
       "nome": "Sweden",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 1.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8569,7 +8576,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 8.6,
+        "valor": 8.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8577,7 +8584,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 36.7,
+        "valor": 35.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8612,7 +8619,7 @@
       "iso2": "SZ",
       "nome": "Eswatini",
       "inflacao": {
-        "valor": 3.5,
+        "valor": 2.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8621,7 +8628,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 50.0,
+        "valor": 52.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8686,7 +8693,7 @@
       "iso2": "SC",
       "nome": "Seychelles",
       "inflacao": {
-        "valor": 2.6,
+        "valor": 0.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8702,7 +8709,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 55.0,
+        "valor": 52.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8818,7 +8825,7 @@
       "iso2": "TD",
       "nome": "Chad",
       "inflacao": {
-        "valor": 0.5,
+        "valor": -0.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8827,7 +8834,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 29.9,
+        "valor": 31.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8862,7 +8869,7 @@
       "iso2": "TG",
       "nome": "Togo",
       "inflacao": {
-        "valor": 2.8,
+        "valor": 1.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8906,7 +8913,7 @@
       "iso2": "TH",
       "nome": "Thailand",
       "inflacao": {
-        "valor": 0.9,
+        "valor": 2.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8922,7 +8929,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 66.8,
+        "valor": 67.2,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8957,7 +8964,7 @@
       "iso2": "TJ",
       "nome": "Tajikistan",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 4.1,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -8973,7 +8980,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 21.9,
+        "valor": 18.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9020,7 +9027,7 @@
       "iso2": "TM",
       "nome": "Turkmenistan",
       "inflacao": {
-        "valor": 3.9,
+        "valor": 5.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9029,7 +9036,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 3.7,
+        "valor": 2.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9073,7 +9080,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 14.9,
+        "valor": 13.9,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9117,7 +9124,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 34.4,
+        "valor": 24.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9152,7 +9159,7 @@
       "iso2": "TT",
       "nome": "Trinidad and Tobago",
       "inflacao": {
-        "valor": 1.8,
+        "valor": 0.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9160,7 +9167,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.2,
+        "valor": 4.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9168,7 +9175,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 84.1,
+        "valor": 84.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9203,7 +9210,7 @@
       "iso2": "TN",
       "nome": "Tunisia",
       "inflacao": {
-        "valor": 6.5,
+        "valor": 5.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9219,7 +9226,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 84.9,
+        "valor": 86.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9254,7 +9261,7 @@
       "iso2": "TR",
       "nome": "Türkiye, Republic of",
       "inflacao": {
-        "valor": 28.6,
+        "valor": 31.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9262,7 +9269,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 8.3,
+        "valor": 8.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9270,7 +9277,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 25.5,
+        "valor": 22.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9305,7 +9312,7 @@
       "iso2": "TV",
       "nome": "Tuvalu",
       "inflacao": {
-        "valor": 3.1,
+        "valor": 4.3,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9314,7 +9321,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 3.2,
+        "valor": 2.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9349,7 +9356,7 @@
       "iso2": "TW",
       "nome": "Taiwan Province of China",
       "inflacao": {
-        "valor": 1.5,
+        "valor": 2.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9365,7 +9372,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 27.6,
+        "valor": 21.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9391,7 +9398,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 48.7,
+        "valor": 48.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9426,7 +9433,7 @@
       "iso2": "UG",
       "nome": "Uganda",
       "inflacao": {
-        "valor": 4.0,
+        "valor": 4.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9435,7 +9442,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 55.0,
+        "valor": 55.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9470,7 +9477,7 @@
       "iso2": "UA",
       "nome": "Ukraine",
       "inflacao": {
-        "valor": 6.1,
+        "valor": 8.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9486,7 +9493,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 122.6,
+        "valor": 111.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9529,7 +9536,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 8.0,
+        "valor": 7.5,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9537,7 +9544,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 66.8,
+        "valor": 67.7,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9572,7 +9579,7 @@
       "iso2": "US",
       "nome": "United States",
       "inflacao": {
-        "valor": 3.2,
+        "valor": 3.6,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9580,7 +9587,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 4.4,
+        "valor": 4.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9588,7 +9595,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 125.8,
+        "valor": 126.8,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9623,7 +9630,7 @@
       "iso2": "XK",
       "nome": "Kosovo",
       "inflacao": {
-        "valor": 5.9,
+        "valor": 6.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9631,15 +9638,15 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 10.9,
+        "valor": 10.8,
         "unidade": "%",
-        "ano": 2023,
+        "ano": 2024,
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 18.7,
+        "valor": 18.1,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9656,7 +9663,7 @@
       "iso2": "UZ",
       "nome": "Uzbekistan",
       "inflacao": {
-        "valor": 7.0,
+        "valor": 6.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9672,7 +9679,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 27.5,
+        "valor": 27.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9719,7 +9726,7 @@
       "iso2": "VC",
       "nome": "Saint Vincent and the Grenadines",
       "inflacao": {
-        "valor": 0.9,
+        "valor": 2.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9728,7 +9735,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 120.1,
+        "valor": 111.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9763,7 +9770,7 @@
       "iso2": "VE",
       "nome": "Venezuela",
       "inflacao": {
-        "valor": 387.4,
+        "valor": 467.9,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9771,21 +9778,14 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 35.6,
+        "valor": 5.5,
         "unidade": "%",
         "ano": 2018,
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "LUR"
       },
-      "divida_pib": {
-        "valor": 308.7,
-        "unidade": "% do PIB",
-        "ano": 2025,
-        "natureza": "WEO: último ano disponível",
-        "fonte": "IMF World Economic Outlook",
-        "codigo_fonte": "GGXWDG_NGDP"
-      },
+      "divida_pib": null,
       "pib": {
         "valor": 99661244155.6306,
         "unidade": "US$",
@@ -9850,7 +9850,7 @@
       "iso2": "VN",
       "nome": "Vietnam",
       "inflacao": {
-        "valor": 4.9,
+        "valor": 4.7,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9866,7 +9866,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 29.8,
+        "valor": 28.3,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9901,7 +9901,7 @@
       "iso2": "VU",
       "nome": "Vanuatu",
       "inflacao": {
-        "valor": 4.1,
+        "valor": 2.8,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9910,7 +9910,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 43.2,
+        "valor": 36.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9961,9 +9961,9 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 56.1,
+        "valor": 55.9,
         "unidade": "% do PIB",
-        "ano": 2024,
+        "ano": 2025,
         "natureza": "WEO: último ano disponível",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
@@ -9990,7 +9990,7 @@
       "iso2": "WS",
       "nome": "Samoa",
       "inflacao": {
-        "valor": 2.5,
+        "valor": 1.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -9999,7 +9999,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 17.1,
+        "valor": 18.6,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10034,7 +10034,7 @@
       "iso2": "YE",
       "nome": "Yemen",
       "inflacao": {
-        "valor": 26.5,
+        "valor": 5.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10071,7 +10071,7 @@
       "iso2": "ZA",
       "nome": "South Africa",
       "inflacao": {
-        "valor": 3.9,
+        "valor": 4.4,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10079,7 +10079,7 @@
         "codigo_fonte": "PCPIPCH"
       },
       "desemprego": {
-        "valor": 32.5,
+        "valor": 33.2,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10087,7 +10087,7 @@
         "codigo_fonte": "LUR"
       },
       "divida_pib": {
-        "valor": 78.9,
+        "valor": 78.0,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10122,7 +10122,7 @@
       "iso2": "ZM",
       "nome": "Zambia",
       "inflacao": {
-        "valor": 9.0,
+        "valor": 8.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10131,10 +10131,10 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 86.0,
+        "valor": 82.1,
         "unidade": "% do PIB",
-        "ano": 2025,
-        "natureza": "WEO: último ano disponível",
+        "ano": 2026,
+        "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
         "fonte": "IMF World Economic Outlook",
         "codigo_fonte": "GGXWDG_NGDP"
       },
@@ -10166,7 +10166,7 @@
       "iso2": "ZW",
       "nome": "Zimbabwe",
       "inflacao": {
-        "valor": 8.0,
+        "valor": 4.0,
         "unidade": "%",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
@@ -10175,7 +10175,7 @@
       },
       "desemprego": null,
       "divida_pib": {
-        "valor": 42.3,
+        "valor": 33.5,
         "unidade": "% do PIB",
         "ano": 2026,
         "natureza": "WEO: ano corrente; pode incluir estimativa/projeção",
