@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-10-13T14:02:11.202624-03:00",
+  "atualizado_em": "2026-10-14T11:35:16.390073-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-10-13",
+      "data": "2026-10-14",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,7 +23,7 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-10-09",
+      "data": "2026-10-13",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
@@ -53,9 +53,9 @@
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 363161.0,
+      "valor": 363337.0,
       "unidade": "US$ milhões",
-      "data": "2026-10-09",
+      "data": "2026-10-13",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -77,7 +77,7 @@
     },
     "divida_pib": {
       "nome": "Dívida Bruta do Governo Geral / PIB",
-      "valor": 82.86,
+      "valor": 82.87,
       "unidade": "% do PIB",
       "data": "2026-08-01",
       "fonte": "Banco Central do Brasil",
@@ -40428,6 +40428,10 @@
         {
           "data": "2026-10-13",
           "valor": 13.75
+        },
+        {
+          "data": "2026-10-14",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -73859,6 +73863,10 @@
         },
         {
           "data": "2026-10-09",
+          "valor": 13.65
+        },
+        {
+          "data": "2026-10-13",
           "valor": 13.65
         }
       ],
