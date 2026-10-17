@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-10-14T11:35:16.390073-03:00",
+  "atualizado_em": "2026-10-17T10:03:41.889387-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-10-14",
+      "data": "2026-10-17",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,15 +23,15 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-10-13",
+      "data": "2026-10-15",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.0096,
+      "valor": 5.0826,
       "unidade": "R$/US$",
-      "data": "2026-10-13",
+      "data": "2026-10-16",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,17 +45,17 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 5.6092,
+      "valor": 5.7088,
       "unidade": "R$/EUR",
-      "data": "2026-10-13",
+      "data": "2026-10-16",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 363337.0,
+      "valor": 364309.0,
       "unidade": "US$ milhões",
-      "data": "2026-10-13",
+      "data": "2026-10-15",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -40432,6 +40432,18 @@
         {
           "data": "2026-10-14",
           "valor": 13.75
+        },
+        {
+          "data": "2026-10-15",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-10-16",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-10-17",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -73868,6 +73880,14 @@
         {
           "data": "2026-10-13",
           "valor": 13.65
+        },
+        {
+          "data": "2026-10-14",
+          "valor": 13.65
+        },
+        {
+          "data": "2026-10-15",
+          "valor": 13.65
         }
       ],
       "dolar_ptax": [
@@ -105778,6 +105798,18 @@
         {
           "data": "2026-10-13",
           "valor": 5.0096
+        },
+        {
+          "data": "2026-10-14",
+          "valor": 5.0441
+        },
+        {
+          "data": "2026-10-15",
+          "valor": 5.0521
+        },
+        {
+          "data": "2026-10-16",
+          "valor": 5.0826
         }
       ],
       "igpm": [
