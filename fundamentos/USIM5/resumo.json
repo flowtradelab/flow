@@ -2,7 +2,7 @@
   "ticker": "USIM5",
   "cnpj": "60894730000105",
   "razao_social": null,
-  "atualizado_em": "2026-10-12T20:25:37.338182+00:00",
+  "atualizado_em": "2026-10-19T17:36:58.972816+00:00",
   "fundamentos": {
     "ativo_total": 35106656000.0,
     "patrimonio_liquido": 23645091000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 7.3,
-    "valor_de_mercado": 8985881652.78368,
+    "preco": 6.72,
+    "valor_de_mercado": 8235006465.835104,
     "numero_acoes": 1230942660
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 20.99,
-    "p_vp": 0.38,
+    "p_l": 19.23,
+    "p_vp": 0.35,
     "margem_liquida": 0.0698,
     "roe": 0.0181,
-    "dividend_yield_12m": 0.0838,
+    "dividend_yield_12m": 0.091,
     "divida_liquida_ebitda": 1.1
   },
   "proventos_recentes": [

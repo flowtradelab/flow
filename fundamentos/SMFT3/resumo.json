@@ -2,7 +2,7 @@
   "ticker": "SMFT3",
   "cnpj": "07594978000178",
   "razao_social": null,
-  "atualizado_em": "2026-10-12T20:25:04.168744+00:00",
+  "atualizado_em": "2026-10-19T17:36:31.881737+00:00",
   "fundamentos": {
     "ativo_total": 21490311000.0,
     "patrimonio_liquido": 6092484000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 25.38,
-    "valor_de_mercado": 15534562932.762913,
+    "preco": 24.49,
+    "valor_de_mercado": 15253007181.657917,
     "numero_acoes": 612078938
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 99.66,
-    "p_vp": 2.55,
+    "p_l": 97.86,
+    "p_vp": 2.5,
     "margem_liquida": 0.0716,
     "roe": 0.0256,
-    "dividend_yield_12m": 0.0435,
+    "dividend_yield_12m": 0.0451,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

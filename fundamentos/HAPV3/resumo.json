@@ -2,7 +2,7 @@
   "ticker": "HAPV3",
   "cnpj": "05197443000138",
   "razao_social": null,
-  "atualizado_em": "2026-10-12T20:22:44.772967+00:00",
+  "atualizado_em": "2026-10-19T17:34:37.039386+00:00",
   "fundamentos": {
     "ativo_total": 72799736000.0,
     "patrimonio_liquido": 48063476000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 8.89,
-    "valor_de_mercado": 4223531860.8084965,
+    "preco": 8.29,
+    "valor_de_mercado": 4214029884.730501,
     "numero_acoes": 475087930
   },
   "divida": {
@@ -45,7 +45,7 @@
     "p_vp": 0.09,
     "margem_liquida": -0.0622,
     "roe": -0.0016,
-    "dividend_yield_12m": 0.1054,
+    "dividend_yield_12m": 0.113,
     "divida_liquida_ebitda": 19.34
   },
   "proventos_recentes": [

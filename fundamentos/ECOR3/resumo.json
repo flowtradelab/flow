@@ -2,7 +2,7 @@
   "ticker": "ECOR3",
   "cnpj": "04149454000180",
   "razao_social": null,
-  "atualizado_em": "2026-10-12T20:22:03.570194+00:00",
+  "atualizado_em": "2026-10-19T17:34:02.843368+00:00",
   "fundamentos": {
     "ativo_total": 39586109000.0,
     "patrimonio_liquido": 4398915000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 14.75,
-    "valor_de_mercado": 10260413083.5,
+    "preco": 13.06,
+    "valor_de_mercado": 9397842922.475063,
     "numero_acoes": 695621226
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 1036.82,
-    "p_vp": 2.33,
+    "p_l": 949.66,
+    "p_vp": 2.14,
     "margem_liquida": 0.0033,
     "roe": 0.0022,
-    "dividend_yield_12m": 0.0414,
+    "dividend_yield_12m": 0.0468,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

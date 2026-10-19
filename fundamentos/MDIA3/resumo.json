@@ -2,7 +2,7 @@
   "ticker": "MDIA3",
   "cnpj": "07206816000115",
   "razao_social": null,
-  "atualizado_em": "2026-10-12T20:23:36.568640+00:00",
+  "atualizado_em": "2026-10-19T17:35:19.390391+00:00",
   "fundamentos": {
     "ativo_total": 13060455000.0,
     "patrimonio_liquido": 8486067000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 20.61,
-    "valor_de_mercado": 6916376016.16391,
+    "preco": 19.9,
+    "valor_de_mercado": 6815700583.919079,
     "numero_acoes": 335583494
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 40.96,
-    "p_vp": 0.82,
+    "p_l": 40.37,
+    "p_vp": 0.8,
     "margem_liquida": 0.0626,
     "roe": 0.0199,
-    "dividend_yield_12m": 0.0527,
+    "dividend_yield_12m": 0.0546,
     "divida_liquida_ebitda": -2.27
   },
   "proventos_recentes": [
