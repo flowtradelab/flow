@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T00:02:13Z",
+  "generated_at": "2026-10-23T23:53:31Z",
   "source": {
     "provider": "B3",
     "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/empresas-listadas.htm"
@@ -905,16 +905,6 @@
       "sector": "Saúde",
       "subsector": "Serv.Méd.Hospit..Análises e Diagnósticos",
       "segment": "Serv.Méd.Hospit..Análises e Diagnósticos"
-    },
-    "HBOR": {
-      "issuer_code": "HBOR",
-      "cvm_code": "20877",
-      "cnpj": "49263189000102",
-      "company": "HELBOR EMPREENDIMENTOS S.A.",
-      "trading_name": "HELBOR",
-      "sector": "Consumo Cíclico",
-      "subsector": "Construção Civil",
-      "segment": "Incorporações"
     },
     "HBRE": {
       "issuer_code": "HBRE",
