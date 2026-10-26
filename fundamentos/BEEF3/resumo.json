@@ -2,7 +2,7 @@
   "ticker": "BEEF3",
   "cnpj": "67620377000114",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:33:28.363488+00:00",
+  "atualizado_em": "2026-10-26T17:26:41.555958+00:00",
   "fundamentos": {
     "ativo_total": 46737041000.0,
     "patrimonio_liquido": 2182311000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 4.16,
-    "valor_de_mercado": 4115627068.027536,
+    "preco": 4.27,
+    "valor_de_mercado": 3322253004.472464,
     "numero_acoes": 991717343
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 20.9,
-    "p_vp": 1.89,
+    "p_l": 16.87,
+    "p_vp": 1.52,
     "margem_liquida": 0.014,
     "roe": 0.0902,
-    "dividend_yield_12m": 0.047,
+    "dividend_yield_12m": 0.0458,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

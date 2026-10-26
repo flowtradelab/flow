@@ -2,30 +2,30 @@
   "ticker": "WEGE3",
   "cnpj": "84429695000111",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:37:16.934678+00:00",
+  "atualizado_em": "2026-10-26T17:29:44.250168+00:00",
   "fundamentos": {
-    "ativo_total": 46666431000.0,
-    "patrimonio_liquido": 20191394000.0,
-    "receita_liquida": 10143555000.0,
-    "lucro_liquido": 1646544000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 45635446000.0,
+    "patrimonio_liquido": 21367143000.0,
+    "receita_liquida": 10860809000.0,
+    "lucro_liquido": 1762671000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 47.99,
-    "valor_de_mercado": 199092122039.114,
+    "preco": 42.73,
+    "valor_de_mercado": 188560580551.4448,
     "numero_acoes": 4195829691
   },
   "divida": {
-    "bruta": 5066346000.0,
-    "caixa_e_equivalentes": 7750256000.0,
-    "liquida": -2683910000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 3754445000.0,
+    "caixa_e_equivalentes": 5484016000.0,
+    "liquida": -1729571000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 1956643000.0,
-    "ebitda_aprox": 2210693000.0,
-    "margem_ebitda_aprox": 0.2179
+    "ebit": 2082525000.0,
+    "ebitda_aprox": 2336575000.0,
+    "margem_ebitda_aprox": 0.2151
   },
   "fluxo_de_caixa": {
     "operacional": 1262449000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 120.92,
-    "p_vp": 9.86,
+    "p_l": 106.97,
+    "p_vp": 8.82,
     "margem_liquida": 0.1623,
-    "roe": 0.0815,
-    "dividend_yield_12m": 0.044,
-    "divida_liquida_ebitda": -1.21
+    "roe": 0.0825,
+    "dividend_yield_12m": 0.0495,
+    "divida_liquida_ebitda": -0.74
   },
   "proventos_recentes": [
     {

@@ -2,7 +2,7 @@
   "ticker": "IGTI11",
   "cnpj": "60543816000193",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:34:43.727064+00:00",
+  "atualizado_em": "2026-10-26T17:27:42.492299+00:00",
   "fundamentos": {
     "ativo_total": 10066034000.0,
     "patrimonio_liquido": 4937356000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 31.36,
+    "preco": 32.2,
     "valor_de_mercado": null,
     "numero_acoes": null
   },
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": 0.347,
     "roe": 0.0274,
-    "dividend_yield_12m": 0.0215,
+    "dividend_yield_12m": 0.021,
     "divida_liquida_ebitda": 15.52
   },
   "proventos_recentes": [
@@ -91,7 +91,7 @@
     },
     {
       "data": "2026-10-16",
-      "valor_por_acao": 0.1687
+      "valor_por_acao": 0.1689
     }
   ],
   "dados_incompletos": false

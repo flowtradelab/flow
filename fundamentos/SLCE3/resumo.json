@@ -2,7 +2,7 @@
   "ticker": "SLCE3",
   "cnpj": "89096457000155",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:36:29.565523+00:00",
+  "atualizado_em": "2026-10-26T17:29:06.343584+00:00",
   "fundamentos": {
     "ativo_total": 19986941000.0,
     "patrimonio_liquido": 6096702000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 17.02,
-    "valor_de_mercado": 8313081355.367046,
+    "preco": 17.49,
+    "valor_de_mercado": 8764447862.622349,
     "numero_acoes": 496007234
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 33.92,
-    "p_vp": 1.36,
+    "p_l": 35.76,
+    "p_vp": 1.44,
     "margem_liquida": 0.0886,
     "roe": 0.0402,
-    "dividend_yield_12m": 0.0758,
+    "dividend_yield_12m": 0.0738,
     "divida_liquida_ebitda": 9.61
   },
   "proventos_recentes": [

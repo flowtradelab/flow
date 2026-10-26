@@ -2,7 +2,7 @@
   "ticker": "EZTC3",
   "cnpj": "08312229000173",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:34:18.571805+00:00",
+  "atualizado_em": "2026-10-26T17:27:21.762238+00:00",
   "fundamentos": {
     "ativo_total": 7493444000.0,
     "patrimonio_liquido": 5315140000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 18.05,
-    "valor_de_mercado": 5028518926.741041,
+    "preco": 19.45,
+    "valor_de_mercado": 3461440529.9951134,
     "numero_acoes": 277359027
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 42.86,
-    "p_vp": 0.95,
+    "p_l": 29.5,
+    "p_vp": 0.65,
     "margem_liquida": 0.3115,
     "roe": 0.0221,
-    "dividend_yield_12m": 0.0681,
+    "dividend_yield_12m": 0.0632,
     "divida_liquida_ebitda": 26.09
   },
   "proventos_recentes": [

@@ -2,23 +2,23 @@
   "ticker": "BBDC4",
   "cnpj": "60746948000112",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:33:23.929127+00:00",
+  "atualizado_em": "2026-10-26T17:26:38.098775+00:00",
   "fundamentos": {
-    "ativo_total": 2468826550000.0,
-    "patrimonio_liquido": 182736591000.0,
-    "receita_liquida": 77095555000.0,
-    "lucro_liquido": 7245808000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 2503930379000.0,
+    "patrimonio_liquido": 196585999000.0,
+    "receita_liquida": 78472483000.0,
+    "lucro_liquido": 7435747000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 20.36,
-    "valor_de_mercado": 224740614566.9334,
+    "preco": 20.37,
+    "valor_de_mercado": 176462167465.67603,
     "numero_acoes": 11175564781
   },
   "divida": {
     "bruta": null,
-    "caixa_e_equivalentes": 224306799000.0,
+    "caixa_e_equivalentes": 269817226000.0,
     "liquida": null,
     "data_referencia": null
   },
@@ -41,10 +41,10 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 31.02,
-    "p_vp": 1.23,
-    "margem_liquida": 0.094,
-    "roe": 0.0397,
+    "p_l": 23.73,
+    "p_vp": 0.9,
+    "margem_liquida": 0.0948,
+    "roe": 0.0378,
     "dividend_yield_12m": 0.0792,
     "divida_liquida_ebitda": null
   },

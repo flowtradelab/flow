@@ -2,7 +2,7 @@
   "ticker": "VALE3",
   "cnpj": "33592510000154",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:37:01.336359+00:00",
+  "atualizado_em": "2026-10-26T17:29:31.635809+00:00",
   "fundamentos": {
     "ativo_total": 462161000000.0,
     "patrimonio_liquido": 201467000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 66.21,
-    "valor_de_mercado": 282369854954.4713,
+    "preco": 61.9,
+    "valor_de_mercado": 278028991189.8844,
     "numero_acoes": 4255762795
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 40.1,
-    "p_vp": 1.4,
+    "p_l": 39.49,
+    "p_vp": 1.38,
     "margem_liquida": 0.1328,
     "roe": 0.0349,
-    "dividend_yield_12m": 0.1134,
+    "dividend_yield_12m": 0.1213,
     "divida_liquida_ebitda": 4.38
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "SANB11",
   "cnpj": "90400888000142",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:36:16.259322+00:00",
+  "atualizado_em": "2026-10-26T17:28:55.737927+00:00",
   "fundamentos": {
     "ativo_total": 1290558915000.0,
     "patrimonio_liquido": 129093065000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 28.37,
-    "valor_de_mercado": 131180519974.29503,
+    "preco": 27.53,
+    "valor_de_mercado": 125327189294.50415,
     "numero_acoes": 4720421578
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 38.65,
-    "p_vp": 1.02,
+    "p_l": 36.93,
+    "p_vp": 0.97,
     "margem_liquida": 0.0789,
     "roe": 0.0263,
-    "dividend_yield_12m": 0.0813,
+    "dividend_yield_12m": 0.0984,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
-    {
-      "data": "2022-02-11",
-      "valor_por_acao": 0.8042
-    },
     {
       "data": "2022-04-22",
       "valor_por_acao": 0.4562
@@ -128,6 +124,10 @@
     {
       "data": "2026-07-22",
       "valor_por_acao": 0.5347
+    },
+    {
+      "data": "2026-10-21",
+      "valor_por_acao": 0.401
     }
   ],
   "dados_incompletos": false

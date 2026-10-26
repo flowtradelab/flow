@@ -2,7 +2,7 @@
   "ticker": "MILS3",
   "cnpj": "27093558000115",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:35:23.927141+00:00",
+  "atualizado_em": "2026-10-26T17:28:14.687585+00:00",
   "fundamentos": {
     "ativo_total": 4218952000.0,
     "patrimonio_liquido": 1889261000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 16.1,
-    "valor_de_mercado": 3671161647.5174713,
+    "preco": 16.26,
+    "valor_de_mercado": 3632421657.5973635,
     "numero_acoes": 227880913
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.53,
-    "p_vp": 1.94,
+    "p_l": 34.16,
+    "p_vp": 1.92,
     "margem_liquida": 0.2252,
     "roe": 0.0563,
-    "dividend_yield_12m": 0.1117,
+    "dividend_yield_12m": 0.1106,
     "divida_liquida_ebitda": 4.94
   },
   "proventos_recentes": [

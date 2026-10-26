@@ -2,7 +2,7 @@
   "ticker": "AURE3",
   "cnpj": "28594234000123",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:33:14.445438+00:00",
+  "atualizado_em": "2026-10-26T17:26:30.650475+00:00",
   "fundamentos": {
     "ativo_total": 46710105000.0,
     "patrimonio_liquido": 12752850000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 14.82,
-    "valor_de_mercado": 15544169723.068995,
+    "preco": 15.24,
+    "valor_de_mercado": 11302950965.482681,
     "numero_acoes": 1044635054
   },
   "divida": {
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 1.22,
+    "p_vp": 0.89,
     "margem_liquida": -0.1241,
     "roe": -0.0297,
-    "dividend_yield_12m": 0.0038,
+    "dividend_yield_12m": 0.0037,
     "divida_liquida_ebitda": 26.87
   },
   "proventos_recentes": [

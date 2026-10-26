@@ -2,7 +2,7 @@
   "ticker": "ASAI3",
   "cnpj": "06057223000171",
   "razao_social": null,
-  "atualizado_em": "2026-10-19T17:33:12.238160+00:00",
+  "atualizado_em": "2026-10-26T17:26:29.100968+00:00",
   "fundamentos": {
     "ativo_total": 46631000000.0,
     "patrimonio_liquido": 6346000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 12.84,
-    "valor_de_mercado": 17715447503.55665,
+    "preco": 13.8,
+    "valor_de_mercado": 11348542757.535954,
     "numero_acoes": 1331988515
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.6,
-    "p_vp": 2.79,
+    "p_l": 23.45,
+    "p_vp": 1.79,
     "margem_liquida": 0.0252,
     "roe": 0.0763,
-    "dividend_yield_12m": 0.0165,
+    "dividend_yield_12m": 0.0153,
     "divida_liquida_ebitda": 6.38
   },
   "proventos_recentes": [
