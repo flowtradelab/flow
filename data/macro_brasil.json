@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-10-30T13:03:57.177705-03:00",
+  "atualizado_em": "2026-10-31T12:25:04.340937-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-10-30",
+      "data": "2026-10-31",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -29,9 +29,9 @@
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.3744,
+      "valor": 5.4212,
       "unidade": "R$/US$",
-      "data": "2026-10-29",
+      "data": "2026-10-30",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,9 +45,9 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 6.0,
+      "valor": 6.0522,
       "unidade": "R$/EUR",
-      "data": "2026-10-29",
+      "data": "2026-10-30",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
@@ -40495,6 +40495,10 @@
         },
         {
           "data": "2026-10-30",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-10-31",
           "valor": 13.75
         }
       ],
@@ -105938,6 +105942,10 @@
         {
           "data": "2026-10-29",
           "valor": 5.3744
+        },
+        {
+          "data": "2026-10-30",
+          "valor": 5.4212
         }
       ],
       "igpm": [
