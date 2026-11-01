@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-10-31T12:25:04.340937-03:00",
+  "atualizado_em": "2026-11-01T13:10:12.867123-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-10-31",
+      "data": "2026-11-01",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -40499,6 +40499,10 @@
         },
         {
           "data": "2026-10-31",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-11-01",
           "valor": 13.75
         }
       ],
