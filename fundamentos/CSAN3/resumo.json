@@ -2,7 +2,7 @@
   "ticker": "CSAN3",
   "cnpj": "50746577000115",
   "razao_social": null,
-  "atualizado_em": "2026-10-26T17:26:55.940766+00:00",
+  "atualizado_em": "2026-11-02T20:50:24.781839+00:00",
   "fundamentos": {
     "ativo_total": 126694332000.0,
     "patrimonio_liquido": 31910020000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.2,
-    "valor_de_mercado": 10611681550.46687,
+    "preco": 2.33,
+    "valor_de_mercado": 9191530363.210842,
     "numero_acoes": 3944862946
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 56.82,
-    "p_vp": 0.33,
+    "p_l": 49.22,
+    "p_vp": 0.29,
     "margem_liquida": 0.0173,
     "roe": 0.0059,
-    "dividend_yield_12m": 0.0868,
+    "dividend_yield_12m": 0.1938,
     "divida_liquida_ebitda": 13.6
   },
   "proventos_recentes": [

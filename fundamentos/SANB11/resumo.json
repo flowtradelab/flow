@@ -2,23 +2,23 @@
   "ticker": "SANB11",
   "cnpj": "90400888000142",
   "razao_social": null,
-  "atualizado_em": "2026-10-26T17:28:55.737927+00:00",
+  "atualizado_em": "2026-11-02T20:52:18.064106+00:00",
   "fundamentos": {
-    "ativo_total": 1290558915000.0,
-    "patrimonio_liquido": 129093065000.0,
-    "receita_liquida": 43039312000.0,
-    "lucro_liquido": 3393953000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 1316588030000.0,
+    "patrimonio_liquido": 130326462000.0,
+    "receita_liquida": 37916734000.0,
+    "lucro_liquido": 2842395000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 27.53,
-    "valor_de_mercado": 125327189294.50415,
+    "preco": 23.94,
+    "valor_de_mercado": 113006895098.2971,
     "numero_acoes": 4720421578
   },
   "divida": {
     "bruta": null,
-    "caixa_e_equivalentes": 28089594000.0,
+    "caixa_e_equivalentes": 24448946000.0,
     "liquida": null,
     "data_referencia": null
   },
@@ -34,18 +34,18 @@
     "capex_aprox": -668325000.0,
     "fcf_aprox": 38934252000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -1629009000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 16096767000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -978274000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 17049797000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.93,
-    "p_vp": 0.97,
-    "margem_liquida": 0.0789,
-    "roe": 0.0263,
-    "dividend_yield_12m": 0.0984,
+    "p_l": 39.76,
+    "p_vp": 0.87,
+    "margem_liquida": 0.075,
+    "roe": 0.0218,
+    "dividend_yield_12m": 0.1131,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "HBSA3",
   "cnpj": "12648327000153",
   "razao_social": null,
-  "atualizado_em": "2026-10-26T17:27:38.760013+00:00",
+  "atualizado_em": "2026-11-02T20:51:05.800293+00:00",
   "fundamentos": {
     "ativo_total": 5915698000.0,
     "patrimonio_liquido": 2090449000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 4.13,
-    "valor_de_mercado": 4366828335.9244795,
+    "preco": 2.95,
+    "valor_de_mercado": 4013128861.7180996,
     "numero_acoes": 1360382643
   },
   "divida": {
@@ -41,8 +41,8 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 43.51,
-    "p_vp": 2.09,
+    "p_l": 39.99,
+    "p_vp": 1.92,
     "margem_liquida": 0.1511,
     "roe": 0.048,
     "dividend_yield_12m": null,

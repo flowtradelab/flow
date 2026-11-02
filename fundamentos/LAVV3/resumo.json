@@ -2,7 +2,7 @@
   "ticker": "LAVV3",
   "cnpj": "26462693000128",
   "razao_social": null,
-  "atualizado_em": "2026-10-26T17:27:58.885837+00:00",
+  "atualizado_em": "2026-11-02T20:51:23.794210+00:00",
   "fundamentos": {
     "ativo_total": 4975217000.0,
     "patrimonio_liquido": 1718028000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 15.9,
-    "valor_de_mercado": 1971932641.5009155,
-    "numero_acoes": 195434352
+    "preco": 7.49,
+    "valor_de_mercado": 1461930751.8058472,
+    "numero_acoes": 195184352
   },
   "divida": {
     "bruta": 1471530000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 19.23,
-    "p_vp": 1.15,
+    "p_l": 14.26,
+    "p_vp": 0.85,
     "margem_liquida": 0.207,
     "roe": 0.0597,
-    "dividend_yield_12m": 0.1942,
+    "dividend_yield_12m": 0.4123,
     "divida_liquida_ebitda": 10.32
   },
   "proventos_recentes": [

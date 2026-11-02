@@ -1,0 +1,102 @@
+{
+  "ticker": "FIQE3",
+  "cnpj": "02255187000108",
+  "razao_social": null,
+  "atualizado_em": "2026-11-02T20:50:52.822226+00:00",
+  "fundamentos": {
+    "ativo_total": 3163951000.0,
+    "patrimonio_liquido": 1215009000.0,
+    "receita_liquida": 344690000.0,
+    "lucro_liquido": 45938000.0,
+    "data_referencia_balanco": "2026-06-30",
+    "data_referencia_resultado": "2026-06-30"
+  },
+  "mercado": {
+    "preco": 5.28,
+    "valor_de_mercado": 2056262786.0285387,
+    "numero_acoes": 389443694
+  },
+  "divida": {
+    "bruta": 1039509000.0,
+    "caixa_e_equivalentes": 661310000.0,
+    "liquida": 378199000.0,
+    "data_referencia": "2026-06-30"
+  },
+  "resultado_operacional": {
+    "ebit": 84538000.0,
+    "ebitda_aprox": 148864000.0,
+    "margem_ebitda_aprox": 0.4319
+  },
+  "fluxo_de_caixa": {
+    "operacional": 121114000.0,
+    "investimento": -92812000.0,
+    "financiamento": 421396000.0,
+    "capex_aprox": -75433000.0,
+    "fcf_aprox": 45681000.0,
+    "data_referencia": "2026-03-31",
+    "capex_yahoo": -87059000.0,
+    "capex_yahoo_data_referencia": "2026-03-31",
+    "fcf_yahoo": 220581000.0,
+    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
+  },
+  "multiplos": {
+    "p_l": 44.76,
+    "p_vp": 1.69,
+    "margem_liquida": 0.1333,
+    "roe": 0.0378,
+    "dividend_yield_12m": 0.1584,
+    "divida_liquida_ebitda": 2.54
+  },
+  "proventos_recentes": [
+    {
+      "data": "2021-12-07",
+      "valor_por_acao": 0.0756
+    },
+    {
+      "data": "2022-03-25",
+      "valor_por_acao": 0.0764
+    },
+    {
+      "data": "2023-03-13",
+      "valor_por_acao": 0.0762
+    },
+    {
+      "data": "2023-07-17",
+      "valor_por_acao": 0.0385
+    },
+    {
+      "data": "2023-10-10",
+      "valor_por_acao": 0.0257
+    },
+    {
+      "data": "2024-02-07",
+      "valor_por_acao": 0.0514
+    },
+    {
+      "data": "2024-06-17",
+      "valor_por_acao": 0.1413
+    },
+    {
+      "data": "2025-02-07",
+      "valor_por_acao": 0.0899
+    },
+    {
+      "data": "2025-08-15",
+      "valor_por_acao": 0.1542
+    },
+    {
+      "data": "2025-12-12",
+      "valor_por_acao": 0.0385
+    },
+    {
+      "data": "2025-12-30",
+      "valor_por_acao": 0.5664
+    },
+    {
+      "data": "2026-07-27",
+      "valor_por_acao": 0.077
+    }
+  ],
+  "dados_incompletos": false
+}

@@ -2,7 +2,7 @@
   "ticker": "RAIL3",
   "cnpj": "02387241000160",
   "razao_social": null,
-  "atualizado_em": "2026-10-26T17:28:43.381416+00:00",
+  "atualizado_em": "2026-11-02T20:52:06.044023+00:00",
   "fundamentos": {
     "ativo_total": 55135865000.0,
     "patrimonio_liquido": 14686691000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 18.62,
-    "valor_de_mercado": 27403924080.38989,
+    "preco": 13.78,
+    "valor_de_mercado": 25584421453.545128,
     "numero_acoes": 1856634394
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 52.72,
-    "p_vp": 1.87,
+    "p_l": 49.22,
+    "p_vp": 1.74,
     "margem_liquida": 0.1319,
     "roe": 0.0354,
-    "dividend_yield_12m": 0.0493,
+    "dividend_yield_12m": 0.0667,
     "divida_liquida_ebitda": 8.38
   },
   "proventos_recentes": [
