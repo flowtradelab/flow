@@ -99,8 +99,8 @@ jobs:
 
           headers = ["data", "estrangeiro", "institucional",
                      "pessoa_fisica", "inst_financeira", "outros"]
-          date_pattern = re.compile(r"^\\d{2}/\\d{2}/\\d{4}$")
-          value_pattern = re.compile(r"^([+\\-−]?\\s*[\\d.]+,\\d{1,2})\\s*mi$", re.I)
+          date_pattern = re.compile(r"^\d{2}/\d{2}/\d{4}$")
+          value_pattern = re.compile(r"^([+\-−]?\s*[\d.]+,\d{1,2})\s*mi$", re.I)
           new_data = {}
 
           for cells in parser.rows:
@@ -110,7 +110,7 @@ jobs:
                   date = datetime.strptime(cells[0], "%d/%m/%Y")
                   values = []
                   for cell in cells[1:]:
-                      match = value_pattern.fullmatch(cell.replace("\\xa0", " ").strip())
+                      match = value_pattern.fullmatch(cell.replace("\xa0", " ").strip())
                       if not match:
                           raise ValueError(f"valor inesperado: {cell!r}")
                       value = match.group(1).replace(" ", "").replace("−", "-")
@@ -140,7 +140,7 @@ jobs:
           merged.update(new_data)
           print(f"[diag] total após mesclar histórico: {len(merged)}", file=sys.stderr)
 
-          writer = csv.writer(sys.stdout, lineterminator="\\n")
+          writer = csv.writer(sys.stdout, lineterminator="\n")
           writer.writerow(headers)
           for day in sorted(merged, key=lambda value: datetime.strptime(value, "%d/%m/%Y"), reverse=True):
               writer.writerow([day] + merged[day])
