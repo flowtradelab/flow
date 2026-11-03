@@ -57,34 +57,93 @@ jobs:
                 f"{any(k in page.lower() for k in ('captcha', 'cloudflare', 'blocked', 'access denied'))}",
                 file=sys.stderr)
 
-          rows = re.findall(
-              r'<tr>\s*<td[^>]*>([\d/]+)</td>\s*'
-              r'<td[^>]*>([\d.,\-]+)\s*mi</td>\s*'
-              r'<td[^>]*>([\d.,\-]+)\s*mi</td>\s*'
-              r'<td[^>]*>([\d.,\-]+)\s*mi</td>\s*'
-              r'<td[^>]*>([\d.,\-]+)\s*mi</td>\s*'
-              r'<td[^>]*>([\d.,\-]+)\s*mi</td>\s*'
-              r'</tr>',
-              page
-          )
+          from html.parser import HTMLParser
+          from datetime import datetime
+          import csv
+          import io
+          from pathlib import Path
 
-          def fmt(v):
-              return v.replace('.', '').replace(',', '.')
+          class TableParser(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.rows = []
+                  self.row = None
+                  self.cell = None
+                  self.depth = 0
 
-          lines = ["data,estrangeiro,institucional,pessoa_fisica,inst_financeira,outros"]
-          for r in rows:
-              data, est, inst, pf, if_, out = r
-              lines.append(f"{data},{fmt(est)},{fmt(inst)},{fmt(pf)},{fmt(if_)},{fmt(out)}")
+              def handle_starttag(self, tag, attrs):
+                  if tag == "tr":
+                      self.row = []
+                  elif tag in ("td", "th") and self.row is not None:
+                      self.cell = []
+                      self.depth = 1
+                  elif self.cell is not None:
+                      self.depth += 1
 
-          if len(lines) < 2:
-              raise Exception(
-                  f"Nenhum dado extraído (HTTP {http_status}, {len(page)} bytes recebidos). "
-                  "Veja o log acima ([diag]) para o status HTTP e o início do corpo da resposta — "
-                  "provavelmente a página recebida não é a página real (bloqueio anti-bot, "
-                  "erro do servidor, etc.), e não uma mudança de layout."
+              def handle_data(self, data):
+                  if self.cell is not None:
+                      self.cell.append(data)
+
+              def handle_endtag(self, tag):
+                  if tag in ("td", "th") and self.cell is not None:
+                      self.row.append(" ".join("".join(self.cell).split()))
+                      self.cell = None
+                      self.depth = 0
+                  elif tag == "tr" and self.row is not None:
+                      self.rows.append(self.row)
+                      self.row = None
+
+          parser = TableParser()
+          parser.feed(page)
+          print(f"[diag] linhas HTML encontradas: {len(parser.rows)}", file=sys.stderr)
+
+          headers = ["data", "estrangeiro", "institucional",
+                     "pessoa_fisica", "inst_financeira", "outros"]
+          date_pattern = re.compile(r"^\d{2}/\d{2}/\d{4}$")
+          value_pattern = re.compile(r"^([+\-−]?\s*[\d.]+,\d{1,2})\s*mi$", re.I)
+          new_data = {}
+
+          for cells in parser.rows:
+              if len(cells) != 6 or not date_pattern.fullmatch(cells[0]):
+                  continue
+              try:
+                  date = datetime.strptime(cells[0], "%d/%m/%Y")
+                  values = []
+                  for cell in cells[1:]:
+                      match = value_pattern.fullmatch(cell.replace("\xa0", " ").strip())
+                      if not match:
+                          raise ValueError(f"valor inesperado: {cell!r}")
+                      value = match.group(1).replace(" ", "").replace("−", "-")
+                      values.append(value.replace(".", "").replace(",", "."))
+                  new_data[date.strftime("%d/%m/%Y")] = values
+              except ValueError as exc:
+                  print(f"[diag] linha ignorada {cells[0]}: {exc}", file=sys.stderr)
+
+          print(f"[diag] registros válidos extraídos: {len(new_data)}", file=sys.stderr)
+          if len(new_data) < 5:
+              raise RuntimeError(
+                  f"Extração insuficiente: {len(new_data)} registros (HTTP {http_status}). "
+                  "CSV anterior preservado; verifique o HTML e os logs [diag]."
               )
 
-          print('\n'.join(lines))
+          # Mantém o histórico já salvo e substitui somente datas atualizadas.
+          target = Path("perfil-investidores/perfil-investidores.csv")
+          merged = {}
+          if target.exists():
+              with target.open(newline="", encoding="utf-8") as file:
+                  for item in csv.DictReader(file):
+                      try:
+                          datetime.strptime(item["data"], "%d/%m/%Y")
+                          merged[item["data"]] = [item[h] for h in headers[1:]]
+                      except (KeyError, ValueError):
+                          print("[diag] registro histórico inválido ignorado", file=sys.stderr)
+          merged.update(new_data)
+          print(f"[diag] total após mesclar histórico: {len(merged)}", file=sys.stderr)
+
+          writer = csv.writer(sys.stdout, lineterminator="\n")
+          writer.writerow(headers)
+          for day in sorted(merged, key=lambda value: datetime.strptime(value, "%d/%m/%Y"), reverse=True):
+              writer.writerow([day] + merged[day])
           PYEOF
 
           echo "Registros extraídos: $(wc -l < perfil-investidores/perfil-investidores.csv)"
