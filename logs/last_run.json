@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "executado_em": "2026-11-03 14:55:09 BRT",
-  "executado_em_ts": 1793728509,
+  "executado_em": "2026-11-03 15:40:17 BRT",
+  "executado_em_ts": 1793731217,
   "data_referencia": "2026-10-30",
   "arquivos": {
     "instruments_consolidated": {
@@ -25,7 +25,7 @@
     "sanidade_posicoes_pct": 100.0,
     "divergencias_metadados": 1241,
     "tickers_gerados": 304,
-    "arquivos_alterados": 304
+    "arquivos_alterados": 0
   },
   "erros": []
 }
