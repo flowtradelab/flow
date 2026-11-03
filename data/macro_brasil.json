@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-11-02T16:40:55.391917-03:00",
+  "atualizado_em": "2026-11-03T14:15:03.692866-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-11-02",
+      "data": "2026-11-03",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -29,9 +29,9 @@
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.4212,
+      "valor": 5.4935,
       "unidade": "R$/US$",
-      "data": "2026-10-30",
+      "data": "2026-11-03",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,17 +45,17 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 6.0522,
+      "valor": 6.15,
       "unidade": "R$/EUR",
-      "data": "2026-10-30",
+      "data": "2026-11-03",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 364540.0,
+      "valor": 365019.0,
       "unidade": "US$ milhões",
-      "data": "2026-10-28",
+      "data": "2026-10-30",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -40507,6 +40507,10 @@
         },
         {
           "data": "2026-11-02",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-11-03",
           "valor": 13.75
         }
       ],
@@ -105958,6 +105962,10 @@
         {
           "data": "2026-10-30",
           "valor": 5.4212
+        },
+        {
+          "data": "2026-11-03",
+          "valor": 5.4935
         }
       ],
       "igpm": [
@@ -107496,7 +107504,7 @@
     "fonte": "Banco Central do Brasil - Expectativas de Mercado (Focus)",
     "estatistica_principal": "Mediana",
     "base_calculo": 0,
-    "data_focus_mais_recente": "2026-10-23",
+    "data_focus_mais_recente": "2026-10-30",
     "anos": [
       2026,
       2027,
@@ -107506,305 +107514,305 @@
     "expectativas": {
       "2026": {
         "ipca": {
-          "valor": 5.1891,
-          "data": "2026-10-23",
-          "media": 5.1756,
-          "minimo": 4.8,
-          "maximo": 5.7485,
-          "respondentes": 142,
+          "valor": 5.2166,
+          "data": "2026-10-30",
+          "media": 5.2134,
+          "minimo": 4.9102,
+          "maximo": 5.9168,
+          "respondentes": 144,
           "semana_1": {
-            "valor": 5.219,
-            "data": "2026-10-16"
+            "valor": 5.1891,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 4.9915,
-            "data": "2026-09-25"
+            "valor": 5.0129,
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.0299,
-          "variacao_4s": 0.1976,
+          "variacao_1s": 0.0275,
+          "variacao_4s": 0.2037,
           "nome": "IPCA",
           "unidade": "%"
         },
         "selic": {
-          "valor": 13.25,
-          "data": "2026-10-23",
-          "media": 13.3139,
+          "valor": 13.5,
+          "data": "2026-10-30",
+          "media": 13.5402,
           "minimo": 13.0,
           "maximo": 14.0,
-          "respondentes": 137,
+          "respondentes": 143,
           "semana_1": {
             "valor": 13.25,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 13.5,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0,
-          "variacao_4s": -0.25,
+          "variacao_1s": 0.25,
+          "variacao_4s": 0.0,
           "nome": "Selic",
           "unidade": "% a.a."
         },
         "pib": {
-          "valor": 1.8,
-          "data": "2026-10-23",
-          "media": 1.7871,
-          "minimo": 1.2515,
+          "valor": 1.7607,
+          "data": "2026-10-30",
+          "media": 1.748,
+          "minimo": 1.0,
           "maximo": 2.2825,
-          "respondentes": 113,
+          "respondentes": 117,
           "semana_1": {
-            "valor": 1.8301,
-            "data": "2026-10-16"
+            "valor": 1.8,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 1.8603,
-            "data": "2026-09-25"
+            "valor": 1.8549,
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.0301,
-          "variacao_4s": -0.0603,
+          "variacao_1s": -0.0393,
+          "variacao_4s": -0.0942,
           "nome": "PIB",
           "unidade": "%"
         },
         "cambio": {
-          "valor": 5.0495,
-          "data": "2026-10-23",
-          "media": 5.0502,
-          "minimo": 4.5,
-          "maximo": 5.4,
-          "respondentes": 112,
+          "valor": 5.3428,
+          "data": "2026-10-30",
+          "media": 5.3087,
+          "minimo": 4.8,
+          "maximo": 6.0,
+          "respondentes": 120,
           "semana_1": {
-            "valor": 5.132,
-            "data": "2026-10-16"
+            "valor": 5.0495,
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 5.2,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.0825,
-          "variacao_4s": -0.1505,
+          "variacao_1s": 0.2933,
+          "variacao_4s": 0.1428,
           "nome": "Câmbio",
           "unidade": "R$/US$"
         }
       },
       "2027": {
         "ipca": {
-          "valor": 4.3368,
-          "data": "2026-10-23",
-          "media": 4.3777,
-          "minimo": 3.2473,
-          "maximo": 6.0,
-          "respondentes": 142,
+          "valor": 4.7646,
+          "data": "2026-10-30",
+          "media": 4.7809,
+          "minimo": 3.2483,
+          "maximo": 6.0897,
+          "respondentes": 144,
           "semana_1": {
-            "valor": 4.3206,
-            "data": "2026-10-16"
+            "valor": 4.3368,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 4.3118,
-            "data": "2026-09-25"
+            "valor": 4.3007,
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0162,
-          "variacao_4s": 0.025,
+          "variacao_1s": 0.4278,
+          "variacao_4s": 0.4639,
           "nome": "IPCA",
           "unidade": "%"
         },
         "selic": {
-          "valor": 11.75,
-          "data": "2026-10-23",
-          "media": 11.6029,
-          "minimo": 9.0,
-          "maximo": 14.0,
-          "respondentes": 136,
+          "valor": 12.5,
+          "data": "2026-10-30",
+          "media": 12.4441,
+          "minimo": 9.75,
+          "maximo": 15.0,
+          "respondentes": 143,
           "semana_1": {
-            "valor": 12.0,
-            "data": "2026-10-16"
+            "valor": 11.75,
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 12.0,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.25,
-          "variacao_4s": -0.25,
+          "variacao_1s": 0.75,
+          "variacao_4s": 0.5,
           "nome": "Selic",
           "unidade": "% a.a."
         },
         "pib": {
-          "valor": 1.3145,
-          "data": "2026-10-23",
-          "media": 1.3075,
-          "minimo": 0.2933,
+          "valor": 1.198,
+          "data": "2026-10-30",
+          "media": 1.1437,
+          "minimo": -0.2198,
           "maximo": 2.3755,
-          "respondentes": 113,
+          "respondentes": 116,
           "semana_1": {
-            "valor": 1.3246,
-            "data": "2026-10-16"
+            "valor": 1.3145,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 1.4105,
-            "data": "2026-09-25"
+            "valor": 1.4,
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.0101,
-          "variacao_4s": -0.096,
+          "variacao_1s": -0.1165,
+          "variacao_4s": -0.202,
           "nome": "PIB",
           "unidade": "%"
         },
         "cambio": {
-          "valor": 5.15,
-          "data": "2026-10-23",
-          "media": 5.1353,
-          "minimo": 4.5,
-          "maximo": 5.85,
-          "respondentes": 111,
+          "valor": 5.4,
+          "data": "2026-10-30",
+          "media": 5.3643,
+          "minimo": 4.7,
+          "maximo": 6.0,
+          "respondentes": 119,
           "semana_1": {
-            "valor": 5.2213,
-            "data": "2026-10-16"
+            "valor": 5.15,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 5.2769,
-            "data": "2026-09-25"
+            "valor": 5.28,
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.0713,
-          "variacao_4s": -0.1269,
+          "variacao_1s": 0.25,
+          "variacao_4s": 0.12,
           "nome": "Câmbio",
           "unidade": "R$/US$"
         }
       },
       "2028": {
         "ipca": {
-          "valor": 3.75,
-          "data": "2026-10-23",
-          "media": 3.754,
-          "minimo": 2.8,
+          "valor": 4.0,
+          "data": "2026-10-30",
+          "media": 4.0016,
+          "minimo": 3.0,
           "maximo": 6.0,
-          "respondentes": 124,
+          "respondentes": 131,
           "semana_1": {
             "valor": 3.75,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 3.8,
-            "data": "2026-09-25"
+            "valor": 3.8007,
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0,
-          "variacao_4s": -0.05,
+          "variacao_1s": 0.25,
+          "variacao_4s": 0.1993,
           "nome": "IPCA",
           "unidade": "%"
         },
         "selic": {
-          "valor": 10.0,
-          "data": "2026-10-23",
-          "media": 10.2327,
-          "minimo": 8.0,
-          "maximo": 13.5,
-          "respondentes": 115,
+          "valor": 11.0,
+          "data": "2026-10-30",
+          "media": 11.0341,
+          "minimo": 9.0,
+          "maximo": 14.75,
+          "respondentes": 125,
           "semana_1": {
-            "valor": 10.5,
-            "data": "2026-10-16"
+            "valor": 10.0,
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 10.5,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.5,
-          "variacao_4s": -0.5,
+          "variacao_1s": 1.0,
+          "variacao_4s": 0.5,
           "nome": "Selic",
           "unidade": "% a.a."
         },
         "pib": {
-          "valor": 1.81,
-          "data": "2026-10-23",
-          "media": 1.8888,
+          "valor": 1.8,
+          "data": "2026-10-30",
+          "media": 1.7911,
           "minimo": 1.0,
-          "maximo": 3.0,
-          "respondentes": 83,
+          "maximo": 2.803,
+          "respondentes": 87,
           "semana_1": {
             "valor": 1.81,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 1.825,
-            "data": "2026-09-25"
+            "valor": 1.81,
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0,
-          "variacao_4s": -0.015,
+          "variacao_1s": -0.01,
+          "variacao_4s": -0.01,
           "nome": "PIB",
           "unidade": "%"
         },
         "cambio": {
-          "valor": 5.2,
-          "data": "2026-10-23",
-          "media": 5.1898,
+          "valor": 5.4,
+          "data": "2026-10-30",
+          "media": 5.4145,
           "minimo": 4.5,
-          "maximo": 6.0,
-          "respondentes": 87,
+          "maximo": 6.31,
+          "respondentes": 93,
           "semana_1": {
-            "valor": 5.29,
-            "data": "2026-10-16"
+            "valor": 5.2,
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 5.3,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.09,
-          "variacao_4s": -0.1,
+          "variacao_1s": 0.2,
+          "variacao_4s": 0.1,
           "nome": "Câmbio",
           "unidade": "R$/US$"
         }
       },
       "2029": {
         "ipca": {
-          "valor": 3.5,
-          "data": "2026-10-23",
-          "media": 3.6151,
+          "valor": 3.98,
+          "data": "2026-10-30",
+          "media": 3.8584,
           "minimo": 3.0,
           "maximo": 6.0,
-          "respondentes": 116,
+          "respondentes": 121,
           "semana_1": {
             "valor": 3.5,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 3.5003,
-            "data": "2026-09-25"
+            "valor": 3.5108,
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0,
-          "variacao_4s": -0.0003,
+          "variacao_1s": 0.48,
+          "variacao_4s": 0.4692,
           "nome": "IPCA",
           "unidade": "%"
         },
         "selic": {
-          "valor": 10.0,
-          "data": "2026-10-23",
-          "media": 9.9114,
-          "minimo": 8.0,
-          "maximo": 13.5,
-          "respondentes": 110,
+          "valor": 10.25,
+          "data": "2026-10-30",
+          "media": 10.5329,
+          "minimo": 8.5,
+          "maximo": 13.75,
+          "respondentes": 114,
           "semana_1": {
             "valor": 10.0,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 10.0,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
-          "variacao_1s": 0.0,
-          "variacao_4s": 0.0,
+          "variacao_1s": 0.25,
+          "variacao_4s": 0.25,
           "nome": "Selic",
           "unidade": "% a.a."
         },
         "pib": {
           "valor": 2.0,
-          "data": "2026-10-23",
-          "media": 2.001,
+          "data": "2026-10-30",
+          "media": 1.9559,
           "minimo": 1.0,
-          "maximo": 3.0,
-          "respondentes": 76,
+          "maximo": 2.8,
+          "respondentes": 79,
           "semana_1": {
             "valor": 2.0,
-            "data": "2026-10-16"
+            "data": "2026-10-23"
           },
           "semanas_4": {
             "valor": 2.0,
-            "data": "2026-09-25"
+            "data": "2026-10-02"
           },
           "variacao_1s": 0.0,
           "variacao_4s": 0.0,
@@ -107812,22 +107820,22 @@
           "unidade": "%"
         },
         "cambio": {
-          "valor": 5.28,
-          "data": "2026-10-23",
-          "media": 5.23,
+          "valor": 5.45,
+          "data": "2026-10-30",
+          "media": 5.4462,
           "minimo": 4.5,
-          "maximo": 6.2,
-          "respondentes": 82,
+          "maximo": 6.3,
+          "respondentes": 89,
           "semana_1": {
-            "valor": 5.3,
-            "data": "2026-10-16"
+            "valor": 5.28,
+            "data": "2026-10-23"
           },
           "semanas_4": {
-            "valor": 5.3508,
-            "data": "2026-09-25"
+            "valor": 5.33,
+            "data": "2026-10-02"
           },
-          "variacao_1s": -0.02,
-          "variacao_4s": -0.0708,
+          "variacao_1s": 0.17,
+          "variacao_4s": 0.12,
           "nome": "Câmbio",
           "unidade": "R$/US$"
         }
