@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T01:32:17Z",
+  "generated_at": "2026-11-06T01:40:41Z",
   "source": {
     "provider": "B3",
     "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/empresas-listadas.htm"
@@ -25,16 +25,6 @@
       "sector": "Consumo não Cíclico",
       "subsector": "Bebidas",
       "segment": "Cervejas e Refrigerantes"
-    },
-    "AERI": {
-      "issuer_code": "AERI",
-      "cvm_code": "25283",
-      "cnpj": "12528708000107",
-      "company": "AERIS IND. E COM. DE EQUIP. GERACAO DE ENERGIA S/A",
-      "trading_name": "AERIS",
-      "sector": "Bens Industriais",
-      "subsector": "Máquinas e Equipamentos",
-      "segment": "Máq. e Equip. Industriais"
     },
     "AGRO": {
       "issuer_code": "AGRO",
