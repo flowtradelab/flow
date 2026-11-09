@@ -2,7 +2,7 @@
   "ticker": "FIQE3",
   "cnpj": "02255187000108",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:52.822226+00:00",
+  "atualizado_em": "2026-11-09T21:30:00.340089+00:00",
   "fundamentos": {
     "ativo_total": 3163951000.0,
     "patrimonio_liquido": 1215009000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 5.28,
-    "valor_de_mercado": 2056262786.0285387,
+    "preco": 5.48,
+    "valor_de_mercado": 2141940317.0,
     "numero_acoes": 389443694
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 44.76,
-    "p_vp": 1.69,
+    "p_l": 46.63,
+    "p_vp": 1.76,
     "margem_liquida": 0.1333,
     "roe": 0.0378,
-    "dividend_yield_12m": 0.1584,
+    "dividend_yield_12m": 0.1526,
     "divida_liquida_ebitda": 2.54
   },
   "proventos_recentes": [

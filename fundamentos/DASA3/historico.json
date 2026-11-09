@@ -183,6 +183,32 @@
       "divida_liquida_ebitda": null,
       "fcf_aprox": null,
       "dados_incompletos": false
+    },
+    {
+      "data_fim_exercicio": "2026-09-30",
+      "tipo_periodo": "trimestre",
+      "ativo_total": 17460214000.0,
+      "patrimonio_liquido": 7050993000.0,
+      "receita_liquida": 2409583000.0,
+      "lucro_liquido": 170636000.0,
+      "caixa_e_equivalentes": 1189230000.0,
+      "divida_bruta": 6233934000.0,
+      "ebit": 405618000.0,
+      "depreciacao_amortizacao": null,
+      "caixa_operacional": null,
+      "caixa_investimento": null,
+      "caixa_financiamento": null,
+      "capex": null,
+      "capex_yahoo": null,
+      "fcf_yahoo": null,
+      "margem_liquida": 0.0708,
+      "roe": 0.0242,
+      "ebitda_aprox": null,
+      "margem_ebitda_aprox": null,
+      "divida_liquida": 5044704000.0,
+      "divida_liquida_ebitda": null,
+      "fcf_aprox": null,
+      "dados_incompletos": false
     }
   ]
 }

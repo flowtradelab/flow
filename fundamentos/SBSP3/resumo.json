@@ -2,30 +2,30 @@
   "ticker": "SBSP3",
   "cnpj": "43776517000180",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:21.441420+00:00",
+  "atualizado_em": "2026-11-09T21:31:34.734109+00:00",
   "fundamentos": {
-    "ativo_total": 119606768000.0,
-    "patrimonio_liquido": 45310286000.0,
-    "receita_liquida": 10208902000.0,
-    "lucro_liquido": 1464433000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 115165768000.0,
+    "patrimonio_liquido": 46719527000.0,
+    "receita_liquida": 10140841000.0,
+    "lucro_liquido": 1387735000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 24.7,
-    "valor_de_mercado": 87103774393.48193,
+    "preco": 26.78,
+    "valor_de_mercado": 97683179863.48193,
     "numero_acoes": 3526468490
   },
   "divida": {
-    "bruta": 51657802000.0,
-    "caixa_e_equivalentes": 4243477000.0,
-    "liquida": 47414325000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 46436909000.0,
+    "caixa_e_equivalentes": 4108028000.0,
+    "liquida": 42328881000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 3167463000.0,
-    "ebitda_aprox": 3864935000.0,
-    "margem_ebitda_aprox": 0.3786
+    "ebit": 3246048000.0,
+    "ebitda_aprox": 3943520000.0,
+    "margem_ebitda_aprox": 0.3889
   },
   "fluxo_de_caixa": {
     "operacional": 761638000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 59.48,
-    "p_vp": 1.92,
-    "margem_liquida": 0.1434,
-    "roe": 0.0323,
-    "dividend_yield_12m": 0.0574,
-    "divida_liquida_ebitda": 12.27
+    "p_l": 70.39,
+    "p_vp": 2.09,
+    "margem_liquida": 0.1368,
+    "roe": 0.0297,
+    "dividend_yield_12m": 0.053,
+    "divida_liquida_ebitda": 10.73
   },
   "proventos_recentes": [
     {

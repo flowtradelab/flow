@@ -2,7 +2,7 @@
   "ticker": "LOGG3",
   "cnpj": "09041168000110",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:27.556804+00:00",
+  "atualizado_em": "2026-11-09T21:30:38.302729+00:00",
   "fundamentos": {
     "ativo_total": 6806969000.0,
     "patrimonio_liquido": 3545864000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 20.23,
-    "valor_de_mercado": 1761005660.5220299,
+    "preco": 20.65,
+    "valor_de_mercado": 1836738554.1066418,
     "numero_acoes": 87049219
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 29.99,
-    "p_vp": 0.5,
+    "p_l": 31.28,
+    "p_vp": 0.52,
     "margem_liquida": 0.8902,
     "roe": 0.0166,
-    "dividend_yield_12m": 0.3398,
+    "dividend_yield_12m": 0.3329,
     "divida_liquida_ebitda": 23.57
   },
   "proventos_recentes": [

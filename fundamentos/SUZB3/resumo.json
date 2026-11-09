@@ -2,30 +2,30 @@
   "ticker": "SUZB3",
   "cnpj": "16404287000155",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:34.035704+00:00",
+  "atualizado_em": "2026-11-09T21:31:48.143344+00:00",
   "fundamentos": {
-    "ativo_total": 171045775000.0,
-    "patrimonio_liquido": 49851513000.0,
-    "receita_liquida": 11590133000.0,
-    "lucro_liquido": 1807466000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 190586464000.0,
+    "patrimonio_liquido": 57445525000.0,
+    "receita_liquida": 16515544000.0,
+    "lucro_liquido": 2083955000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 50.14,
-    "valor_de_mercado": 61750453849.39499,
+    "preco": 53.4,
+    "valor_de_mercado": 66750592072.00626,
     "numero_acoes": 1231560722
   },
   "divida": {
-    "bruta": 92706122000.0,
-    "caixa_e_equivalentes": 16645571000.0,
-    "liquida": 76060551000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 97842847000.0,
+    "caixa_e_equivalentes": 13406218000.0,
+    "liquida": 84436629000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 2788631000.0,
-    "ebitda_aprox": 5595283000.0,
-    "margem_ebitda_aprox": 0.4828
+    "ebit": 1603395000.0,
+    "ebitda_aprox": 4410047000.0,
+    "margem_ebitda_aprox": 0.267
   },
   "fluxo_de_caixa": {
     "operacional": 2900767000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.16,
-    "p_vp": 1.24,
-    "margem_liquida": 0.1559,
+    "p_l": 32.03,
+    "p_vp": 1.16,
+    "margem_liquida": 0.1262,
     "roe": 0.0363,
-    "dividend_yield_12m": 0.0224,
-    "divida_liquida_ebitda": 13.59
+    "dividend_yield_12m": 0.021,
+    "divida_liquida_ebitda": 19.15
   },
   "proventos_recentes": [
     {

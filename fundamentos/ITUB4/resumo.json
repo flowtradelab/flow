@@ -2,23 +2,23 @@
   "ticker": "ITUB4",
   "cnpj": "60872504000123",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:15.772851+00:00",
+  "atualizado_em": "2026-11-09T21:30:26.184481+00:00",
   "fundamentos": {
-    "ativo_total": 3202125000000.0,
-    "patrimonio_liquido": 228026000000.0,
-    "receita_liquida": 100073000000.0,
-    "lucro_liquido": 12324000000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 3323991000000.0,
+    "patrimonio_liquido": 239262000000.0,
+    "receita_liquida": 110278000000.0,
+    "lucro_liquido": 12270000000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 38.69,
-    "valor_de_mercado": 426442167011.93085,
+    "preco": 40.53,
+    "valor_de_mercado": 459838934086.06146,
     "numero_acoes": 11022025902
   },
   "divida": {
     "bruta": null,
-    "caixa_e_equivalentes": 35351000000.0,
+    "caixa_e_equivalentes": 34263000000.0,
     "liquida": null,
     "data_referencia": null
   },
@@ -34,25 +34,21 @@
     "capex_aprox": -438000000.0,
     "fcf_aprox": 55156000000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -1695000000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 69423000000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -1940000000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": -10620000000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 34.6,
-    "p_vp": 1.87,
-    "margem_liquida": 0.1232,
-    "roe": 0.054,
-    "dividend_yield_12m": 0.0806,
+    "p_l": 37.48,
+    "p_vp": 1.92,
+    "margem_liquida": 0.1113,
+    "roe": 0.0513,
+    "dividend_yield_12m": 0.0769,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [
-    {
-      "data": "2025-07-01",
-      "valor_por_acao": 0.0171
-    },
     {
       "data": "2025-08-01",
       "valor_por_acao": 0.0171
@@ -127,6 +123,10 @@
     },
     {
       "data": "2026-10-01",
+      "valor_por_acao": 0.0182
+    },
+    {
+      "data": "2026-11-03",
       "valor_por_acao": 0.0182
     }
   ],

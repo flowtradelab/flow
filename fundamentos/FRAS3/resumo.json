@@ -2,7 +2,7 @@
   "ticker": "FRAS3",
   "cnpj": "88610126000129",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:56.068869+00:00",
+  "atualizado_em": "2026-11-09T21:30:04.004164+00:00",
   "fundamentos": {
     "ativo_total": 7019518000.0,
     "patrimonio_liquido": 2539212000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 20.17,
-    "valor_de_mercado": 5593848806.628988,
+    "preco": 21.7,
+    "valor_de_mercado": 6045904772.210117,
     "numero_acoes": 277335091
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 63.96,
-    "p_vp": 2.2,
+    "p_l": 69.13,
+    "p_vp": 2.38,
     "margem_liquida": 0.0632,
     "roe": 0.0344,
-    "dividend_yield_12m": 0.0308,
+    "dividend_yield_12m": 0.0286,
     "divida_liquida_ebitda": 4.54
   },
   "proventos_recentes": [

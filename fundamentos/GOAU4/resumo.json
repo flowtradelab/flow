@@ -2,7 +2,7 @@
   "ticker": "GOAU4",
   "cnpj": "92690783000109",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:01.111801+00:00",
+  "atualizado_em": "2026-11-09T21:30:09.474856+00:00",
   "fundamentos": {
     "ativo_total": 84023647000.0,
     "patrimonio_liquido": 54923728000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 11.11,
-    "valor_de_mercado": 14694841559.177963,
+    "preco": 10.68,
+    "valor_de_mercado": 14800654902.1064,
     "numero_acoes": 1322668048
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 9.41,
+    "p_l": 9.47,
     "p_vp": 0.27,
     "margem_liquida": 0.0836,
     "roe": 0.0284,
-    "dividend_yield_12m": 0.0344,
+    "dividend_yield_12m": 0.0358,
     "divida_liquida_ebitda": 2.2
   },
   "proventos_recentes": [

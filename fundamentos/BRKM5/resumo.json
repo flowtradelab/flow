@@ -2,7 +2,7 @@
   "ticker": "BRKM5",
   "cnpj": "42150391000170",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:14.394124+00:00",
+  "atualizado_em": "2026-11-09T21:29:23.761529+00:00",
   "fundamentos": {
     "ativo_total": 79240000000.0,
     "patrimonio_liquido": -13087000000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 2.99,
-    "valor_de_mercado": 2382935559.480483,
+    "preco": 3.2,
+    "valor_de_mercado": 2406844589.039034,
     "numero_acoes": 796968412
   },
   "divida": {
@@ -45,7 +45,7 @@
     "p_vp": null,
     "margem_liquida": 0.153,
     "roe": -0.2539,
-    "dividend_yield_12m": 3.0888,
+    "dividend_yield_12m": 2.8861,
     "divida_liquida_ebitda": 8.69
   },
   "proventos_recentes": [

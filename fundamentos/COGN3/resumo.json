@@ -2,7 +2,7 @@
   "ticker": "COGN3",
   "cnpj": "02800026000140",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:21.367729+00:00",
+  "atualizado_em": "2026-11-09T21:29:30.541423+00:00",
   "fundamentos": {
     "ativo_total": 24534326000.0,
     "patrimonio_liquido": 13744284000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 1.58,
-    "valor_de_mercado": 3167085983.1231527,
+    "preco": 1.46,
+    "valor_de_mercado": 3046816774.1674876,
     "numero_acoes": 2004484745
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 21.26,
-    "p_vp": 0.23,
+    "p_l": 20.46,
+    "p_vp": 0.22,
     "margem_liquida": 0.076,
     "roe": 0.0108,
-    "dividend_yield_12m": 0.1201,
+    "dividend_yield_12m": 0.1299,
     "divida_liquida_ebitda": 14.41
   },
   "proventos_recentes": [

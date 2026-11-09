@@ -2,7 +2,7 @@
   "ticker": "GFSA3",
   "cnpj": "01545826000107",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:57.603397+00:00",
+  "atualizado_em": "2026-11-09T21:30:05.717520+00:00",
   "fundamentos": {
     "ativo_total": 4728597000.0,
     "patrimonio_liquido": 1533237000.0,
@@ -13,7 +13,7 @@
   },
   "mercado": {
     "preco": 0.22,
-    "valor_de_mercado": 34620811.97240353,
+    "valor_de_mercado": 36194486.09658766,
     "numero_acoes": 157367328
   },
   "divida": {

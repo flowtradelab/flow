@@ -2,7 +2,7 @@
   "ticker": "MOVI3",
   "cnpj": "21314559000166",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:40.830476+00:00",
+  "atualizado_em": "2026-11-09T21:30:52.630832+00:00",
   "fundamentos": {
     "ativo_total": 38537363000.0,
     "patrimonio_liquido": 4190639000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 5.61,
-    "valor_de_mercado": 2378447235.2955184,
+    "preco": 6.36,
+    "valor_de_mercado": 2696421457.0455184,
     "numero_acoes": 423965629
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 15.64,
-    "p_vp": 0.57,
+    "p_l": 17.73,
+    "p_vp": 0.64,
     "margem_liquida": 0.0393,
     "roe": 0.0363,
-    "dividend_yield_12m": 0.1617,
+    "dividend_yield_12m": 0.1426,
     "divida_liquida_ebitda": 13.24
   },
   "proventos_recentes": [

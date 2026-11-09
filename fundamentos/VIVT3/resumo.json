@@ -2,7 +2,7 @@
   "ticker": "VIVT3",
   "cnpj": "02558157000162",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:55.726056+00:00",
+  "atualizado_em": "2026-11-09T21:32:10.994601+00:00",
   "fundamentos": {
     "ativo_total": 128914784000.0,
     "patrimonio_liquido": 65703234000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 30.7,
-    "valor_de_mercado": 98105117444.45416,
+    "preco": 31.58,
+    "valor_de_mercado": 102738749092.90833,
     "numero_acoes": 3195606352
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 62.58,
-    "p_vp": 1.49,
+    "p_l": 65.54,
+    "p_vp": 1.56,
     "margem_liquida": 0.0995,
     "roe": 0.0239,
-    "dividend_yield_12m": 0.0875,
+    "dividend_yield_12m": 0.0851,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

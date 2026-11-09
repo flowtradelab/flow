@@ -2,28 +2,28 @@
   "ticker": "SMFT3",
   "cnpj": "07594978000178",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:29.243661+00:00",
+  "atualizado_em": "2026-11-09T21:31:43.009927+00:00",
   "fundamentos": {
-    "ativo_total": 21490311000.0,
-    "patrimonio_liquido": 6092484000.0,
-    "receita_liquida": 2177084000.0,
-    "lucro_liquido": 155869000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 22977946000.0,
+    "patrimonio_liquido": 6137642000.0,
+    "receita_liquida": 2348717000.0,
+    "lucro_liquido": 212164000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 15.52,
-    "valor_de_mercado": 9499465397.947502,
+    "preco": 18.25,
+    "valor_de_mercado": 11586654483.131668,
     "numero_acoes": 612078938
   },
   "divida": {
-    "bruta": 7136242000.0,
-    "caixa_e_equivalentes": 1540185000.0,
-    "liquida": 5596057000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 8127001000.0,
+    "caixa_e_equivalentes": 1588230000.0,
+    "liquida": 6538771000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 526632000.0,
+    "ebit": 575389000.0,
     "ebitda_aprox": null,
     "margem_ebitda_aprox": null
   },
@@ -34,18 +34,18 @@
     "capex_aprox": -550856000.0,
     "fcf_aprox": 115790000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -628203000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": -267333000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -651391000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": -62995000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 60.95,
-    "p_vp": 1.56,
-    "margem_liquida": 0.0716,
-    "roe": 0.0256,
-    "dividend_yield_12m": 0.0711,
+    "p_l": 54.61,
+    "p_vp": 1.89,
+    "margem_liquida": 0.0903,
+    "roe": 0.0346,
+    "dividend_yield_12m": 0.0605,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

@@ -2,30 +2,30 @@
   "ticker": "TGMA3",
   "cnpj": "02351144000118",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:39.246379+00:00",
+  "atualizado_em": "2026-11-09T21:31:53.357436+00:00",
   "fundamentos": {
-    "ativo_total": 1528312000.0,
-    "patrimonio_liquido": 994134000.0,
-    "receita_liquida": 740116000.0,
-    "lucro_liquido": 83116000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 1561252000.0,
+    "patrimonio_liquido": 1035995000.0,
+    "receita_liquida": 760606000.0,
+    "lucro_liquido": 117030000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 36.02,
-    "valor_de_mercado": 2375078613.643917,
+    "preco": 36.74,
+    "valor_de_mercado": 2444313224.9873886,
     "numero_acoes": 65937773
   },
   "divida": {
-    "bruta": 224258000.0,
-    "caixa_e_equivalentes": 196923000.0,
-    "liquida": 27335000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 236076000.0,
+    "caixa_e_equivalentes": 231977000.0,
+    "liquida": 4099000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 119551000.0,
-    "ebitda_aprox": 128419000.0,
-    "margem_ebitda_aprox": 0.1735
+    "ebit": 118295000.0,
+    "ebitda_aprox": 127163000.0,
+    "margem_ebitda_aprox": 0.1672
   },
   "fluxo_de_caixa": {
     "operacional": 100426000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 28.58,
-    "p_vp": 2.39,
-    "margem_liquida": 0.1123,
-    "roe": 0.0836,
-    "dividend_yield_12m": 0.1383,
-    "divida_liquida_ebitda": 0.21
+    "p_l": 20.89,
+    "p_vp": 2.36,
+    "margem_liquida": 0.1539,
+    "roe": 0.113,
+    "dividend_yield_12m": 0.1355,
+    "divida_liquida_ebitda": 0.03
   },
   "proventos_recentes": [
     {

@@ -2,30 +2,30 @@
   "ticker": "DASA3",
   "cnpj": "61486650000183",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:31.343566+00:00",
+  "atualizado_em": "2026-11-09T21:29:40.568239+00:00",
   "fundamentos": {
-    "ativo_total": 17123380000.0,
-    "patrimonio_liquido": 6865844000.0,
-    "receita_liquida": 2223502000.0,
-    "lucro_liquido": -31206000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 17460214000.0,
+    "patrimonio_liquido": 7050993000.0,
+    "receita_liquida": 2409583000.0,
+    "lucro_liquido": 170636000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 2.98,
-    "valor_de_mercado": 3724519474.998782,
+    "preco": 3.26,
+    "valor_de_mercado": 4249451841.993911,
     "numero_acoes": 1249838742
   },
   "divida": {
-    "bruta": 6158435000.0,
-    "caixa_e_equivalentes": 958142000.0,
-    "liquida": 5200293000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 6233934000.0,
+    "caixa_e_equivalentes": 1189230000.0,
+    "liquida": 5044704000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 229039000.0,
-    "ebitda_aprox": 480537000.0,
-    "margem_ebitda_aprox": 0.2161
+    "ebit": 405618000.0,
+    "ebitda_aprox": 657116000.0,
+    "margem_ebitda_aprox": 0.2727
   },
   "fluxo_de_caixa": {
     "operacional": -74071000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": null,
-    "p_vp": 0.54,
-    "margem_liquida": -0.014,
-    "roe": -0.0045,
-    "dividend_yield_12m": 0.1969,
-    "divida_liquida_ebitda": 10.82
+    "p_l": 24.9,
+    "p_vp": 0.6,
+    "margem_liquida": 0.0708,
+    "roe": 0.0242,
+    "dividend_yield_12m": 0.18,
+    "divida_liquida_ebitda": 7.68
   },
   "proventos_recentes": [
     {

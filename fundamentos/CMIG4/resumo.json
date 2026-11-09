@@ -2,7 +2,7 @@
   "ticker": "CMIG4",
   "cnpj": "17155730000164",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:50:19.562450+00:00",
+  "atualizado_em": "2026-11-09T21:29:28.879926+00:00",
   "fundamentos": {
     "ativo_total": 70861249000.0,
     "patrimonio_liquido": 29186153000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 10.07,
-    "valor_de_mercado": 28807065688.79917,
+    "preco": 10.39,
+    "valor_de_mercado": 30580688128.88011,
     "numero_acoes": 2860681883
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 30.47,
-    "p_vp": 0.99,
+    "p_l": 32.35,
+    "p_vp": 1.05,
     "margem_liquida": 0.0847,
     "roe": 0.0324,
-    "dividend_yield_12m": 0.1341,
+    "dividend_yield_12m": 0.13,
     "divida_liquida_ebitda": 9.05
   },
   "proventos_recentes": [

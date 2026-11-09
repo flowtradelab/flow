@@ -2,30 +2,30 @@
   "ticker": "ALOS3",
   "cnpj": "05878397000132",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:49:56.569769+00:00",
+  "atualizado_em": "2026-11-09T21:29:05.894295+00:00",
   "fundamentos": {
-    "ativo_total": 25708088000.0,
-    "patrimonio_liquido": 12948961000.0,
-    "receita_liquida": 721004000.0,
-    "lucro_liquido": 325863000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 25554898000.0,
+    "patrimonio_liquido": 12829061000.0,
+    "receita_liquida": 731114000.0,
+    "lucro_liquido": 325710000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 23.5,
-    "valor_de_mercado": 11753274913.0,
+    "preco": 26.46,
+    "valor_de_mercado": 13618794489.394371,
     "numero_acoes": 500139358
   },
   "divida": {
     "bruta": 0.0,
-    "caixa_e_equivalentes": 44899000.0,
-    "liquida": -44899000.0,
-    "data_referencia": "2026-06-30"
+    "caixa_e_equivalentes": 32891000.0,
+    "liquida": -32891000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 348557000.0,
-    "ebitda_aprox": 498417000.0,
-    "margem_ebitda_aprox": 0.6913
+    "ebit": 547318000.0,
+    "ebitda_aprox": 697178000.0,
+    "margem_ebitda_aprox": 0.9536
   },
   "fluxo_de_caixa": {
     "operacional": 420077000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.07,
-    "p_vp": 0.91,
-    "margem_liquida": 0.452,
-    "roe": 0.0252,
-    "dividend_yield_12m": 0.1493,
-    "divida_liquida_ebitda": -0.09
+    "p_l": 41.81,
+    "p_vp": 1.06,
+    "margem_liquida": 0.4455,
+    "roe": 0.0254,
+    "dividend_yield_12m": 0.1326,
+    "divida_liquida_ebitda": -0.05
   },
   "proventos_recentes": [
     {

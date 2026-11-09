@@ -2,28 +2,28 @@
   "ticker": "RENT3",
   "cnpj": "16670085000155",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:14.567488+00:00",
+  "atualizado_em": "2026-11-09T21:31:27.749763+00:00",
   "fundamentos": {
-    "ativo_total": 90820332000.0,
-    "patrimonio_liquido": 27102546000.0,
-    "receita_liquida": 12326818000.0,
-    "lucro_liquido": 1003047000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 90651216000.0,
+    "patrimonio_liquido": 27560186000.0,
+    "receita_liquida": 12277968000.0,
+    "lucro_liquido": 1125365000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 27.85,
-    "valor_de_mercado": 30768896453.90071,
-    "numero_acoes": 1104807757
+    "preco": 30.29,
+    "valor_de_mercado": 34061222632.399857,
+    "numero_acoes": 1104807743
   },
   "divida": {
-    "bruta": 44636144000.0,
-    "caixa_e_equivalentes": 1799120000.0,
-    "liquida": 42837024000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 45315707000.0,
+    "caixa_e_equivalentes": 1417647000.0,
+    "liquida": 43898060000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 2324463000.0,
+    "ebit": 2516060000.0,
     "ebitda_aprox": null,
     "margem_ebitda_aprox": null
   },
@@ -34,18 +34,18 @@
     "capex_aprox": -54159000.0,
     "fcf_aprox": 2150088000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -40575000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": -1812324000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -39915000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 166217000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 30.68,
-    "p_vp": 1.14,
-    "margem_liquida": 0.0814,
-    "roe": 0.037,
-    "dividend_yield_12m": 0.0765,
+    "p_l": 30.27,
+    "p_vp": 1.24,
+    "margem_liquida": 0.0917,
+    "roe": 0.0408,
+    "dividend_yield_12m": 0.0703,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

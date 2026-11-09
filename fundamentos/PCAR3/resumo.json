@@ -2,30 +2,30 @@
   "ticker": "PCAR3",
   "cnpj": "47508411000156",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:51.058993+00:00",
+  "atualizado_em": "2026-11-09T21:31:03.294085+00:00",
   "fundamentos": {
-    "ativo_total": 15561000000.0,
-    "patrimonio_liquido": 409000000.0,
-    "receita_liquida": 4228000000.0,
-    "lucro_liquido": -252000000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 15024000000.0,
+    "patrimonio_liquido": -321000000.0,
+    "receita_liquida": 4119000000.0,
+    "lucro_liquido": -731000000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 2.08,
-    "valor_de_mercado": 1024497974.1016369,
+    "preco": 2.4,
+    "valor_de_mercado": 1196889536.9110677,
     "numero_acoes": 492547121
   },
   "divida": {
-    "bruta": 4329000000.0,
-    "caixa_e_equivalentes": 646000000.0,
-    "liquida": 3683000000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 4461000000.0,
+    "caixa_e_equivalentes": 678000000.0,
+    "liquida": 3783000000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 179000000.0,
-    "ebitda_aprox": 462000000.0,
-    "margem_ebitda_aprox": 0.1093
+    "ebit": 170000000.0,
+    "ebitda_aprox": 453000000.0,
+    "margem_ebitda_aprox": 0.11
   },
   "fluxo_de_caixa": {
     "operacional": -704000000.0,
@@ -42,11 +42,11 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 2.5,
-    "margem_liquida": -0.0596,
-    "roe": -0.6161,
-    "dividend_yield_12m": 1.0894,
-    "divida_liquida_ebitda": 7.97
+    "p_vp": null,
+    "margem_liquida": -0.1775,
+    "roe": 2.2773,
+    "dividend_yield_12m": 0.9441,
+    "divida_liquida_ebitda": 8.35
   },
   "proventos_recentes": [
     {

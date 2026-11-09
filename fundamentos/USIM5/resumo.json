@@ -2,7 +2,7 @@
   "ticker": "USIM5",
   "cnpj": "60894730000105",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:52:49.478187+00:00",
+  "atualizado_em": "2026-11-09T21:32:03.941425+00:00",
   "fundamentos": {
     "ativo_total": 34836026000.0,
     "patrimonio_liquido": 23970626000.0,
@@ -12,7 +12,7 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 5.0,
+    "preco": 4.97,
     "valor_de_mercado": 6154713300.0,
     "numero_acoes": 1230942660
   },
@@ -34,10 +34,10 @@
     "capex_aprox": -263113000.0,
     "fcf_aprox": 106526000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -322276000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 35625000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -14738000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 234954000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
@@ -45,7 +45,7 @@
     "p_vp": 0.26,
     "margem_liquida": 0.0392,
     "roe": 0.0102,
-    "dividend_yield_12m": 0.1224,
+    "dividend_yield_12m": 0.1231,
     "divida_liquida_ebitda": 3.33
   },
   "proventos_recentes": [

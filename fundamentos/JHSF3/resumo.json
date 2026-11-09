@@ -2,7 +2,7 @@
   "ticker": "JHSF3",
   "cnpj": "08294224000165",
   "razao_social": null,
-  "atualizado_em": "2026-11-02T20:51:18.859646+00:00",
+  "atualizado_em": "2026-11-09T21:30:29.713212+00:00",
   "fundamentos": {
     "ativo_total": 19079038000.0,
     "patrimonio_liquido": 7898068000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-06-30"
   },
   "mercado": {
-    "preco": 8.97,
-    "valor_de_mercado": 5898495968.912899,
+    "preco": 10.0,
+    "valor_de_mercado": 6503469946.602299,
     "numero_acoes": 657580356
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 13.27,
-    "p_vp": 0.75,
+    "p_l": 14.63,
+    "p_vp": 0.82,
     "margem_liquida": 0.4753,
     "roe": 0.0563,
-    "dividend_yield_12m": 0.0915,
+    "dividend_yield_12m": 0.0821,
     "divida_liquida_ebitda": 7.4
   },
   "proventos_recentes": [
