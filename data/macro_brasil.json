@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-11-12T14:40:03.495499-03:00",
+  "atualizado_em": "2026-11-13T14:17:35.373046-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-11-12",
+      "data": "2026-11-13",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,15 +23,15 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-11-11",
+      "data": "2026-11-12",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
     "dolar_ptax": {
       "nome": "Dólar PTAX venda",
-      "valor": 5.6143,
+      "valor": 5.6518,
       "unidade": "R$/US$",
-      "data": "2026-11-12",
+      "data": "2026-11-13",
       "fonte": "Banco Central do Brasil",
       "sgs": 1
     },
@@ -45,17 +45,17 @@
     },
     "euro_ptax": {
       "nome": "Euro PTAX venda",
-      "valor": 6.2133,
+      "valor": 6.2334,
       "unidade": "R$/EUR",
-      "data": "2026-11-12",
+      "data": "2026-11-13",
       "fonte": "Banco Central do Brasil",
       "sgs": 21619
     },
     "reservas_internacionais": {
       "nome": "Reservas internacionais",
-      "valor": 365849.0,
+      "valor": 364435.0,
       "unidade": "US$ milhões",
-      "data": "2026-11-11",
+      "data": "2026-11-12",
       "fonte": "Banco Central do Brasil",
       "sgs": 13621
     },
@@ -40548,6 +40548,10 @@
         {
           "data": "2026-11-12",
           "valor": 13.75
+        },
+        {
+          "data": "2026-11-13",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -74068,6 +74072,10 @@
         {
           "data": "2026-11-11",
           "valor": 13.65
+        },
+        {
+          "data": "2026-11-12",
+          "valor": 13.65
         }
       ],
       "dolar_ptax": [
@@ -106062,6 +106070,10 @@
         {
           "data": "2026-11-12",
           "valor": 5.6143
+        },
+        {
+          "data": "2026-11-13",
+          "valor": 5.6518
         }
       ],
       "igpm": [
