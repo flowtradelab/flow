@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-11-13T14:17:35.373046-03:00",
+  "atualizado_em": "2026-11-14T12:54:29.690111-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-11-13",
+      "data": "2026-11-14",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -77,7 +77,7 @@
     },
     "divida_pib": {
       "nome": "Dívida Bruta do Governo Geral / PIB",
-      "valor": 82.93,
+      "valor": 82.95,
       "unidade": "% do PIB",
       "data": "2026-09-01",
       "fonte": "Banco Central do Brasil",
@@ -40551,6 +40551,10 @@
         },
         {
           "data": "2026-11-13",
+          "valor": 13.75
+        },
+        {
+          "data": "2026-11-14",
           "valor": 13.75
         }
       ],
