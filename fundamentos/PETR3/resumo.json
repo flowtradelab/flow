@@ -2,30 +2,30 @@
   "ticker": "PETR3",
   "cnpj": "33000167000101",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:04.984059+00:00",
+  "atualizado_em": "2026-11-16T21:09:28.349574+00:00",
   "fundamentos": {
-    "ativo_total": 1279019000000.0,
-    "patrimonio_liquido": 481854000000.0,
-    "receita_liquida": 169530000000.0,
-    "lucro_liquido": 52495000000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 1326467000000.0,
+    "patrimonio_liquido": 505631000000.0,
+    "receita_liquida": 169353000000.0,
+    "lucro_liquido": 39783000000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 51.21,
-    "valor_de_mercado": 657454236505.3,
+    "preco": 51.87,
+    "valor_de_mercado": 646498833325.0955,
     "numero_acoes": 12888732761
   },
   "divida": {
-    "bruta": 366533000000.0,
-    "caixa_e_equivalentes": 33560000000.0,
-    "liquida": 332973000000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 362505000000.0,
+    "caixa_e_equivalentes": 35569000000.0,
+    "liquida": 326936000000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 72356000000.0,
-    "ebitda_aprox": 93970000000.0,
-    "margem_ebitda_aprox": 0.5543
+    "ebit": 59489000000.0,
+    "ebitda_aprox": 81103000000.0,
+    "margem_ebitda_aprox": 0.4789
   },
   "fluxo_de_caixa": {
     "operacional": 43975000000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 12.52,
-    "p_vp": 1.36,
-    "margem_liquida": 0.3097,
-    "roe": 0.1089,
-    "dividend_yield_12m": 0.0716,
-    "divida_liquida_ebitda": 3.54
+    "p_l": 16.25,
+    "p_vp": 1.28,
+    "margem_liquida": 0.2349,
+    "roe": 0.0787,
+    "dividend_yield_12m": 0.0706,
+    "divida_liquida_ebitda": 4.03
   },
   "proventos_recentes": [
     {

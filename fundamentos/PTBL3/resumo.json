@@ -2,30 +2,30 @@
   "ticker": "PTBL3",
   "cnpj": "83475913000191",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:16.059895+00:00",
+  "atualizado_em": "2026-11-16T21:09:44.556435+00:00",
   "fundamentos": {
-    "ativo_total": 3499805000.0,
-    "patrimonio_liquido": -103923000.0,
-    "receita_liquida": 651277000.0,
-    "lucro_liquido": -62737000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 3204571000.0,
+    "patrimonio_liquido": -342416000.0,
+    "receita_liquida": 590293000.0,
+    "lucro_liquido": -238696000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
     "preco": 1.5,
-    "valor_de_mercado": 212890196.51544428,
+    "valor_de_mercado": 193152034.49227786,
     "numero_acoes": 140986886
   },
   "divida": {
-    "bruta": 1372325000.0,
-    "caixa_e_equivalentes": 134487000.0,
-    "liquida": 1237838000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 1385053000.0,
+    "caixa_e_equivalentes": 131209000.0,
+    "liquida": 1253844000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 38379000.0,
-    "ebitda_aprox": 91500000.0,
-    "margem_ebitda_aprox": 0.1405
+    "ebit": 30234000.0,
+    "ebitda_aprox": 83355000.0,
+    "margem_ebitda_aprox": 0.1412
   },
   "fluxo_de_caixa": {
     "operacional": -64696000.0,
@@ -43,10 +43,10 @@
   "multiplos": {
     "p_l": null,
     "p_vp": null,
-    "margem_liquida": -0.0963,
-    "roe": 0.6037,
+    "margem_liquida": -0.4044,
+    "roe": 0.6971,
     "dividend_yield_12m": 0.3455,
-    "divida_liquida_ebitda": 13.53
+    "divida_liquida_ebitda": 15.04
   },
   "proventos_recentes": [
     {

@@ -2,28 +2,28 @@
   "ticker": "VVEO3",
   "cnpj": "12420164000157",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:32:16.282415+00:00",
+  "atualizado_em": "2026-11-16T21:11:11.790985+00:00",
   "fundamentos": {
-    "ativo_total": 8760103000.0,
-    "patrimonio_liquido": 1822554000.0,
-    "receita_liquida": 2910169000.0,
-    "lucro_liquido": -34652000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 8662127000.0,
+    "patrimonio_liquido": 2342342000.0,
+    "receita_liquida": 3055039000.0,
+    "lucro_liquido": -95242000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 0.63,
-    "valor_de_mercado": 211680756.0028413,
+    "preco": 0.56,
+    "valor_de_mercado": 170608373.03936738,
     "numero_acoes": 315941419
   },
   "divida": {
-    "bruta": 3365110000.0,
-    "caixa_e_equivalentes": 387070000.0,
-    "liquida": 2978040000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 2639555000.0,
+    "caixa_e_equivalentes": 327530000.0,
+    "liquida": 2312025000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 135949000.0,
+    "ebit": 104909000.0,
     "ebitda_aprox": null,
     "margem_ebitda_aprox": null
   },
@@ -42,10 +42,10 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.12,
-    "margem_liquida": -0.0119,
-    "roe": -0.019,
-    "dividend_yield_12m": 0.2167,
+    "p_vp": 0.07,
+    "margem_liquida": -0.0312,
+    "roe": -0.0407,
+    "dividend_yield_12m": 0.2438,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

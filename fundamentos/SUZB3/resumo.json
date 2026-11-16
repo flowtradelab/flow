@@ -2,7 +2,7 @@
   "ticker": "SUZB3",
   "cnpj": "16404287000155",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:48.143344+00:00",
+  "atualizado_em": "2026-11-16T21:10:30.936881+00:00",
   "fundamentos": {
     "ativo_total": 190586464000.0,
     "patrimonio_liquido": 57445525000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 53.4,
-    "valor_de_mercado": 66750592072.00626,
-    "numero_acoes": 1231560722
+    "preco": 54.77,
+    "valor_de_mercado": 68269944028.8157,
+    "numero_acoes": 1230310722
   },
   "divida": {
     "bruta": 97842847000.0,
@@ -34,18 +34,18 @@
     "capex_aprox": -926698000.0,
     "fcf_aprox": 1974069000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -2503822000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 1864754000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -2693824000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 1431147000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 32.03,
-    "p_vp": 1.16,
+    "p_l": 32.76,
+    "p_vp": 1.19,
     "margem_liquida": 0.1262,
     "roe": 0.0363,
-    "dividend_yield_12m": 0.021,
+    "dividend_yield_12m": 0.0205,
     "divida_liquida_ebitda": 19.15
   },
   "proventos_recentes": [

@@ -2,7 +2,7 @@
   "ticker": "ALOS3",
   "cnpj": "05878397000132",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:05.894295+00:00",
+  "atualizado_em": "2026-11-16T21:06:31.100072+00:00",
   "fundamentos": {
     "ativo_total": 25554898000.0,
     "patrimonio_liquido": 12829061000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 26.46,
-    "valor_de_mercado": 13618794489.394371,
+    "preco": 27.05,
+    "valor_de_mercado": 13183673782.140839,
     "numero_acoes": 500139358
   },
   "divida": {
@@ -34,18 +34,18 @@
     "capex_aprox": -23959000.0,
     "fcf_aprox": 396118000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -33704000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 412028000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -23085000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 454541000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 41.81,
-    "p_vp": 1.06,
+    "p_l": 40.48,
+    "p_vp": 1.03,
     "margem_liquida": 0.4455,
     "roe": 0.0254,
-    "dividend_yield_12m": 0.1326,
+    "dividend_yield_12m": 0.1297,
     "divida_liquida_ebitda": -0.05
   },
   "proventos_recentes": [

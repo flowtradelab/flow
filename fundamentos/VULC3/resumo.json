@@ -2,30 +2,30 @@
   "ticker": "VULC3",
   "cnpj": "50926955000142",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:32:14.444415+00:00",
+  "atualizado_em": "2026-11-16T21:11:09.335425+00:00",
   "fundamentos": {
-    "ativo_total": 4132410000.0,
-    "patrimonio_liquido": 2652356000.0,
-    "receita_liquida": 994840000.0,
-    "lucro_liquido": 143721000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 4160611000.0,
+    "patrimonio_liquido": 2799940000.0,
+    "receita_liquida": 977588000.0,
+    "lucro_liquido": 144377000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 12.23,
-    "valor_de_mercado": 3932693914.709484,
+    "preco": 11.64,
+    "valor_de_mercado": 3606016189.290516,
     "numero_acoes": 314112921
   },
   "divida": {
-    "bruta": 935334000.0,
-    "caixa_e_equivalentes": 355578000.0,
-    "liquida": 579756000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 772097000.0,
+    "caixa_e_equivalentes": 330090000.0,
+    "liquida": 442007000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 174371000.0,
-    "ebitda_aprox": 208042000.0,
-    "margem_ebitda_aprox": 0.2091
+    "ebit": 173242000.0,
+    "ebitda_aprox": 206913000.0,
+    "margem_ebitda_aprox": 0.2117
   },
   "fluxo_de_caixa": {
     "operacional": 138262000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 27.36,
-    "p_vp": 1.48,
-    "margem_liquida": 0.1445,
-    "roe": 0.0542,
-    "dividend_yield_12m": 0.4353,
-    "divida_liquida_ebitda": 2.79
+    "p_l": 24.98,
+    "p_vp": 1.29,
+    "margem_liquida": 0.1477,
+    "roe": 0.0516,
+    "dividend_yield_12m": 0.4573,
+    "divida_liquida_ebitda": 2.14
   },
   "proventos_recentes": [
     {

@@ -2,7 +2,7 @@
   "ticker": "ABEV3",
   "cnpj": "07526557000100",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:04.259631+00:00",
+  "atualizado_em": "2026-11-16T21:06:28.480787+00:00",
   "fundamentos": {
     "ativo_total": 141574699000.0,
     "patrimonio_liquido": 91441947000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 15.48,
-    "valor_de_mercado": 240652335461.7077,
-    "numero_acoes": 15416549696
+    "preco": 15.79,
+    "valor_de_mercado": 244158003056.63208,
+    "numero_acoes": 15414015196
   },
   "divida": {
     "bruta": 2714759000.0,
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 55.12,
-    "p_vp": 2.63,
+    "p_l": 55.92,
+    "p_vp": 2.67,
     "margem_liquida": 0.2022,
     "roe": 0.0477,
-    "dividend_yield_12m": 0.0547,
+    "dividend_yield_12m": 0.0536,
     "divida_liquida_ebitda": -2.3
   },
   "proventos_recentes": [

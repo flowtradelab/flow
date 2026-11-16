@@ -2,7 +2,7 @@
   "ticker": "WIZC3",
   "cnpj": "42278473000103",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:32:19.723729+00:00",
+  "atualizado_em": "2026-11-16T21:11:16.972316+00:00",
   "fundamentos": {
     "ativo_total": 2387342000.0,
     "patrimonio_liquido": 1405599000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 6.02,
-    "valor_de_mercado": 967439086.5998936,
+    "preco": 6.35,
+    "valor_de_mercado": 1010614049.6899042,
     "numero_acoes": 159907282
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 12.75,
-    "p_vp": 0.69,
+    "p_l": 13.31,
+    "p_vp": 0.72,
     "margem_liquida": 0.3001,
     "roe": 0.054,
-    "dividend_yield_12m": 0.1044,
+    "dividend_yield_12m": 0.099,
     "divida_liquida_ebitda": 2.49
   },
   "proventos_recentes": [

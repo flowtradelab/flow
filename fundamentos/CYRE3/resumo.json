@@ -2,30 +2,30 @@
   "ticker": "CYRE3",
   "cnpj": "73178600000118",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:38.850240+00:00",
+  "atualizado_em": "2026-11-16T21:07:21.436732+00:00",
   "fundamentos": {
-    "ativo_total": 27740895000.0,
-    "patrimonio_liquido": 12451506000.0,
-    "receita_liquida": 2480871000.0,
-    "lucro_liquido": 518727000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 28837734000.0,
+    "patrimonio_liquido": 12772236000.0,
+    "receita_liquida": 2381626000.0,
+    "lucro_liquido": 556150000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 19.3,
-    "valor_de_mercado": 6885453740.587587,
-    "numero_acoes": 360872839
+    "preco": 19.74,
+    "valor_de_mercado": 6955120360.5,
+    "numero_acoes": 356672839
   },
   "divida": {
-    "bruta": 8873618000.0,
-    "caixa_e_equivalentes": 230669000.0,
-    "liquida": 8642949000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 9308160000.0,
+    "caixa_e_equivalentes": 206714000.0,
+    "liquida": 9101446000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 504392000.0,
-    "ebitda_aprox": 543360000.0,
-    "margem_ebitda_aprox": 0.219
+    "ebit": 495306000.0,
+    "ebitda_aprox": 534274000.0,
+    "margem_ebitda_aprox": 0.2243
   },
   "fluxo_de_caixa": {
     "operacional": -109572000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 13.27,
-    "p_vp": 0.55,
-    "margem_liquida": 0.2091,
-    "roe": 0.0417,
-    "dividend_yield_12m": 0.1968,
-    "divida_liquida_ebitda": 15.91
+    "p_l": 12.51,
+    "p_vp": 0.54,
+    "margem_liquida": 0.2335,
+    "roe": 0.0435,
+    "dividend_yield_12m": 0.1925,
+    "divida_liquida_ebitda": 17.04
   },
   "proventos_recentes": [
     {

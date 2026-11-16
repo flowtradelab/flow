@@ -2,7 +2,7 @@
   "ticker": "TGMA3",
   "cnpj": "02351144000118",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:53.357436+00:00",
+  "atualizado_em": "2026-11-16T21:10:38.807627+00:00",
   "fundamentos": {
     "ativo_total": 1561252000.0,
     "patrimonio_liquido": 1035995000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 36.74,
-    "valor_de_mercado": 2444313224.9873886,
+    "preco": 35.15,
+    "valor_de_mercado": 2277490739.787834,
     "numero_acoes": 65937773
   },
   "divida": {
@@ -34,25 +34,21 @@
     "capex_aprox": -20694000.0,
     "fcf_aprox": 79732000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -14121000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 8231000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -10721000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": 104291000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 20.89,
-    "p_vp": 2.36,
+    "p_l": 19.46,
+    "p_vp": 2.2,
     "margem_liquida": 0.1539,
     "roe": 0.113,
-    "dividend_yield_12m": 0.1355,
+    "dividend_yield_12m": 0.1061,
     "divida_liquida_ebitda": 0.03
   },
   "proventos_recentes": [
-    {
-      "data": "2019-09-05",
-      "valor_por_acao": 0.4484
-    },
     {
       "data": "2019-11-13",
       "valor_por_acao": 0.693
@@ -128,6 +124,10 @@
     {
       "data": "2026-08-07",
       "valor_por_acao": 1.14
+    },
+    {
+      "data": "2026-11-10",
+      "valor_por_acao": 1.07
     }
   ],
   "dados_incompletos": false

@@ -2,30 +2,30 @@
   "ticker": "HBSA3",
   "cnpj": "12648327000153",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:30:14.480891+00:00",
+  "atualizado_em": "2026-11-16T21:08:15.995745+00:00",
   "fundamentos": {
-    "ativo_total": 5915698000.0,
-    "patrimonio_liquido": 2090449000.0,
-    "receita_liquida": 664118000.0,
-    "lucro_liquido": 100357000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 5951403000.0,
+    "patrimonio_liquido": 2173037000.0,
+    "receita_liquida": 652591000.0,
+    "lucro_liquido": 79427000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 3.04,
-    "valor_de_mercado": 4108355555.9127603,
+    "preco": 3.24,
+    "valor_de_mercado": 4353224522.4681,
     "numero_acoes": 1360382643
   },
   "divida": {
-    "bruta": 3265247000.0,
-    "caixa_e_equivalentes": 658857000.0,
-    "liquida": 2606390000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 3194346000.0,
+    "caixa_e_equivalentes": 772268000.0,
+    "liquida": 2422078000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 234591000.0,
-    "ebitda_aprox": 556503000.0,
-    "margem_ebitda_aprox": 0.838
+    "ebit": 215234000.0,
+    "ebitda_aprox": 537146000.0,
+    "margem_ebitda_aprox": 0.8231
   },
   "fluxo_de_caixa": {
     "operacional": -24682000.0,
@@ -36,17 +36,17 @@
     "data_referencia": "2026-03-31",
     "capex_yahoo": -35589000.0,
     "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": 381378000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "fcf_yahoo": 287021000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 40.94,
-    "p_vp": 1.97,
-    "margem_liquida": 0.1511,
-    "roe": 0.048,
+    "p_l": 54.81,
+    "p_vp": 2.0,
+    "margem_liquida": 0.1217,
+    "roe": 0.0366,
     "dividend_yield_12m": null,
-    "divida_liquida_ebitda": 4.68
+    "divida_liquida_ebitda": 4.51
   },
   "proventos_recentes": [],
   "dados_incompletos": false

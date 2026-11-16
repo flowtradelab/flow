@@ -2,30 +2,30 @@
   "ticker": "RAIL3",
   "cnpj": "02387241000160",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:19.433100+00:00",
+  "atualizado_em": "2026-11-16T21:09:49.748884+00:00",
   "fundamentos": {
-    "ativo_total": 55135865000.0,
-    "patrimonio_liquido": 14686691000.0,
-    "receita_liquida": 3940275000.0,
-    "lucro_liquido": 519760000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 56780108000.0,
+    "patrimonio_liquido": 15106240000.0,
+    "receita_liquida": 3953907000.0,
+    "lucro_liquido": 439186000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 14.46,
-    "valor_de_mercado": 27626719995.194946,
-    "numero_acoes": 1856634394
+    "preco": 16.26,
+    "valor_de_mercado": 30226186970.49716,
+    "numero_acoes": 1856645313
   },
   "divida": {
-    "bruta": 22909847000.0,
-    "caixa_e_equivalentes": 5455578000.0,
-    "liquida": 17454269000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 24440846000.0,
+    "caixa_e_equivalentes": 5725798000.0,
+    "liquida": 18715048000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 1566523000.0,
-    "ebitda_aprox": 2082616000.0,
-    "margem_ebitda_aprox": 0.5285
+    "ebit": 1444280000.0,
+    "ebitda_aprox": 1960373000.0,
+    "margem_ebitda_aprox": 0.4958
   },
   "fluxo_de_caixa": {
     "operacional": 1269324000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 53.15,
-    "p_vp": 1.88,
-    "margem_liquida": 0.1319,
-    "roe": 0.0354,
-    "dividend_yield_12m": 0.0635,
-    "divida_liquida_ebitda": 8.38
+    "p_l": 68.82,
+    "p_vp": 2.0,
+    "margem_liquida": 0.1111,
+    "roe": 0.0291,
+    "dividend_yield_12m": 0.0565,
+    "divida_liquida_ebitda": 9.55
   },
   "proventos_recentes": [
     {

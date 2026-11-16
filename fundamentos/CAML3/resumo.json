@@ -2,7 +2,7 @@
   "ticker": "CAML3",
   "cnpj": "64904295000103",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:27.089054+00:00",
+  "atualizado_em": "2026-11-16T21:07:02.966618+00:00",
   "fundamentos": {
     "ativo_total": 11656941000.0,
     "patrimonio_liquido": 3052281000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-08-31"
   },
   "mercado": {
-    "preco": 4.41,
-    "valor_de_mercado": 1514356289.5962524,
+    "preco": 4.69,
+    "valor_de_mercado": 1579159843.192505,
     "numero_acoes": 341071232
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 36.66,
-    "p_vp": 0.5,
+    "p_l": 38.23,
+    "p_vp": 0.52,
     "margem_liquida": 0.0149,
     "roe": 0.0135,
-    "dividend_yield_12m": 0.0831,
+    "dividend_yield_12m": 0.0781,
     "divida_liquida_ebitda": null
   },
   "proventos_recentes": [

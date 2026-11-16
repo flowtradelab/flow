@@ -2,7 +2,7 @@
   "ticker": "WEGE3",
   "cnpj": "84429695000111",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:32:18.030549+00:00",
+  "atualizado_em": "2026-11-16T21:11:14.360085+00:00",
   "fundamentos": {
     "ativo_total": 45635446000.0,
     "patrimonio_liquido": 21367143000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 48.19,
-    "valor_de_mercado": 212896405563.90082,
+    "preco": 51.31,
+    "valor_de_mercado": 211595692597.5956,
     "numero_acoes": 4195829691
   },
   "divida": {
@@ -41,11 +41,11 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 120.78,
-    "p_vp": 9.96,
+    "p_l": 120.04,
+    "p_vp": 9.9,
     "margem_liquida": 0.1623,
     "roe": 0.0825,
-    "dividend_yield_12m": 0.0439,
+    "dividend_yield_12m": 0.0412,
     "divida_liquida_ebitda": -0.74
   },
   "proventos_recentes": [

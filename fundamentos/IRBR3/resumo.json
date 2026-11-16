@@ -2,30 +2,30 @@
   "ticker": "IRBR3",
   "cnpj": "33376989000191",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:30:19.867632+00:00",
+  "atualizado_em": "2026-11-16T21:08:23.876824+00:00",
   "fundamentos": {
-    "ativo_total": 15112393000.0,
-    "patrimonio_liquido": 5328366000.0,
-    "receita_liquida": 813150000.0,
-    "lucro_liquido": -3263000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 14435562000.0,
+    "patrimonio_liquido": 4833257000.0,
+    "receita_liquida": 1103352000.0,
+    "lucro_liquido": -426310000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 58.01,
-    "valor_de_mercado": 4747563014.279129,
+    "preco": 60.33,
+    "valor_de_mercado": 4900160127.822372,
     "numero_acoes": 81168796
   },
   "divida": {
-    "bruta": 264514000.0,
-    "caixa_e_equivalentes": 54039000.0,
-    "liquida": 210475000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 269865000.0,
+    "caixa_e_equivalentes": 39157000.0,
+    "liquida": 230708000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": -85669000.0,
-    "ebitda_aprox": -71535000.0,
-    "margem_ebitda_aprox": -0.088
+    "ebit": 8623000.0,
+    "ebitda_aprox": 22757000.0,
+    "margem_ebitda_aprox": 0.0206
   },
   "fluxo_de_caixa": {
     "operacional": null,
@@ -42,11 +42,11 @@
   },
   "multiplos": {
     "p_l": null,
-    "p_vp": 0.89,
-    "margem_liquida": -0.004,
-    "roe": -0.0006,
-    "dividend_yield_12m": 0.0272,
-    "divida_liquida_ebitda": -2.94
+    "p_vp": 1.01,
+    "margem_liquida": -0.3864,
+    "roe": -0.0882,
+    "dividend_yield_12m": 0.0262,
+    "divida_liquida_ebitda": 10.14
   },
   "proventos_recentes": [
     {

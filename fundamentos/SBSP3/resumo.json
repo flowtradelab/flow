@@ -2,7 +2,7 @@
   "ticker": "SBSP3",
   "cnpj": "43776517000180",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:34.734109+00:00",
+  "atualizado_em": "2026-11-16T21:10:10.624626+00:00",
   "fundamentos": {
     "ativo_total": 115165768000.0,
     "patrimonio_liquido": 46719527000.0,
@@ -12,9 +12,9 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 26.78,
-    "valor_de_mercado": 97683179863.48193,
-    "numero_acoes": 3526468490
+    "preco": 27.22,
+    "valor_de_mercado": 95567266665.74054,
+    "numero_acoes": 3526467355
   },
   "divida": {
     "bruta": 46436909000.0,
@@ -34,25 +34,21 @@
     "capex_aprox": -5053520000.0,
     "fcf_aprox": -4291882000.0,
     "data_referencia": "2026-03-31",
-    "capex_yahoo": -3475312000.0,
-    "capex_yahoo_data_referencia": "2026-06-30",
-    "fcf_yahoo": -109248000.0,
-    "fcf_yahoo_data_referencia": "2026-06-30",
+    "capex_yahoo": -5107612000.0,
+    "capex_yahoo_data_referencia": "2026-09-30",
+    "fcf_yahoo": -2980511000.0,
+    "fcf_yahoo_data_referencia": "2026-09-30",
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 70.39,
-    "p_vp": 2.09,
+    "p_l": 68.87,
+    "p_vp": 2.05,
     "margem_liquida": 0.1368,
     "roe": 0.0297,
-    "dividend_yield_12m": 0.053,
+    "dividend_yield_12m": 0.0531,
     "divida_liquida_ebitda": 10.73
   },
   "proventos_recentes": [
-    {
-      "data": "2009-11-23",
-      "valor_por_acao": 0.0533
-    },
     {
       "data": "2010-01-04",
       "valor_por_acao": 0.0097
@@ -128,6 +124,10 @@
     {
       "data": "2026-03-20",
       "valor_por_acao": 0.1667
+    },
+    {
+      "data": "2026-11-11",
+      "valor_por_acao": 0.7499
     }
   ],
   "dados_incompletos": false

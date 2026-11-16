@@ -2,30 +2,30 @@
   "ticker": "SOJA3",
   "cnpj": "10807374000177",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:46.390886+00:00",
+  "atualizado_em": "2026-11-16T21:10:28.335480+00:00",
   "fundamentos": {
-    "ativo_total": 4009574000.0,
-    "patrimonio_liquido": 1352502000.0,
-    "receita_liquida": 124681000.0,
-    "lucro_liquido": 2671000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 4024124000.0,
+    "patrimonio_liquido": 1378715000.0,
+    "receita_liquida": 1025741000.0,
+    "lucro_liquido": 26250000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 6.05,
-    "valor_de_mercado": 890100568.3083735,
+    "preco": 5.61,
+    "valor_de_mercado": 751859905.5778313,
     "numero_acoes": 141061898
   },
   "divida": {
-    "bruta": 1932561000.0,
-    "caixa_e_equivalentes": 174478000.0,
-    "liquida": 1758083000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 1927608000.0,
+    "caixa_e_equivalentes": 117115000.0,
+    "liquida": 1810493000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 40413000.0,
-    "ebitda_aprox": 49483000.0,
-    "margem_ebitda_aprox": 0.3969
+    "ebit": 90787000.0,
+    "ebitda_aprox": 99857000.0,
+    "margem_ebitda_aprox": 0.0974
   },
   "fluxo_de_caixa": {
     "operacional": -99696000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 333.25,
-    "p_vp": 0.66,
-    "margem_liquida": 0.0214,
-    "roe": 0.002,
-    "dividend_yield_12m": 0.0726,
-    "divida_liquida_ebitda": 35.53
+    "p_l": 28.64,
+    "p_vp": 0.55,
+    "margem_liquida": 0.0256,
+    "roe": 0.019,
+    "dividend_yield_12m": 0.0783,
+    "divida_liquida_ebitda": 18.13
   },
   "proventos_recentes": [
     {

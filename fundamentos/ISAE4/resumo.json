@@ -2,7 +2,7 @@
   "ticker": "ISAE4",
   "cnpj": "02998611000104",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:30:21.888555+00:00",
+  "atualizado_em": "2026-11-16T21:08:26.455357+00:00",
   "fundamentos": {
     "ativo_total": 56138930000.0,
     "patrimonio_liquido": 24033582000.0,
@@ -12,8 +12,8 @@
     "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 25.95,
-    "valor_de_mercado": 18849183109.803513,
+    "preco": 26.64,
+    "valor_de_mercado": 18610051568.164215,
     "numero_acoes": 703327748
   },
   "divida": {
@@ -41,18 +41,14 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 20.45,
-    "p_vp": 0.78,
+    "p_l": 20.19,
+    "p_vp": 0.77,
     "margem_liquida": 0.3949,
     "roe": 0.0383,
-    "dividend_yield_12m": 0.0786,
+    "dividend_yield_12m": 0.0752,
     "divida_liquida_ebitda": 13.88
   },
   "proventos_recentes": [
-    {
-      "data": "2021-02-26",
-      "valor_por_acao": 0.8062
-    },
     {
       "data": "2021-03-31",
       "valor_por_acao": 0.796
@@ -127,6 +123,10 @@
     },
     {
       "data": "2026-10-09",
+      "valor_por_acao": 0.189
+    },
+    {
+      "data": "2026-11-10",
       "valor_por_acao": 0.189
     }
   ],

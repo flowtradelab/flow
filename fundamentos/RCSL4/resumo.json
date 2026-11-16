@@ -2,30 +2,30 @@
   "ticker": "RCSL4",
   "cnpj": "91333666000117",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:31:22.727204+00:00",
+  "atualizado_em": "2026-11-16T21:09:52.357807+00:00",
   "fundamentos": {
-    "ativo_total": 33843000.0,
-    "patrimonio_liquido": -14922000.0,
-    "receita_liquida": 3000.0,
-    "lucro_liquido": -2902000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 28815000.0,
+    "patrimonio_liquido": -31335000.0,
+    "receita_liquida": 186000.0,
+    "lucro_liquido": -19056000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 0.66,
-    "valor_de_mercado": 21320937.51109183,
+    "preco": 0.62,
+    "valor_de_mercado": 19093377.158702612,
     "numero_acoes": 31822294
   },
   "divida": {
     "bruta": 0.0,
     "caixa_e_equivalentes": 3000.0,
     "liquida": -3000.0,
-    "data_referencia": "2026-06-30"
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": -822000.0,
-    "ebitda_aprox": -768000.0,
-    "margem_ebitda_aprox": -256.0
+    "ebit": -16314000.0,
+    "ebitda_aprox": -16260000.0,
+    "margem_ebitda_aprox": -87.4194
   },
   "fluxo_de_caixa": {
     "operacional": -13428000.0,
@@ -43,8 +43,8 @@
   "multiplos": {
     "p_l": null,
     "p_vp": null,
-    "margem_liquida": -967.3333,
-    "roe": 0.1945,
+    "margem_liquida": -102.4516,
+    "roe": 0.6081,
     "dividend_yield_12m": null,
     "divida_liquida_ebitda": 0.0
   },

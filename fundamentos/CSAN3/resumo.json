@@ -2,30 +2,30 @@
   "ticker": "CSAN3",
   "cnpj": "50746577000115",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:33.935157+00:00",
+  "atualizado_em": "2026-11-16T21:07:13.704418+00:00",
   "fundamentos": {
-    "ativo_total": 126694332000.0,
-    "patrimonio_liquido": 31910020000.0,
-    "receita_liquida": 10775931000.0,
-    "lucro_liquido": 186750000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 129307244000.0,
+    "patrimonio_liquido": 32622747000.0,
+    "receita_liquida": 11287543000.0,
+    "lucro_liquido": 814299000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 2.77,
-    "valor_de_mercado": 10927270285.177711,
-    "numero_acoes": 3944862946
+    "preco": 3.1,
+    "valor_de_mercado": 12191397476.100496,
+    "numero_acoes": 3945436186
   },
   "divida": {
-    "bruta": 60890140000.0,
-    "caixa_e_equivalentes": 13357975000.0,
-    "liquida": 47532165000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 62504885000.0,
+    "caixa_e_equivalentes": 13448668000.0,
+    "liquida": 49056217000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 2524567000.0,
-    "ebitda_aprox": 3495963000.0,
-    "margem_ebitda_aprox": 0.3244
+    "ebit": 3120930000.0,
+    "ebitda_aprox": 4092326000.0,
+    "margem_ebitda_aprox": 0.3626
   },
   "fluxo_de_caixa": {
     "operacional": 2471109000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": 58.51,
-    "p_vp": 0.34,
-    "margem_liquida": 0.0173,
-    "roe": 0.0059,
-    "dividend_yield_12m": 0.163,
-    "divida_liquida_ebitda": 13.6
+    "p_l": 14.97,
+    "p_vp": 0.37,
+    "margem_liquida": 0.0721,
+    "roe": 0.025,
+    "dividend_yield_12m": 0.1456,
+    "divida_liquida_ebitda": 11.99
   },
   "proventos_recentes": [
     {

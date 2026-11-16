@@ -2,30 +2,30 @@
   "ticker": "ENGI11",
   "cnpj": "00864214000106",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:50.519820+00:00",
+  "atualizado_em": "2026-11-16T21:07:39.605201+00:00",
   "fundamentos": {
-    "ativo_total": 86127637000.0,
-    "patrimonio_liquido": 22983446000.0,
-    "receita_liquida": 9240979000.0,
-    "lucro_liquido": -39628000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 84220931000.0,
+    "patrimonio_liquido": 23542935000.0,
+    "receita_liquida": 9453547000.0,
+    "lucro_liquido": 951299000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 46.1,
-    "valor_de_mercado": 21649698722.53029,
+    "preco": 48.35,
+    "valor_de_mercado": 21946832473.291706,
     "numero_acoes": 457130457
   },
   "divida": {
-    "bruta": 42683653000.0,
-    "caixa_e_equivalentes": 1174856000.0,
-    "liquida": 41508797000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 41691252000.0,
+    "caixa_e_equivalentes": 2409853000.0,
+    "liquida": 39281399000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 1725265000.0,
-    "ebitda_aprox": 2294347000.0,
-    "margem_ebitda_aprox": 0.2483
+    "ebit": 1777120000.0,
+    "ebitda_aprox": 2346202000.0,
+    "margem_ebitda_aprox": 0.2482
   },
   "fluxo_de_caixa": {
     "operacional": 1798049000.0,
@@ -41,12 +41,12 @@
     "fonte_complementar": "Yahoo Finance (via yfinance) — não é dado estruturado da CVM."
   },
   "multiplos": {
-    "p_l": null,
-    "p_vp": 0.94,
-    "margem_liquida": -0.0043,
-    "roe": -0.0017,
-    "dividend_yield_12m": 0.0444,
-    "divida_liquida_ebitda": 18.09
+    "p_l": 23.07,
+    "p_vp": 0.93,
+    "margem_liquida": 0.1006,
+    "roe": 0.0404,
+    "dividend_yield_12m": 0.0423,
+    "divida_liquida_ebitda": 16.74
   },
   "proventos_recentes": [
     {

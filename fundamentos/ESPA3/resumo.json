@@ -2,30 +2,30 @@
   "ticker": "ESPA3",
   "cnpj": "26659061000159",
   "razao_social": null,
-  "atualizado_em": "2026-11-09T21:29:53.810037+00:00",
+  "atualizado_em": "2026-11-16T21:07:44.789416+00:00",
   "fundamentos": {
-    "ativo_total": 2192790000.0,
-    "patrimonio_liquido": 861973000.0,
-    "receita_liquida": 257492000.0,
-    "lucro_liquido": -5894000.0,
-    "data_referencia_balanco": "2026-06-30",
-    "data_referencia_resultado": "2026-06-30"
+    "ativo_total": 2176417000.0,
+    "patrimonio_liquido": 849863000.0,
+    "receita_liquida": 253369000.0,
+    "lucro_liquido": -4028000.0,
+    "data_referencia_balanco": "2026-09-30",
+    "data_referencia_resultado": "2026-09-30"
   },
   "mercado": {
-    "preco": 5.0,
-    "valor_de_mercado": 178592330.0,
+    "preco": 4.93,
+    "valor_de_mercado": 177520768.5259676,
     "numero_acoes": 35718466
   },
   "divida": {
-    "bruta": 813387000.0,
-    "caixa_e_equivalentes": 166298000.0,
-    "liquida": 647089000.0,
-    "data_referencia": "2026-06-30"
+    "bruta": 814468000.0,
+    "caixa_e_equivalentes": 198811000.0,
+    "liquida": 615657000.0,
+    "data_referencia": "2026-09-30"
   },
   "resultado_operacional": {
-    "ebit": 29059000.0,
-    "ebitda_aprox": 55198000.0,
-    "margem_ebitda_aprox": 0.2144
+    "ebit": 26932000.0,
+    "ebitda_aprox": 53071000.0,
+    "margem_ebitda_aprox": 0.2095
   },
   "fluxo_de_caixa": {
     "operacional": 37877000.0,
@@ -43,10 +43,10 @@
   "multiplos": {
     "p_l": null,
     "p_vp": 0.21,
-    "margem_liquida": -0.0229,
-    "roe": -0.0068,
-    "dividend_yield_12m": 0.0764,
-    "divida_liquida_ebitda": 11.72
+    "margem_liquida": -0.0159,
+    "roe": -0.0047,
+    "dividend_yield_12m": 0.0775,
+    "divida_liquida_ebitda": 11.6
   },
   "proventos_recentes": [
     {
