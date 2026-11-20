@@ -1,13 +1,13 @@
 {
   "pais": "Brasil",
-  "atualizado_em": "2026-11-19T15:25:29.144687-03:00",
+  "atualizado_em": "2026-11-20T14:55:31.912487-03:00",
   "timezone": "America/Sao_Paulo",
   "indicadores": {
     "selic_meta": {
       "nome": "Selic Meta",
       "valor": 13.75,
       "unidade": "% a.a.",
-      "data": "2026-11-19",
+      "data": "2026-11-20",
       "fonte": "Banco Central do Brasil",
       "sgs": 432
     },
@@ -23,7 +23,7 @@
       "nome": "CDI anualizado base 252",
       "valor": 13.65,
       "unidade": "% a.a.",
-      "data": "2026-11-18",
+      "data": "2026-11-19",
       "fonte": "Banco Central do Brasil",
       "sgs": 4389
     },
@@ -40576,6 +40576,10 @@
         {
           "data": "2026-11-19",
           "valor": 13.75
+        },
+        {
+          "data": "2026-11-20",
+          "valor": 13.75
         }
       ],
       "ipca_12m": [
@@ -74115,6 +74119,10 @@
         },
         {
           "data": "2026-11-18",
+          "valor": 13.65
+        },
+        {
+          "data": "2026-11-19",
           "valor": 13.65
         }
       ],
